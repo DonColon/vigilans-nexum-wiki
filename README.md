@@ -4,7 +4,7 @@ This wiki serves as a game design document by describing the relevant aspects of
 
 ## Table of Content
 
-1. [Overview](Overview)
+1. [Overview](wiki/Overview.md)
 2. [Game Setting](Game-Setting)
 3. [Game Mechanics](Game-Mechanics)
 4. [Game Catalog](Game-Catalog)
