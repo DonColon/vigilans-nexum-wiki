@@ -10,6 +10,5 @@ This wiki serves as a game design document by describing the relevant aspects of
 4. [Game Catalog](wiki/Game-Catalog.md)
 5. [Levels](wiki/Levels.md)
 
-> **Vigilans Nexum by DonColon**
->
+> **Vigilans Nexum**  
 > [Overview](wiki/Overview.md) | [Instagram @DonColon](https://www.instagram.com/doncolon/) | [Twitch @DonColon](https://www.twitch.tv/doncolon) | [Youtube @DonColon](https://www.youtube.com/channel/UCoOaD0du25LCn8NOBgV7rCw)
