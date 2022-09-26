@@ -2,11 +2,11 @@
 
 - [Dardan Niveli](characters/Dardan-Niveli.md)
 - [Leona Kaori](characters/Leona-Kaori.md)
-- Hasan
+- [Hasan Eyletmez](characters/Hasan-Eyletmez.md)
 - [Ivan Grussinskin](characters/Ivan-Grussinskin.md)
 - [Marven Camini](characters/Marven-Camini.md)
 - [Maksimo Auditore](characters/Maksimo-Auditore.md)
-- Maik
+- [Mikael Flaco](characters/Mikael-Flaco.md)
 - [Lina Yukari](characters/Lina-Yukari.md)
 - [Elena Flavia](characters/Elena-Flavia.md)
 
