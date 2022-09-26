@@ -7,4 +7,3 @@ This section of the document describes the items, abilities and unit classes tha
 - [Magic Spells](catalog/Magic-Spells.md)
 - [Unit Classes](catalog/Unit-Classes.md)
 - [Weapons](catalog/Weapons.md)
-
