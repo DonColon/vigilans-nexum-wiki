@@ -5,10 +5,11 @@ This wiki serves as a game design document by describing the relevant aspects of
 ## Table of Content
 
 1. [Overview](wiki/Overview.md)
-2. [Game Setting](Game-Setting)
-3. [Game Mechanics](Game-Mechanics)
-4. [Game Catalog](Game-Catalog)
-5. [Levels](Levels)
+2. [Game Setting](wiki/Game-Setting.md)
+3. [Game Mechanics](wiki/Game-Mechanics.md)
+4. [Game Catalog](wiki/Game-Catalog.md)
+5. [Levels](wiki/Levels.md)
 
 > **Vigilans Nexum**
+>
 > [Overview](Overview) | [Instagram @DonColon](https://www.instagram.com/doncolon/) | [Twitch @DonColon](https://www.twitch.tv/doncolon) | [Youtube @DonColon](https://www.youtube.com/channel/UCoOaD0du25LCn8NOBgV7rCw)
