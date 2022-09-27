@@ -11,4 +11,4 @@ This wiki serves as a game design document by describing the relevant aspects of
 5. [Levels](wiki/Levels.md)
 
 > **Vigilans Nexum**  
-> [Overview](wiki/Overview.md) | [Instagram @DonColon](https://www.instagram.com/doncolon/) | [Twitch @DonColon](https://www.twitch.tv/doncolon) | [Youtube @DonColon](https://www.youtube.com/channel/UCoOaD0du25LCn8NOBgV7rCw)
+> [Overview](wiki/Overview.md) | [Twitch @DonColon](https://www.twitch.tv/doncolon) | [Youtube @DonColon](https://www.youtube.com/channel/UCoOaD0du25LCn8NOBgV7rCw) | [Instagram @DonColon](https://www.instagram.com/doncolon/) | [TikTok @DonSemiColon](https://www.tiktok.com/@donsemicolon) | [Twitter @DonSemiColon](https://twitter.com/DonSemiColon)

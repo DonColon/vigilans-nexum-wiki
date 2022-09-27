@@ -13,8 +13,8 @@
 ## The Kingdom of Adolla
 
 - [Tifa Luenava](characters/Tifa-Luenava.md)
-- Fabian
-- Jens
+- [Fabius Aldenbourg](characters/Fabius-Aldenbourg.md)
+- [Asta Gratia](characters/Asta-Gratia.md)
 
 ## The Vaestrall Empire
 
