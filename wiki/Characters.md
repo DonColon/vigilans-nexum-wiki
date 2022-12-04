@@ -14,12 +14,15 @@
 
 - [Tifa Luenava](characters/Tifa-Luenava.md)
 - [Fabius Aldenbourg](characters/Fabius-Aldenbourg.md)
-- [Asta Gratia](characters/Asta-Gratia.md)
+- [Asta Concordia](characters/Asta-Concordia.md)
 
 ## The Vaestrall Empire
 
-...
+- Aylin
+
+- Rijona Aliu
+
 
 ## The Alliance of Thysia
 
-...
+- [Kassandra Aetós](characters/Kassandra-Aetos.md)
