@@ -4,20 +4,21 @@
 
 ## Countries
 
-- [Vaestrall](locations/Vaestrall.md)
-- [Adolla](locations/Adolla.md)
-- [Thysia](locations/Thysia.md)
+- [Vaestrall](locations/countries/Vaestrall.md)
+- [Adolla](locations/countries/Adolla.md)
+- [Thysia](locations/countries/Thysia.md)
 
 ## Cities
 
-- [Bellum](locations/Bellum.md)
-- [Emira](locations/Emira.md)
-- [Athea](locations/Athea.md)
-- [Luenava](locations/Luenava.md)
-- [Mitran](locations/Mitran.md)
+- [Bellum](locations/cities/Bellum.md)
+- [Emira](locations/cities/Emira.md)
+- [Athea](locations/cities/Athea.md)
+- [Luenava](locations/cities/Luenava.md)
+- [Mitran](locations/cities/Mitran.md)
 
 ## Villages
 
-- [Nokoa](locations/Nokoa.md)
-- [Okio](locations/Okio.md)
-- [Kala](locations/Kala.md)
+- [Nokoa](locations/villages/Nokoa.md)
+- [Okio](locations/villages/Okio.md)
+- [Kala](locations/villages/Kala.md)
+

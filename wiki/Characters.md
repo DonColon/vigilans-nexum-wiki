@@ -18,7 +18,7 @@
 
 ## The Vaestrall Empire
 
-- Aylin
+- Aylin Vaestrall
 
 - Rijona Aliu
 
