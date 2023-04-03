@@ -8,7 +8,7 @@
 
 **Height:** 170 cm
 
-**Personality Type:** INFP
+**Weight:** 70 kg
 
 **Birthday:** 30.01.1997
 
@@ -18,11 +18,19 @@
 
 **Residence:** Bellum
 
+## Appearance
+
+Dardan Niveli, a 20-year-old man, has a slender and athletic physique, always carrying himself with an upright posture. He stands at a height of 1.70 meters and weighs approximately 70 kilograms, with a light tan complexion. His face is oval-shaped with charming, oval brown eyes and sleek, short brown hair. Dardan's rounded, slightly prominent double chin complements his straight, medium-sized nose. He possesses narrow, broad lips and wears a well-groomed 3-day beard.
+
+Dardan wears a dark blue tunic that reaches up to his thighs and is decorated with trims on the sleeves. Over the tunic, he wears a lightweight black jacket that extends to the middle of his thighs. The jacket has long sleeves that reach up to his wrists and are laced up with thin black leather cords. His trousers are black and close-fitting, with leather cords that fasten them to his calves. He wears knee-high boots made of black leather with silver buckles and metallic decorations. Around his shoulders, he wears padded leather shoulder plates that are fastened with silver buckles and studs. His forearms are protected by narrow leather arm guards that extend up to his elbows. His belt is wide and made of brown leather, with a silver buckle and a sword sheath on the side.
+
 ## Personality
 
 Dardan Niveli is the main character of Vigilans Nexum and one of the leaders of the citizen militia of Bellum. He is a compassionate, generous young man who spent his childhood in the orphanage of Bellum, where he had the opportunity to meet people from diverse backgrounds. Dardan's tolerant and cheerful personality makes him well-liked by everyone he meets, but he hates how the orphans are labeled as "nobodies." As a result, he passionately works to improve his skills and prove to the world that they are somebody. With his quick learning ability, he can easily acquire new skills. 
 
 Due to his past experiences, Dardan fears losing the people he loves and is determined to create a bright and peaceful future for the next generation. He is open-minded to different cultures and ways of thinking, thanks to his exposure to diverse people in the orphanage. As one of the leaders of the citizen militia, he demonstrates his helpfulness, independence, creativity, strategic thinking, and leadership qualities. As an idealist, Dardan's ambitious goals and dreams of a brighter future may seem unrealistic to some, but his determination to make a difference inspires those around him. Despite his impressive qualities, Dardan is his own harshest critic, which sometimes affects his self-confidence.
+
+**Personality Type:** INFP
 
 ## Backstory
 
