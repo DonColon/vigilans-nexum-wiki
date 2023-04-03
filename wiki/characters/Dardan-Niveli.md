@@ -8,6 +8,8 @@
 
 **Height:** 170 cm
 
+**Personality Type:** INFP
+
 **Birthday:** 30.01.1997
 
 **In-Game Birthday:** 30th of Elyndar, Imperial Year 1337
@@ -18,7 +20,9 @@
 
 ## Personality
 
-...
+Dardan Niveli is the main character of Vigilans Nexum and one of the leaders of the citizen militia of Bellum. He is a compassionate, generous young man who spent his childhood in the orphanage of Bellum, where he had the opportunity to meet people from diverse backgrounds. Dardan's tolerant and cheerful personality makes him well-liked by everyone he meets, but he hates how the orphans are labeled as "nobodies." As a result, he passionately works to improve his skills and prove to the world that they are somebody. With his quick learning ability, he can easily acquire new skills. 
+
+Due to his past experiences, Dardan fears losing the people he loves and is determined to create a bright and peaceful future for the next generation. He is open-minded to different cultures and ways of thinking, thanks to his exposure to diverse people in the orphanage. As one of the leaders of the citizen militia, he demonstrates his helpfulness, independence, creativity, strategic thinking, and leadership qualities. As an idealist, Dardan's ambitious goals and dreams of a brighter future may seem unrealistic to some, but his determination to make a difference inspires those around him. Despite his impressive qualities, Dardan is his own harshest critic, which sometimes affects his self-confidence.
 
 ## Backstory
 
