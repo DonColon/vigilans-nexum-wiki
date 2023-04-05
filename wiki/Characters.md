@@ -13,6 +13,7 @@
 ## The Kingdom of Adolla
 
 - [Tifa Luenava](characters/Tifa-Luenava.md)
+- [Claude Luenava](characters/Claude-Luenava.md)
 - [Fabius Aldenbourg](characters/Fabius-Aldenbourg.md)
 - [Asta Concordia](characters/Asta-Concordia.md)
 

@@ -1,26 +1,44 @@
 ## Personal Information
 
-**Name:**
+**Name:** Tifa Luenava
 
-**Gender:**
+**Gender:** Female
 
-**Age:**
+**Age:** 21
 
-**Height:**
+**Height:** 165 cm
 
-**Birthday:**
+**Weight:** 60 kg
 
-**Nationality:** 
+**Birthday:** 03.05.1996
 
-**Residence:**
+**In-Game Birthday:** 3rd of Mirthan, Imperial Year 1336
+
+**Nationality:** The Kingdom of Adolla
+
+**Residence:** Nokoa
+
+## Appearance
+
+...
 
 ## Personality
 
 ...
 
+**Personality Type:** ISFJ
+
 ## Backstory
 
-...
+The Luenava family is one of the most influential and oldest families in the Kingdom of Adolla. They belong to the royal house and have ruled Adolla for hundreds of years with the intention of maintaining peace in the world. They are known for their strength and great leadership qualities.
+
+One day, the princess of the royal palace flees to explore the city. She encounters an architecture student who helps her hide from the city guard. The student does not know that the woman is the princess and invites her to show her around the city. They spend the whole day together and the princess falls in love with the student, but she knows that this love can never be possible since the student is of common birth.
+
+A few days later, a banquet is held at the royal palace and the student, who is the son of a general, is invited. During the banquet, he recognizes the princess and tries to talk to her. The two spend time together on the balcony and are happy to see each other again. However, there is suddenly unrest in the ballroom as an assassination attempt on the king failed. The assassins also try to get to the princess, but the son of the general stands in their way with his magic. The son manages to bring the princess to safety, for which the king is forever grateful.
+
+The princess tells her father how much she loves the son of the general and the king grants the son permission to marry his daughter, despite his common birth. To protect the princess from further assassination attempts, the couple moves to the military camp where the general is stationed.
+
+After the war situation has calmed down, the couple decides to start a family. They have their son Claude and their daughter Tifa. To provide a good home for his children, the father, who is a learned architect, decides to build a village around the military base. This village is later known as Nokoa.
 
 ## Recruitment
 
