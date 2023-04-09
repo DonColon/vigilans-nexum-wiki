@@ -24,7 +24,11 @@
 
 ## Personality
 
-...
+Tifa is a strong and courageous princess from the Kingdom of Adolla and a member of the Luenava family, who is always ready to stand up for what she believes in. She is an excellent fighter and healer and often displays bravery and determination in difficult situations. Due to her royal background, Tifa is also an excellent strategic thinker and has a deep understanding of politics and diplomacy, which allows her to resolve complex situations without conflict.
+
+She is also a very emotional person, who feels deeply and often forms strong bonds with others. Tifa shows a lot of compassion towards others, especially towards the weaker and disadvantaged. She is very loyal to her friends and has a pronounced care and support for the people who are important to her. Tifa also possesses a deep understanding of the needs and feelings of her people.
+
+Tifa takes her duties and responsibilities as a princess very seriously and performs them carefully and thoroughly. She is very responsible and diligent. In addition, she has high standards and pursues her goals with great dedication. Due to her high standards and strong sense of duty, Tifa finds herself in situations where she is overwhelmed. However, she is not willing to show her feelings or ask for help in these situations, as she does not want to be a burden to others. As a result, Tifa suffers silently and tries to do everything herself, even if it is simply impossible.
 
 **Personality Type:** ISFJ
 
