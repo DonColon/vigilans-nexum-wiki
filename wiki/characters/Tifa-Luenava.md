@@ -48,9 +48,9 @@ After the war situation has calmed down, the couple decides to start a family. T
 
 ## Recruitment
 
-**Starting Class:**
+**Starting Class:** Martial Monk
 
-...
+Tifa is the main protagonist of the story. Her first appearance is in Part II Chapter 02. She will join the group as a playable character after Bellum's vigilante defeat the bandits that are invading Nokoa village. She will lead the group the way to the Capitel of Adolla Kingdom - Luenava.
 
 ## Base Stats
 

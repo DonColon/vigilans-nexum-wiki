@@ -48,7 +48,7 @@ The sisters hear the news about their brother and hire assassins to eliminate th
 
 **Starting Class:** Child/Citizen
 
-Dardan is the main character in the game and the first unit you can use. His first appearance is in Part I chapter 01.
+Dardan is the main protagonist of the story and the first unit you can use. His first appearance is in Part I Chapter 01.
 
 ## Base Stats
 
