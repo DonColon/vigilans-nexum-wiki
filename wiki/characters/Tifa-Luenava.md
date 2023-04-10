@@ -20,7 +20,9 @@
 
 ## Appearance
 
-...
+Tifa has a slim and athletic build, with well-defined muscles and a feminine figure. She is 1.65 meters tall and weighs 60 kilograms. Her skin is smooth and pale, with a slight pinkish tone. Tifa's face is oval-shaped and has a soft but pronounced jawline. Her eyebrows are dark and naturally shaped. Her eyes are almond-shaped and have a dark, hazel-brown color. She has long, dense eyelashes that emphasize her eyes. Her nose is small and straight, and her mouth is full and soft. Her dark brown hair is long and straight, and she usually wears it in a high ponytail tied with a red ribbon.
+
+Tifa wears a form-fitting burgundy tunic made of sturdy fabric that covers her upper body and hips. Underneath the tunic, she wears a padded linen vest for added protection. Tifa's fingerless leather gloves extend up to her wrist and she wears metallic bracelets on her forearms and wrists. Her dark brown pants are made of durable fabric and provide protection for her legs. The close fit of the pants does not impede her movements. Tifa's knee-high leather boots with flat soles provide secure footing on the ground. A leather belt is worn around her waist to carry weapons and other items and to accentuate her silhouette.
 
 ## Personality
 
