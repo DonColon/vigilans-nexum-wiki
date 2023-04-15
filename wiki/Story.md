@@ -1,6 +1,6 @@
 ## Part 01: Path of Liberation
 
-In the imperial year 1345 on the continent of Tridera, an oppressive silence reigns as the terrible war that spread fear and terror is currently interrupted by a ceasefire, but no one knows how long this peace will last. A mighty mountain range separates the warring armies from each other, but there is a small territory at the southernmost point of the mountains that lies amidst the tensions: Bellum, an imposing metropolis whose affiliation has been unclear since its foundation. As it lies exactly at the border of all countries, it is a strategically important point for the war. However, the fear of a resumption of the fighting and a renewed battle for Bellum is ever-present.
+In the imperial year 1347 on the continent of Tridera, an oppressive silence reigns as the terrible war that spread fear and terror is currently interrupted by a ceasefire, but no one knows how long this peace will last. A mighty mountain range separates the warring armies from each other, but there is a small territory at the southernmost point of the mountains that lies amidst the tensions: Bellum, an imposing metropolis whose affiliation has been unclear since its foundation. As it lies exactly at the border of all countries, it is a strategically important point for the war. However, the fear of a resumption of the fighting and a renewed battle for Bellum is ever-present.
 
 - [Chapter 01: Every End...](chapters/Chapter-01-Every-End.md)
 - [Chapter 02: ...Is A New Beginning](chapters/Chapter-02-Is-A-New-Beginning.md)
