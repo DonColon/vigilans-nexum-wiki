@@ -1,14 +1,10 @@
-Die Waisen überlegen sich, was sie alles für die Gründung der Bürgerwehr benötigen. Der Anführer der Waisen meint, dass sie zunächst einmal eine Base of Operation finden müssen.
+Am nächsten Tag treffen sich die Mitglieder der Bürgerwehr, um ihren Plan zu besprechen. Dardan schlägt vor, dass sie zunächst eine zentrale Basis für die Bürgerwehr finden sollten. Lina schlägt vor, das Waisenhaus als Basis zu nutzen, aber Dardan erklärt, dass ihre Basis besser an einem zentralen Ort liegen sollte, um schnell handeln zu können. Außerdem wäre es ein Risiko für die Waisenkinder, falls die Bürgerwehr angegriffen werden sollte. Es muss auch genügend Platz vorhanden sein, damit die Mitglieder dort wohnen und Vorräte lagern können. Hasan schlägt vor, dass sie möglicherweise im Stadtzentrum einen geeigneten Platz finden könnten.
 
-Hierzu erkundigen sie sich auf dem Marktplatz nach einem geeigneten Ort. Dort entdecken sie erneut die Diebe, die sie zuvor besiegt hatten. Die Gruppe entscheidet sich den Dieben zu folgen. Als sie die Basis der Dieben ausfindig gemacht haben, vorbereitet sich die Gruppe darauf das Versteck zu stürmen.
+Die Gruppe begibt sich zum Stadtzentrum und erkundigt sich bei den Einwohnern nach einer freien Unterkunft, jedoch finden sie nichts Passendes. Sie planen weiter zum Hafen zu gehen, als Maksimo die Diebe vom Vortag erkennt. Dardan beschließt, den Dieben zu folgen, um ihr Versteck ausfindig zu machen. Sie verfolgen sie bis zu einem geheimen Eingang, der in den Untergrund führt. Dort entdecken sie ein riesiges Tunnelsystem, das alle zu einem gewaltigen Bunker führt, in dem sich die Diebe niedergelassen haben. Dardan entscheidet, dass sie den Bunker einnehmen und als ihre Basis verwenden sollten. Die Gruppe bereitet sich auf den Kampf vor und stürmt schließlich das Versteck der Diebe.
 
----
+> Level 03 beginnt und die Gruppe muss den Zielpunkt auf der Karte einnehmen, um das Level abzuschließen.
 
-*In diesem Level muss die Gruppe den Zielpunkt auf der Karte einnehmen, um das Level abzuschließen.*
+Nachdem die Diebe aus ihrem Versteck vertrieben wurden, beginnt die Bürgerwehr damit, den Bunker für sich selbst einzurichten. Während sie den Bunker erkunden, entdeckt Maksimo einen Brief, der einen bevorstehenden Waffenhandel mit Piraten beschreibt, der in drei Tagen im Hafen von Bellum stattfinden soll. Hasan schlägt vor, sich als die Diebe zu verkleiden und den Handel durchzuführen, um die Bürgerwehr mit Waffen und Rüstungen auszustatten. Dardan hingegen ist skeptisch und warnt vor den Risiken, da sie möglicherweise auffliegen könnten und nicht wissen, wie viele Piraten anwesend sein werden. Nach der Diskussion ist die Mehrheit der Mitglieder jedoch bereit, das Risiko einzugehen.
 
----
-
-Nachdem das Versteck von der Bürgerwehr eingenommen wurde, richten sie sich selbst ein. Dabei entdecken sie einen Brief über einen Waffenhandel mit Piraten, welcher in wenigen Tagen stattfinden soll. Die Gruppe möchte den Handel mit den Piraten durchführen, um die Bürgerwehr mit Waffen und Rüstungen auszustatten.
-
-**END CHAPTER 03**
+**END OF CHAPTER 03**
 
