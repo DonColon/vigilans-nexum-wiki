@@ -1,14 +1,14 @@
-Der Tag des Waffenhandels ist gekommen und die Gruppe mach sich auf den Weg zum Hafen der Stadt. Die Gruppe hat sich als die Diebe verkleidet und vollziehen den Handel. Beim Abladen der Kisten fliegt die Gruppe auf und sie müssen sich gegen die Piraten kampfbereit machen.
+Es ist der Tag des Waffenhandels und die Bürgerwehr muss unerkannt bleiben, um nicht von den Piraten erwischt zu werden. Also haben sie sich als Diebesbande verkleidet und passende Kleidung im Versteck der Diebe gefunden. Dardan bleibt jedoch skeptisch und warnt erneut vor der Gefahr. Hasan beruhigt ihn und betont, dass alles gut gehen wird, wenn sie entschlossen vorgehen. Gemeinsam machen sie sich auf den Weg zum Hafen und warten auf das Schiff mit der karmesinroten Flagge auf dem ein schwarzer Rabe abgebildet ist - das vereinbarte Zeichen zwischen den Dieben und Piraten, wie es im Brief erwähnt wurde.
 
----
+Als das Schiff im Hafen anlegt, geht Hasan zum Kapitän, um mit ihm zu sprechen. Er zeigt den Brief als Beweis dafür, dass sie die Empfänger der Waren sind und überprüft die Qualität und Vollständigkeit der Lieferung. Anschließend ruft er die anderen herbei, um beim Entladen der Kisten zu helfen. Nachdem alle Kisten am Hafen abgestellt sind, verabschiedet sich Hasan vom Kapitän. Doch bevor er das Schiff verlassen kann, entpuppt sich die wahre Diebesbande. Sie haben die Piraten gewarnt und den Handel als Falle genutzt, um die Bürgerwehr in eine Falle zu locken. Die Bürgerwehr ist umzingelt und Hasan bleibt allein auf dem Schiff zurück. Die Piraten denken, sie hätten gewonnen, aber Dardan hat bereits einen Plan vorbereitet. Maksimo kommt aus der Kajüte, um Hasan zu unterstützen, während Marven und Mikael die Diebesbande flankieren. Zusammen bereitet sich die Gruppe darauf vor, gegen die Piraten zu kämpfen.
 
-*In diesem Level werden die Piraten auf ihrem Schiff bekämpft. Das Ziel ist alle Piraten zu besiegen. Dabei versuchen die Piraten die Vorratskisten zu zerstören. Je mehr Kisten beschützt werden, desto mehr Belohnungen erwartet die Gruppe am Ende des Levels.*
+> Level 04 beginnt und in diesem Level müssen alle Gegner besiegt werden. Dabei versuchen die Gegner die Vorratskisten zu zerstören. Je mehr Kisten bis zum Ende des Levels vorhanden sind, desto mehr Belohnungen bekommt die Bürgerwehr.
 
----
+Nachdem der Kampf vorbei ist, fliehen die Piraten und Diebe mit ihrem Schiff auf das offene Meer. Die Bürger am Hafen bedanken sich bei der Gruppe und bieten ihre Hilfe an, um die Vorratskisten in ihre Basis zu bringen. Die Gruppe stellt sich als die neue Bürgerwehr von Bellum vor und erklärt die Situation. Die Bürger sind begeistert vom Erfolg der Gruppe und wollen den Ruf der Bürgerwehr in der ganzen Stadt stärken.
 
-Die Piraten fliehen nach der verlorenen Schlacht und die Bürger sind erneut dankbar, dass die Bürgerwehr sich für sie eingesetzt hat. Einer der Mitglieder der Bürgerwehr hat sich beim Abladen der Kisten ins Kapitänszimmer geschlichen und eine Schatzkarte mitgehen lassen.
+Angekommen an der Basis, bedankt sich Hasan bei Dardan für seinen Plan und entschuldigt sich für seine überstürzte Idee. Dardan entgegnet, dass er sich ebenfalls entschuldigen muss, da trotz der Herausforderungen alles gut verlaufen ist und sie nun die notwendige Ausrüstung haben. Hätten sie nach seiner Idee gehandelt, wären sie vielleicht sicher gewesen, hätten aber nicht die Ausrüstung bekommen. Er betont die Wichtigkeit des Zusammenhalts und jeder soll das tun, wozu er am besten geeignet ist.
 
-Der Schatz soll in der Nähe der Stadt innerhalb eines verlassenen Tempels sein. Der Anführer möchte dem nachgehen, um die Kasse der Bürgerwehr zu füllen.
+Die Bürgerwehr benötigt nur noch das benötigte Gold, um endlich durchstarten zu können. Als Maksimo dies erfährt, erzählt er von der Schatzkarte, die er im Kapitänszimmer des Piratenschiffs gefunden hat. Dardan hatte ihn angewiesen, sich während des Entladens der Kisten dort zu verstecken. Gemeinsam mit Hasan und den anderen betrachtet die Gruppe die Karte und findet heraus, dass der Schatz im alten Tempel auf dem Berg von Bellum versteckt ist. Die Bürgerwehr hat somit ein neues Ziel gefunden und bereitet sich auf die bevorstehende Schatzsuche vor.
 
-**END CHAPTER 04**
+**END OF CHAPTER 04**
 
