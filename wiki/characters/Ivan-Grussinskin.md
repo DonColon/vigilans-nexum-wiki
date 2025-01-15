@@ -8,7 +8,7 @@
 
 **Height:**
 
-**Birthday:**
+**Birthday:** 05.04.
 
 **Nationality:** 
 
