@@ -3,5 +3,6 @@ This section of the document contains the setting of the game. The setting inclu
 - [Story](Story.md)
 - [Locations](Locations.md)
 - [Characters](Characters.md)
+- [Mythology](Mythology.md)
 - [Calendar](Calendar.md)
 

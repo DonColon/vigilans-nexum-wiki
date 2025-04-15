@@ -27,3 +27,12 @@
 ## The Alliance of Thysia
 
 - [Kassandra Aetós](characters/Kassandra-Aetos.md)
+
+## The Church of Aurelys
+
+- [Aurevia](characters/Aurevia.md)
+
+## The Cult of Varnel
+
+- [Varnel](characters/Varnel.md)
+
