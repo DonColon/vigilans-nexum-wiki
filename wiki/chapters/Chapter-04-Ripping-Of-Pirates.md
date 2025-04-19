@@ -8,7 +8,7 @@ Nachdem der Kampf vorbei ist, fliehen die Piraten und Diebe mit ihrem Schiff auf
 
 Angekommen an der Basis, bedankt sich Hasan bei Dardan für seinen Plan und entschuldigt sich für seine überstürzte Idee. Dardan entgegnet, dass er sich ebenfalls entschuldigen muss, da trotz der Herausforderungen alles gut verlaufen ist und sie nun die notwendige Ausrüstung haben. Hätten sie nach seiner Idee gehandelt, wären sie vielleicht sicher gewesen, hätten aber nicht die Ausrüstung bekommen. Er betont die Wichtigkeit des Zusammenhalts und jeder soll das tun, wozu er am besten geeignet ist.
 
-Die Bürgerwehr benötigt nur noch das benötigte Gold, um endlich durchstarten zu können. Als Maksimo dies erfährt, erzählt er von der Schatzkarte, die er im Kapitänszimmer des Piratenschiffs gefunden hat. Dardan hatte ihn angewiesen, sich während des Entladens der Kisten dort zu verstecken. Gemeinsam mit Hasan und den anderen betrachtet die Gruppe die Karte und findet heraus, dass der Schatz im alten Tempel auf dem Berg von Bellum versteckt ist. Die Bürgerwehr hat somit ein neues Ziel gefunden und bereitet sich auf die bevorstehende Schatzsuche vor.
+Die Bürgerwehr benötigt nur noch Gold, um endlich durchstarten zu können. Als Maksimo dies erfährt, erzählt er von der Schatzkarte, die er im Kapitänszimmer des Piratenschiffs gefunden hat. Dardan hatte ihn angewiesen, sich während des Entladens der Kisten dort zu verstecken. Gemeinsam mit Hasan und den anderen betrachtet die Gruppe die Karte und findet heraus, dass der Schatz im alten Tempel auf dem Berg von Bellum versteckt ist. Die Bürgerwehr hat somit ein neues Ziel gefunden und bereitet sich auf die bevorstehende Schatzsuche vor.
 
 **END OF CHAPTER 04**
 
