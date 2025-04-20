@@ -11,3 +11,7 @@ In the imperial year 1347 on the continent of Tridera, an oppressive silence rei
 - [Chapter 07: ...Not By The Power They Are Graced With](chapters/Chapter-07-Not-By-The-Power-They-Are-Graced-With.md)
 - [Chapter 08: The Vigilant Knights](chapters/Chapter-08-The-Vigilant-Knights.md)
 
+## Part 02: City of Independence
+
+
+

@@ -1,4 +1,4 @@
-Einige Waisenkinder spielen auf dem Marktplatz von Bellum Ritter und agieren wie Helden. Dardan und Hasan führen die Gruppe an und entscheiden sich in einem simulierten Duell, wer der Stärkere ist. Die anderen Kinder feuern ihre Anführer lautstark an. Leona und Maksimo stehen hinter Dardan, während Lina und Ivan Hasan unterstützen.
+Einige Waisenkinder spielen auf dem Marktplatz von Bellum Ritter und agieren wie Helden. Dardan und Hasan führen die Gruppe an und entscheiden sich in einem simulierten Duell herauszufinden, wer der Stärkere ist. Die anderen Kinder feuern ihre Anführer lautstark an. Leona und Maksimo stehen hinter Dardan, während Lina und Ivan Hasan unterstützen.
 
 > Teil 01 des Tutorials wird gestartet. Es werden folgende grundlegende Spielmechaniken während dem Duell erklärt:
 >

@@ -8,11 +8,8 @@ Nach einem langen Gang findet sich die Bürgerwehr in einem großen Raum wieder,
 
 Dardan versucht die Barriere anzugreifen, aber es hat keinen Zweck. Leona wird weiter von der Statue in die Ecke gedrängt. Der Wächter holt zum Schlag aus und Leona ist vor Angst versteinert. Ihre Beine wollen sich nicht bewegen und sie zittern. Sie schreit Dardan's Namen und Dardan schlägt mit seinem Kopf verzweifelt gegen die Wand der Barriere. Er betet zur Göttin, doch dann fallen ihm die Worte von Hasan wieder ein und er erinnert sich wie er Leona schon einmal gerettet hat. Er konzentriert sich und versucht sich in die Situation von damals hineinzuversetzen. Bevor der Wächter Leona töten kann, aktiviert sich die mysteriöse Energie erneut und Dardan tauscht wieder mit Leona den Platz. Die Gruppe ist verwundert, doch Dardan sagt ihnen, dass er es schon schaffen wird. Er befiehlt ihnen nicht auf ihn zu achten und sich aufs überleben zu konzentrieren. (Die erste Spielerphase beginnt)
 
----
-
-*Das Ziel des Levels ist entweder 10 Runden zu überleben oder den Wächter zu besiegen. Wenn der Wächter besiegt wird, erhaltet die Gruppe eine weitere Belohnung. Ab jetzt kann Dardan die Fähigkeit "Exchange" nutzen.*
-
----
+> Level 05 beginnt und das Ziel des Levels ist entweder 10 Runden zu überleben oder den Wächter zu besiegen. Wenn der Wächter besiegt wird, erhaltet die Gruppe eine weitere Belohnung. Ab jetzt kann Dardan die Fähigkeit "Exchange" nutzen.
+>
 
 Nach der bestandenen Prüfung erlaubt der Wächter der Gruppe den Schatz mitzunehmen und er nennt Dardan den Champion von Aurevia. Hasan fragt Dardan wie er durch die Barriere gekommen ist und warum er ein Champion sei. Dardan versteht es jedoch selber noch nicht. Er weiß nur das wenn er sich stark konzentriert er eine Energie in sich spürt und er dann den Platz tauschen kann mit einer Person. Leona umarmt Dardan weinend und bedankt sich bei ihm. Dardan sagt sie sollen ihre Taschen packen und schnell von hier verschwinden.
 
