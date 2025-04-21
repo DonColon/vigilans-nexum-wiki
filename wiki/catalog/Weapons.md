@@ -22,7 +22,61 @@ flowchart
 	end
 ```
 
-## Lances
+## Sword
+
+| Name | Might | Hit  | Critical | Range | Weight | Uses | Cost | Description |
+| ---- | ----- | ---- | -------- | ----- | ------ | ---- | ---- | ----------- |
+|      |       |      |          |       |        |      |      |             |
+|      |       |      |          |       |        |      |      |             |
+|      |       |      |          |       |        |      |      |             |
+|      |       |      |          |       |        |      |      |             |
+
+## Lance
+
+| Name | Might | Hit  | Critical | Range | Weight | Uses | Cost | Description |
+| ---- | ----- | ---- | -------- | ----- | ------ | ---- | ---- | ----------- |
+|      |       |      |          |       |        |      |      |             |
+|      |       |      |          |       |        |      |      |             |
+|      |       |      |          |       |        |      |      |             |
+|      |       |      |          |       |        |      |      |             |
+
+## Axe
+
+| Name | Might | Hit  | Critical | Range | Weight | Uses | Cost | Description |
+| ---- | ----- | ---- | -------- | ----- | ------ | ---- | ---- | ----------- |
+|      |       |      |          |       |        |      |      |             |
+|      |       |      |          |       |        |      |      |             |
+|      |       |      |          |       |        |      |      |             |
+|      |       |      |          |       |        |      |      |             |
+
+## Knive
+
+| Name | Might | Hit  | Critical | Range | Weight | Uses | Cost | Description |
+| ---- | ----- | ---- | -------- | ----- | ------ | ---- | ---- | ----------- |
+|      |       |      |          |       |        |      |      |             |
+|      |       |      |          |       |        |      |      |             |
+|      |       |      |          |       |        |      |      |             |
+|      |       |      |          |       |        |      |      |             |
+
+## Gauntlet
+
+| Name | Might | Hit  | Critical | Range | Weight | Uses | Cost | Description |
+| ---- | ----- | ---- | -------- | ----- | ------ | ---- | ---- | ----------- |
+|      |       |      |          |       |        |      |      |             |
+|      |       |      |          |       |        |      |      |             |
+|      |       |      |          |       |        |      |      |             |
+|      |       |      |          |       |        |      |      |             |
+
+## Battle Staff
+
+| Name | Might | Hit  | Critical | Range | Weight | Uses | Cost | Description |
+| ---- | ----- | ---- | -------- | ----- | ------ | ---- | ---- | ----------- |
+|      |       |      |          |       |        |      |      |             |
+|      |       |      |          |       |        |      |      |             |
+|      |       |      |          |       |        |      |      |             |
+|      |       |      |          |       |        |      |      |             |
+
+## Chain
 
 | Name | Might | Hit  | Critical | Range | Weight | Uses | Cost | Description |
 | ---- | ----- | ---- | -------- | ----- | ------ | ---- | ---- | ----------- |
@@ -43,3 +97,21 @@ flowchart
 		artillery--beats--->close-combat
 	end
 ```
+
+## Bow
+
+| Name | Might | Hit  | Critical | Range | Weight | Uses | Cost | Description |
+| ---- | ----- | ---- | -------- | ----- | ------ | ---- | ---- | ----------- |
+|      |       |      |          |       |        |      |      |             |
+|      |       |      |          |       |        |      |      |             |
+|      |       |      |          |       |        |      |      |             |
+|      |       |      |          |       |        |      |      |             |
+
+## Artillery
+
+| Name | Might | Hit  | Critical | Range | Weight | Uses | Cost | Description |
+| ---- | ----- | ---- | -------- | ----- | ------ | ---- | ---- | ----------- |
+|      |       |      |          |       |        |      |      |             |
+|      |       |      |          |       |        |      |      |             |
+|      |       |      |          |       |        |      |      |             |
+|      |       |      |          |       |        |      |      |             |
