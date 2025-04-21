@@ -1,27 +1,24 @@
 ```mermaid
 flowchart
 	subgraph Close Combat
-	    whips(Whips)
-        lances(Lances)
-        swords(Swords)
-        axes(Axes)
-        gauntlets(Gauntlets)
-
-        whips--beats--->lances
-        lances--beats--->swords
-        swords--beats--->axes
-        axes--beats--->gauntlets
-        gauntlets--beats--->whips
-	end
-	
-	subgraph Ranged Combat
-		close-combat(Close Combat)
-		explosives(Explosives)
-		bows(Bows)
+		sword(Sword)
+		lance(Lance)
+		axe(Axe)
+		knive(Knive)
+		gauntlet(Gauntlet)
+		chain(Chain)
+		battle-staff(Battle Staff)
 		
-		close-combat--beats--->explosives
-		explosives--beats--->bows
-		bows--beats--->close-combat
+		sword--beats--->axe
+		sword--beats--->knive
+		axe--beats--->lance
+		axe--beats--->gauntlet
+		lance--beats--->sword
+		lance--beats--->chain
+		gauntlet--beats--->knive
+		knive--beats--->battle-staff
+		battle-staff--beats--->chain
+		chain--beats--->gauntlet
 	end
 ```
 
@@ -34,57 +31,15 @@ flowchart
 |      |       |      |          |       |        |      |      |             |
 |      |       |      |          |       |        |      |      |             |
 
-## Swords
-
-| Name | Might | Hit  | Critical | Range | Weight | Uses | Cost | Description |
-| ---- | ----- | ---- | -------- | ----- | ------ | ---- | ---- | ----------- |
-|      |       |      |          |       |        |      |      |             |
-|      |       |      |          |       |        |      |      |             |
-|      |       |      |          |       |        |      |      |             |
-|      |       |      |          |       |        |      |      |             |
-
-## Axes
-
-| Name | Might | Hit  | Critical | Range | Weight | Uses | Cost | Description |
-| ---- | ----- | ---- | -------- | ----- | ------ | ---- | ---- | ----------- |
-|      |       |      |          |       |        |      |      |             |
-|      |       |      |          |       |        |      |      |             |
-|      |       |      |          |       |        |      |      |             |
-|      |       |      |          |       |        |      |      |             |
-
-## Gauntlets
-
-| Name | Might | Hit  | Critical | Range | Weight | Uses | Cost | Description |
-| ---- | ----- | ---- | -------- | ----- | ------ | ---- | ---- | ----------- |
-|      |       |      |          |       |        |      |      |             |
-|      |       |      |          |       |        |      |      |             |
-|      |       |      |          |       |        |      |      |             |
-|      |       |      |          |       |        |      |      |             |
-
-## Whips
-
-| Name | Might | Hit  | Critical | Range | Weight | Uses | Cost | Description |
-| ---- | ----- | ---- | -------- | ----- | ------ | ---- | ---- | ----------- |
-|      |       |      |          |       |        |      |      |             |
-|      |       |      |          |       |        |      |      |             |
-|      |       |      |          |       |        |      |      |             |
-|      |       |      |          |       |        |      |      |             |
-
-## Explosives
-
-| Name | Might | Hit  | Critical | Range | Weight | Uses | Cost | Description |
-| ---- | ----- | ---- | -------- | ----- | ------ | ---- | ---- | ----------- |
-|      |       |      |          |       |        |      |      |             |
-|      |       |      |          |       |        |      |      |             |
-|      |       |      |          |       |        |      |      |             |
-|      |       |      |          |       |        |      |      |             |
-
-## Bows
-
-| Name | Might | Hit  | Critical | Range | Weight | Uses | Cost | Description |
-| ---- | ----- | ---- | -------- | ----- | ------ | ---- | ---- | ----------- |
-|      |       |      |          |       |        |      |      |             |
-|      |       |      |          |       |        |      |      |             |
-|      |       |      |          |       |        |      |      |             |
-|      |       |      |          |       |        |      |      |             |
-
+```mermaid
+flowchart
+	subgraph Combat Triangle
+		close-combat(Close Combat)
+		bow(Bow)
+		artillery(Artillery)
+		
+		close-combat--beats--->bow
+		bow--beats--->artillery
+		artillery--beats--->close-combat
+	end
+```

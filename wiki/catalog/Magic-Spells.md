@@ -1,31 +1,27 @@
 ```mermaid
 flowchart
 	subgraph Natura
-		water(Water)
-		fire(Fire)
-		wind(Wind)
-		earth(Earth)
-		thunder(Thunder)
-	
-		water--beats--->fire
-		fire--beats--->wind
-		wind--beats--->earth
-		earth--beats--->thunder
-		thunder--beats--->water
-	end
-	
-	subgraph Magic Triangle
-		natura(Natura)
-		light(Light)
-		dark(Dark)
+		pyro(Pyro)
+		aero(Aero)
+		electro(Electro)
+		hydro(Hydro)
+		cryo(Cryo)
+		geo(Geo)
+		dendro(Dendro)
 		
-		natura--beats--->light
-		light--beats--->dark
-		dark--beats--->natura
+		pyro--beats--->cryo
+		pyro--beats--->dendro
+		electro--beats--->hydro
+		hydro--beats--->pyro
+		cryo--beats--->hydro
+		geo--beats--->electro
+		geo--beats--->aero
+		dendro--beats--->geo
+		aero--beats--->dendro
 	end
 ```
 
-## Fire
+## Pyro
 
 | Name | Might | Hit  | Critical | Range | Weight | MP Cost | Description |
 | ---- | ----- | ---- | -------- | ----- | ------ | ------- | ----------- |
@@ -34,7 +30,7 @@ flowchart
 |      |       |      |          |       |        |         |             |
 |      |       |      |          |       |        |         |             |
 
-## Wind
+## Aero
 
 | Name | Might | Hit  | Critical | Range | Weight | MP Cost | Description |
 | ---- | ----- | ---- | -------- | ----- | ------ | ------- | ----------- |
@@ -43,7 +39,7 @@ flowchart
 |      |       |      |          |       |        |         |             |
 |      |       |      |          |       |        |         |             |
 
-## Earth
+## Electro
 
 | Name | Might | Hit  | Critical | Range | Weight | MP Cost | Description |
 | ---- | ----- | ---- | -------- | ----- | ------ | ------- | ----------- |
@@ -52,7 +48,7 @@ flowchart
 |      |       |      |          |       |        |         |             |
 |      |       |      |          |       |        |         |             |
 
-## Thunder
+## Hydro
 
 | Name | Might | Hit  | Critical | Range | Weight | MP Cost | Description |
 | ---- | ----- | ---- | -------- | ----- | ------ | ------- | ----------- |
@@ -61,7 +57,7 @@ flowchart
 |      |       |      |          |       |        |         |             |
 |      |       |      |          |       |        |         |             |
 
-## Water
+## Cryo
 
 | Name | Might | Hit  | Critical | Range | Weight | MP Cost | Description |
 | ---- | ----- | ---- | -------- | ----- | ------ | ------- | ----------- |
@@ -70,7 +66,7 @@ flowchart
 |      |       |      |          |       |        |         |             |
 |      |       |      |          |       |        |         |             |
 
-## Light
+## Geo
 
 | Name | Might | Hit  | Critical | Range | Weight | MP Cost | Description |
 | ---- | ----- | ---- | -------- | ----- | ------ | ------- | ----------- |
@@ -79,7 +75,38 @@ flowchart
 |      |       |      |          |       |        |         |             |
 |      |       |      |          |       |        |         |             |
 
-## Dark
+## Dendro
+
+| Name | Might | Hit  | Critical | Range | Weight | MP Cost | Description |
+| ---- | ----- | ---- | -------- | ----- | ------ | ------- | ----------- |
+|      |       |      |          |       |        |         |             |
+|      |       |      |          |       |        |         |             |
+|      |       |      |          |       |        |         |             |
+|      |       |      |          |       |        |         |             |
+
+```mermaid
+flowchart
+    subgraph Magic Triangle
+        natura(Natura)
+        lux(Lux)
+        umbra(Umbra)
+
+        natura--beats--->lux
+        lux--beats--->umbra
+        umbra--beats--->natura
+    end
+```
+
+## Lux
+
+| Name | Might | Hit  | Critical | Range | Weight | MP Cost | Description |
+| ---- | ----- | ---- | -------- | ----- | ------ | ------- | ----------- |
+|      |       |      |          |       |        |         |             |
+|      |       |      |          |       |        |         |             |
+|      |       |      |          |       |        |         |             |
+|      |       |      |          |       |        |         |             |
+
+## Umbra
 
 | Name | Might | Hit  | Critical | Range | Weight | MP Cost | Description |
 | ---- | ----- | ---- | -------- | ----- | ------ | ------- | ----------- |
