@@ -1,6 +1,6 @@
 ## Rings
 
-| Name | Cost | Effekt |
+| Name | Cost | Effect |
 | ---- | ---- | ------ |
 |      |      |        |
 |      |      |        |
@@ -9,16 +9,16 @@
 
 ## Gems
 
-| Name | Cost | Effekt |
+| Name | Cost | Effect |
 | ---- | ---- | ------ |
 |      |      |        |
 |      |      |        |
 |      |      |        |
 |      |      |        |
 
-## Staves
+## Magic Staves
 
-| Name | Cost | Effekt |
+| Name | Cost | Effect |
 | ---- | ---- | ------ |
 |      |      |        |
 |      |      |        |
@@ -27,7 +27,7 @@
 
 ## Shields
 
-| Name | Cost | Effekt |
+| Name | Cost | Effect |
 | ---- | ---- | ------ |
 |      |      |        |
 |      |      |        |

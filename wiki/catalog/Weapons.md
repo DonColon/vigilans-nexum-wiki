@@ -22,7 +22,7 @@ flowchart
 	end
 ```
 
-## Sword
+## Swords
 
 | Name | Might | Hit  | Critical | Range | Weight | Uses | Cost | Description |
 | ---- | ----- | ---- | -------- | ----- | ------ | ---- | ---- | ----------- |
@@ -31,7 +31,7 @@ flowchart
 |      |       |      |          |       |        |      |      |             |
 |      |       |      |          |       |        |      |      |             |
 
-## Lance
+## Lances
 
 | Name | Might | Hit  | Critical | Range | Weight | Uses | Cost | Description |
 | ---- | ----- | ---- | -------- | ----- | ------ | ---- | ---- | ----------- |
@@ -40,7 +40,7 @@ flowchart
 |      |       |      |          |       |        |      |      |             |
 |      |       |      |          |       |        |      |      |             |
 
-## Axe
+## Axes
 
 | Name | Might | Hit  | Critical | Range | Weight | Uses | Cost | Description |
 | ---- | ----- | ---- | -------- | ----- | ------ | ---- | ---- | ----------- |
@@ -49,7 +49,7 @@ flowchart
 |      |       |      |          |       |        |      |      |             |
 |      |       |      |          |       |        |      |      |             |
 
-## Knive
+## Knives
 
 | Name | Might | Hit  | Critical | Range | Weight | Uses | Cost | Description |
 | ---- | ----- | ---- | -------- | ----- | ------ | ---- | ---- | ----------- |
@@ -58,7 +58,7 @@ flowchart
 |      |       |      |          |       |        |      |      |             |
 |      |       |      |          |       |        |      |      |             |
 
-## Gauntlet
+## Gauntlets
 
 | Name | Might | Hit  | Critical | Range | Weight | Uses | Cost | Description |
 | ---- | ----- | ---- | -------- | ----- | ------ | ---- | ---- | ----------- |
@@ -67,7 +67,7 @@ flowchart
 |      |       |      |          |       |        |      |      |             |
 |      |       |      |          |       |        |      |      |             |
 
-## Battle Staff
+## Battle Staves
 
 | Name | Might | Hit  | Critical | Range | Weight | Uses | Cost | Description |
 | ---- | ----- | ---- | -------- | ----- | ------ | ---- | ---- | ----------- |
@@ -76,7 +76,7 @@ flowchart
 |      |       |      |          |       |        |      |      |             |
 |      |       |      |          |       |        |      |      |             |
 
-## Chain
+## Chains
 
 | Name | Might | Hit  | Critical | Range | Weight | Uses | Cost | Description |
 | ---- | ----- | ---- | -------- | ----- | ------ | ---- | ---- | ----------- |
@@ -87,7 +87,7 @@ flowchart
 
 ```mermaid
 flowchart
-	subgraph Combat Triangle
+	subgraph Weapon Triangle
 		close-combat(Close Combat)
 		bow(Bow)
 		artillery(Artillery)
@@ -98,7 +98,7 @@ flowchart
 	end
 ```
 
-## Bow
+## Bows
 
 | Name | Might | Hit  | Critical | Range | Weight | Uses | Cost | Description |
 | ---- | ----- | ---- | -------- | ----- | ------ | ---- | ---- | ----------- |
