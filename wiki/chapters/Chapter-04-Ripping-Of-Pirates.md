@@ -1,14 +1,54 @@
-Es ist der Tag des Waffenhandels und die Bürgerwehr muss unerkannt bleiben, um nicht von den Piraten erwischt zu werden. Also haben sie sich als Diebesbande verkleidet und passende Kleidung im Versteck der Diebe gefunden. Dardan bleibt jedoch skeptisch und warnt erneut vor der Gefahr. Hasan beruhigt ihn und betont, dass alles gut gehen wird, wenn sie entschlossen vorgehen. Gemeinsam machen sie sich auf den Weg zum Hafen und warten auf das Schiff mit der karmesinroten Flagge auf dem ein schwarzer Rabe abgebildet ist - das vereinbarte Zeichen zwischen den Dieben und Piraten, wie es im Brief erwähnt wurde.
+## Der Waffenhandel
 
-Als das Schiff im Hafen anlegt, geht Hasan zum Kapitän, um mit ihm zu sprechen. Er zeigt den Brief als Beweis dafür, dass sie die Empfänger der Waren sind und überprüft die Qualität und Vollständigkeit der Lieferung. Anschließend ruft er die anderen herbei, um beim Entladen der Kisten zu helfen. Nachdem alle Kisten am Hafen abgestellt sind, verabschiedet sich Hasan vom Kapitän. Doch bevor er das Schiff verlassen kann, entpuppt sich die wahre Diebesbande. Sie haben die Piraten gewarnt und den Handel als Falle genutzt, um die Bürgerwehr in eine Falle zu locken. Die Bürgerwehr ist umzingelt und Hasan bleibt allein auf dem Schiff zurück. Die Piraten denken, sie hätten gewonnen, aber Dardan hat bereits einen Plan vorbereitet. Maksimo kommt aus der Kajüte, um Hasan zu unterstützen, während Marven und Mikael die Diebesbande flankieren. Zusammen bereitet sich die Gruppe darauf vor, gegen die Piraten zu kämpfen.
+Es war der Tag des Waffenhandels. Die Bürgerwehr hatte sich sorgfältig vorbereitet, verkleidet in den zerschlissenen Gewändern der Diebesbande. Die Kleidung roch nach Schweiß und Moder, doch sie erfüllte ihren Zweck: Unerkannt bleiben. Dardan stand mit verschränkten Armen etwas abseits und ließ seinen Blick unruhig über den Hafen schweifen. Der Geruch von Salz und Fisch lag schwer in der Luft, Möwen kreischten über den Wellen, und das Knarren der Taue vermischte sich mit den Stimmen der Matrosen.
 
-> Level 04 beginnt und in diesem Level müssen alle Gegner besiegt werden. Dabei versuchen die Gegner die Vorratskisten zu zerstören. Je mehr Kisten bis zum Ende des Levels vorhanden sind, desto mehr Belohnungen bekommt die Bürgerwehr.
+"Was, wenn es eine Falle ist?", murmelte Dardan mehr zu sich selbst als zu den anderen.
+ Hasan klopfte ihm grinsend auf die Schulter. "Alles wird gut. Wir treten entschlossen auf, dann wird niemand misstrauisch."
 
-Nachdem der Kampf vorbei ist, fliehen die Piraten und Diebe mit ihrem Schiff auf das offene Meer. Die Bürger am Hafen bedanken sich bei der Gruppe und bieten ihre Hilfe an, um die Vorratskisten in ihre Basis zu bringen. Die Gruppe stellt sich als die neue Bürgerwehr von Bellum vor und erklärt die Situation. Die Bürger sind begeistert vom Erfolg der Gruppe und wollen den Ruf der Bürgerwehr in der ganzen Stadt stärken.
+Während die Gruppe in der Nähe der vereinbarten Anlegestelle wartete, hielt Dardan die Augen offen. Er prägte sich jeden Fluchtweg, jede Deckung und jede mögliche Gefahr ein. Vorsicht war seine Natur – und diesmal schien sein Instinkt besonders laut zu schreien.
 
-Angekommen an der Basis, bedankt sich Hasan bei Dardan für seinen Plan und entschuldigt sich für seine überstürzte Idee. Dardan entgegnet, dass er sich ebenfalls entschuldigen muss, da trotz der Herausforderungen alles gut verlaufen ist und sie nun die notwendige Ausrüstung haben. Hätten sie nach seiner Idee gehandelt, wären sie vielleicht sicher gewesen, hätten aber nicht die Ausrüstung bekommen. Er betont die Wichtigkeit des Zusammenhalts und jeder soll das tun, wozu er am besten geeignet ist.
+Schließlich tauchte am Horizont ein Schiff auf, seine Segel geschmückt mit einer karmesinroten Flagge, auf der ein schwarzer Rabe prangte – das vereinbarte Zeichen. Die Bürgerwehr straffte sich. Als das Schiff im Hafen anlegte, trat Hasan selbstbewusst vor. In der einen Hand hielt er den gefälschten Brief, in der anderen seine Entschlossenheit.
 
-Die Bürgerwehr benötigt nur noch Gold, um endlich durchstarten zu können. Als Maksimo dies erfährt, erzählt er von der Schatzkarte, die er im Kapitänszimmer des Piratenschiffs gefunden hat. Dardan hatte ihn angewiesen, sich während des Entladens der Kisten dort zu verstecken. Gemeinsam mit Hasan und den anderen betrachtet die Gruppe die Karte und findet heraus, dass der Schatz im alten Tempel auf dem Berg von Bellum versteckt ist. Die Bürgerwehr hat somit ein neues Ziel gefunden und bereitet sich auf die bevorstehende Schatzsuche vor.
+Hasan sprach mit dem Kapitän, überprüfte die Kisten mit Waffen und Rüstungen und gab dann das Zeichen: "Kommt her, helft beim Entladen!"
 
-**END OF CHAPTER 04**
+Währenddessen schlich sich Maksimo, wie von Dardan befohlen, unauffällig an den Piraten vorbei und verschwand im Inneren des Schiffes. Er sollte nach Informationen suchen – und was er fand, war mehr wert als jede Waffe.
+
+Gerade als die letzte Kiste auf den Hafenboden gestellt wurde und Hasan dem Kapitän für den Handel danken wollte, veränderte sich die Atmosphäre schlagartig. Hastige Schritte, das Klirren von Waffen – aus den dunklen Gassen strömten plötzlich bewaffnete Männer. Die wahre Diebesbande.
+
+"Da sind sie! Das sind nicht unsere Leute!" rief einer der Diebe.
+
+Hasan erstarrte. Dardan riss sofort sein Schwert aus der Scheide. Ein schneller Blick reichte: Sie waren umzingelt. Und Hasan – allein auf dem Schiff. Ein perfider Hinterhalt.
+
+Doch Dardan hatte längst einen Notfallplan vorbereitet. In diesem Moment stürmte Maksimo aus der Kajüte und stellte sich an Hasans Seite. Gleichzeitig flankierten Marven und Mikael aus den Schatten die Diebe. Die Bürgerwehr war vorbereitet – und bereit, sich zu verteidigen.
+
+> **Level 04 beginnt:**
+> Die Spieler müssen alle Gegner besiegen. Die Gegner versuchen, während des Kampfes die Vorratskisten zu zerstören. Je mehr Kisten erhalten bleiben, desto größer ist die Belohnung.
+
+Es entbrannte ein chaotischer, heftiger Straßenkampf. Die Piraten erwiesen sich als gefährliche Gegner – gut ausgebildet, skrupellos, brutal. Anders als die Diebe, die oft unkoordiniert vorgingen, kämpften die Piraten wie eine eingespielte Mannschaft. Doch die Entschlossenheit der Bürgerwehr war stärker.
+
+Nachdem der letzte Pirat ins Wasser sprang und die Überreste der Diebesbande die Flucht ergriffen hatten, kehrte eine gespenstische Ruhe ein. Das Schiff löste sich vom Kai und verschwand langsam in Richtung offenes Meer.
+
+Die Bürger am Hafen hatten alles beobachtet. Sie kamen aus ihren Häusern, spendeten Beifall und halfen spontan, die geretteten Kisten zur neuen Basis zu bringen.
+ Dardan und Hasan stellten sich als die Bürgerwehr von Bellum vor. Die Menschen hörten gespannt zu, Hoffnung spiegelte sich in ihren Gesichtern. Vielleicht, nur vielleicht, würde Bellum bald wieder sicher sein.
+
+In der neuen Basis angekommen, stapelte die Bürgerwehr die Kisten im zentralen Raum. Während die anderen die neuen Waffen bewunderten, trat Hasan zu Dardan.
+
+"Du hattest Recht. Wir hätten vorsichtiger sein sollen", sagte er leise.
+ Dardan lächelte müde. "Nein... wir beide hatten Recht. Ohne deinen Mut hätten wir nichts gewonnen. Und ohne Vorsicht wären wir untergegangen."
+ Er legte ihm die Hand auf die Schulter. "Wir brauchen beides. Jeder muss das tun, was er am besten kann."
+
+Es war der erste Moment, in dem sie sich nicht nur als Freunde, sondern als echte Kameraden fühlten. Eine Einheit.
+
+Gerade als die Stimmung entspannter wurde, holte Maksimo etwas aus seiner Tasche: eine alte, vergilbte Karte.
+
+"Ich hab noch was gefunden", grinste er breit. "In der Kapitänskabine."
+
+Alle beugten sich neugierig über die Schatzkarte.
+ Auf ihr war ein Pfad eingezeichnet, der zu einem Ort führte: dem alten Tempel auf dem Berg von Bellum.
+
+Gold. Vielleicht genug, um die Bürgerwehr endgültig auszurüsten.
+
+Ein neues Abenteuer wartete.
+
+END OF CHAPTER 04
 

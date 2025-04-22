@@ -1,16 +1,67 @@
-Der Kult flüchtet nach der Niederlage gegen die Bürgerwehr über den Untergrundtunnel in die Stadt. Dardan fällt auf, dass wenn sie diesen Tunnel weiter gehen sie im Stadtzentrum von Bellum rauskommen werden. Ein Teil der Gruppe soll über einen anderen Weg voraus gehen, um ihnen den Weg abzuschneiden. Der Kult wird sich höchstwahrscheinlich aufteilen, aber der Anführer sollte ihre höchste Priorität sein.
+## Der Fall des Kults von Varnel
 
-Am Stadtzentrum angekommen schafft es die Bürgerwehr den Kult einzukreisen. Der Anführer des Kults ist verzweifelt und befiehlt seinen Leuten die Bewohner der Stadt als Geisel zu nehmen. Der Anführer nimmt sogar Elena gefangen. Er fordert, dass die Bürgerwehr ihn fliehen lässt ansonsten werden sie die Geiseln töten. Er holt zum Schlag aus und will Elena töten, doch Dardan tauscht mit Elena den Platz und pariert den Schlag des Anführers. Geschockt springt der Anführer zur Seite. Dardan schließt sich der Gruppe im Norden an und Elena schließt sich der Gruppe im Süden an.
+Die Bürgerwehr verfolgte den Kult durch die schmalen, feuchten Tunnel unter der Stadt. Dardan lief an der Spitze, sein Blick wachsam und angespannt. Er erkannte bald das Muster der Tunnel und stellte fest:
+ „Wenn sie so weiterlaufen, tauchen sie direkt im Stadtzentrum von Bellum auf.“
 
-> Level 08 startet und die Gruppe muss die Bewohner der Stadt beschützen und gleichzeitig den Anführer der Organisation besiegen. Wenn alle Bewohner überleben, bekommt man am Ende eine Bonusbelohnung.
+Ohne zu zögern befahl Dardan, dass ein Teil der Gruppe eine andere Route nehmen sollte, um den Kult einzukreisen. „Der Anführer darf nicht entkommen“, sagte er mit ruhiger Entschlossenheit. „Er ist der Schlüssel.“
 
-Nachdem der Anführer besiegt wurde, wird der Rest des Kults gefangen genommen und die Geiseln werden befreit. Die Bewohner bedanken sich bei der Bürgerwehr. Eine Menschenmenge versammelt sich im Stadtzentrum. Sie haben alles mit angesehen und beginnen zu jubeln und die Bürgerwehr als Helden zu feiern. Dardan nutzt die Gelegenheit und hält eine Rede. Er erzählt den Bewohnern vom Kult von Varnel und wie sie die Regierung im Geheimen geführt haben. Er zeigt auf wie die Organisation Bellum vom Rest der Welt abgeschnitten hat. Sie sind diejenigen, die den Krieg in der Welt immer weiter antreiben.
+Die Bürgerwehr bewegte sich lautlos durch die dunklen Gassen und Gänge. Und als sie das Stadtzentrum erreichten, schlossen sie die Falle: Der Kult war umzingelt.
 
-Dardan sagt jedoch, dass diese Tyrannei nun endlich ein Ende hat und sie den Rest des Kults aus Bellum vertreiben werden. Sie werden die alte, gute Regierung wieder ins Leben rufen. Er fordert, dass die Bürger sie weiterhin unterstützen. Er will zusammen mit seinen Freunden wieder Frieden in Bellum einführen. Er will das Bellum nicht mehr als Werkzeug und Kampfplatz von den anderen Ländern ausgenutzt wird. Er fordert die Unabhängigkeit der Stadt. Die Menschenmenge jubelt sie unterstützen den Gedanken der Bürgerwehr.
+Der Anführer des Kults, vom Kampf gezeichnet und verzweifelt, schrie aufgebracht: „Nehmt Geiseln! Rettet euch!“
+ Sofort stürmten seine Männer auf die überraschten Bürger zu und rissen sie als Schutzschilde an sich. Der Anführer selbst packte Elena, die sich tapfer wehrte. Er presste eine Klinge an ihre Kehle und rief:
+ „Lasst uns gehen oder sie stirbt!“
 
-Die Bürgerwehr macht sich auf dem Weg, um die Gefangenen des Kults zu befreien. Unter den Gefangenen finden sie den ehemaligen Bürgermeister und den Wachmeister der Stadt. Dardan erklärt ihnen, dass sie den Kult besiegt haben. Beide sind geschockt und bedanken sich zutiefst bei der Bürgerwehr. Im Rathaus angekommen werden Hasan und Dardan ins Büro des Bürgermeisters gebeten. Dort besprechen sie alle Geschehnisse und sie besprechen den Plan die Stadt als unabhängig zu erklären. Der Bürgermeister findet die Idee sehr gut und beauftragt die Bürgerwehr damit die Zustimmung der Länder zu holen. Für die Unabhängigkeitserklärung brauchen sie die Zustimmung von zwei Ländern. Der Bürgermeister meint die beste Chance ist im Königreich von Adolla. Der König sei ein gütiger Mann und versucht sein bestes Frieden zu schließen.
+Ein Moment eisiger Spannung lag in der Luft.
 
-Der Bürgermeister möchte den Sieg über den Kult mit der ganzen Stadt feiern. Er lässt ein Fest verkünden. Außerdem will er jedes Mitglied der Bürgerwehr zu Ritter von Bellum schlagen. Am Abend versammeln sich die Bürger im Stadtzentrum vor dem Rathaus. Der Bürgermeister hält eine Rede und bedankt sich bei der Bürgerwehr. Jedes Mitglied wird einzeln aufgerufen und vor den Augen der Bewohner zu Rittern geschlagen. Er tauft die Bürgerwehr auf den Namen "The Vigilant Knights" und beauftragt sie für die Mission, die Unabhängigkeit von Bellum zu realisieren. Den Rest des Abends wird die gewonnene Freiheit der Stadt gefeiert.
+Dann, in einem plötzlichen Aufblitzen von Licht und Bewegung, tauschte Dardan mit Elena den Platz. Seine Waffe fing den Schlag des Anführers ab, Funken sprühten auf.
+ Der Anführer sprang erschrocken zurück. 
 
-**END CHAPTER 08**
+Dardan wich in den Norden aus und trifft sich mit der Gruppe aus dem Norden.
 
+Die Bürgerwehr sammelte sich neu – entschlossen, den Schutz der Bewohner an erste Stelle zu setzen.
+
+> **Level 08 beginnt:**
+> Beschütze die Bürger und besiege den Anführer. Bonusbelohnung, wenn alle Bewohner überleben.
+
+Nach einem erbitterten Kampf fiel der Anführer des Kults.
+ Die übrigen Kultisten warfen ihre Waffen nieder und wurden gefangen genommen.
+ Ein lauter Jubel brach unter den Bürgern aus. Männer, Frauen und Kinder stürmten aus ihren Häusern, Tränen der Erleichterung in den Augen.
+
+Die Bürgerwehr stand in der Mitte des Platzes. Dardan trat vor, sein Blick ernst, aber voller Hoffnung.
+
+Er sprach mit ruhiger, inspirierender Stimme:
+ „Bellum war lange in Finsternis gefangen. Dieser Kult hat im Geheimen unsere Stadt regiert, hat uns gegeneinander aufgehetzt und uns benutzt. Aber heute haben wir ein Zeichen gesetzt.“
+ Er hob die Faust.
+ „Heute beginnt eine neue Zeit. Wir holen uns unser Schicksal zurück. Bellum soll wieder frei sein – unabhängig von jenen, die nur Krieg und Elend bringen. Gemeinsam werden wir unser Zuhause verteidigen!“
+
+Ein ohrenbetäubendes Jubeln erfüllte den Platz. Die Menschen schworen der Bürgerwehr ihre Unterstützung.
+
+Gemeinsam machte sich die Gruppe daran, die Gefangenen des Kults aus ihren Verließen zu befreien.
+ Unter ihnen: der ehemalige Bürgermeister und der Wachmeister, beide ausgezehrt, erschöpft – aber voller Hoffnung. Als sie hörten, was geschehen war, sanken sie der Bürgerwehr vor Dankbarkeit in die Arme.
+
+Im Rathaus berieten sie sich.
+ „Wir müssen Bellum als unabhängige Stadt ausrufen“, schlug Dardan vor.
+ Der Bürgermeister nickte zustimmend.
+ „Aber dafür brauchen wir die Zustimmung zweier Länder“, erklärte er. „Unsere beste Chance liegt bei Adolla. Der König dort strebt nach Frieden.“
+
+Eine Entscheidung war gefallen.
+
+Am Abend verwandelte sich das Stadtzentrum in ein Meer aus Lichtern und Farben. Musiker spielten, Kinder tanzten, Händler verteilten Speisen und Getränke.
+
+Vor dem Rathaus versammelten sich alle Bürger.
+
+Der Bürgermeister trat auf die große Bühne.
+ Mit feierlicher Stimme begann er seine Rede:
+ „Heute ehren wir jene, die unsere Freiheit zurückgebracht haben. Jene, die nicht für Ruhm oder Gold kämpften, sondern für unser aller Zukunft.“
+
+Er rief nacheinander jedes Mitglied der Bürgerwehr auf.
+ Knieend empfingen sie den Ritterschlag – ein uralter Brauch, der ihren Mut und ihre Loyalität ehrte.
+
+„Ich ernenne euch zu den *Vigilant Knights*, den Wächtern von Bellum!“ verkündete der Bürgermeister.
+
+Die Menge tobte, Rufe und Applaus hallten durch die Straßen.
+ Die Nacht verwandelte sich in ein Fest voller Freude. Musik erklang, Lichter tanzten in der Dunkelheit, und die Menschen feierten bis tief in die Nacht.
+
+Die Bürgerwehr, nun *Vigilant Knights*, blickte stolz auf das, was sie erreicht hatten – und auf das, was noch vor ihnen lag.
+
+**END OF CHAPTER 08**

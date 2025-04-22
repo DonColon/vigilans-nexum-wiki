@@ -1,11 +1,42 @@
-Nachdem sich jedes Mitglied in der Bürgerwehr sich für einen Pfad entschieden hat, besprechen sie wie sie die Organisation zu Fall bringen können. Hasan meint, dass sie einen frontalen Angriff starten sollten, um das Überraschungsmoment auf ihrer Seite zu haben. Ihr Ziel sollte es sein den Anführer auszuschalten, damit der Rest der Organisation sich auflöst. So ist es einfacher sich um den Rest zu kümmern. Dardan jedoch meint, dass sie trotz des Überraschungsmoment nicht gegen die Überzahl des Gegners ankommen. Sie sollten lieber defensiver herangehen und in der Basis bleiben und diese weiter verstärken. Der Kult wird ihnen auf der Spur sein und sie früher oder später finden und mit all ihren Einheiten angreifen. Wenn sie jetzt die Basis verlassen gefährden sie außerdem die Einwohner von Bellum. Die Gruppe entscheidet sich dafür in der Basis zu bleiben und alles für einen Angriff vorzubereiten.
+## Der erste Sturm
 
-Mikael hat die Gegend ausgespäht und der Kult ist auf dem Weg zur Basis mit einer Großen Anzahl an Einheiten. Die Bürgerwehr macht sich kampfbereit und warten darauf, dass der Kult eintrifft. Der Anführer fordert, dass die Bürgerwehr aufgeben soll und sich kampflos ergeben sollen. Hasan verneint dies jedoch und sagt, dass sie erst aufgeben, wenn sie ihr Leben geben müssen.
+Nachdem jedes Mitglied der Bürgerwehr seinen Pfad gewählt hatte, versammelten sie sich in der großen Halle des Bunkers. Es lag eine spürbare Entschlossenheit in der Luft – aber auch Nervosität. Ihnen allen war klar, dass die wahre Herausforderung noch bevorstand.
 
-> Level 07 startet und das Ziel ist die Basis für 15 Züge zu verteidigen. Hierzu darf eine gegnerische Einheit nicht auf den Zielpunkt kommen.
->
+Hasan schlug vor, sofort in die Offensive zu gehen: „Wir sollten sie überraschen, bevor sie sich neu formieren können. Wenn wir ihren Anführer ausschalten, bricht die Organisation zusammen!“ Seine Stimme klang leidenschaftlich, fast drängend.
 
-Der Anführer des Kults erkennt, dass den Angriff weiterzuführen nur zu weiteren Verlusten führt und da sie schon einige Verluste haben, will er das Risiko nicht eingehen. Er beordert seine Männer zu einem Rückzug. Hasan befiehlt der Bürgerwehr sofort die Verfolgung aufzunehmen, da sie so eine Chance nicht noch einmal bekommen werden. Der Rest stimmt ihm zu und sie machen sich sofort auf dem Weg.
+Dardan aber verschränkte die Arme und schüttelte den Kopf. „Wir können sie nicht einfach frontal angreifen. Selbst mit dem Überraschungsmoment sind wir zahlenmäßig unterlegen. Und wenn wir scheitern, reißen wir die Stadt mit in den Abgrund. Wir müssen unsere Basis verteidigen, die Bürger schützen und den Kult zwingen, zu uns zu kommen.“
 
-**END CHAPTER 07**
+Ein hitziges Wortgefecht entbrannte zwischen den beiden. Die restlichen Mitglieder tauschten unsichere Blicke aus, doch schließlich überzeugte Dardans ruhige Logik die Gruppe. Einer nach dem anderen stimmte er zu, bis auch Hasan mit grimmigem Blick nickte.
 
+**Sie würden bleiben. Und kämpfen.**
+
+Später am Tag kehrte Mikael atemlos von seiner Erkundung zurück. „Sie kommen. Eine große Truppe – mehr, als ich zählen konnte.“
+ Sofort wurde der Bunker in Alarmbereitschaft versetzt. Waffen wurden geprüft, Barrikaden verstärkt. Niemand sprach ein Wort; das Gewicht der bevorstehenden Schlacht lag schwer auf ihren Schultern.
+
+Als der Kult eintraf, trat ihr Anführer hervor – ein hochgewachsener Mann in dunkler, schwerer Rüstung. Seine Stimme hallte über den Platz:
+ „Ihr seid umzingelt! Ergibt euch kampflos, und vielleicht lassen wir euch am Leben.“
+ Sein Ton triefte vor Arroganz, als hätte er den Sieg bereits errungen.
+
+Hasan trat einen Schritt vor. Trotz des flauen Gefühls in seinem Magen antwortete er laut und klar:
+ „Wir würden eher stehend sterben, als kniend leben!“
+
+Mit einem knappen Befehl begann der Angriff.
+
+> **Level 07 startet:** 15 Runden die Basis verteidigen. Keine gegnerische Einheit darf den Zielpunkt erreichen.
+
+Die Schlacht tobte. Welle um Welle warfen sich die Kultisten gegen die Verteidigung der Bürgerwehr – doch sie hielten stand. Jeder Zentimeter Boden wurde erbittert verteidigt. Pfeile surrten durch die Luft, Magie entlud sich in grellen Blitzen, Klingen kreuzten sich mit einem gellenden Kreischen.
+
+Nach schier endlosen Runden erkannte der Anführer des Kults, dass der Angriff nur weitere Verluste bringen würde. Wutverzerrt befahl er den Rückzug.
+ Er war überrascht – diese kleine Bürgerwehr hatte nicht nur überlebt, sondern ihnen ernsthafte Verluste zugefügt.
+
+Hasan beobachtete die fliehenden Gegner und riss sein Schwert hoch:
+ „Jetzt! Das ist unsere Chance! Verfolgen wir sie, bevor sie sich neu sammeln können!“
+
+Die Gruppe zögerte. Alle Augen richteten sich auf Dardan.
+
+Dardan sah dem Kult hinterher. Er wusste, es war ein Risiko – aber auch eine einmalige Gelegenheit. Er nickte entschlossen.
+ „Los. Wir lassen sie nicht entkommen.“
+
+Mit neu entfachtem Mut setzte sich die Bürgerwehr in Bewegung, bereit, den Spieß umzudrehen.
+
+**END OF CHAPTER 07**
