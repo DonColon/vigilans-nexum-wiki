@@ -16,6 +16,7 @@
 - [Claude Luenava](characters/Claude-Luenava.md)
 - [Fabius Aldenbourg](characters/Fabius-Aldenbourg.md)
 - [Asta Concordia](characters/Asta-Concordia.md)
+- Raphi
 
 ## The Vaestrall Empire
 
