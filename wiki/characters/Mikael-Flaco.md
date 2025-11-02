@@ -1,8 +1,8 @@
 ## Personal Information
 
-**Name:**
+**Name:** Mikael Flaco
 
-**Gender:**
+**Gender:** Male
 
 **Age:**
 
@@ -12,7 +12,7 @@
 
 **Nationality:** 
 
-**Residence:**
+**Residence:** Bellum
 
 ## Personality
 
@@ -56,11 +56,11 @@
 
 ## Combat Arts
 
-| Class | Level | Ability |
-| ----- | ----- | ------- |
-|       |       |         |
-|       |       |         |
-|       |       |         |
+| Class | Level | Combat Art |
+| ----- | ----- | ---------- |
+|       |       |            |
+|       |       |            |
+|       |       |            |
 
 ## Magic Spells
 

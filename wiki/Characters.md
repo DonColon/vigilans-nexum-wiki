@@ -1,39 +1,37 @@
-## The City of Independence
+## Playable Characters
+
+### Part 01: Path of Liberation
 
 - [Dardan Niveli](characters/Dardan-Niveli.md)
-- [Leona Kaori](characters/Leona-Kaori.md)
 - [Hasan Eyletmez](characters/Hasan-Eyletmez.md)
-- [Ivan Grussinskin](characters/Ivan-Grussinskin.md)
-- [Marven Camini](characters/Marven-Camini.md)
 - [Maksimo Auditore](characters/Maksimo-Auditore.md)
-- [Mikael Flaco](characters/Mikael-Flaco.md)
+- [Ivan Grussinskin](characters/Ivan-Grussinskin.md)
+- [Leona Kaori](characters/Leona-Kaori.md)
 - [Lina Yukari](characters/Lina-Yukari.md)
+- [Marven Camini](characters/Marven-Camini.md)
+- [Mikael Flaco](characters/Mikael-Flaco.md)
 - [Elena Flavia](characters/Elena-Flavia.md)
 
-## The Kingdom of Adolla
+### Part 02: City of Independence
 
 - [Tifa Luenava](characters/Tifa-Luenava.md)
 - [Claude Luenava](characters/Claude-Luenava.md)
 - [Fabius Aldenbourg](characters/Fabius-Aldenbourg.md)
 - [Asta Concordia](characters/Asta-Concordia.md)
 - Raphi
+- Viktor
+- Alex
 
-## The Vaestrall Empire
+### Part 03
 
-- Aylin Vaestrall
+- [Aylin Vaestrall](characters/Aylin-Vaestrall.md)
 
-- Rijona Aliu
-
-
-## The Alliance of Thysia
+- [Rijona Alior](characters/Rijona-Alior.md)
 
 - [Kassandra Aetós](characters/Kassandra-Aetos.md)
 
-## The Church of Aurelys
+## Story Characters
 
 - [Aurevia](characters/Aurevia.md)
-
-## The Cult of Varnel
-
 - [Varnel](characters/Varnel.md)
 

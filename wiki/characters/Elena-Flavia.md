@@ -1,8 +1,8 @@
 ## Personal Information
 
-**Name:**
+**Name:** Elena Flavia
 
-**Gender:**
+**Gender:** Female
 
 **Age:**
 
@@ -12,7 +12,7 @@
 
 **Nationality:** 
 
-**Residence:**
+**Residence:** Bellum
 
 ## Personality
 

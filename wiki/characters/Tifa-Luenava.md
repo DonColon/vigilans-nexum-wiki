@@ -80,11 +80,11 @@ Tifa is the main protagonist of the story. Her first appearance is in Part 02 Ch
 
 ## Combat Arts
 
-| Class | Level | Ability |
-| ----- | ----- | ------- |
-|       |       |         |
-|       |       |         |
-|       |       |         |
+| Class | Level | Combat Art |
+| ----- | ----- | ---------- |
+|       |       |            |
+|       |       |            |
+|       |       |            |
 
 ## Magic Spells
 

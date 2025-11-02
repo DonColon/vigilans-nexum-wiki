@@ -78,11 +78,11 @@ Dardan is the main protagonist of the story and the first unit you can use. His 
 
 ## Combat Arts
 
-| Class | Level | Ability |
-| ----- | ----- | ------- |
-|       |       |         |
-|       |       |         |
-|       |       |         |
+| Class | Level | Combat Art |
+| ----- | ----- | ---------- |
+|       |       |            |
+|       |       |            |
+|       |       |            |
 
 ## Magic Spells
 

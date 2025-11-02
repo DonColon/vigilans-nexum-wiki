@@ -1,6 +1,6 @@
 ## Personal Information
 
-**Name:** Leona Kaori
+**Name:** Aylin Vaestrall
 
 **Gender:** Female
 
@@ -10,9 +10,9 @@
 
 **Birthday:**
 
-**Nationality:** 
+**Nationality:** The Vaestrall Empire
 
-**Residence:** Bellum
+**Residence:**
 
 ## Personality
 

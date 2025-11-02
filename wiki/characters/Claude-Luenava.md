@@ -1,8 +1,8 @@
 ## Personal Information
 
-**Name:**
+**Name:** Claude Luenava
 
-**Gender:**
+**Gender:** Male
 
 **Age:**
 
@@ -10,9 +10,9 @@
 
 **Birthday:**
 
-**Nationality:** 
+**Nationality:** The Kingdom of Adolla
 
-**Residence:**
+**Residence:** Nokoa
 
 ## Personality
 
@@ -56,11 +56,11 @@
 
 ## Combat Arts
 
-| Class | Level | Ability |
-| ----- | ----- | ------- |
-|       |       |         |
-|       |       |         |
-|       |       |         |
+| Class | Level | Combat Art |
+| ----- | ----- | ---------- |
+|       |       |            |
+|       |       |            |
+|       |       |            |
 
 ## Magic Spells
 

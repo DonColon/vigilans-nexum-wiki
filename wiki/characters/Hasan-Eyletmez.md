@@ -1,8 +1,8 @@
 ## Personal Information
 
-**Name:**
+**Name:** Hasan Eyletmez
 
-**Gender:**
+**Gender:** Male
 
 **Age:**
 
@@ -10,7 +10,7 @@
 
 **Birthday:**
 
-**Nationality:** 
+**Nationality:** Bellum
 
 **Residence:**
 
@@ -56,11 +56,11 @@
 
 ## Combat Arts
 
-| Class | Level | Ability |
-| ----- | ----- | ------- |
-|       |       |         |
-|       |       |         |
-|       |       |         |
+| Class | Level | Combat Art |
+| ----- | ----- | ---------- |
+|       |       |            |
+|       |       |            |
+|       |       |            |
 
 ## Magic Spells
 

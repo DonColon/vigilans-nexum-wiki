@@ -1,8 +1,8 @@
 ## Personal Information
 
-**Name:**
+**Name:** Lina Yukari
 
-**Gender:**
+**Gender:** Female
 
 **Age:**
 
@@ -12,7 +12,7 @@
 
 **Nationality:** 
 
-**Residence:**
+**Residence:** Bellum
 
 ## Personality
 
@@ -56,11 +56,11 @@
 
 ## Combat Arts
 
-| Class | Level | Ability |
-| ----- | ----- | ------- |
-|       |       |         |
-|       |       |         |
-|       |       |         |
+| Class | Level | Combat Art |
+| ----- | ----- | ---------- |
+|       |       |            |
+|       |       |            |
+|       |       |            |
 
 ## Magic Spells
 
