@@ -18,8 +18,9 @@
 - [Claude Luenava](characters/Claude-Luenava.md)
 - [Fabius Aldenbourg](characters/Fabius-Aldenbourg.md)
 - [Asta Concordia](characters/Asta-Concordia.md)
+- [Vector Crowe](characters/Vector-Crowe.md)
+- [Shira Faelyn](characters/Shira-Faelyn.md)
 - Raphi
-- Viktor
 - Alex
 
 ### Part 03

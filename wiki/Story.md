@@ -20,7 +20,7 @@ Nach dem triumphalen Sieg über den Kult von Varnel durch die neugegründete Bü
 - [Chapter 11: A Flame Of Hope](chapters/Chapter-11-A-Flame-Of-Hope.md)
 - [Chapter 12: Echoes Of The Past](chapters/Chapter-12-Echoes-Of-The-Past.md)
 - [Chapter 13: Velinor's Veil](chapters/Chapter-01-Velinors-Veil.md)
-- [Chapter 14: Adolla's Challenge](chapters/Chapter-14-Adollas-Challenge.md)
-- [Chapter 15: Prison Break](chapters/Chapter-15-Prison-Break.md)
+- [Chapter 14: Prison Break](chapters/Chapter-14-Prison-Break.md)
+- [Chapter 15: Adolla's Challenge](chapters/Chapter-15-Adollas-Challenge.md)
 - [Chapter 16: Farewell In Fire](chapters/Chapter-16-Farewell-In-Fire.md)
 
