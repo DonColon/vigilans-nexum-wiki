@@ -20,16 +20,21 @@
 - [Asta Concordia](characters/Asta-Concordia.md)
 - [Vector Crowe](characters/Vector-Crowe.md)
 - [Shira Faelyn](characters/Shira-Faelyn.md)
-- Raphi
-- Alex
 
-### Part 03
+### Part 03: The Champion's Road
+
+- [Kassandra Aetós](characters/Kassandra-Aetos.md)
+
+- [Rohan Ashveil](characters/Rohan-Ashveil.md)
+
+- 
+
+
+## Unassigned
 
 - [Aylin Vaestrall](characters/Aylin-Vaestrall.md)
 
 - [Rijona Alior](characters/Rijona-Alior.md)
-
-- [Kassandra Aetós](characters/Kassandra-Aetos.md)
 
 ## Story Characters
 
