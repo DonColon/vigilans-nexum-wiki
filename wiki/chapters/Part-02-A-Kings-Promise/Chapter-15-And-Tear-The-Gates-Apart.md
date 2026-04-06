@@ -1,4 +1,4 @@
-## Adolla's Challenge
+## ...And Tear The Gates Apart
 
 Die Treppe nach oben war eng und steil, und die Söldner die ihnen entgegenkamen hatten nicht damit gerechnet dass die Gefangenen bewaffnet und kampfbereit sein würden.
 

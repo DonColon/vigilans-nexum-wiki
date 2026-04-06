@@ -20,8 +20,8 @@ Nach dem triumphalen Sieg über den Kult von Varnel durch die neugegründete Bü
 - [Chapter 11: A Flame Of Hope](chapters/Part-02-City-Of-Independence/Chapter-11-A-Flame-Of-Hope.md)
 - [Chapter 12: Echoes Of The Past](chapters/Part-02-City-Of-Independence/Chapter-12-Echoes-Of-The-Past.md)
 - [Chapter 13: Velinor's Veil](chapters/Part-02-City-Of-Independence/Chapter-01-Velinors-Veil.md)
-- [Chapter 14: Prison Break](chapters/Part-02-City-Of-Independence/Chapter-14-Prison-Break.md)
-- [Chapter 15: Adolla's Challenge](chapters/Part-02-City-Of-Independence/Chapter-15-Adollas-Challenge.md)
+- [Chapter 14: From The Darkest Depths, We Rise...](chapters\Part-02-City-Of-Independence\Chapter-14-From-The-Darkest-Depths-We-Rise.md)
+- [Chapter 15: ...And Tear The Gates Apart](chapters\Part-02-City-Of-Independence\Chapter-15-And-Tear-The-Gates-Apart.md)
 - [Chapter 16: Farewell In Fire](chapters/Part-02-City-Of-Independence/Chapter-16-Farewell-In-Fire.md)
 
 ## Part 03: The Champion's Road
