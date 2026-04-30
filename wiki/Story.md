@@ -11,18 +11,18 @@ Im kaiserlichen Jahr 1347 auf dem Kontinent Tridera herrscht eine drückende Sti
 - [Chapter 07: ...Not By The Power They Are Graced With](chapters/Part-01-Path-Of-Liberation/Chapter-07-Not-By-The-Power-They-Are-Graced-With.md)
 - [Chapter 08: The Vigilant Knights](chapters/Part-01-Path-Of-Liberation/Chapter-08-The-Vigilant-Knights.md)
 
-## Part 02: City of Independence
+## Part 02: A King's Promise
 
 Nach dem triumphalen Sieg über den Kult von Varnel durch die neugegründete Bürgerwehr von Bellum kehrt erstmals seit langer Zeit Frieden in die kriegsgezeichnete Metropole ein. Unter dem Banner der Vigilant Knights erwacht in Bellum eine neue Hoffnung – eine Vision von Freiheit, Sicherheit und Wohlstand. Gemeinsam mit dem Bürgermeister der Stadt streben sie nach einem kühnen Ziel: der Unabhängigkeit Bellums und der Gründung eines eigenen Staates. Doch ein solches Vorhaben verlangt die Anerkennung durch die Großmächte Trideras – dem Königreich Adolla, der Allianz von Thysia und dem Kaiserreich Vaestrall. Entschlossen brechen die Vigilant Knights auf, um am königlichen Hof von Adolla um Erlaubnis und Unterstützung zu bitten.
 
-- [Chapter 09: Papers, Please!](chapters/Part-02-City-Of-Independence/Chapter-09-Papers-Please.md)
-- [Chapter 10: What Are We Buyin?](chapters/Part-02-City-Of-Independence/Chapter-10-What-Are-We-Buyin.md)
-- [Chapter 11: A Flame Of Hope](chapters/Part-02-City-Of-Independence/Chapter-11-A-Flame-Of-Hope.md)
-- [Chapter 12: Echoes Of The Past](chapters/Part-02-City-Of-Independence/Chapter-12-Echoes-Of-The-Past.md)
-- [Chapter 13: Velinor's Veil](chapters/Part-02-City-Of-Independence/Chapter-01-Velinors-Veil.md)
-- [Chapter 14: From The Darkest Depths, We Rise...](chapters\Part-02-City-Of-Independence\Chapter-14-From-The-Darkest-Depths-We-Rise.md)
-- [Chapter 15: ...And Tear The Gates Apart](chapters\Part-02-City-Of-Independence\Chapter-15-And-Tear-The-Gates-Apart.md)
-- [Chapter 16: Farewell In Fire](chapters/Part-02-City-Of-Independence/Chapter-16-Farewell-In-Fire.md)
+- [Chapter 09: Papers, Please!](chapters/Part-02-A-Kings-Promise/Chapter-09-Papers-Please.md)
+- [Chapter 10: What Are We Buyin?](chapters/Part-02-A-Kings-Promise/Chapter-10-What-Are-We-Buyin.md)
+- [Chapter 11: A Flame Of Hope](chapters/Part-02-A-Kings-Promise/Chapter-11-A-Flame-Of-Hope.md)
+- [Chapter 12: Echoes Of The Past](chapters/Part-02-A-Kings-Promise/Chapter-12-Echoes-Of-The-Past.md)
+- [Chapter 13: Velinor's Veil](chapters/Part-02-A-Kings-Promise/Chapter-01-Velinors-Veil.md)
+- [Chapter 14: From The Darkest Depths, We Rise...](chapters\Part-02-A-Kings-Promise\Chapter-14-From-The-Darkest-Depths-We-Rise.md)
+- [Chapter 15: ...And Tear The Gates Apart](chapters\Part-02-A-Kings-Promise\Chapter-15-And-Tear-The-Gates-Apart.md)
+- [Chapter 16: Farewell In Fire](chapters/Part-02-A-Kings-Promise/Chapter-16-Farewell-In-Fire.md)
 
 ## Part 03: The Champion's Road
 
@@ -36,4 +36,8 @@ Mit Adollas Unterstützung im Rücken setzen die Vigilant Knights ihre Reise üb
 - [Chapter 22: The Desert Knows No Kings](chapters\Part-03-The-Champions-Road\Chapter-22-The-Desert-Knows-No-Kings.md)
 - [Chapter 23: Death Or Glory](chapters\Part-03-The-Champions-Road\Chapter-23-Death-Or-Glory.md)
 - [Chapter 24: The Great Pretender](chapters\Part-03-The-Champions-Road\Chapter-24-The-Great-Pretender.md)
+
+## Part 04: City of Independence
+
+...
 
