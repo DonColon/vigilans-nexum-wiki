@@ -37,7 +37,15 @@ Mit Adollas Unterstützung im Rücken setzen die Vigilant Knights ihre Reise üb
 - [Chapter 23: Death Or Glory](chapters\Part-03-The-Champions-Road\Chapter-23-Death-Or-Glory.md)
 - [Chapter 24: The Great Pretender](chapters\Part-03-The-Champions-Road\Chapter-24-The-Great-Pretender.md)
 
-## Part 04: City of Independence
+## Part 04: The Name You Were Given
 
-...
+Mit dem Sieg im Kolosseum von Athea kehren die Vigilant Knights als Helden nach Bellum zurück. Doch die Feier währt nicht lange – das Kaiserreich Vaestrall greift an, und mit ihm bricht eine Wahrheit über Tridera herein die niemand kommen sah. Auf der Suche nach Antworten reisen die Vigilant Knights ins Herz des Kaiserreichs, wo ein Bürgerkrieg tobt und ein Mann namens Rael für eine Sache kämpft die er für gerecht hält. Je tiefer sie in den Konflikt eintauchen desto klarer wird – der wahre Feind trägt kein Wappen und keine Fahne. Und für Dardan wartet am Ende eine Wahrheit die schwerer wiegt als jeder Krieg den er je gekämpft hat.
 
+- [Chapter 25: The Star Falls](chapters/Part-04-The-Name-You-Were-Given/Chapter-25-The-Star-Falls.md)
+- [Chapter 26: When The Lost Find Each Other](chapters/Part-04-The-Name-You-Were-Given/Chapter-26-When-The-Lost-Find-Each-Other.md)
+- [Chapter 27: For Those Who Come After](chapters/Part-04-The-Name-You-Were-Given/Chapter-27-For-Those-Who-Come-After.md)
+- [Chapter 28: The Hands That Shape The World](chapters/Part-04-The-Name-You-Were-Given/Chapter-28-The-Hands-That-Shape-The-World.md)
+- [Chapter 29: The Burden Of Sight](chapters/Part-04-The-Name-You-Were-Given/Chapter-29-The-Burden-Of-Sight.md)
+- [Chapter 30: You Don't Have To Carry It Alone](chapters/Part-04-The-Name-You-Were-Given/Chapter-30-You-Dont-Have-To-Carry-It-Alone.md)
+- [Chapter 31: We Came To End A War...](chapters/Part-04-The-Name-You-Were-Given/Chapter-31-We-Came-To-End-A-War.md)
+- [Chapter 32: ...Is Heavier Than We Thought](chapters/Part-04-The-Name-You-Were-Given/Chapter-32-Is-Heavier-Than-We-Thought.md)
