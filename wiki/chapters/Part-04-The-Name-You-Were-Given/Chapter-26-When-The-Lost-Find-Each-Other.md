@@ -1,4 +1,4 @@
-### Chapter 26: When The Lost Find Each Other
+## Chapter 26: When The Lost Find Each Other
 
 Die Grenze zu Vaestrall war keine Mauer.
 
