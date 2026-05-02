@@ -49,3 +49,4 @@ Mit dem Sieg im Kolosseum von Athea kehren die Vigilant Knights als Helden nach 
 - [Chapter 30: You Don't Have To Carry It Alone](chapters/Part-04-The-Name-You-Were-Given/Chapter-30-You-Dont-Have-To-Carry-It-Alone.md)
 - [Chapter 31: We Came To End A War...](chapters/Part-04-The-Name-You-Were-Given/Chapter-31-We-Came-To-End-A-War.md)
 - [Chapter 32: ...Is Heavier Than We Thought](chapters/Part-04-The-Name-You-Were-Given/Chapter-32-Is-Heavier-Than-We-Thought.md)
+

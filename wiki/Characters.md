@@ -10,7 +10,6 @@
 - [Lina Yukari](characters/Lina-Yukari.md)
 - [Marven Camini](characters/Marven-Camini.md)
 - [Mikael Flaco](characters/Mikael-Flaco.md)
-- [Elena Flavia](characters/Elena-Flavia.md)
 
 ### Part 02: City of Independence
 
@@ -27,7 +26,10 @@
 
 - [Rohan Ashveil](characters/Rohan-Ashveil.md)
 
-- 
+Part 04:
+
+- [Elena Flavia](characters/Elena-Flavia.md)
+- [Matteo Ferri](characters/Matteo-Ferri.md)
 
 
 ## Unassigned
@@ -35,6 +37,8 @@
 - [Aylin Vaestrall](characters/Aylin-Vaestrall.md)
 
 - [Rijona Alior](characters/Rijona-Alior.md)
+
+- Alex
 
 ## Story Characters
 
