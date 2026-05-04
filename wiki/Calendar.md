@@ -1,14 +1,16 @@
 ## Month Names
 
-1. Elyndar
-2. Faerisil
-3. Frostfall
-4. Aeloria
-5. Mirthan
-6. Goldendawn
-7. Skyblaze
-8. Flamecrest 
-9. Mistfallen
-10. Hallowtide
-11. Shadowmire
-12. Nightfallen
+| Number | In Game Name | Real Name |
+| ------ | ------------ | --------- |
+| 01     | Elyndar      | Januar    |
+| 02     | Faerisil     | Februar   |
+| 03     | Frostfall    | März      |
+| 04     | Aeloria      | April     |
+| 05     | Mirthan      | Mai       |
+| 06     | Goldendawn   | Juni      |
+| 07     | Skyblaze     | Juli      |
+| 08     | Flamecrest   | August    |
+| 09     | Mistfallen   | September |
+| 10     | Hallowtide   | Oktober   |
+| 11     | Shadowmire   | November  |
+| 12     | Nightfallen  | Dezember  |

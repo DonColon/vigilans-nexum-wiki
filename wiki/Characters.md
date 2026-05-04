@@ -8,10 +8,10 @@
 - [Ivan Grussinskin](characters/Ivan-Grussinskin.md)
 - [Leona Kaori](characters/Leona-Kaori.md)
 - [Lina Yukari](characters/Lina-Yukari.md)
-- [Marven Camini](characters/Marven-Camini.md)
 - [Mikael Flaco](characters/Mikael-Flaco.md)
+- [Marven Camini](characters/Marven-Camini.md)
 
-### Part 02: City of Independence
+### Part 02: A King's Promise
 
 - [Tifa Luenava](characters/Tifa-Luenava.md)
 - [Claude Luenava](characters/Claude-Luenava.md)
@@ -26,19 +26,20 @@
 
 - [Rohan Ashveil](characters/Rohan-Ashveil.md)
 
-Part 04:
+### Part 04: The Name You Were Given
 
 - [Elena Flavia](characters/Elena-Flavia.md)
 - [Matteo Ferri](characters/Matteo-Ferri.md)
+- Alex
+- Raphael
+- Luca Ferrano
+- Rael
 
 
 ## Unassigned
 
 - [Aylin Vaestrall](characters/Aylin-Vaestrall.md)
-
 - [Rijona Alior](characters/Rijona-Alior.md)
-
-- Alex
 
 ## Story Characters
 
