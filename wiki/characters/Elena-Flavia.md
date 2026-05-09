@@ -8,9 +8,9 @@
 
 **Height:** 164 cm 
 
-**Birthday:** 10.08.1978
+**Birthday:** 10.08.1988
 
-**In-Game Birthday:** 10th of Flamecrest, Imperial Year 1318 
+**In-Game Birthday:** 10th of Flamecrest, Imperial Year 1328 
 
 **Nationality:** Adolla, Luenava 
 
