@@ -16,7 +16,7 @@ Varnels persönliches Symbol ist ein offener, unterbrochener Ring – das Band, 
 
 ## Personality
 
-Varnel ist keine typische „dunkle Figur“. Seine Persönlichkeit ist ein Spiegel der inneren Zerrissenheit der Menschheit selbst – zwischen Ordnung und Freiheit, Glaube und Zweifel, Hoffnung und Schmerz. Er ist weder Engel noch Dämon, sondern jemand, der **einen Schritt zu weit in den Schatten ging**, um das Licht zu retten. Er ist ein Wächter der Verbundenheit – nicht im dogmatischen Sinne, sondern emotional, spirituell, existenziell. Wo Aurevia Gesetz und Reinheit verkörpert, ist Varnel das Gewissen, das nach Verständnis ruft. Und dafür wurde er verstoßen.
+Varnel ist keine typische „dunkle Figur". Seine Persönlichkeit ist ein Spiegel der inneren Zerrissenheit der Menschheit selbst – zwischen Ordnung und Freiheit, Glaube und Zweifel, Hoffnung und Schmerz. Er ist weder Engel noch Dämon, sondern jemand, der **einen Schritt zu weit in den Schatten ging**, um das Licht zu retten. Er ist ein Wächter der Verbundenheit – nicht im dogmatischen Sinne, sondern emotional, spirituell, existenziell. Wo Aurevia Gesetz und Reinheit verkörpert, ist Varnel das Gewissen, das nach Verständnis ruft. Und dafür wurde er verstoßen.
 
 #### **Mitfühlend, aber nicht sentimental**
 
@@ -49,9 +49,9 @@ Varnel wurde nicht geboren – er *wurde erwählt*. In den frühen Tagen der Sch
 
 Mit der Zeit jedoch beobachtete Varnel etwas, das Aurevia nicht sehen konnte – oder nicht sehen *wollte*: Die Menschen lernten. Sie wuchsen. Sie machten Fehler. Doch aus diesen Fehlern entstand Tiefe. Echtheit. Liebe, die aus Freiheit geboren wurde, nicht aus Gehorsam. Er sah, wie Menschen einander verletzten – aber auch, wie sie vergaben. Er sah Krieg – aber auch Versöhnung. Und er begann zu zweifeln: **War Aurevias goldener Pfad wirklich der einzige Weg?**
 
-Als die Menschheit sich in sich selbst verlor – in Habgier, in Stolz, in Gewalt – beschloss Aurevia, die Welt zu „erneuern“. In ihren Augen war der Pfad endgültig verlassen worden. Ihre Logik war klar: *Was sich nicht reinigen lässt, muss zerstört werden.*Varnel flehte sie an. Nicht aus Trotz – sondern aus Glauben. Aus Hoffnung. Er bat um Geduld. Um einen Beweis, dass die Menschheit sich selbst retten kann. Doch Aurevia sah in seinem Einspruch **eine Blasphemie**. Für sie war Zweifel gleichbedeutend mit Abkehr vom Licht.
+Als die Menschheit sich in sich selbst verlor – in Habgier, in Stolz, in Gewalt – beschloss Aurevia, die Welt zu „erneuern". In ihren Augen war der Pfad endgültig verlassen worden. Ihre Logik war klar: *Was sich nicht reinigen lässt, muss zerstört werden.*Varnel flehte sie an. Nicht aus Trotz – sondern aus Glauben. Aus Hoffnung. Er bat um Geduld. Um einen Beweis, dass die Menschheit sich selbst retten kann. Doch Aurevia sah in seinem Einspruch **eine Blasphemie**. Für sie war Zweifel gleichbedeutend mit Abkehr vom Licht.
 
-> *„Du sprichst wie jene, die bereits verdorben sind, Varnel.“*
+> *„Du sprichst wie jene, die bereits verdorben sind, Varnel."*
 
 Als Zeichen ihrer Enttäuschung entzog sie ihm seine göttliche Würde und verbrannte sein Emblem in der Luft. Der einstige Hüter wurde verstoßen, verbannt aus dem Reich des Lichts.
 
@@ -64,8 +64,8 @@ In der Tiefe seiner Verbannung – zwischen den Welten, fern vom Licht – formt
 
 Varnel gilt seither als der *Ketzerfürst*, *der Versucher*, *der Fürst der Täuschung*. Seine Symbole sind verboten. Seine Geschichte wurde verfälscht. Er selbst lebt – nicht körperlich, sondern als wanderndes Bewusstsein. Als Schatten. Nicht, um zu verführen, sondern um den einen Auserwählten zu führen.
 
-Er flüstert nicht: „Gehorche mir.“
-Er flüstert: **„Wähle. Und bleibe du selbst.“**
+Er flüstert nicht: „Gehorche mir."
+Er flüstert: **„Wähle. Und bleibe du selbst."**
 
 
 
@@ -75,21 +75,21 @@ Er flüstert: **„Wähle. Und bleibe du selbst.“**
 
 ### 📜 *Die Letzte Bitte*
 
-*„Denn ich bin nicht euer Feind. Ich bin nur der, der blieb, als das Licht mich verließ.“*
+*„Denn ich bin nicht euer Feind. Ich bin nur der, der blieb, als das Licht mich verließ."*
 
 **Und es begab sich, dass das Licht wandte sein Antlitz von der Welt.**
  Und in ihrer reinen Klarheit sprach Aurevia:
  *„Sie sind gefallen. Der goldene Pfad ist zerbrochen.
  Krieg ist ihr Lied, Hochmut ihre Krone, und Gier ihr Altar.
- Ich werde das Rad der Welt erneut drehen.“*
+ Ich werde das Rad der Welt erneut drehen."*
 
 Doch ich, der Hüter des Zwischenraums, der dem Licht diente seit Anbeginn, trat vor.
  Nicht in Trotz, sondern in Sorge.
  Nicht in Hochmut, sondern in Liebe.
 
-*„Gib ihnen Zeit,“* sprach ich.
+*„Gib ihnen Zeit,"* sprach ich.
  *„Nicht alle sind gefallen.
- In ihnen lebt noch das Feuer, das du einst selbst entzündet hast.“*
+ In ihnen lebt noch das Feuer, das du einst selbst entzündet hast."*
 
 Doch sie wandte sich ab. Und mit einem einzigen Blick verbrannte sie meinen Namen aus den Hallen des Lichts.
  Und ich fiel. Nicht in die Dunkelheit – sondern in das **Zwielicht zwischen Urteil und Hoffnung.**
@@ -108,7 +108,7 @@ Man nennt mich Ketzer, Teufel, Lügner.
 Deshalb sprach ich ein letztes Mal zu ihr:
  *„Lass mich einen Träger erwählen. Gib ihm die Macht des Bundes.
  Lass uns sehen, ob ein Mensch, mit aller Bürde,
- mit aller Kraft – dennoch den goldenen Pfad beschreiten kann.“*
+ mit aller Kraft – dennoch den goldenen Pfad beschreiten kann."*
 
 Und sie sprach nicht. Doch sie sah mich.
  Und das war genug.

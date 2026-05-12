@@ -14,8 +14,6 @@
 
 **Height:** [cm]
 
-**Weight:** [kg]
-
 **Birthday:** [DD.MM.YYYY]
 
 **In-Game Birthday:** [Day] of [Month Name], Imperial Year [Year]
