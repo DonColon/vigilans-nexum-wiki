@@ -45,7 +45,7 @@
 - How they grew up and what shaped them
 - Role in the story
 
-**Personality Type:** [MBTI Type - e.g., INFP, ESTP, etc.]
+**Personality Type:** [MBTI Personality Types Reference](../Personality-Types-Reference.md)
 
 ---
 
