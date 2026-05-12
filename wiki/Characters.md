@@ -22,6 +22,10 @@
 
 ### Part 03: The Champion's Road
 
+- Alex
+
+- Raphael
+
 - [Kassandra Aetós](characters/Kassandra-Aetos.md)
 
 - [Rohan Ashveil](characters/Rohan-Ashveil.md)
@@ -30,10 +34,8 @@
 
 - [Elena Flavia](characters/Elena-Flavia.md)
 - [Matteo Ferri](characters/Matteo-Ferri.md)
-- Alex
-- Raphael
-- Luca Ferrano
-- Rael
+- [Luca Ferrano](characters/Luca-Ferrano.md)
+- [Rael Ashkar](characters/Rael-Ashkar.md)
 
 
 ## Unassigned
