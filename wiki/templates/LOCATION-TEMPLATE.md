@@ -78,7 +78,7 @@
 - **Imperial Year [Year]:** [Event description]
 - **Imperial Year [Year]:** [Event description]
 
-### Current Era (Imperial Year 1347)
+### Current Era (Imperial Year 1357)
 
 [What is the current state of this location?]
 

@@ -45,7 +45,7 @@ Die Geschichte von Vigilans Nexum erstreckt sich über **4 Teile** mit je **8 Ka
 
 ## Part 01: Path of Liberation
 
-Im kaiserlichen Jahr 1347 auf dem Kontinent Tridera herrscht eine drückende Stille – der furchtbare Krieg, der Angst und Schrecken verbreitet hat, wird derzeit durch einen Waffenstillstand unterbrochen. Doch niemand weiß, wie lange dieser fragile Frieden andauern wird. Ein mächtiges Gebirge trennt die verfeindeten Armeen voneinander, doch an seinem südlichsten Punkt liegt ein kleines Gebiet mitten im Spannungsfeld: Bellum, eine imposante Metropole, deren Zugehörigkeit seit ihrer Gründung ungeklärt ist. Da sie genau an der Grenze aller Länder liegt, ist sie ein strategisch bedeutender Ort im Krieg. Doch die Angst vor einer Wiederaufnahme der Kämpfe und einem erneuten Ringen um Bellum ist allgegenwärtig.
+Im kaiserlichen Jahr 1357 auf dem Kontinent Tridera herrscht eine drückende Stille – der furchtbare Krieg, der Angst und Schrecken verbreitet hat, wird derzeit durch einen Waffenstillstand unterbrochen. Doch niemand weiß, wie lange dieser fragile Frieden andauern wird. Ein mächtiges Gebirge trennt die verfeindeten Armeen voneinander, doch an seinem südlichsten Punkt liegt ein kleines Gebiet mitten im Spannungsfeld: Bellum, eine imposante Metropole, deren Zugehörigkeit seit ihrer Gründung ungeklärt ist. Da sie genau an der Grenze aller Länder liegt, ist sie ein strategisch bedeutender Ort im Krieg. Doch die Angst vor einer Wiederaufnahme der Kämpfe und einem erneuten Ringen um Bellum ist allgegenwärtig.
 
 **Theme:** Establishing identity, forming bonds, defending home  
 **Level Range:** 1 → 12  
