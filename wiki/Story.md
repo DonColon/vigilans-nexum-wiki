@@ -1,6 +1,6 @@
 # Story
 
-Die Geschichte von Vigilans Nexum erstreckt sich über **4 Teile** mit je **8 Kapiteln** (32 Kapitel insgesamt). Jedes Kapitel verbindet narrative Erzählung mit taktischem Gameplay.
+Die Geschichte von Vigilans Nexum erstreckt sich über **6 Teile** mit je **8 Kapiteln** (**48 Kapitel** insgesamt). Part 05 und Part 06 sind parallele Stränge – der Spieler wählt die Reihenfolge. Jedes Kapitel verbindet narrative Erzählung mit taktischem Gameplay.
 
 ---
 
@@ -40,6 +40,21 @@ Die Geschichte von Vigilans Nexum erstreckt sich über **4 Teile** mit je **8 Ka
 | 30 | You Don't Have To Carry It Alone | 4 | 30 | - | Allied NPCs |
 | 31 | We Came To End A War... | 4 | 31 | - | Pre-Final Battle |
 | 32 | ...Is Heavier Than We Thought | 4 | 32 | - | Final Boss |
+| 33 | Divide and Conquer | 5/6 | 33 | - | Split Path Choice |
+| 34 | When the Fire Goes Out | 5 | 34 | - | Apathie-Mechanik |
+| 34 | Not One Day but Day One | 6 | 34 | - | Rückeroberung |
+| 35 | Where Brilliance Burns Itself Out | 5 | 35 | - | Unkontrollierte Magie |
+| 35 | The Bridge Between Goals | 6 | 35 | - | Brückenkampf |
+| 36 | Toss a Coin to Your King | 5 | 36 | - | Habgier-NPCs |
+| 36 | The Heart of the Land | 6 | 36 | - | Evakuierungs-Mechanik |
+| 37 | Break Through It All | 5 | 37 | König Riku | Infiltration/Rescue |
+| 37 | The Battle Within | 6 | 37 | - | Kirchenverteidigung |
+| 38 | A Throne Built On Envy | 5 | 38 | - | Fraktionskampf |
+| 38 | I Have No Enemies | 6 | 38 | Rebellenführer (N) | Verschonen-Mechanik |
+| 39 | Desire Has No Mercy | 5 | 39 | - | - |
+| 39 | Power Tends to Corrupt | 6 | 39 | - | Korruptions-Enthüllung |
+| 40 | The Proudest Sin | 5 | 40 | - | Dual-Boss |
+| 40 | The Humblest Virtue | 6 | 40 | - | Rematch-Boss |
 
 ---
 
@@ -124,6 +139,88 @@ Mit dem Sieg im Kolosseum von Athea kehren die Vigilant Knights als Helden nach 
 - [Chapter 30: You Don't Have To Carry It Alone](chapters/Part-04-The-Name-You-Were-Given/Chapter-30-You-Dont-Have-To-Carry-It-Alone.md)
 - [Chapter 31: We Came To End A War...](chapters/Part-04-The-Name-You-Were-Given/Chapter-31-We-Came-To-End-A-War.md)
 - [Chapter 32: ...Is Heavier Than We Thought](chapters/Part-04-The-Name-You-Were-Given/Chapter-32-Is-Heavier-Than-We-Thought.md)
+
+---
+
+## Part 05: Divided We Face Our Sins
+*(Dardans Strang – wählbar als Part 05 oder Part 06)*
+
+Die Vigilant Knights trennen sich in Valdris. Dardan reist mit einer kleinen Gruppe nach Adolla, um sich den sieben Schwestern des Kults entgegenzustellen – den Tanten, die seine Familie zerstört haben. Jede Stadt, die er besucht, trägt die Last einer Todsünde. Jeder Kampf bringt ihn näher an die Wahrheit über seine Herkunft, seine Familie und seinen Bruder, den er nie kannte. Am Ende wartet Bellum – und mit ihm der Champion von Varnel.
+
+**Theme:** Identität, Familie, die sieben Todsünden  
+**Protagonist:** Dardan Niveli  
+**Antagonisten:** Die sieben Schwestern des Kults (Aceda, Luga, Avara, Ira, Invha, Luria, Suphra), Gentian  
+**Level Range:** 33 → 40
+
+### Chapters
+
+- [Chapter 33: Divide and Conquer](chapters/Part-05-Divided-We-Face-Our-Sins/Chapter-33-Divide-And-Conquer.md)  
+  Die Vigilant Knights kämpfen sich durch das von Rebellen eingenommene Valdris zum Hafen. Cassius Vael treibt sie von hinten. Dardan und Hasan trennen sich – nur ein Schiff kann ablegen.
+
+- [Chapter 34: When the Fire Goes Out](chapters/Part-05-Divided-We-Face-Our-Sins/Chapter-34-When-The-Fire-Goes-Out.md)  
+  Dardan landet in Mitran – einer Stadt, die in totaler Apathie verfallen ist. Aceda hat die Bevölkerung in Gleichgültigkeit gestürzt. Niemand hilft mehr, niemand kämpft mehr.
+
+- [Chapter 35: Where Brilliance Burns Itself Out](chapters/Part-05-Divided-We-Face-Our-Sins/Chapter-35-Where-Brilliance-Burns-Itself-Out.md)  
+  In Areval – dem Hogwarts Trideras – hat Luga die klügsten Köpfe in einen Konsumrausch gestürzt. Shira sieht ihren Traumort zerstört. Unkontrollierte Magie bedroht alle.
+
+- [Chapter 36: Toss a Coin to Your King](chapters/Part-05-Divided-We-Face-Our-Sins/Chapter-36-Toss-A-Coin-To-Your-King.md)  
+  Luenava ohne König versinkt in Habgier. Avara nutzt die Gier der Bewohner als Werkzeug. Die Gruppe findet heraus, wo König Riku gefangen gehalten wird.
+
+- [Chapter 37: Break Through It All](chapters/Part-05-Divided-We-Face-Our-Sins/Chapter-37-Break-Through-It-All.md)  
+  Das Gefängnis Durnval. Ira bewacht König Riku und seine Ritter – brutal, unkontrolliert, unberechenbar. Dardan kämpft sich durch, um den König zu befreien.
+
+- [Chapter 38: A Throne Built On Envy](chapters/Part-05-Divided-We-Face-Our-Sins/Chapter-38-A-Throne-Built-On-Envy.md)  
+  Velinor – Dardans Heimat, die er nie kannte. Invha hat die Adelsfamilien durch Neid gespalten. Dardan nimmt seinen Platz als Nachfolger der Niveli an.
+
+- [Chapter 39: Desire Has No Mercy](chapters/Part-05-Divided-We-Face-Our-Sins/Chapter-39-Desire-Has-No-Mercy.md)  
+  In Nokoa enthüllen Bashkim und Luljeta die Wahrheit – Gentian lebt. Luria hat ihn entführt und aufgezogen. Dardan wird von der Nachricht erschüttert, Tifa stützt ihn.
+
+- [Chapter 40: The Proudest Sin](chapters/Part-05-Divided-We-Face-Our-Sins/Chapter-40-The-Proudest-Sin.md)  
+  Bellum. Suphra versucht Varnel zu beschwören. Gentian – Champion von Varnel – stellt sich Dardan entgegen. Varnel erwacht. Eine Explosion erschüttert alles.
+
+---
+
+## Part 06: Divided We Find Our Virtue
+*(Hasans Strang – wählbar als Part 05 oder Part 06)*
+
+Während Dardan nach Adolla reist, bleibt Hasan in Vaestrall zurück. Mit Claude an seiner Seite und Rael in seinen Reihen kämpft er sich durch ein zerrissenes Kaiserreich, um die Rebellion zu zerschlagen und den Frieden wiederherzustellen. Jede Stadt lehrt ihn eine Tugend. Jeder Kampf formt ihn nicht nur zum Krieger, sondern zum Anführer. Am Ende wartet Bellum – und mit ihm derselbe Schrecken, den Dardan erlebt.
+
+**Theme:** Wachstum, Führung, die sieben Tugenden  
+**Protagonist:** Hasan Eyletmez  
+**Antagonisten:** Rebellenführer, bestochene Soldaten, General aus Part 04  
+**Level Range:** 33 → 40
+
+### Chapters
+
+- [Chapter 33: Divide and Conquer](chapters/Part-06-Divided-We-Find-Our-Virtue/Chapter-33-Divide-And-Conquer.md)  
+  Die Vigilant Knights kämpfen sich durch das von Rebellen eingenommene Valdris zum Hafen. Hasan und Dardan trennen sich – Hasan bleibt zurück, um Vaestrall zu stabilisieren.
+
+- [Chapter 34: Not One Day but Day One](chapters/Part-06-Divided-We-Find-Our-Virtue/Chapter-34-Not-One-Day-But-Day-One.md)  
+  Hasan schaut Dardan nach und sammelt sich. Er und Claude führen die Rückeroberung von Valdris. Rael gewinnt seine ehemaligen Männer zurück – sie nannten ihn Verräter, jetzt folgen sie ihm wieder. *Tugend: Industria (Tatkraft)*
+
+- [Chapter 35: The Bridge Between Goals](chapters/Part-06-Divided-We-Find-Our-Virtue/Chapter-35-The-Bridge-Between-Goals.md)  
+  In Stromveld hält eine kleine Gruppe Soldaten seit Wochen eine Brücke – ohne Verstärkung, ohne Hoffnung. Hasan kämpft an ihrer Seite und lernt, was Disziplin und Mäßigung wirklich bedeuten. *Tugend: Temperantia (Mäßigung)*
+
+- [Chapter 36: The Heart of the Land](chapters/Part-06-Divided-We-Find-Our-Virtue/Chapter-36-The-Heart-Of-The-Land.md)  
+  In Emira dämpft Kaiser Soran den Schaden ein – er evakuiert seine Bevölkerung und kämpft für sein Volk ohne Rücksicht auf seine eigene Macht. Hasan lernt von ihm, was Nächstenliebe bedeutet. *Tugend: Caritas (Nächstenliebe)*
+
+- [Chapter 37: The Battle Within](chapters/Part-06-Divided-We-Find-Our-Virtue/Chapter-37-The-Battle-Within.md)  
+  Die Rebellen wollen die Kirche der Aurelys in Alvorath zerstören. Hasan verfällt in Zorn. Der oberste Priester bewahrt Ruhe und lehrt Hasan die härteste Tugend – Geduld. *Tugend: Patientia (Geduld)*
+
+- [Chapter 38: I Have No Enemies](chapters/Part-06-Divided-We-Find-Our-Virtue/Chapter-38-I-Have-No-Enemies.md)  
+  In Caeron trifft Hasan einen Rebellenführer, der nicht kämpfen will. Gegen Claudes Widerstand verschont er ihn. Der Mann schließt sich der Party an. Menschlichkeit siegt über Taktik. *Tugend: Humanitas (Menschlichkeit)*
+
+- [Chapter 39: Power Tends to Corrupt](chapters/Part-06-Divided-We-Find-Our-Virtue/Chapter-39-Power-Tends-To-Corrupt.md)  
+  Hasan kehrt nach Okio zurück – dem Dorf, das seinen ersten Eindruck von Vaestrall geprägt hat. Bestochene Soldaten schikanieren die Bevölkerung. Claude entlarvt die Korruption. Stille Gerechtigkeit statt großer Schlacht. *Tugend: Castitas (Reinheit)*
+
+- [Chapter 40: The Humblest Virtue](chapters/Part-06-Divided-We-Find-Our-Virtue/Chapter-40-The-Humblest-Virtue.md)  
+  Bellum. Der General aus Part 04 steht Hasan entgegen – diesmal alleine, ohne Dardan. Die Wahrheit über den Angriff auf das Rebellenlager wird enthüllt. Varnel erwacht. Eine Explosion erschüttert alles. *Tugend: Humilitas (Demut)*
+
+> **Hinweis zur Spielstruktur:**  
+> Der Spieler wählt nach Chapter 33 die Reihenfolge der Stränge.  
+> Der gewählte Strang wird zu Part 05, der andere zu Part 06.  
+> Beide Stränge sind notwendig, um die vollständige Geschichte zu erleben.  
+> Chapter 33 und 40 sind thematisch identisch – die Perspektive unterscheidet sich.
 
 ---
 
