@@ -58,6 +58,13 @@
 - [Bashkim Niveli](characters/story/Bashkim-Niveli.md)
 - [Luljeta Niveli](characters/story/Luljeta-Niveli.md)
 
+## Part 05: Divided We Face Our Sins
+
+### Playable Characters
+
+- [Jessy Harvel](characters/playable/Jessy-Harvel.md)
+- [Aldric Halvorn](characters/playable/Aldric-Halvorn.md)
+
 
 ## Unassigned
 
