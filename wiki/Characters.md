@@ -64,12 +64,19 @@
 
 - [Jessy Harvel](characters/playable/Jessy-Harvel.md)
 - [Aldric Halvorn](characters/playable/Aldric-Halvorn.md)
+- [Edric Thalven](characters/playable/Edric Thalven.md)
+- [Maluna Eloise](characters/playable/Maluna-Eloise.md)
+
+## Part 06: Divided We Find Our Virtue
+
+### Playable Characters
+
+- [Aylin Vaestrall](characters/playable/Aylin-Vaestrall.md)
+- [Rijona Alior](characters/playable/Rijona-Alior.md)
 
 
 ## Unassigned
 
-- [Aylin Vaestrall](characters/playable/Aylin-Vaestrall.md)
-- [Rijona Alior](characters/playable/Rijona-Alior.md)
 - [Aurevia](characters/story/Aurevia.md)
 - [Varnel](characters/story/Varnel.md)
 
