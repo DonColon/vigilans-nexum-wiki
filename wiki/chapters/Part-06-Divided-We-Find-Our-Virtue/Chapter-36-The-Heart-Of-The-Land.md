@@ -90,8 +90,6 @@ Und dann — fast unmerklich — ließ er die Schultern einen halben Zentimeter 
 
 ---
 
-01:55
-
 ### Szene 03 — Der Kern eines Landes
 
 Sie kamen am zweiten Tag.

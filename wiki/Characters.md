@@ -73,6 +73,8 @@
 
 - [Aylin Vaestrall](characters/playable/Aylin-Vaestrall.md)
 - [Rijona Alior](characters/playable/Rijona-Alior.md)
+- [Corvan Gault](characters/playable/Corvan-Gault.md)
+- [Maike Collis](characters/playable/Maike-Collis.md)
 
 
 ## Unassigned
