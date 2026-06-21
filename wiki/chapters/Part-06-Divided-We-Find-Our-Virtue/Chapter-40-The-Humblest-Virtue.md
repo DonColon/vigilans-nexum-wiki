@@ -316,7 +316,7 @@ Kresnik stand über ihm. Das Schwert an der Seite. Das Gesicht ohne Grausamkeit 
 
 Hasan sah ihn an.
 
-Das... Grab?
+Ein... Grab?
 
 Sein... Grab?
 

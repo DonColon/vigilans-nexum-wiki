@@ -1,6 +1,6 @@
 # Story
 
-Die Geschichte von Vigilans Nexum erstreckt sich über **6 Teile** mit je **8 Kapiteln** (**48 Kapitel** insgesamt). Part 05 und Part 06 sind parallele Stränge – der Spieler wählt die Reihenfolge. Jedes Kapitel verbindet narrative Erzählung mit taktischem Gameplay.
+Die Geschichte von Vigilans Nexum erstreckt sich über **8 Teile** mit je **8 Kapiteln** (**64 Kapitel** insgesamt). Part 05 und Part 06 sind parallele Stränge – der Spieler wählt die Reihenfolge. Jedes Kapitel verbindet narrative Erzählung mit taktischem Gameplay.
 
 ## Part 01: Path of Liberation
 
@@ -83,6 +83,44 @@ Während Dardan nach Adolla reist, bleibt Hasan in Vaestrall zurück. Mit Claude
 - [Chapter 38: I Have No Enemies](chapters/Part-06-Divided-We-Find-Our-Virtue/Chapter-38-I-Have-No-Enemies.md)
 - [Chapter 39: Power Tends to Corrupt](chapters/Part-06-Divided-We-Find-Our-Virtue/Chapter-39-Power-Tends-To-Corrupt.md)
 - [Chapter 40: The Humblest Virtue](chapters/Part-06-Divided-We-Find-Our-Virtue/Chapter-40-The-Humblest-Virtue.md)
+
+## Part 07: Before The Storm
+
+Bellum ist gefallen. Der Dajjal ist erwacht. Und die Welt die Dardan und Hasan kannten existiert nicht mehr in der Form die sie zurückgelassen haben. Nach der Wiedervereinigung an der Basis der Vigilant Knights beginnt eine Reise die nicht nur durch Länder und Meere führt — sondern durch die Wahrheit selbst. Im größten Tempel Aurevias stellt sich Dardan seiner letzten Prüfung, wird in eine Welt zwischen den Welten gezogen und trifft Varnel — den Engel den die Menschheit als Monster kannte. Was er dort erfährt erschüttert alles: den Glauben, die Geschichte, und die Last die er allein trägt. Während die Welt dem Dajjal verfällt und die Könige und Anführer Trideras sich zum ersten Mal vereinen, führt der Weg die Vigilant Knights ans Ende der bekannten Welt — zu einer verlassenen Inselgruppe wo ein uralter Turm wartet. Der Sturm zieht auf. Part 08 beginnt wenn die Tür sich öffnet.
+
+- [Chapter 41: Where It All Began](chapters/Part-07-Before-The-Storm/Chapter-41-Where-It-All-Began.md)
+- [Chapter 42: Fear Makes Believers](chapters/Part-07-Before-The-Storm/Chapter-42-Fear-Makes-Believers.md)
+- [Chapter 43: She Who Judges All](chapters/Part-07-Before-The-Storm/Chapter-43-She-Who-Judges-All.md)
+- [Chapter 44: ...Must Face The One Who Refuses To Fall](chapters/Part-07-Before-The-Storm/Chapter-44-Must-Face-The-One-Who-Refuses-To-Fall.md)
+- [Chapter 45: The Weight Of What We Know](chapters/Part-07-Before-The-Storm/Chapter-45-The-Weight-Of-What-We-Know.md)
+- [Chapter 46: What A Legend Leaves Behind](chapters/Part-07-Before-The-Storm/Chapter-46-What-A-Legend-Leaves-Behind.md)
+- [Chapter 47: The Devil Of The Sea](chapters/Part-07-Before-The-Storm/Chapter-47-The-Devil-Of-The-Sea.md)
+- [Chapter 48: End Of The World](chapters/Part-07-Before-The-Storm/Chapter-48-End-Of-The-World.md)
+
+## Part 08: The Thread That Holds
+
+Der Dajjal wartet. Die Vigilant Knights betreten den Turm — und mit ihnen alle die sich dem Kampf angeschlossen haben. Vier letzte Schlachten. Der Kult fällt Schicht für Schicht. Mordain, Leander und Cassius. Gentian und Kresnik. Die sieben Schwestern. Und schließlich der Dajjal selbst. Was danach bleibt ist keine Stille — sondern ein Anfang. Die Vigilant Knights reisen durch Adolla, Thysia und Vaestrall, laden ein und sammeln was sie brauchen. Bis alle Wege nach Bellum führen. Bis der Traum den Dardan immer hatte endlich Form annimmt — Menschen aus allen Ländern die friedlich miteinander feiern. Das unsichtbare Band das immer da war, sichtbar für alle.
+
+- [Chapter 49: They Forgot The Thread](chapters/Part-08-The-Thread-That-Holds/Chapter-49-They-Forgot-The-Thread.md)
+- [Chapter 50: That Once Bound Them All](chapters/Part-08-The-Thread-That-Holds/Chapter-50-That-Once-Bound-Them-All.md)
+- [Chapter 51: The Path Grew Dark](chapters/Part-08-The-Thread-That-Holds/Chapter-51-The-Path-Grew-Dark.md)
+- [Chapter 52: And The Lights Did Fall](chapters/Part-08-The-Thread-That-Holds/Chapter-52-And-The-Lights-Did-Fall.md)
+- [Chapter 53: Until One Hand Reached](chapters/Part-08-The-Thread-That-Holds/Chapter-53-Until-One-Hand-Reached.md)
+- [Chapter 54: Through The Dark And The Doubt](chapters/Part-08-The-Thread-That-Holds/Chapter-54-Through-The-Dark-And-The-Doubt.md)
+- [Chapter 55: And Reminded The World](chapters/Part-08-The-Thread-That-Holds/Chapter-55-And-Reminded-The-World.md)
+- [Chapter 56: What Love Is About](chapters/Part-08-The-Thread-That-Holds/Chapter-56-What-Love-Is-About.md)
+
+> ***They forgot the thread**,*
+> ***That once bound them all.***
+> ***The path grew dark,***
+> ***And the lights did fall!***
+>
+> ***Until one hand reached,***
+> ***Through the Dark and the Doubt!***
+> ***And reminded the world,***
+> ***What Love is about!***
+>
+> – ***Varnel, der Gütige***
 
 ## Related Resources
 
