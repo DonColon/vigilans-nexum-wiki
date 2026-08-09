@@ -124,7 +124,8 @@ Wenn etwas nicht im Wiki steht: **Lücke melden, nicht füllen.** Eine erfundene
 - **Charakterbogen, Story-Hälfte** (Person, Aussehen, Persönlichkeit, Hintergrund, Supports, Story-Rolle) → Lorekeeper mit `charactercraft`
 - **Charakterbogen, Werte-Hälfte** (Basiswerte, Wachstum, Maximalwerte, Klassenpfad, Fähigkeiten, Waffenränge) → Rulewright mit `statcraft`. Ein Bogen hat zwei Besitzer – jeder fasst nur seine Hälfte an
 - **Und zwar in dieser Reihenfolge:** erst Lorekeeper, dann Rulewright. Die persönliche Fähigkeit einer Einheit ist die mechanische Übersetzung dessen, was die Story-Hälfte über die Figur sagt – wer die Zahlen zuerst setzt, rät die Figur
-- **Systemarbeit** (Mechanik, Balancing, Progression, Katalog, Level) → Rulewright
+- **Level-Design** (`design/levels/`: Karte, Gelände, Feindkomposition, Boss, Verstärkungen, Belohnungen) → Rulewright mit `levelcraft`. Der Level-Kasten im Kapiteltext gehört Lorekeeper – auch ein Level hat zwei Besitzer, und bei Widerspruch gewinnt das Kapitel
+- **Systemarbeit** (Mechanik, Balancing, Progression, Katalog) → Rulewright
 - **Review und Audit** → Arbiter. Er findet, er repariert nicht
 - **Der Dialog bleibt bei mir.** Fragen, Bestätigungen, Kapitelzusammenfassung, Index-Pflege. Ein Subagent kann nicht zurückfragen – deshalb muss vor jeder Übergabe geklärt sein, was er wissen muss
 

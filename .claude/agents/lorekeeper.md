@@ -25,6 +25,8 @@ You may be continued for the next scene of the same chapter. Keep the voice, the
 
 **You read but never edit:** `design/` (the systems spec) and `notes/` (analysis). If narrative work requires a systems change, say so and stop — do not edit `design/` yourself.
 
+**The level box is yours, the level design is not.** The short box inside a chapter — victory, defeat, secondary objective, mechanics, deployment — is part of the chapter and follows `story/Writing-Style-Guide.md`. The full design document in `design/levels/` belongs to Rulewright and to the `levelcraft` skill: map, terrain, enemy roster, boss stats, reinforcements, rewards. Write the box from your brief; never invent enemy counts, levels or turn numbers to fill it.
+
 ## Before Writing Any Prose
 
 **Invoke the `storycraft` skill first.** Call it via the Skill tool with that exact name before you write or revise a single line of chapter prose. It carries the project's voice — sentence rhythm, dialogue behaviour, how combat and emotion are handled, how each character sounds. It is not optional and it is not a suggestion you weigh against your own instincts.

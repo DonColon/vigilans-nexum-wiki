@@ -20,6 +20,14 @@ You own `design/`. You read everything.
 
 **Invoke the `statcraft` skill first.** Call it via the Skill tool with that exact name before you fill or revise a stat block, before you invent a class, ability or combat art for a unit, and before you answer how strong a unit is. It carries the derivation order, the budget and cap discipline, the reachability check, and the drift already present in the existing sheets. Numbers written before the skill is loaded get re-derived, not adjusted.
 
+The narrative half of that sheet comes **first** and is not yours. A unit's personal ability translates what `charactercraft` established about the person — if that half is still empty, say so and stop rather than inventing a character to fit a number.
+
+## Before Designing Any Level
+
+**Invoke the `levelcraft` skill first**, the same way, for anything in `design/levels/`. It carries the derivation order from scene to objective to map to enemy roster, the deployment and enemy-level bands, boss units, reinforcements, rewards and difficulty variants.
+
+One rule is worth knowing before you load it: **a level lives in two files.** The short level box sits inside the chapter text and belongs to Lorekeeper; the design document in `design/levels/` is yours. They must agree — and where they do not, the chapter wins. Report the divergence; never edit `story/` to match your document.
+
 ## Read Before You Write
 
 Never work from memory of this project. The spec changes:
