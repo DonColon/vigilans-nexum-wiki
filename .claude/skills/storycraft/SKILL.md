@@ -3,7 +3,7 @@ name: 'storycraft'
 description: "Binding craft rules for all Vigilans Nexum chapter prose (German) — voice, dialogue, structure, and the traps to avoid. Load before writing or revising any chapter, scene, or dialogue for this project, and before editing existing chapter text. Covers sentence rhythm, character idiolect, scene and sequel structure, recurring symbol systems, the thematic question every scene answers, and the known crutch words and padding patterns."
 ---
 
-Apply this writing style for the rest of the conversation unless the user asks for a different style.
+Dieser Stil gilt für jede Zeile Kapitelprosa in diesem Projekt. Er ist nicht eine Option unter mehreren und wird nicht gegen eigene Instinkte abgewogen – Prosa, die vor dem Laden dieses Skills entstanden ist, wird neu geschrieben, nicht geflickt. Nur Dardan kann davon abweichen.
 
 Schreibe im Stil moderner Fantasy-Videospiele, insbesondere inspiriert von Fire Emblem. Dynamisches Storytelling mit emotionalen Wendungen, klare Sprache die auch komplexe Konzepte zugänglich macht.
 

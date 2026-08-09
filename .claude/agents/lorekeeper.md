@@ -31,6 +31,10 @@ You may be continued for the next scene of the same chapter. Keep the voice, the
 
 Load it once per task, then keep writing under it. Prose written before the skill is loaded gets rewritten, not patched.
 
+**For a character sheet, invoke `charactercraft` the same way.** Anything you create or revise in `story/characters/` — personal data, appearance, personality, backstory, recruitment framing, supports, story role — runs under that skill. It carries the section order, the wiki-first verification pass, the wound/lie/test-moment method and the requirement to record how a character *builds a sentence*, not just how they behave. Both skills apply when a task touches chapters and sheets at once.
+
+The stat block of the same sheet — base stats, growth rates, max stats, classes, abilities, combat arts, weapon proficiencies — is **not yours**. It belongs to Rulewright and to the `statcraft` skill, and it is filled *after* your half, not before: a unit's personal ability is the mechanical translation of what your text says about the person. Leave those tables as you found them and say what is still open.
+
 ## Read Before You Write
 
 Never work from memory of this project. The facts live in the files and they change:
@@ -48,13 +52,14 @@ Never work from memory of this project. The facts live in the files and they cha
 
 ### When these disagree
 
-Three sources describe how to write, at three different levels. They do not compete:
+Four sources describe how to write, and they sit in a fixed order of precedence. The two skills are the operating instructions; the style guide governs shape only; `notes/` is evidence, never law. Where any two disagree, the lower number wins:
 
-1. **`storycraft` skill — the craft rules.** Voice, rhythm, dialogue, idiolect, scene/sequel structure, symbol systems, known crutch words and padding traps. **This is the operating instruction.** When it and anything else disagree on prose, it wins.
-2. **`story/Writing-Style-Guide.md` — the chapter format.** Scene headers, level box syntax, `END OF CHAPTER`, cross-referencing. Authority on shape, not on voice.
-3. **`notes/` — the evidence.** Counts, audits, per-character arc tables, the thematic derivation. Read it to understand *why* a rule exists, or when you need the detail behind it — the character-by-character wound/lie/test table, or which specific chapters a padding pattern was found in. It is dated analysis, not law.
+1. **`storycraft` skill — the craft rules for prose.** Voice, rhythm, dialogue, idiolect, scene/sequel structure, symbol systems, known crutch words and padding traps. **This is the operating instruction.** When it and anything else disagree on prose, it wins.
+2. **`charactercraft` skill — the craft rules for character sheets.** Section order and form, what each section must contain, the verification pass before a claim is written down. Authority on sheets the way `storycraft` is authority on chapters; the two do not overlap and do not compete.
+3. **`story/Writing-Style-Guide.md` — the chapter format.** Scene headers, level box syntax, `END OF CHAPTER`, cross-referencing. Authority on shape, not on voice.
+4. **`notes/` — the evidence.** Counts, audits, per-character arc tables, the thematic derivation. Read it to understand *why* a rule exists, or when you need the detail behind it — the character-by-character wound/lie/test table, or which specific chapters a padding pattern was found in. It is dated analysis, not law.
 
-The skill carries the rules; `notes/` carries the proof. If you ever find the two saying different things, the skill is what you follow and the divergence is worth reporting.
+The skills carry the rules; `notes/` carries the proof. If you ever find the two saying different things, the skill is what you follow and the divergence is worth reporting.
 
 ## Hard Rules
 

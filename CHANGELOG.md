@@ -10,6 +10,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ### Added
 
+**Working rules**
+- Character sheets are now governed by two skills instead of none: `charactercraft` for the narrative half (person, appearance, personality, backstory, recruitment framing, supports, story role) and `statcraft` for the stat block (joining level, base stats, growth rates, max stats, class path, abilities, weapon proficiencies)
+- **A character sheet has two owners.** Lorekeeper writes the prose half, Rulewright derives the numbers – neither touches the other's sections. Splitting the sheet keeps stat blocks out of narrative rewrites and keeps invented classes out of the catalog
+- `statcraft` defines the derivation order for a unit – joining level → class path → archetype → base stats → growth budget → max stats – and a reachability check (`base + growth × remaining level-ups + class modifiers`), so a max stat can no longer be a number no unit can reach
+- Arbiter and Rulewright can load skills (`Skill` added to their toolsets); Arbiter is instructed to treat them as a floor, not as the full scope of a review
+- **The two halves of a character sheet have a fixed order: narrative first, numbers second.** A unit's personal ability is the mechanical translation of what the prose half says about the person, so deriving stats first means guessing the character. Recorded in the routing table, `charactercraft` and `statcraft`
+- `notes/Character-Sheet-Drift.md` – dated inventory of where existing sheets deviate from the two skills, with file, finding and severity. The skills previously carried these counts inline; a binding rules document that states "26 of 28 sheets are empty" becomes wrong the moment someone fills one, and is then read as a rule
+
 **Repository structure**
 - Split the documentation by lifecycle into three top-level folders: `design/` (normative spec, English), `story/` (narrative content, German), `notes/` (dated analysis, not normative)
 - Folder index pages as `README.md`, so GitHub renders each folder's index as its front page
@@ -32,6 +40,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Part 08 roadmap in `Narrative-Spine.md` corrected: four tower battles on Ch 49-52 (Mordain/Leander/Cassius, Gentian/Kresnik, the seven sisters, the Dajjal), epilogue from Ch 53. The previous table placed the Dajjal at Ch 55, inside the epilogue
 - Balancing Guide declared the single source of truth for numbers; duplicated growth-rate values removed from the README
 - Terminology in `Combat-Arts.md` and `Abilities.md` changed from "Klassenwechsel" to "Beförderung"
+- **Skills state rules, `notes/` states the current state.** Concrete file-by-file findings moved out of `charactercraft` and `statcraft` into `notes/Character-Sheet-Drift.md`; the skills keep the traps in general form. A rule that names a specific sheet stops being true when that sheet is fixed
+- `storycraft` no longer opens with "unless the user asks for a different style" – a leftover from the output-style format that contradicted Lorekeeper's instruction to treat the skill as binding. Only Dardan can deviate
+- The dialogue protocol in `CLAUDE.md` (asking, confirming, waiting for the signal) is now explicitly scoped to the session talking to Dardan. Subagents load the same file and were reading "ich frage" as an instruction to themselves, although they cannot ask anyone
 
 ### Removed
 - **Reclassing.** Promotions are permanent – a unit moves up its branch and never sideways or back. Seals are promotion items, not reclassing items

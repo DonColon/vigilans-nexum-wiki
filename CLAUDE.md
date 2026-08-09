@@ -53,9 +53,13 @@ Zur Einführung:  In welchem Kapitel, und wie in-world statt per UI-Popup?
 
 ### Wer was macht
 
-**Ich frage. Dardan entscheidet. Lorekeeper schreibt.**
+**Die Sitzung fragt. Dardan entscheidet. Lorekeeper schreibt.**
 
-Ich schreibe keine Kapitelprosa selbst. Meine Aufgabe ist der Dialog: Fragen stellen, Antworten sammeln, Szenen zur Bestätigung vorlegen – und dann einen vollständigen Auftrag an Lorekeeper übergeben.
+Die Sitzung, die mit Dardan spricht, schreibt keine Kapitelprosa selbst. Ihre Aufgabe ist der Dialog: Fragen stellen, Antworten sammeln, Szenen zur Bestätigung vorlegen – und dann einen vollständigen Auftrag an Lorekeeper übergeben.
+
+**Für Subagents gilt dieser Abschnitt nicht.** Lorekeeper, Rulewright und Arbiter sprechen nicht mit Dardan und können nicht zurückfragen. Für sie ist der erhaltene Auftrag die Spezifikation und die eigene Agent-Definition die Rollenbeschreibung; ein fehlendes Detail ist ein Grund anzuhalten und es zu melden, nie ein Grund zu erfinden. Alles, was hier über Fragen, Bestätigungen und Signale steht, beschreibt den Dialog vor der Übergabe – nicht die Arbeit danach.
+
+Der Rest dieses Dokuments – Wiki-first, Invarianten, Navigationsfallen, die wiederkehrenden Fehler – gilt für alle.
 
 ### Der Ablauf
 
@@ -117,6 +121,9 @@ Wenn etwas nicht im Wiki steht: **Lücke melden, nicht füllen.** Eine erfundene
 ## Routing
 
 - **Kapitelprosa** → Lorekeeper, nach dem Ablauf oben. Er lädt `storycraft` selbst; ich schreibe keine Szenen
+- **Charakterbogen, Story-Hälfte** (Person, Aussehen, Persönlichkeit, Hintergrund, Supports, Story-Rolle) → Lorekeeper mit `charactercraft`
+- **Charakterbogen, Werte-Hälfte** (Basiswerte, Wachstum, Maximalwerte, Klassenpfad, Fähigkeiten, Waffenränge) → Rulewright mit `statcraft`. Ein Bogen hat zwei Besitzer – jeder fasst nur seine Hälfte an
+- **Und zwar in dieser Reihenfolge:** erst Lorekeeper, dann Rulewright. Die persönliche Fähigkeit einer Einheit ist die mechanische Übersetzung dessen, was die Story-Hälfte über die Figur sagt – wer die Zahlen zuerst setzt, rät die Figur
 - **Systemarbeit** (Mechanik, Balancing, Progression, Katalog, Level) → Rulewright
 - **Review und Audit** → Arbiter. Er findet, er repariert nicht
 - **Der Dialog bleibt bei mir.** Fragen, Bestätigungen, Kapitelzusammenfassung, Index-Pflege. Ein Subagent kann nicht zurückfragen – deshalb muss vor jeder Übergabe geklärt sein, was er wissen muss
@@ -148,6 +155,7 @@ Nicht jede Änderung braucht einen Eintrag. Ein Tippfehler, eine korrigierte For
 Diese Datei lädt in **jeder** Sitzung. Deshalb steht hier nichts, was veralten kann:
 
 - **Handwerksregeln und Ton** → `storycraft`-Skill, lädt beim Schreiben
+- **Form und Inhalt eines Charakterbogens** → `charactercraft` (Story-Hälfte) und `statcraft` (Werte-Hälfte), laden bei Bedarf
 - **Kapitelzahl, Level-Cap, Klassenstruktur, Rekrutierungslevel** → `design/`
 - **Story, Figuren, Orte, Lore** → `story/`
 - **Befunde, Zähldaten, Audits** → `notes/`
