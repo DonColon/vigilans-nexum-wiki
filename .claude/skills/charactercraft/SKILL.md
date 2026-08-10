@@ -81,6 +81,15 @@ Am Dateiende `**Version:**`, `**Created:**`, `**Last Updated:**`. HTML-Kommentar
 
 Name, Geschlecht, Alter, Größe in cm, Geburtstag (Realwelt, TT.MM.JJJJ), Ingame-Geburtstag nach dem Kalender, Nationalität, Wohnort. Alter gilt zum Spielstart – nicht zum Zeitpunkt des Beitritts, sonst driften Figuren gegeneinander.
 
+**Die drei Zeitangaben hängen zusammen und werden nicht einzeln geraten.** `story/lore/Calendar.md` trägt die Umrechnung: Tag und Monat sind identisch, das Jahr verschiebt sich um **660** (Realjahr = Imperialjahr + 660), und der Spielstart ist Imperialjahr 1357. Daraus folgt:
+
+```
+Imperialjahr = Realjahr − 660
+Alter        = 1357 − Imperialjahr der Geburt
+```
+
+Der Monatsname kommt aus der Tabelle im Kalender – die zwölf dort sind vollständig, ein anderer existiert nicht. Steht im Feld *Birthday* ein Jahr unter 1900, wurde dort das Imperialjahr statt des Realjahres eingetragen.
+
 ### Appearance – drei Absätze, drei Aufgaben
 
 1. **Körper und Gesicht.** Statur, Teint, Gesichtszüge, Haar, Augen, Narben. Was ein Zeichner bräuchte.
@@ -187,6 +196,7 @@ Nur, was den Bogen sonst nirgends berührt und trotzdem eine Szene tragen könnt
 ## Vor dem Abschluss
 
 - Jede Behauptung über Ort, Familie, Kapitel und Strang belegt?
+- Realjahr − Imperialjahr = 660, Monatsname aus dem Kalender, Alter = 1357 − Imperialjahr?
 - Appearance: drei Absätze, mindestens ein Detail, das Verhalten ist?
 - Personality: ein Widerspruch, nicht nur eine Tugendliste? MBTI passt zum Geschriebenen?
 - Backstory: ein prägendes Ereignis, nicht vier?

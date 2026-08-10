@@ -1,3 +1,11 @@
+# Magic Tomes
+
+**Waffenkatalog für Magie – keine Liste erlernbarer Zauber.** Jeder Eintrag ist ein ausrüstbares Tome mit Might, Hit, Critical, Range, Weight und MP-Kosten, genau wie eine physische Waffe in [Weapons](Weapons.md). Magie ist elementgebunden: Ein Pyromancer führt Pyro-Tomes und sonst nichts; Elementalist und Arcanist schalten ein zweites bzw. drittes Natura-Element frei.
+
+Die sieben Natura-Elemente schlagen einander im Beat-Cycle unten – das ist das Waffendreieck der Magier. Regeln dazu in [Magic System](../mechanics/Magic-System.md).
+
+---
+
 ## Natura Magic
 
 ```mermaid

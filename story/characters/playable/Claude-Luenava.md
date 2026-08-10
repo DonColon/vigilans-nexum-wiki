@@ -8,7 +8,7 @@
 
 **Height:** 181 cm 
 
-**Birthday:** 11.08.1335 
+**Birthday:** 11.08.1995 
 
 **In-Game Birthday:** 11th of Flamecrest, Imperial Year 1335 
 

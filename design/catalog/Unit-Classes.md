@@ -1,3 +1,11 @@
+# Unit Classes
+
+Der Klassenbaum – **die Autorität dafür, welche Klasse aus welcher hervorgeht.** Fünf Stufen: Citizen → Base → Intermediate → Advanced → Master, wobei Unique-Klassen eine Alternative zu Master auf derselben Stufe sind und Dardan und Hasan vorbehalten bleiben. Beförderungen sind permanent; es gibt kein Reclassing.
+
+Die Spalte *Weapon Types* sagt, welche Waffen eine Klasse führen darf, und ist damit die Quelle für die Waffenränge auf jedem Charakterbogen. Stufengrenzen im [Progression System](../Progression-System.md).
+
+---
+
 ## Class Hierarchy
 
 ```mermaid

@@ -1,3 +1,11 @@
+# Mythology
+
+Die Glaubenswelt von Tridera – Götter, Orden, der Kult und die Bedeutung des Nexus. **Verbindlich, bevor Weltenbau in einem Kapitel erweitert wird.**
+
+Was hier nicht steht, existiert nicht: Eine erfundene Gottheit oder ein erfundener Ritus wird von der nächsten Sitzung als Wahrheit gelesen.
+
+---
+
 ## 🕊️ Die Lehre der Aurelys
 
 *„Folge dem goldenen Pfad, und das Licht wird dich führen.“*

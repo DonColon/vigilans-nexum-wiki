@@ -8,9 +8,9 @@
 
 **Height:** 170 cm
 
-**Birthday:** 14.07.1998
+**Birthday:** 14.07.1997
 
-**In-Game Birthday:** 14th of Skyblaze, Imperial Year 1338
+**In-Game Birthday:** 14th of Skyblaze, Imperial Year 1337
 
 **Nationality:** Bellum
 

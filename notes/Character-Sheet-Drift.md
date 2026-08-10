@@ -43,11 +43,87 @@ Die Template-Divergenz ist die einzige mit Entscheidungsbedarf: entweder das Tem
 
 ---
 
+## Befunde bei den Zeitangaben
+
+Geprüft am 2026-08-10, nachdem die Umrechnung in [Calendar.md](../story/lore/Calendar.md) festgeschrieben wurde: Realjahr = Imperialjahr + 660, Alter = 1357 − Imperialjahr.
+
+**Die Differenz von 660 hält über den gesamten Bestand** – bis auf drei Bögen, bei denen im Feld *Birthday* das Imperialjahr steht statt des Realjahres:
+
+| Bogen | Birthday steht | müsste heißen | Schwere |
+|---|---|---|---|
+| `playable/Claude-Luenava.md` | 11.08.**1335** | 11.08.**1995** | Mittel |
+| `playable/Kassandra-Aetos.md` | 21.06.**1319** | 21.06.**1979** | Mittel |
+| `playable/Rohan-Ashveil.md` | 14.10.**1319** | 14.10.**1979** | Mittel |
+
+**Fünf Bögen haben ein Alter, das nicht zum Geburtsjahr passt – und sie irren nicht zufällig.**
+
+Rechnet man für jeden Bogen `Imperialjahr + Alter`, ergibt sich das Startjahr, von dem er ausgeht. Über alle 26 Bögen mit beiden Angaben:
+
+| Impliziertes Startjahr | Anzahl | Bögen |
+|---|---|---|
+| **1357** ✓ | 21 | der gesamte übrige Bestand |
+| **1347** | 3 | `Aldric-Halvorn`, `Kassandra-Aetos`, `Rohan-Ashveil` |
+| **1358** | 2 | `Hasan-Eyletmez`, `Asta-Concordia` |
+
+Das sind keine fünf Einzelfehler, sondern **zwei Gruppen mit je einer gemeinsamen falschen Annahme**. Die Zahl 1347 kommt sonst nirgends im Repository vor – vermutlich wurden diese drei Bögen unter einem früheren Startjahr geschrieben und beim Umstellen auf 1357 nicht nachgezogen.
+
+**Am 2026-08-10 von Dardan entschieden und umgesetzt.** In beiden Gruppen galt: Das **Alter** ist die Wahrheit, das Geburtsjahr wurde nachgezogen – außer bei Hasan, wo umgekehrt entschieden wurde.
+
+| Bogen | Entscheidung | Geburtsjahr | Alter |
+|---|---|---|---|
+| `Aldric-Halvorn.md` | Alter 30 stimmt | 1317 → **1327** (real 1977 → **1987**) | 30 |
+| `Kassandra-Aetos.md` | Alter 28 stimmt | 1319 → **1329** (real **1989**) | 28 |
+| `Rohan-Ashveil.md` | Alter 28 stimmt | 1319 → **1329** (real **1989**) | 28 |
+| `Asta-Concordia.md` | so alt wie Shira (18) | 1339 unverändert | 19 → **18** |
+| `Hasan-Eyletmez.md` | 20, gleich alt wie Dardan | 1338 → **1337** (real 1998 → **1997**) | 20 |
+
+**Zu Hasan:** Zunächst war entschieden, ihn auf 19 zu setzen. Dagegen stand seine Backstory – „Dardan war sein bester Freund seit dem Tag an dem sie **beide sechs Jahre alt** waren" –, die bei einem Jahr Abstand nicht aufgeht. Also wurde umgekehrt entschieden: Das Alter 20 bleibt, das Geburtsjahr wandert auf 1337. Hasan und Dardan sind damit im selben Jahr geboren, und die Zeile stimmt ohne Eingriff in die Prosa.
+
+### Mechanische Korrekturen, gleichzeitig erledigt
+
+| Bogen | Was |
+|---|---|
+| `Claude-Luenava.md` | Realjahr 1335 → **1995** (Imperialjahr stand im Realfeld) |
+| `Rijona-Alior.md` | *Ashfall* → **Mistfallen** (17.09.) |
+| `Maluna-Eloise.md` | *Bloomtide* → **Mirthan** (20.05.) |
+| `Corvan-Gault.md` | *Springtide* → **Aeloria** (13.04.) |
+| `Maike-Collis.md` | *Summerpeak* → **Skyblaze** (25.07.) |
+| `Aldric-Halvorn.md` | *Harvestfall* → **Hallowtide** (04.10.) |
+
+### Stand nach der Korrektur
+
+Alle drei Kalenderregeln halten über den gesamten Bestand:
+
+- Realjahr − Imperialjahr = 660 → **keine Abweichung**
+- Imperialjahr + Alter = 1357 → **keine Abweichung** (26 Bögen mit beiden Angaben)
+- Jeder Monatsname steht im Kalender → **keine Abweichung**
+
+**Korrektur zu einer früheren Fassung dieses Berichts:** Dort stand, die beiden +1-Fälle könnten dadurch erklärt sein, dass der Geburtstag im Startjahr noch bevorsteht. Das ist falsch – ein noch nicht erreichter Geburtstag macht eine Figur *jünger*, nie älter. Ein zu hohes Alter lässt sich so nicht erklären. Bei Hasan und Asta ist entweder das Alter oder das Geburtsjahr falsch.
+
+Das Spielstartdatum innerhalb des Jahres bleibt trotzdem offen und sollte festgelegt werden – es entscheidet bei jeder Figur, ob sie am Starttag schon Geburtstag hatte.
+
+**Fünf Monatsnamen existieren im Kalender nicht:**
+
+| Monat | Vorkommen | steht im Kalender |
+|---|---|---|
+| Harvestfall | `Aldric-Halvorn.md` | nein – Monat 10 heißt *Hallowtide* |
+| Ashfall | 1× | nein |
+| Bloomtide | 1× | nein |
+| Springtide | 1× | nein |
+| Summerpeak | 1× | nein |
+
+Dieselbe Falle wie bei den erfundenen Klassennamen: Der Name klingt plausibel, steht aber in keiner Quelle. Der Kalender sagt jetzt ausdrücklich, dass die zwölf Namen vollständig sind.
+
+---
+
 ## Empfohlene Reihenfolge
 
-1. `Corvan-Gault.md` und `Maike-Collis.md` nach `statcraft` neu ableiten – sie sind die einzigen Bögen, die derzeit falsche Zahlen behaupten statt gar keine
-2. Template-Frage entscheiden (Überschriftensprache)
-3. Werte-Tabellen füllen, wenn eine Figur spielrelevant wird – nicht auf Vorrat
+1. **Spielstartdatum festlegen** – Tag und Monat im Imperialjahr 1357. Die Bögen rechnen derzeit alle mit `Alter = 1357 − Geburtsjahr`, also so, als hätte jede Figur ihren Geburtstag am Starttag schon gehabt. Solange kein Datum feststeht, ist das eine stillschweigende Annahme
+2. `Corvan-Gault.md` und `Maike-Collis.md` nach `statcraft` neu ableiten – sie sind die einzigen Bögen, die derzeit falsche Zahlen behaupten statt gar keine
+3. Template-Frage entscheiden, falls noch offen
+4. Werte-Tabellen füllen, wenn eine Figur spielrelevant wird – nicht auf Vorrat
+
+~~Zeitangaben korrigieren~~ – am 2026-08-10 vollständig erledigt, siehe oben.
 
 ---
 

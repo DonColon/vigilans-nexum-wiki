@@ -8,9 +8,9 @@
 
 **Height:** 188 cm
 
-**Birthday:** 04.10.1977
+**Birthday:** 04.10.1987
 
-**In-Game Birthday:** 4th of Harvestfall, Imperial Year 1317
+**In-Game Birthday:** 4th of Hallowtide, Imperial Year 1327
 
 **Nationality:** Kingdom of Adolla
 

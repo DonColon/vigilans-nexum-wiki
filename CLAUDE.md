@@ -110,6 +110,8 @@ Wenn etwas nicht im Wiki steht: **Lücke melden, nicht füllen.** Eine erfundene
 - **Zahlen:** leben ausschließlich in `design/Balancing-Guide.md`. Nie in ein zweites Dokument kopieren – verlinken
 - **Templates:** heißen `_TEMPLATE.md` und liegen im jeweiligen Ordner
 - **Index-Seiten:** heißen `README.md` und liegen im eigenen Ordner. Neue Datei ohne Indexeintrag existiert nicht
+- **Leere Tabellen:** Eine leere oder halb gefüllte Tabelle heißt **immer** „noch nicht befüllt", nie „hier gibt es bewusst nichts". Sie ist offener Rückstand und wird als solcher gemeldet – nicht mit erfundenen Werten aufgefüllt und nicht als Aussage gelesen
+- **Erste Zeile:** Jede Datei sagt in ihrer Überschrift und einem Satz darunter, was sie ist und wofür sie gilt. Ein Dokument, das mit einer Tabelle beginnt, wird falsch gelesen
 - **Struktur:** Kapitel hinzufügen, teilen oder umnummerieren schlägt auf Levelindex und Progressionskurve durch – vorschlagen, nicht ausführen
 - **Referenzen:** Nennt Dardan eine Referenz (Fire Emblem, Anime, Serie, reale Person), erklärt er kurz, was er davon übernehmen will. Ist es unklar, frage ich nach – ich rate nicht
 

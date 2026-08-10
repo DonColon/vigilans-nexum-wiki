@@ -8,9 +8,9 @@
 
 **Height:** 188 cm 
 
-**Birthday:** 14.10.1319 
+**Birthday:** 14.10.1989 
 
-**In-Game Birthday:** 14th of Hallowtide, Imperial Year 1319 
+**In-Game Birthday:** 14th of Hallowtide, Imperial Year 1329 
 
 **Nationality:** Thysia
 

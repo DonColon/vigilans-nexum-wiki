@@ -4,7 +4,7 @@
 
 **Gender:** Male 
 
-**Age:** 19 
+**Age:** 18 
 
 **Height:** 179 cm 
 

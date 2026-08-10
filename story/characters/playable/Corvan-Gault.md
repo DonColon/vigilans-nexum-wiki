@@ -14,7 +14,7 @@
 
 **Birthday:** 13.04.1978
 
-**In-Game Birthday:** 13th of Springtide, Imperial Year 1318
+**In-Game Birthday:** 13th of Aeloria, Imperial Year 1318
 
 **Nationality:** Vaestrall Empire
 

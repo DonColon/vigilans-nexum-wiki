@@ -14,7 +14,7 @@
 
 **Birthday:** 25.07.1997
 
-**In-Game Birthday:** 25th of Summerpeak, Imperial Year 1337
+**In-Game Birthday:** 25th of Skyblaze, Imperial Year 1337
 
 **Nationality:** Vaestrall Empire
 

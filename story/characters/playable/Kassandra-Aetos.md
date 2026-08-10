@@ -8,9 +8,9 @@
 
 **Height:** 172 cm 
 
-**Birthday:** 21.06.1319 
+**Birthday:** 21.06.1989 
 
-**In-Game Birthday:** 21st of Goldendawn, Imperial Year 1319 
+**In-Game Birthday:** 21st of Goldendawn, Imperial Year 1329 
 
 **Nationality:** Thysia 
 

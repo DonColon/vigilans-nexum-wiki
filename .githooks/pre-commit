@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Vigilans Nexum – Git-Hook, greift bei JEDEM Commit: Terminal, VS Code,
+# GUI oder Claude Code. Die Prüfungen selbst stehen in einer Datei, die sich
+# dieser Hook mit dem Claude-Code-Hook aus .claude/settings.json teilt.
+#
+# Aktiviert wird dieses Verzeichnis über:
+#     git config core.hooksPath .githooks
+# Das ist lokale Konfiguration und wird NICHT mitcommittet – nach einem
+# frischen Clone muss der Befehl einmal laufen.
+#
+# Abschalten:  git config --unset core.hooksPath
+# Einmalig umgehen:  git commit --no-verify
+
+exec bash "$(git rev-parse --show-toplevel)/.claude/hooks/pre-commit-checks.sh"

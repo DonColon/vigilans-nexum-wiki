@@ -10,7 +10,7 @@
 
 **Birthday:** 20.05.1997
 
-**In-Game Birthday:** 20th of Bloomtide, Imperial Year 1337
+**In-Game Birthday:** 20th of Mirthan, Imperial Year 1337
 
 **Nationality:** Kingdom of Adolla
 

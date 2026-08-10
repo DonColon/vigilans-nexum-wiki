@@ -10,7 +10,7 @@
 
 **Birthday:** 17.09.1998
 
-**In-Game Birthday:** 17th of Ashfall, Imperial Year 1338
+**In-Game Birthday:** 17th of Mistfallen, Imperial Year 1338
 
 **Nationality:** Vaestrall Empire
 

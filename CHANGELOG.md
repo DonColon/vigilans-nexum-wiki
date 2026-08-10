@@ -10,6 +10,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ### Added
 
+**Tooling**
+- `.claude/settings.json` – project settings, committed. An allowlist for read-only shell commands (ls, grep, wc, git status/log/diff/show …) removes the confirmation prompts for inspection work, and a `PreToolUse` hook on `git commit` runs the invariant checks
+- `.claude/hooks/pre-commit-checks.sh` – **mechanical enforcement of the three countable invariants**, which until now depended on someone remembering them: a surviving `{{PLACEHOLDER}}` blocks the commit; a new file in a content folder with no README link warns; touching `design/` or `story/` without `CHANGELOG.md` warns. Skills judge, hooks count – a hook cannot tell whether a Speech Pattern is structure or attitude, but it never forgets to look
+- `.githooks/pre-commit` – **the same checks on every commit, not only Claude's.** The Claude Code hook only fires on commits Claude makes; a placeholder check is most useful when *anyone* fills in a template, so the script runs in two modes (JSON for the agent, text plus exit 1 for git) and `core.hooksPath` points at a versioned directory. Enable after a fresh clone with `git config core.hooksPath .githooks`; bypass a single commit with `git commit --no-verify`
+- **Every file states in its first lines what it is and what it governs.** Seven of nine catalog files opened straight into a table, which is how `Magic-Tomes.md` came to be read as a list of learnable spells instead of a weapon catalog. The lore files got the same treatment
+- **An empty or half-filled table always means "not filled in yet", never "deliberately nothing".** Recorded as an invariant so no session reads a gap as a statement or fills it with invented values
+
+**Calendar**
+- **Imperial years convert to real years with a fixed offset of 660** – anchored on Imperial Year 1337 = 1997, chosen because 1337 is *leet* and 1997 is the author's birth year. Day and month are identical; only the year shifts. Game start is Imperial Year 1357, i.e. 2017, which makes a character's age derivable rather than free: `age = 1357 − imperial year of birth`. Written into `Calendar.md` with the conversion steps and into `charactercraft` as a check
+- The twelve month names in `Calendar.md` are declared complete – there is no thirteenth month and no alternative naming
+- **All character sheets brought in line with the calendar.** Applying the rule surfaced eleven sheets that broke it, in two systematic clusters rather than as isolated slips: three sheets (Aldric, Kassandra, Rohan) computed ages from a start year of 1347, two (Hasan, Asta) from 1358. Ages were kept and birth years moved, except for Asta, who is Shira's age. **Hasan is now born in 1337 like Dardan** – his backstory has the two of them "both six years old", which does not work with a year between them. Six invented month names replaced with the calendar months implied by each real-world date, and three sheets had the imperial year sitting in the real-world *Birthday* field
+
 **Working rules**
 - Character sheets are now governed by two skills instead of none: `charactercraft` for the narrative half (person, appearance, personality, backstory, recruitment framing, supports, story role) and `statcraft` for the stat block (joining level, base stats, growth rates, max stats, class path, abilities, weapon proficiencies)
 - **A character sheet has two owners.** Lorekeeper writes the prose half, Rulewright derives the numbers – neither touches the other's sections. Splitting the sheet keeps stat blocks out of narrative rewrites and keeps invented classes out of the catalog

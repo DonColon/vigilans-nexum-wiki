@@ -1,3 +1,11 @@
+# Weapons
+
+Katalog aller physischen Waffen. Zwei Dreiecke ordnen sie: das innere **Close Combat**-Rad (Sword, Lance, Axe, Knife, Gauntlet, Chain, Battle Staff) und das äußere **Weapon Triangle** (Close Combat → Bow → Artillery). Magische Waffen stehen getrennt in [Magic Tomes](Magic-Tomes.md).
+
+Jeder Eintrag ist ausrüstbar und hat Haltbarkeit (*Uses*). Zahlenbereiche pro Tier im [Balancing Guide](../Balancing-Guide.md).
+
+---
+
 ## Close Combat
 
 ```mermaid
