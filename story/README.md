@@ -128,6 +128,8 @@ Der Dajjal wartet. Die Vigilant Knights betreten den Turm — und mit ihnen alle
 - **[Characters](characters/README.md)** – Character recruitment timeline
 - **[Progression System](../design/Progression-System.md)** – Detailed progression breakdown
 - **[Writing Style Guide](Writing-Style-Guide.md)** – How to write new chapters
+- **[Personality Types](Personality-Types.md)** – MBTI-Referenz für das Feld *Personality Type* auf jedem Bogen
+- **[Speech Patterns](Speech-Patterns.md)** – Das Raster hinter dem Feld *Speech Pattern*: sechs Dimensionen, an denen entlang die Stimme einer Figur festgehalten wird
 - **[Narrative Spine](../notes/Narrative-Spine.md)** – Die thematische Kernfrage der Story und wie sie sich auflösen sollte
 - **[Character Arcs](../notes/Character-Arcs.md)** – Wunde, Lüge und Testmoment für den Kern-Cast
 - **[Craft Techniques](../notes/Craft-Techniques.md)** – Konkrete Schreibtechniken mit Textbelegen, gruppiert nach Diagnose, Prosa, Dialog, Struktur und Symbol-Systemen

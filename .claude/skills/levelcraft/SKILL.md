@@ -66,9 +66,17 @@ Geländetypen bekommen ihre Werte aus dem Balancing-Guide. Was das Gelände erz�
 
 **5 – Feindkomposition.** Feindlevel aus dem Band des Parts, nicht aus dem Bauch. Die Mischung folgt der Karte: Wer eine Brücke verteidigt, stellt keine reine Kavallerie dagegen. Jede Feindklasse existiert im Katalog, jede Feind-KI ist benannt (aggressiv, defensiv, unterstützend, bewacht Boss) – ein Gegner ohne KI-Angabe ist nicht implementierbar.
 
+**Generische Gegner bekommen ihre Werte hier.** Sie haben keinen Charakterbogen und keine Wachstumsraten – nur die Statwerte dieses einen Kampfes. Eine Zeile beschreibt einen Gegnertyp: Klasse, Level, die neun Werte, Waffe, Anzahl, Position, KI. Mehrere Exemplare desselben Typs teilen sich eine Zeile.
+
+Das ist die Grenze zwischen den beiden Sorten: Wer einen Namen hat, hat einen Bogen und wird von dort verlinkt. Wer keinen hat, existiert nur in diesem Level und wird hier vollständig beschrieben.
+
 Die Feindzahl folgt dem Deployment-Limit und der Kartengröße. Mehr Gegner sind nicht schwerer, nur länger.
 
-**6 – Der Boss.** Werte aus dem Balancing-Guide abgeleitet, nicht erfunden. Der Boss braucht eine Fähigkeit, die den Kampf verändert, und einen Grund, warum man ihn nicht einfach umstellt. Seine Dialoge – vor dem Kampf, bei Niederlage, optional gegen eine bestimmte Figur – stehen im Level-Dokument und sind der einzige Ort, an dem hier Prosa entsteht. Sie folgen `storycraft` und der Stimme aus dem Charakterbogen.
+**6 – Der Boss.** Ein benannter Boss hat einen eigenen Charakterbogen, und **dort stehen seine Werte** – als Zeile unter *Stats by Appearance*, eine je Kapitel, in dem er auftritt. Das Level-Dokument verlinkt den Bogen und trägt nur, was zu diesem Gefecht gehört: Ausrüstung, KI-Muster, Position, Verstärkungsverhalten, Dialoge.
+
+Existiert der Bogen noch nicht oder fehlt die Zeile für dieses Kapitel, ist das eine Meldung an Rulewright bzw. Lorekeeper – keine Einladung, die Werte hier zu erfinden. Sie stünden dann an einem zweiten Ort und würden beim ersten Balancing-Durchgang auseinanderlaufen.
+
+Der Boss braucht eine Fähigkeit, die den Kampf verändert, und einen Grund, warum man ihn nicht einfach umstellt. Seine Dialoge – vor dem Kampf, bei Niederlage, optional gegen eine bestimmte Figur – stehen im Level-Dokument und sind der einzige Ort, an dem hier Prosa entsteht. Sie folgen `storycraft` und der Stimme aus dem Charakterbogen.
 
 **7 – Verstärkungen und Ereignisse.** Nur mit Auslöser, Spawnpunkt und KI. Verstärkungen, die aus dem Nichts hinter dem Spieler erscheinen, verletzen Pillar 5 – der Spieler muss vorher planen können. Ankündigen: durch eine sichtbare Tür, ein Tor, einen Weg, den man kommen sieht.
 
@@ -151,7 +159,8 @@ Wo der Bestand heute konkret abweicht – mit Kapitel, Befund und Schwere – st
 - Mindestens eine Geländestelle, an der Position eine Entscheidung ist?
 - Jede Feindklasse und jeder Gegenstand im Katalog vorhanden?
 - Jeder Gegner mit KI-Verhalten, jede Verstärkung mit Auslöser und Spawnpunkt?
-- Boss mit Werten, einer kampfverändernden Fähigkeit und Dialogen?
+- Generische Gegner mit vollständiger Statzeile – und keine Werte für eine benannte Einheit hier dupliziert?
+- Boss verlinkt auf seinen Bogen, mit einer kampfverändernden Fähigkeit und Dialogen?
 - Alle Pflichteinheiten zu diesem Zeitpunkt rekrutiert und im richtigen Strang?
 - Sekundärziel mit konkreter Belohnung aus dem Katalog?
 - Schwierigkeitsvarianten benannt, nicht nur prozentual?

@@ -3,7 +3,7 @@
   VIGILANS NEXUM – LEVEL-TEMPLATE
 ================================================================================
   Wie dieses Template benutzen:
-  1. Kopiere diese Datei direkt in: wiki/levels/
+  1. Kopiere diese Datei direkt in: design/levels/
   2. Benenne die Datei: Level-XX-Titel.md  (z.B. "Level-01-Every-End.md")
   3. Ersetze alle Platzhalter im Format {{FELDNAME}} mit echten Inhalten
   4. Pflichtabschnitte (Pflicht) müssen ausgefüllt werden
@@ -149,27 +149,28 @@
 <!-- Pflicht: Alle Feindeinheiten mit Verhalten.
      KI-Verhalten: Aggressiv / Defensiv / Unterstützend / Bewacht Boss -->
 
-| Einheitentyp | Klasse | Level | Waffe | Anzahl | Position | KI-Verhalten |
-| ------------ | ------ | ----- | ----- | ------ | -------- | ------------ |
-| {{TYP}} | {{KLASSE}} | {{LEVEL}} | {{WAFFE}} | {{ANZAHL}} | {{POSITION}} | {{KI}} |
+<!-- Generische Gegner haben keinen Charakterbogen. Ihre Werte gelten nur für
+     diesen Kampf und stehen deshalb vollständig hier – keine Wachstumsraten.
+     Mehrere Exemplare desselben Typs teilen sich eine Zeile. -->
+
+| Klasse | Level | HP | MP | Str | Mag | Dex | Spd | Lck | Def | Res | Waffe | Anzahl | Position | KI |
+| ------ | ----- | -- | -- | --- | --- | --- | --- | --- | --- | --- | ----- | ------ | -------- | -- |
+| {{KLASSE}} | {{LEVEL}} | | | | | | | | | | {{WAFFE}} | {{ANZAHL}} | {{POSITION}} | {{KI}} |
 
 **Gesamte Feindanzahl:** {{FEIND-GESAMT}} Einheiten
 
 ### Boss-Einheit <!-- Pflicht -->
 
-<!-- Pflicht: Detaillierte Daten der Boss-Einheit. -->
+<!-- Pflicht: Die kampfabhängigen Daten der Boss-Einheit.
+     Die WERTE stehen NICHT hier, sondern auf dem Charakterbogen des Bosses,
+     unter "Stats by Appearance" mit einer Zeile für dieses Kapitel.
+     Hier wird verlinkt. Fehlt der Bogen oder die Zeile: melden, nicht erfinden. -->
 
-**Name:** {{BOSS-NAME}}
+**Name:** [{{BOSS-NAME}}](../../story/characters/story/{{BOSS-DATEI}}.md)
 
 **Klasse:** {{BOSS-KLASSE}}
 
-**Level:** {{BOSS-LEVEL}}
-
-**Werte:**
-
-| HP | Str | Mag | Dex | Spd | Lck | Def | Res |
-| -- | --- | --- | --- | --- | --- | --- | --- |
-| {{HP}} | {{STR}} | {{MAG}} | {{DEX}} | {{SPD}} | {{LCK}} | {{DEF}} | {{RES}} |
+**Level:** {{BOSS-LEVEL}} <!-- muss mit der Zeile auf dem Bogen übereinstimmen -->
 
 **Ausrüstung:**
 - {{BOSS-WAFFE}} (Might: {{MT}}, Hit: {{HIT}}, Krit: {{CRIT}})

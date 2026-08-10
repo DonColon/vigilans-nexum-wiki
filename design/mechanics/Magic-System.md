@@ -1,6 +1,6 @@
 # Magic System
 
-> **Verwandte Dateien:** [Magic Spells](../catalog/Magic-Spells.md) · [Combat Arts](Combat-Arts.md) · [Abilities](Abilities.md) · [Unit Classes](../catalog/Unit-Classes.md)
+> **Verwandte Dateien:** [Magic Tomes](../catalog/Magic-Tomes.md) · [Combat Arts](Combat-Arts.md) · [Abilities](Abilities.md) · [Unit Classes](../catalog/Unit-Classes.md)
 
 ---
 
@@ -305,4 +305,4 @@ Lux und Umbra sind gegenseitige Konter — das stärkere Element gewinnt.
 **Version:** 1.0
 **Erstellt:** 2026-06-09
 **Zuletzt aktualisiert:** 2026-06-09
-**Querverweise:** [Magic Spells](../catalog/Magic-Spells.md) · [Combat Arts](Combat-Arts.md) · [Abilities](Abilities.md) · [Chain Attack](Chain-Attack.md)
+**Querverweise:** [Magic Tomes](../catalog/Magic-Tomes.md) · [Combat Arts](Combat-Arts.md) · [Abilities](Abilities.md) · [Chain Attack](Chain-Attack.md)

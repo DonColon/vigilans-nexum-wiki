@@ -101,31 +101,11 @@ Narrative consistency guidelines for maintaining the voice, tone, and structure 
 
 ### Character Voice Consistency
 
-Each character has a distinct way of speaking:
+Jede Figur hat eine eigene grammatische Signatur – nicht nur eine Haltung, sondern eine Art, Sätze zu bauen.
 
-**Dardan (INFP):**
-- Thoughtful, uses qualifiers ("maybe," "I think")
-- Questions himself internally
-- Speaks kindly but sometimes hesitantly
-- Example: *"Vielleicht… sollten wir erst nachdenken, bevor wir handeln?"*
+**Sie steht auf dem Charakterbogen, nicht hier.** Das Feld heißt `**Speech Pattern:**` und liegt unter *Personality* in `characters/`. Vor jeder Dialogszene wird dort nachgeschlagen, nicht in dieser Datei – ein Bogen pro Figur ist pflegbar, eine Liste von 39 Figuren an zwei Orten nicht.
 
-**Hasan (ESTP):**
-- Direct, action-oriented
-- Confident, sometimes brash
-- Short sentences, straight to the point
-- Example: *"Genug geredet. Lass uns das erledigen!"*
-
-**Tifa (ISFJ):**
-- Warm, caring, but not weak
-- Polite but firm when needed
-- Uses inclusive language ("we," "us")
-- Example: *"Wir schaffen das zusammen. Ich glaube an euch."*
-
-**Claude (INTJ):**
-- Analytical, precise
-- Dry humor, occasionally sarcastic
-- Economical with words
-- Example: *"Ineffizient. Wir brauchen einen besseren Plan."*
+Das Raster, nach dem so ein Eintrag entsteht – sechs Dimensionen und die Probe „Struktur statt Haltung" – steht in [Speech-Patterns.md](Speech-Patterns.md). Der Test dafür beim Schreiben ist der Tag-Test: alle „sagte X" streichen und prüfen, ob man die Sprecher noch zuordnen kann.
 
 ### Dialogue Formatting
 

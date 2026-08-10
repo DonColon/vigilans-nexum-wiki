@@ -2,273 +2,222 @@
 ================================================================================
   VIGILANS NEXUM – CHARAKTER-TEMPLATE
 ================================================================================
-  Wie dieses Template benutzen:
-  1. Kopiere diese Datei in den passenden Unterordner:
-     - Spielbare Charaktere → wiki/characters/playable/
-     - Story-NPCs          → wiki/characters/story/
-  2. Benenne die Datei nach Schema: Vorname-Nachname.md  (z.B. "Dardan-Niveli.md")
-  3. Ersetze alle Platzhalter im Format {{FELDNAME}} mit echten Inhalten
-  4. Pflichtabschnitte (Pflicht) müssen ausgefüllt werden
-  5. Optionale Abschnitte (Optional) können gelöscht werden,
-     wenn sie für den Charakter nicht zutreffen
-  6. Behalte die Kommentare NICHT in der fertigen Datei —
-     lösche alle HTML-Kommentare vor dem Commit
-  7. Sprache: Deutsch (Prosa und Beschreibungen); Tabellen-Header auf Englisch
-     wie im restlichen Wiki etabliert
+  1. Kopieren nach:
+       spielbar          → story/characters/playable/Vorname-Nachname.md
+       nur Story         → story/characters/story/Vorname-Nachname.md
+  2. Kein H1-Titel – die Datei heißt wie die Figur, der Name steht in
+     Personal Information.
+  3. Sprache: Abschnittsüberschriften und Gameplay-Inhalte Englisch,
+     Prosa Deutsch. Innerhalb einer Tabelle nicht mischen.
+  4. Alle HTML-Kommentare vor dem Commit löschen. Kein leerer Abschnitt
+     bleibt stehen – ausfüllen oder entfernen.
+  5. Die Regeln zu den Inhalten stehen in den Skills, nicht hier:
+       charactercraft → Abschnitte 1–5, 13–16
+       statcraft      → Abschnitte 6–12
+     Dieses Template gibt nur die Struktur vor.
+  6. Ohne Eintrag in story/characters/README.md existiert die Datei nicht.
 ================================================================================
 -->
 
-# {{CHARAKTER-NAME}} <!-- Pflicht -->
+<!-- ══════════════ LOREKEEPER ══════════════ -->
 
-<!-- Pflicht: Querverweise zu verwandten Dateien -->
-> **Verwandte Dateien:** [{{KAPITEL-ERSTAUFTRITT}}](../chapters/{{PART-ORDNER}}/{{KAPITEL-DATEI}}.md) · [{{HEIMATORT}}](../locations/{{LOCATION-PFAD}}.md)
+## Personal Information
 
----
+**Name:**
 
-## Persönliche Informationen <!-- Pflicht -->
+**Gender:**
 
-<!-- Pflicht: Kerndaten der Person. Alle Felder ausfüllen. -->
+**Age:** <!-- zum Spielstart, nicht zum Beitritt -->
 
-**Name:** {{CHARAKTER-NAME}}
+**Height:** cm
 
-**Geschlecht:** {{GESCHLECHT}} <!-- z.B. Männlich / Weiblich -->
+**Birthday:** <!-- TT.MM.JJJJ -->
 
-**Alter:** {{ALTER}} <!-- Alter in Jahren zum Zeitpunkt des Spielstarts -->
+**In-game Birthday:** <!-- nach story/lore/Calendar.md -->
 
-**Größe:** {{GROESSE}} cm
+**Nationality:**
 
-**Geburtstag:** {{GEBURTSTAG-REALWELT}} <!-- Format: TT.MM.JJJJ -->
-
-**Ingame-Geburtstag:** {{GEBURTSTAG-TAG}}. {{GEBURTSTAG-MONAT}}, Imperialjahr {{GEBURTSTAG-JAHR}}
-
-**Nationalität:** {{NATIONALITAET}} <!-- z.B. Königreich Adolla / Allianz Thysia / Vaestrall-Imperium -->
-
-**Wohnort:** {{WOHNORT}}
+**Residence:**
 
 ---
 
-## Erscheinungsbild <!-- Pflicht -->
+## Appearance
 
-<!-- Pflicht: 3 Absätze.
-     Absatz 1: Körperbau, Teint, Gesichtszüge, Haar, Augen, besondere Merkmale.
-     Absatz 2: Kleidung, Rüstung, Zubehör, getragene Waffen.
-     Absatz 3: Gesamteindruck — wie wirkt der Charakter auf andere? -->
-
-{{ERSCHEINUNGSBILD-ABSATZ-1}}
-
-{{ERSCHEINUNGSBILD-ABSATZ-2}}
-
-{{ERSCHEINUNGSBILD-ABSATZ-3}}
+<!-- Drei Absätze:
+     1 – Körper, Gesicht, Haar, Augen, Narben
+     2 – Kleidung, Rüstung, getragene Gegenstände
+     3 – Wirkung auf andere, und wo dieser Eindruck täuscht
+     Mindestens ein Detail muss Verhalten sein, nicht Material. -->
 
 ---
 
-## Persönlichkeit <!-- Pflicht -->
+## Personality
 
-<!-- Pflicht: 3–5 Absätze.
-     Abdecken: Kernzüge, Motivation, Umgang mit anderen, Ängste/Schwächen,
-     wie die Herkunft den Charakter prägte, Rolle in der Geschichte. -->
+<!-- Drei bis fünf Absätze. Ein Widerspruch, keine Tugendliste. -->
 
-{{PERSOENLICHKEIT}}
+**Personality Type:** <!-- MBTI – siehe story/Personality-Types.md -->
 
-**Persönlichkeitstyp:** {{MBTI}} <!-- z.B. INFP, ESTP — siehe Personality-Types-Reference.md -->
-
----
-
-## Hintergrundgeschichte <!-- Pflicht -->
-
-<!-- Pflicht: 3–5 Absätze.
-     Abdecken: Familienhintergrund, Kindheit und prägende Erlebnisse,
-     wie der Charakter an den aktuellen Punkt gelangt ist,
-     Schlüsselerlebnisse, Verbindung zur Haupthandlung (falls vorhanden). -->
-
-{{HINTERGRUNDGESCHICHTE}}
+**Speech Pattern:** <!-- Wie diese Figur einen Satz baut. Struktur, nicht Haltung.
+                        Raster: story/Speech-Patterns.md -->
 
 ---
 
-## Rekrutierung <!-- Pflicht -->
+## Backstory
 
-<!-- Pflicht: Wie/wann schließt sich der Charakter der Gruppe an? -->
-
-**Startklasse:** {{STARTKLASSE}}
-
-- Erster Auftritt: Part {{PART-NUMMER}}, Kapitel {{KAPITEL-NUMMER}}
-- Rekrutierungsbedingung: {{REKRUTIERUNG}} <!-- z.B. Automatisch / Gespräch mit [Name] / Nebenziel abschließen -->
-- Startausrüstung: {{STARTAUSRUESTUNG}}
+<!-- Drei bis fünf Absätze. Ein prägendes Ereignis, nicht vier. -->
 
 ---
 
-## Basiswerte <!-- Pflicht -->
+## Recruitment
 
-<!-- Pflicht: Werte zum Zeitpunkt der Rekrutierung auf dem Startniveau.
-     Orientierung am Balancing-Guide für den jeweiligen Archetypen. -->
+<!-- Prosa: Warum schließt sie sich an? Was gewinnt sie, was riskiert sie,
+     was hätte sie stattdessen tun können? Nur bei rekrutierbaren Figuren. -->
 
-| HP  | MP  | Strength | Magic | Dexterity | Speed | Luck | Defense | Resistance |
-| --- | --- | -------- | ----- | --------- | ----- | ---- | ------- | ---------- |
-| {{HP}} | {{MP}} | {{STR}} | {{MAG}} | {{DEX}} | {{SPD}} | {{LCK}} | {{DEF}} | {{RES}} |
+<!-- ┈┈┈┈┈┈┈┈┈┈ ab hier Rulewright ┈┈┈┈┈┈┈┈┈┈ -->
 
----
+**Joining Level:**
 
-## Wachstumsraten <!-- Pflicht -->
+**Starting Class:**
 
-<!-- Pflicht: Summe sollte zwischen 300 % und 420 % liegen.
-     Archetyp-Richtwerte: Angreifer ~350 %, Tank ~300 %, Magier ~370 % usw. -->
+**Starting Equipment:**
 
-| HP  | MP  | Strength | Magic | Dexterity | Speed | Luck | Defense | Resistance |
-| --- | --- | -------- | ----- | --------- | ----- | ---- | ------- | ---------- |
-| {{HP%}} | {{MP%}} | {{STR%}} | {{MAG%}} | {{DEX%}} | {{SPD%}} | {{LCK%}} | {{DEF%}} | {{RES%}} |
-
-**Gesamtwachstum:** {{GESAMTWACHSTUM}} % <!-- Summe aller obigen Werte -->
-
-**Archetyp:** {{ARCHETYP}} <!-- z.B. Ausgewogen / Physischer Angreifer / Magier / Tank / Speedster -->
+**Recruitment Condition:** <!-- automatisch / Gespräch mit … / Nebenziel -->
 
 ---
 
-## Maximalwerte <!-- Pflicht -->
+<!-- ══════════════ RULEWRIGHT ══════════════ -->
 
-<!-- Pflicht: Maximale Werte auf Stufe 45 (Master-/Unique-Klasse). -->
+<!-- Es folgen zwei Varianten des Werteblocks. Die nicht zutreffende löschen.
+     A – spielbare Einheit: Basiswerte, Wachstum, Maximalwerte
+     B – benannte, nicht spielbare Einheit (Boss, NPC): eine Zeile je Auftritt
+     Generische Gegner bekommen keinen Bogen; ihre Werte stehen im Level. -->
 
-| HP  | MP  | Strength | Magic | Dexterity | Speed | Luck | Defense | Resistance |
-| --- | --- | -------- | ----- | --------- | ----- | ---- | ------- | ---------- |
-| {{HP-MAX}} | {{MP-MAX}} | {{STR-MAX}} | {{MAG-MAX}} | {{DEX-MAX}} | {{SPD-MAX}} | {{LCK-MAX}} | {{DEF-MAX}} | {{RES-MAX}} |
+## Base Stats <!-- Variante A -->
 
----
-
-## Fähigkeiten <!-- Pflicht -->
-
-<!-- Pflicht: Alle passiven Fähigkeiten, die durch Klassen freigeschaltet werden.
-     "Persönliche Fähigkeit" ist die charakterspezifische Dauerpassive. -->
-
-| Klasse | Stufe | Fähigkeit | Effekt |
-| ------ | ----- | --------- | ------ |
-| {{KLASSE}} | {{STUFE}} | {{FAEHIGKEIT}} | {{EFFEKT}} |
-
-**Persönliche Fähigkeit:** {{PERS-FAEHIGKEIT}} — {{PERS-FAEHIGKEIT-EFFEKT}}
+| HP | MP | Str | Mag | Dex | Spd | Lck | Def | Res |
+| -- | -- | --- | --- | --- | --- | --- | --- | --- |
+|    |    |     |     |     |     |     |     |     |
 
 ---
 
-## Kampfkünste <!-- Pflicht -->
+## Growth Rates <!-- Variante A -->
 
-<!-- Pflicht: Aktive Kampffertigkeiten mit Kosten und Effekt.
-     Kosten: entweder Haltbarkeit (Waffe) oder MP. -->
+| HP | MP | Str | Mag | Dex | Spd | Lck | Def | Res |
+| -- | -- | --- | --- | --- | --- | --- | --- | --- |
+|    |    |     |     |     |     |     |     |     |
 
-| Klasse | Stufe | Kampfkunst | Kosten | Effekt |
-| ------ | ----- | ---------- | ------ | ------ |
-| {{KLASSE}} | {{STUFE}} | {{KUNST-NAME}} | {{KOSTEN}} | {{KUNST-EFFEKT}} |
+**Total:** % <!-- über die acht Kampfwerte; MP zählt separat -->
 
----
-
-## Zaubersprüche <!-- Optional -->
-
-<!-- Optional: Nur ausfüllen, wenn der Charakter Magie einsetzen kann.
-     Element: Natura / Lux / Umbra -->
-
-| Klasse | Stufe | Zauber | Element | Effekt |
-| ------ | ----- | ------ | ------- | ------ |
-| {{KLASSE}} | {{STUFE}} | {{ZAUBER-NAME}} | {{ELEMENT}} | {{ZAUBER-EFFEKT}} |
+**Archetype:** <!-- wofür der Spieler sie einsetzt, wogegen sie verliert -->
 
 ---
 
-## Waffenfertigkeiten <!-- Pflicht -->
+## Max Stats <!-- Variante A -->
 
-<!-- Pflicht: Startrang und Affinität für jeden relevanten Waffentyp.
-     Rang: E / D / C / B / A  |  Affinität: Niedrig / Mittel / Hoch
-     Waffentypen ohne Relevanz für den Charakter können weggelassen werden. -->
-
-| Waffentyp | Startrang | Affinität |
-| --------- | --------- | --------- |
-| Schwert   | {{RANG}}  | {{AFF}}   |
-| Lanze     | {{RANG}}  | {{AFF}}   |
-| Axt       | {{RANG}}  | {{AFF}}   |
-| Bogen     | {{RANG}}  | {{AFF}}   |
-| Gauntlet  | {{RANG}}  | {{AFF}}   |
-| Magie     | {{RANG}}  | {{AFF}}   |
-
-**Bevorzugte Waffe:** {{BEVORZUGTE-WAFFE}}
-
-**Schwächen:** {{WAFFENSCHWAECHEN}}
+| HP | MP | Str | Mag | Dex | Spd | Lck | Def | Res |
+| -- | -- | --- | --- | --- | --- | --- | --- | --- |
+|    |    |     |     |     |     |     |     |     |
 
 ---
 
-## Empfohlener Klassenpfad <!-- Pflicht -->
+## Stats by Appearance <!-- Variante B – Boss oder Story-NPC -->
 
-<!-- Pflicht: Klassenprogression von Citizen bis zur höchsten Klasse.
-     Unique-Klasse ist optional und nur bei Hauptcharakteren relevant. -->
+<!-- Eine Zeile pro Auftritt. Keine Wachstumsraten – diese Einheit levelt nicht. -->
+
+| Chapter | Level | HP | MP | Str | Mag | Dex | Spd | Lck | Def | Res |
+| ------- | ----- | -- | -- | --- | --- | --- | --- | --- | --- | --- |
+|         |       |    |    |     |     |     |     |     |     |     |
+
+---
+
+## Abilities
+
+| Class | Level | Ability | Effect |
+| ----- | ----- | ------- | ------ |
+|       |       |         |        |
+
+**Personal Ability:** <!-- genau eine, an eine herstellbare Bedingung geknüpft -->
+
+---
+
+## Combat Arts
+
+| Class | Level | Combat Art | Cost | Effect |
+| ----- | ----- | ---------- | ---- | ------ |
+|       |       |            |      |        |
+
+---
+
+## Weapon Proficiencies
+
+<!-- Nur Typen, die diese Figur wirklich führt. Ränge E–A.
+     Physisch: Sword · Lance · Axe · Knife · Gauntlet · Chain · Battle Staff
+               · Bow · Artillery
+     Magisch:  Pyro · Aero · Electro · Hydro · Cryo · Geo · Dendro
+               · Lux · Umbra   (elementgebunden über die Klasse) -->
+
+| Weapon Type | Rank |
+| ----------- | ---- |
+|             |      |
+
+**Weakness:** <!-- ausdrücklich benennen -->
+
+---
+
+<!-- ══════════════ LOREKEEPER ══════════════ -->
+
+## Canon Class Path
+
+<!-- Was die Figur in der Story wird. Dem Spieler wird das nie genannt –
+     bei den Vigilant Knights ist seine Wahl frei.
+     Beginnt dort, wo die Figur einsteigt: Citizen nur bei den Knights,
+     spätere Zugänge starten in ihrem Beitritts-Tier.
+     Klassennamen aus design/catalog/Unit-Classes.md, Tier in Klammern.
+     Keine Stufenangaben – die Gates stehen im Progression-System. -->
 
 ```
-Citizen (Stufe 1)
-    ↓
-{{BASISKLASSE}} (Stufe 5)
-    ↓
-{{MITTELSTUFE-KLASSE}} (Stufe 10)
-    ↓
-{{FORTGESCHRITTENE-KLASSE}} (Stufe 20)
-    ↓
-{{MEISTER-KLASSE}} (Stufe 30)
-    ↓
-{{UNIQUE-KLASSE}} (Stufe 35)  ← Optional, nur für Hauptcharaktere
+… (Base) → … (Intermediate) → … (Advanced) → … (Master)
 ```
 
 ---
 
-## Unterstützungsgespräche <!-- Optional -->
+## Support Conversations
 
-<!-- Optional: Unterstützungspartner und Gesprächsinhalte.
-     S-Support nur für romantische Endgame-Paarungen. -->
+<!-- Zwei bis vier Partner. Reibung, nicht Sympathie.
+     Nur erreichbare Partner – getrennte Stränge treffen sich erst ab Part 07. -->
 
-### Mögliche Unterstützungspartner
+**{{PARTNER}}** —
 
-- **{{PARTNER-NAME}}** — {{BEZIEHUNGSTYP}} <!-- z.B. Freund, Rivale, Romantisch, Mentor -->
-- **{{PARTNER-NAME}}** — {{BEZIEHUNGSTYP}}
-
-### Wichtige Unterstützungsmomente
-
-- **C-Support mit {{NAME}}:** {{THEMA-C}}
-- **B-Support mit {{NAME}}:** {{THEMA-B}}
-- **A-Support mit {{NAME}}:** {{THEMA-A}}
-- **S-Support mit {{NAME}}:** {{THEMA-S}} <!-- Optional: nur romantische Hauptpaarungen -->
+- **C:**
+- **B:**
+- **A:**
 
 ---
 
-## Story-Rolle <!-- Pflicht -->
+## Story Role
 
-<!-- Pflicht: Bedeutung und Entwicklung des Charakters im Spielverlauf. -->
+**Significance:** <!-- Hauptcharakter / Nebencharakter / rekrutierbarer NPC -->
 
-**Bedeutung:** {{BEDEUTUNG}} <!-- z.B. Hauptcharakter / Nebencharakter / Rekrutierbarer NPC -->
+<!-- Nur die Parts, in denen die Figur vorkommt. Übrige Zeilen löschen. -->
 
-**Charakterbogen:**
+- **Part 0X:**
 
-- **Part 1:** {{BOGEN-PART-1}}
-- **Part 2:** {{BOGEN-PART-2}}
-- **Part 3:** {{BOGEN-PART-3}}
-- **Part 4:** {{BOGEN-PART-4}}
+**Key Chapters:**
 
-**Schlüsselkapitel:**
+<!-- Ein Ereignis je Zeile. Der Testmoment der Figur gehört hierher und
+     wird als solcher markiert. -->
 
-- Kapitel {{KAPITEL-NR}}: {{EREIGNIS}}
-- Kapitel {{KAPITEL-NR}}: {{EREIGNIS}}
+- **Chapter XX:**
 
 ---
 
-## Trivia <!-- Optional -->
+## Trivia
 
-<!-- Optional: Interessante Fakten, Inspirationsquellen, Entwicklungsnotizen. -->
-
-- {{TRIVIA-1}}
-- {{TRIVIA-2}}
-
----
-
-## Verwandte Inhalte <!-- Pflicht -->
-
-<!-- Pflicht: Links zu allen direkt verwandten Wiki-Seiten. -->
-
-- **Kapitel:** {{KAPITEL-LINKS}}
-- **Levels:** {{LEVEL-LINKS}}
-- **Orte:** {{ORTS-LINKS}}
-- **Andere Charaktere:** {{CHARAKTER-LINKS}}
+<!-- Nur, was sonst nirgends steht und eine Szene tragen könnte.
+     Lieber löschen als füllen. -->
 
 ---
 
 **Version:** 1.0
-**Erstellt:** {{DATUM-ERSTELLT}}
-**Zuletzt aktualisiert:** {{DATUM-AKTUALISIERT}}
+**Created:**
+**Last Updated:**

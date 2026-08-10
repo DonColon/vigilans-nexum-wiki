@@ -6,6 +6,6 @@ This section of the document describes the items, abilities and unit classes tha
 - [Accessoires](Accessoires.md)
 - [Combat Arts](Combat-Arts.md)
 - [Consumables](Consumables.md)
-- [Magic Spells](Magic-Spells.md)
+- [Magic Tomes](Magic-Tomes.md)
 - [Unit Classes](Unit-Classes.md)
 - [Weapons](Weapons.md)

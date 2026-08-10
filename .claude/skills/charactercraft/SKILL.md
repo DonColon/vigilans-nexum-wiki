@@ -22,6 +22,7 @@ Der Bogen behauptet nichts, was nicht geprüft ist. **Wiki-first, ausnahmslos.**
 | Kult, Götter, Nexus | `story/lore/Mythology.md` |
 | Strangzugehörigkeit (Part 05 = Dardan/Adolla, Part 06 = Hasan/Vaestrall) | `story/README.md` |
 | MBTI-Typen | `story/Personality-Types.md` |
+| Raster für das Sprachmuster | `story/Speech-Patterns.md` |
 
 Wenn etwas fehlt: **Lücke melden, nicht füllen.** Ein erfundener Heimatort steht danach für immer im Wiki und wird von der nächsten Sitzung als Wahrheit gelesen.
 
@@ -36,24 +37,41 @@ Erscheint die Figur bereits in geschriebenen Kapiteln, wird der Bogen **aus dem 
 - Vorlage → `story/characters/_TEMPLATE.md`
 - Ohne Eintrag in `story/characters/README.md` – im richtigen Part – existiert die Datei nicht
 
-Spielbare Figuren bekommen den vollen Bogen inklusive Gameplay-Abschnitten. Story-Figuren bekommen vier Abschnitte: Personal Information, Appearance, Personality, Backstory, dazu **Role in Story** statt Story Role. Keine Werte, keine Klassen, kein Klassenpfad – wer nicht spielbar ist, hat keine Statistik.
+**Jede benannte Figur bekommt einen Werteblock** – auch die, die nie spielbar ist. Ein Großteil der Story-Figuren sind Bosse, und ein Boss ohne Werte lässt sich nicht bauen. Der Unterschied liegt nicht darin, *ob* Werte dastehen, sondern welche:
+
+| Sorte | Werteblock |
+|---|---|
+| Spielbare Einheit | Base Stats, Growth Rates, Max Stats – die volle Ableitung |
+| Benannte, nicht spielbare Einheit (Boss, NPC) | *Stats by Appearance* – eine Zeile je Auftritt, keine Wachstumsraten |
+| Generischer Gegner | **kein Bogen.** Werte stehen im Level-Dokument |
+
+Ein Boss levelt nicht; er tritt auf, kämpft, fällt. Deshalb trägt sein Bogen die Werte pro Auftritt statt einer Kurve – und `levelcraft` verlinkt sie, statt sie zu wiederholen.
+
+Nicht rekrutierbare Figuren lassen *Recruitment* und *Support Conversations* weg. Alles andere gilt für alle.
 
 ---
 
 ## Form
 
-**Abschnittsüberschriften Englisch, Prosa Deutsch.** So macht es der gesamte Bestand. Das Template ist mit deutschen Überschriften abgelegt und weicht damit ab – das ist eine bekannte Divergenz, kein Freibrief: neue Bögen folgen dem Bestand, und eine Umstellung des Bestands ist eine Entscheidung von Dardan, keine Nebenwirkung eines neuen Bogens.
+**Abschnittsüberschriften Englisch, Prosa Deutsch.** Das ist die Sprachregel des Projekts an dieser Datei: Gameplay Englisch, Story Deutsch. Überschriften, Tabellenköpfe und alles im Werteblock sind Englisch – *Cost*, *Effect*, nicht „Kosten", „Effekt". Die Absätze darunter sind Deutsch. Innerhalb einer Tabelle wird nie gemischt.
 
-Feste Reihenfolge, spielbare Figur:
+**Kein H1-Titel.** Die Datei heißt wie die Figur, und der Name steht in *Personal Information* – ein dritter Ort dafür ist einer zu viel. Der Bogen beginnt direkt mit `## Personal Information`, so wie der gesamte Bestand.
+
+Feste Reihenfolge:
 
 ```
 Personal Information · Appearance · Personality · Backstory · Recruitment
-[Gameplay-Block → statcraft]
-Weapon Proficiencies · Recommended Class Path   [→ statcraft]
-Support Conversations · Story Role · Trivia · Related Content
+─── Rulewright ───────────────────────────────────────────────
+[Werteblock] · Abilities · Combat Arts · Weapon Proficiencies
+─── Lorekeeper ───────────────────────────────────────────────
+Canon Class Path · Support Conversations · Story Role · Trivia
 ```
 
+*Recruitment* ist geteilt: die Prosa gehört hierher, Beitrittslevel, Startklasse und Ausrüstung zu `statcraft`. *Canon Class Path* steht auf der Story-Seite, weil er sagt, was die Figur **wird** – Rulewright prüft ihn nur gegen den Klassenbaum.
+
 Am Dateiende `**Version:**`, `**Created:**`, `**Last Updated:**`. HTML-Kommentare aus dem Template werden vor dem Speichern gelöscht.
+
+**Keine Linklisten am Anfang oder Ende.** Weder eine *Verwandte Dateien*-Zeile über dem Bogen noch ein *Related Content* darunter – beide sammelten dieselben Links doppelt. Verlinkt wird dort, wo ein Ort, ein Kapitel oder eine Figur im Text vorkommt.
 
 ---
 
@@ -73,7 +91,7 @@ Der Fehler, der hier lauert, ist die **Kostümliste**: fünf Sätze Kleidungsinv
 
 ### Personality – drei bis fünf Absätze
 
-Kernzüge, Motivation, Umgang mit anderen, Angst und Schwäche, wie die Herkunft das geformt hat. Danach eine Zeile `**Personality Type:**` mit dem MBTI-Kürzel.
+Kernzüge, Motivation, Umgang mit anderen, Angst und Schwäche, wie die Herkunft das geformt hat. Danach zwei Zeilen: `**Personality Type:**` mit dem MBTI-Kürzel und `**Speech Pattern:**` mit der grammatischen Signatur der Figur.
 
 Drei Anforderungen:
 
@@ -82,6 +100,14 @@ Drei Anforderungen:
 - **Die Lüge zeigt sich im Verhalten**, nicht in einer Diagnose. Nicht „sie hat Angst vor Nähe", sondern was sie tut, wenn jemand nah kommt.
 
 Der MBTI-Typ ist Ergebnis, nicht Vorgabe: erst die Persönlichkeit schreiben, dann den Typ zuordnen, der zu dem passt, was dasteht.
+
+#### Speech Pattern – wie die Figur einen Satz baut
+
+Anders als der MBTI-Typ hat dieses Feld **keine Werteliste**, und das ist der Punkt: Zwei Figuren mit demselben Eintrag klängen gleich. Stattdessen wird an sechs Dimensionen entlang geantwortet – **Satzbau, Verbindung, Modus, Umgang mit Fragen, was fehlt, Register.** Nicht jede muss vorkommen; ein bis zwei Sätze genügen. Das vollständige Raster mit Ausprägungen und Beispielen steht in `story/Speech-Patterns.md` und wird vor dem Ausfüllen gelesen.
+
+**Die Probe: Könnte jemand daraus eine Dialogzeile schreiben, ohne die Figur zu kennen?** Bei „warmherzig, aber nicht schwach" nicht – das ist Haltung. Bei „erste Person Plural, wo andere ‚du' sagen" schon – das ist Struktur. Steht im Feld Haltung, ist es nicht ausgefüllt, nur belegt.
+
+Dieses Feld ist der Grund, warum der Tag-Test in `storycraft` überhaupt bestehbar ist. Es ist die Zeile, die Lorekeeper zwanzig Kapitel später nachschlägt.
 
 ### Backstory – drei bis fünf Absätze
 
@@ -112,15 +138,11 @@ C bis A skizzieren eine Bewegung: C stellt die Frage, B legt etwas offen, A ver�
 
 Bedeutung (Hauptcharakter / Nebencharakter / rekrutierbarer NPC) und der Bogen pro Part – aber nur für die Parts, in denen die Figur überhaupt vorkommt. Eine Figur, die in Part 06 beitritt, hat keinen Part-01-Bogen; die Zeile wird gelöscht, nicht mit „nicht anwesend" gefüllt.
 
-Dazu die Schlüsselkapitel mit je einem Ereignis. Das ist der Abschnitt, den spätere Sitzungen zuerst lesen – er muss allein stehen können.
+Dazu die Schlüsselkapitel mit je einem Ereignis. Das ist der Abschnitt, den spätere Sitzungen zuerst lesen – er muss allein stehen können. **Der Testmoment der Figur gehört hierher** und wird als solcher markiert; ohne ihn ist die Figur beschrieben, aber nicht geschrieben.
 
 ### Trivia
 
 Nur, was den Bogen sonst nirgends berührt und trotzdem eine Szene tragen könnte: eine Gewohnheit, ein Gegenstand, ein Datum, das sie nicht mehr feiert. Drei starke Punkte schlagen sechs beliebige. Lieber leer lassen und den Abschnitt löschen.
-
-### Related Content
-
-Kapitel, Levels, Orte, andere Figuren – als Links, keine Namensliste ohne Pfad.
 
 ---
 
@@ -128,7 +150,7 @@ Kapitel, Levels, Orte, andere Figuren – als Links, keine Namensliste ohne Pfad
 
 **Wunde, Lüge, Testmoment.** Jede spielbare Figur hat ein prägendes Ereignis, einen falschen Glaubenssatz daraus und eine Stelle in der Story, wo dieser Satz unter Druck gerät. Wunde und Lüge stehen in Backstory und Personality; der Testmoment gehört zu den Schlüsselkapiteln. Fehlt der Testmoment, ist die Figur beschrieben, aber nicht geschrieben.
 
-**Idiolekt festhalten, nicht nur Haltung.** Der Bogen sagt, *wie* die Figur Sätze baut, nicht nur wie sie drauf ist – kurze Hauptsätze ohne Konjunktionen; Konjunktiv und Einschübe; jemand, der Fragen mit Fragen beantwortet. Das ist die Zeile, die Lorekeeper in Kapitel 44 braucht. Eine Figur, deren Bogen keinen Satzbau nennt, klingt später wie alle anderen.
+**Idiolekt festhalten, nicht nur Haltung.** Eine Figur, deren Bogen keinen Satzbau nennt, klingt später wie alle anderen. Das Feld dafür ist `**Speech Pattern:**` unter *Personality*, das Raster steht dort.
 
 **Das Bild vor dem Gefühlswort.** Auch im Bogen. Was tut die Hand, was tut der Blick – die Emotion entsteht beim Leser.
 
@@ -168,7 +190,7 @@ Kapitel, Levels, Orte, andere Figuren – als Links, keine Namensliste ohne Pfad
 - Appearance: drei Absätze, mindestens ein Detail, das Verhalten ist?
 - Personality: ein Widerspruch, nicht nur eine Tugendliste? MBTI passt zum Geschriebenen?
 - Backstory: ein prägendes Ereignis, nicht vier?
-- Idiolekt benannt – wüsste jemand, wie diese Figur einen Satz baut?
+- Speech Pattern gefüllt – und zwar mit Struktur, nicht mit Haltung? Könnte jemand daraus eine Dialogzeile schreiben?
 - Testmoment vorhanden und einem Kapitel zugeordnet?
 - Supports: existieren, erreichbar, kein Doppelspiegel?
 - Story Role: nur die Parts, in denen die Figur vorkommt?

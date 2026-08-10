@@ -1,11 +1,29 @@
 ---
 name: 'statcraft'
-description: "Binding rules for the gameplay half of a Vigilans Nexum character sheet — joining level and tier, base stats, growth rates, max stats, abilities, combat arts, spells, weapon proficiencies and the recommended class path. Load before filling or revising any stat block in story/characters/, before inventing a class, ability or combat art for a unit, and before answering questions about how strong a unit is. Covers the derivation order, the budget and cap discipline, the reachability check, and the known drift in existing sheets. The narrative half belongs to `charactercraft`."
+description: "Binding rules for the gameplay half of a Vigilans Nexum character sheet — joining level and tier, base stats, growth rates, max stats, abilities, combat arts, weapon proficiencies and the validation of the canon class path. Load before filling or revising any stat block in story/characters/, before inventing a class, ability or combat art for a unit, and before answering questions about how strong a unit is. Covers the derivation order, the budget and cap discipline, the reachability check, element-locked magic proficiencies, and the known drift in existing sheets. The narrative half belongs to `charactercraft`."
 ---
 
 Dieser Skill trägt die **Gameplay-Hälfte** eines Charakterbogens. Persönliche Daten, Aussehen, Persönlichkeit und Story-Rolle gehören zu `charactercraft`.
 
 Eine Einheit ist eine Behauptung über das Spiel: Sie ist irgendwo stark, irgendwo schwach, und der Spieler entscheidet, ob sie ins Team kommt. Ein Bogen mit ausgewogenen Zahlen in allen neun Spalten beschreibt keine Einheit, sondern eine leere Stelle im Roster.
+
+---
+
+## Drei Sorten Einheit
+
+Nicht jede Einheit bekommt dieselben Zahlen. Vor jeder Ableitung steht die Frage, welche Sorte vorliegt:
+
+| Sorte | Wo | Was abgeleitet wird |
+|---|---|---|
+| **Spielbare Einheit** | eigener Bogen | Die volle Ableitung unten: Base Stats, Growth Rates, Max Stats, Erreichbarkeitsprobe |
+| **Benannte Nicht-Spielbare** – Bosse, Story-NPCs | eigener Bogen | *Stats by Appearance*: eine Zeile je Auftritt mit Kapitel, Level und den neun Werten. **Keine Wachstumsraten, keine Maximalwerte, keine Erreichbarkeitsprobe** – diese Einheit levelt nicht |
+| **Generischer Gegner** – Soldat, Bogenschütze | **kein Bogen** | Nur die Statwerte dieses einen Kampfes, im Level-Dokument. Siehe `levelcraft` |
+
+Ein Boss tritt auf, kämpft, fällt. Eine Wachstumskurve für ihn zu bauen heißt, eine Frage zu beantworten, die das Spiel nie stellt. Taucht er in mehreren Kapiteln auf, bekommt er pro Auftritt eine Zeile – er wird stärker, weil die Story es sagt, nicht weil er Level-Ups gesammelt hat.
+
+**Werte für benannte Einheiten stehen ausschließlich auf ihrem Bogen.** Das Level-Dokument verlinkt sie und trägt nur, was kampfabhängig ist: Ausrüstung in diesem Gefecht, KI-Muster, Position, Dialoge. Dieselbe Zahl an zwei Orten ist derselbe Fehler wie überall sonst.
+
+Die Schritte 1 bis 6 unten gelten für spielbare Einheiten. Für benannte Nicht-Spielbare gelten Schritt 2 (Klassenprüfung) und 7 bis 8; ihre Werte pro Auftritt richten sich nach dem Feindlevelband des Parts aus `Progression-System.md` und dem Boss-Faktor aus dem Balancing-Guide.
 
 ---
 
@@ -34,7 +52,13 @@ Reihenfolge ist nicht Geschmack. Wer bei den Basiswerten anfängt, muss dreimal 
 
 **1 – Beitrittslevel und Tier.** Aus der Rekrutierungstabelle in `Progression-System.md`. Der Part bestimmt das Level, das Level bestimmt das Klassen-Tier. Eine Figur, die in Part 06 beitritt, startet nicht als Base-Klasse.
 
-**2 – Klassenpfad.** Aus `catalog/Unit-Classes.md`, ausschließlich mit dort existierenden Klassennamen. Der Pfad folgt den Verzweigungen des Baums – jede Klasse muss aus ihrer Vorgängerin tatsächlich hervorgehen können. Unique-Klassen sind Dardan und Hasan vorbehalten. Braucht die Figur eine Klasse, die es nicht gibt, wird sie **zuerst im Katalog angelegt** – ein Klassenname, der nur auf einem Charakterbogen steht, existiert nicht.
+**2 – Canon Class Path.** Dieser Pfad wird **nicht hier gesetzt, sondern geprüft.** Er sagt, was die Figur in der Story wird – eine Entscheidung von Dardan, festgehalten von Lorekeeper. Dem Spieler wird er nie genannt: bei den Vigilant Knights, die als Citizen starten, ist die Klassenwahl wirklich seine.
+
+Die Prüfung gegen `catalog/Unit-Classes.md`: Jeder Klassenname muss dort existieren, und jede Klasse muss aus ihrer Vorgängerin tatsächlich hervorgehen können. Unique-Klassen sind Dardan und Hasan vorbehalten. Hält der Pfad nicht, wird er gemeldet – nicht stillschweigend umgeschrieben, denn dann zeigt ein Kapitel eine Figur in einer Klasse, die es nicht geben kann.
+
+Für spätere Zugänge ist der **erste** Eintrag dagegen mechanisch hart: sie treten in einer Klasse bei, die feststeht. Offen ist bei ihnen nur, was nach der Verzweigung kommt.
+
+Braucht die Figur eine Klasse, die es nicht gibt, wird sie **zuerst im Katalog angelegt** – ein Klassenname, der nur auf einem Charakterbogen steht, existiert nicht.
 
 **3 – Archetyp.** Ein Satz, der sagt, wofür der Spieler diese Einheit einsetzt und wogegen sie verliert. Physischer Angreifer, Magier, Tank, Speedster, ausgewogen – oder eine begründete Mischung. Dieser Satz steuert Schritt 4 und 5; ohne ihn werden beide beliebig.
 
@@ -46,7 +70,7 @@ Reihenfolge ist nicht Geschmack. Wer bei den Basiswerten anfängt, muss dreimal 
 
 Innerhalb des Budgets gilt: Profil vor Gleichverteilung. Zwei bis drei Werte deutlich über dem Mittel, zwei bis drei deutlich darunter. Eine Einheit ohne Schwäche ist eine Einheit ohne Entscheidung, und Entscheidungen sind der Punkt (Design Pillar 3).
 
-**6 – Maximalwerte.** Bezugspunkt ist der **Level-Cap** aus dem Balancing-Guide, nicht Stufe 45. *(Das Template nennt an dieser Stelle noch Stufe 45 – eine veraltete Angabe aus der Zeit vor dem aktuellen Level-Band.)* Kein Wert überschreitet den absoluten Cap seiner Spalte.
+**6 – Maximalwerte.** Bezugspunkt ist der **Level-Cap** aus dem Balancing-Guide, nicht Stufe 45 – 45 ist das Promotions-Gate. Kein Wert überschreitet den absoluten Cap seiner Spalte.
 
 Und dann die **Erreichbarkeitsprobe**, die in diesem Projekt am häufigsten übersprungen wird:
 
@@ -58,11 +82,17 @@ erwarteter Wert = Basiswert
 
 Der eingetragene Maximalwert ist der kleinere Wert aus *erwartet* und *Cap*. Steht dort etwas Höheres, ist es eine Zahl, die keine Einheit je erreichen kann – der Bogen verspricht dem Spieler dann etwas, das das System nicht liefert.
 
-**7 – Fähigkeiten, Kampfkünste, Zauber.** Jeder Eintrag stammt aus `design/catalog/` oder wird dort angelegt. Pro Zeile: Klasse, Stufe, Name, Effekt – und bei Kampfkünsten und Zaubern die Kosten (Haltbarkeit oder MP). Der Effekt ist in einem Satz und in Spielbegriffen formuliert, so dass er implementierbar ist; „stärkt Verbündete" ist kein Effekt.
+**7 – Fähigkeiten und Kampfkünste.** Jeder Eintrag stammt aus `design/catalog/` oder wird dort angelegt. Pro Zeile: Klasse, Stufe, Name, Effekt – und bei Kampfkünsten die Kosten (Haltbarkeit oder MP).
+
+**Zauber bekommen keinen eigenen Abschnitt.** Ein Magier lernt nichts, was der Bogen festhalten müsste: Sein Element steht in den Waffenrängen, die Tomes stehen in `catalog/Magic-Tomes.md`. Ein Zauber ist eine Waffe, kein Charaktermerkmal. Der Effekt ist in einem Satz und in Spielbegriffen formuliert, so dass er implementierbar ist; „stärkt Verbündete" ist kein Effekt.
 
 **Genau eine persönliche Fähigkeit pro Einheit.** Sie ist die mechanische Übersetzung dessen, was `charactercraft` über die Figur sagt – Design Pillar 4, Story und Gameplay sind dasselbe. Sie darf keine Klassenfähigkeit duplizieren und ist an eine Bedingung geknüpft, die der Spieler herstellen kann: eine Position, ein Zustand, ein Verzicht. Eine Passive, die immer gilt, ist ein Statbonus mit Namen.
 
-**8 – Waffenfertigkeiten.** Nur Waffentypen, die es gibt (`catalog/Weapons.md`, `catalog/Magic-Spells.md`, Spalte *Weapon Types* in `Unit-Classes.md`). Ränge E–A. Die Typen müssen zu den Klassen des Pfads passen – eine Klasse, die keine Bögen führt, gibt keinem Bogenrang einen Ort. Eine Schwäche wird ausdrücklich benannt.
+**8 – Waffenfertigkeiten.** Nur Waffentypen, die es gibt (`catalog/Weapons.md`, `catalog/Magic-Tomes.md`, Spalte *Weapon Types* in `Unit-Classes.md`). Ränge E–A. Die Typen müssen zu den Klassen des Pfads passen – eine Klasse, die keine Bögen führt, gibt keinem Bogenrang einen Ort. Eine Schwäche wird ausdrücklich benannt.
+
+**Magie ist elementgebunden.** Ein Magier führt nicht „Magie", sondern sein Element: Pyro, Aero, Electro, Hydro, Cryo, Geo, Dendro, Lux oder Umbra. Die Klasse bestimmt welches – ein Pyro Sage führt Pyro-Tomes und sonst nichts. Erst auf höheren Stufen kommen weitere hinzu: Elementalist führt zwei Natura-Elemente, Arcanist drei. Die Spalte *Weapon Types* in `Unit-Classes.md` ist dafür die Autorität.
+
+Diese Zusatzelemente sind eine **Verzweigung wie eine Klassengabelung** und genauso unumkehrbar. Pyro+Cryo spielt anders als Pyro+Aero; jede Kombination, die ein Bogen empfiehlt, braucht eine Situation, in der sie die richtige Antwort ist.
 
 ---
 
@@ -84,15 +114,15 @@ Die meisten spielbaren Bögen haben **leere** Werte-Tabellen. Das ist der offene
 
 **Erfundene Klassen.** Der häufigste und teuerste Fehler. Ein Klassenname, der plausibel klingt, ist damit nicht im Katalog – *Warlord*, *Dark Mage*, *Hexenmutter* sind alle schon so entstanden. Jede Klasse im Pfad in `Unit-Classes.md` nachschlagen, keine ausgenommen. Und eine Unique-Klasse behauptet nur, wer Dardan oder Hasan ist.
 
-**Erfundene Waffentypen.** Dieselbe Falle eine Ebene tiefer. Der Waffentyp steht in `catalog/Weapons.md`, `catalog/Magic-Spells.md` oder in der Spalte *Weapon Types* von `Unit-Classes.md` – oder er existiert nicht.
+**Erfundene Waffentypen.** Dieselbe Falle eine Ebene tiefer. Der Waffentyp steht in `catalog/Weapons.md`, `catalog/Magic-Tomes.md` oder in der Spalte *Weapon Types* von `Unit-Classes.md` – oder er existiert nicht. „Magie" und „Dark Tome" sind beides keine Typen; die Typen sind die neun Elemente.
 
 **Caps überschritten.** Maximalwerte werden geschätzt statt gerechnet. Die Erreichbarkeitsprobe oben ist genau dagegen da.
 
-**Falscher Bezugslevel.** Stufe 45 ist das Promotions-Gate, nicht das Ende. Der Level-Cap steht im Balancing-Guide und liegt höher. Wo ein Bogen oder das Template „Max Level 45" sagt, ist das eine Altlast.
+**Falscher Bezugslevel.** Stufe 45 ist das Promotions-Gate, nicht das Ende. Der Level-Cap steht im Balancing-Guide und liegt höher. Wo ein Bogen „Max Level 45" sagt, ist das eine Altlast aus der Zeit vor dem aktuellen Level-Band.
 
 **Budget unterschritten ohne Ausgleich.** Ein niedriges Wachstum lässt sich nicht mit hohen Basiswerten begründen – die wirken zu Beginn, das Budget wirkt über 20 bis 50 Level-Ups. Wer unter dem Budget bleibt, begründet das über einen Cap-Vorteil oder eine starke Passive, nicht über den Startwert.
 
-**Sprachmischung in den Tabellenköpfen.** „Kosten"/„Cost", „Effekt"/„Effect" wechseln innerhalb desselben Bogens. Innerhalb einer Datei durchhalten.
+**Sprachmischung in den Tabellenköpfen.** Der Werteblock ist Gameplay und damit **Englisch** – *Cost*, *Effect*, *Rank*, nicht „Kosten", „Effekt", „Rang". Ältere Bögen wechseln innerhalb derselben Datei; beim Anfassen wird auf Englisch vereinheitlicht.
 
 Welche Bögen heute konkret betroffen sind, steht in `notes/Character-Sheet-Drift.md` – dort mit Datei, Befund und Schwere. Diese Liste hier nennt die Fallen; jene Datei nennt die Fundstellen.
 
