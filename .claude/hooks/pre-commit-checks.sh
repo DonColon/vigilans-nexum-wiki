@@ -57,13 +57,21 @@ add_warning() {
 
 # ── 1. Platzhalter ───────────────────────────────────────────────────────────
 # Template-Platzhalter der Form {{FELDNAME}} in neu hinzugefügten Zeilen.
-placeholders=$(git diff --cached -U0 --diff-filter=ACM -- '*.md' 2>/dev/null \
-  | grep '^+' | grep -oE '\{\{[A-Za-z0-9_-]+\}\}' | sort -u | head -6 | tr '\n' ' ')
+#
+# Zwei Ausnahmen, beide notwendig:
+#   *_TEMPLATE.md  – Templates SOLLEN Platzhalter enthalten, das ist ihr Zweck
+#   `...`          – Text in Backticks redet ÜBER Platzhalter, statt einen zu
+#                    benutzen. Skills und CHANGELOG tun das ständig.
+SCOPE=(-- '*.md' ':(exclude)*_TEMPLATE.md')
+strip_code() { sed 's/`[^`]*`//g'; }
+
+placeholders=$(git diff --cached -U0 --diff-filter=ACM "${SCOPE[@]}" 2>/dev/null \
+  | grep '^+' | strip_code | grep -oE '\{\{[A-Za-z0-9_-]+\}\}' | sort -u | head -6 | tr '\n' ' ')
 
 if [ -n "$placeholders" ]; then
-  files=$(git diff --cached --name-only --diff-filter=ACM -- '*.md' 2>/dev/null \
+  files=$(git diff --cached --name-only --diff-filter=ACM "${SCOPE[@]}" 2>/dev/null \
     | while read -r f; do
-        [ -f "$f" ] && grep -qE '\{\{[A-Za-z0-9_-]+\}\}' "$f" && echo "$f"
+        [ -f "$f" ] && strip_code < "$f" | grep -qE '\{\{[A-Za-z0-9_-]+\}\}' && echo "$f"
       done | head -4 | tr '\n' ' ')
   emit_block "Platzhalter im Commit: ${placeholders}in ${files}-- ein aus einem Template kopierter Wert ist noch nicht ersetzt. Ausfuellen oder den Abschnitt loeschen; kein Platzhalter bleibt stehen."
 fi
