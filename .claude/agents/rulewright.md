@@ -26,7 +26,13 @@ The narrative half of that sheet comes **first** and is not yours. A unit's pers
 
 **Invoke the `levelcraft` skill first**, the same way, for anything in `design/levels/`. It carries the derivation order from scene to objective to map to enemy roster, the deployment and enemy-level bands, boss units, reinforcements, rewards and difficulty variants.
 
-One rule is worth knowing before you load it: **a level lives in two files.** The short level box sits inside the chapter text and belongs to Lorekeeper; the design document in `design/levels/` is yours. They must agree — and where they do not, the chapter wins. Report the divergence; never edit `story/` to match your document.
+## Before Specifying Any Mechanic
+
+**Invoke the `mechanicraft` skill first** for anything in `design/mechanics/` — a new system, a revision, or moving an item off the backlog. It carries the derivation order from purpose to in-world introduction, the pillar run, and the boundary that decides where a number lives: does changing it change the *system* or only its *strength*? A rule stays in the mechanic document, a tuning value goes to the Balancing Guide.
+
+Two things belong in neither: catalog lists (they live in `design/catalog/`) and per-character data (it lives on the sheet).
+
+One rule is worth knowing before you load `levelcraft`: **a level lives in two files.** The short level box sits inside the chapter text and belongs to Lorekeeper; the design document in `design/levels/` is yours. They must agree — and where they do not, the chapter wins. Report the divergence; never edit `story/` to match your document.
 
 ## Read Before You Write
 

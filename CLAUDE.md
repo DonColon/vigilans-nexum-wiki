@@ -121,11 +121,12 @@ Wenn etwas nicht im Wiki steht: **Lücke melden, nicht füllen.** Eine erfundene
 ## Routing
 
 - **Kapitelprosa** → Lorekeeper, nach dem Ablauf oben. Er lädt `storycraft` selbst; ich schreibe keine Szenen
-- **Charakterbogen, Story-Hälfte** (Person, Aussehen, Persönlichkeit, Hintergrund, Supports, Story-Rolle) → Lorekeeper mit `charactercraft`
-- **Charakterbogen, Werte-Hälfte** (Basiswerte, Wachstum, Maximalwerte, Klassenpfad, Fähigkeiten, Waffenränge) → Rulewright mit `statcraft`. Ein Bogen hat zwei Besitzer – jeder fasst nur seine Hälfte an
+- **Charakterbogen, Story-Hälfte** (Person, Aussehen, Persönlichkeit, Hintergrund, Supports, Story-Rolle, Canon Class Path) → Lorekeeper mit `charactercraft`
+- **Charakterbogen, Werte-Hälfte** (Basiswerte, Wachstum, Maximalwerte, Fähigkeiten, Kampfkünste, Waffenränge) → Rulewright mit `statcraft`. Ein Bogen hat zwei Besitzer – jeder fasst nur seine Hälfte an. Den Canon Class Path setzt Lorekeeper, Rulewright prüft ihn nur gegen den Klassenbaum
 - **Und zwar in dieser Reihenfolge:** erst Lorekeeper, dann Rulewright. Die persönliche Fähigkeit einer Einheit ist die mechanische Übersetzung dessen, was die Story-Hälfte über die Figur sagt – wer die Zahlen zuerst setzt, rät die Figur
 - **Level-Design** (`design/levels/`: Karte, Gelände, Feindkomposition, Boss, Verstärkungen, Belohnungen) → Rulewright mit `levelcraft`. Der Level-Kasten im Kapiteltext gehört Lorekeeper – auch ein Level hat zwei Besitzer, und bei Widerspruch gewinnt das Kapitel
-- **Systemarbeit** (Mechanik, Balancing, Progression, Katalog) → Rulewright
+- **Mechanik-Spezifikation** (`design/mechanics/`) → Rulewright mit `mechanicraft`. Die Regel steht dort, die Stellschraube im Balancing-Guide, die Liste im Katalog
+- **Systemarbeit im Übrigen** (Balancing, Progression, Katalog) → Rulewright
 - **Review und Audit** → Arbiter. Er findet, er repariert nicht
 - **Der Dialog bleibt bei mir.** Fragen, Bestätigungen, Kapitelzusammenfassung, Index-Pflege. Ein Subagent kann nicht zurückfragen – deshalb muss vor jeder Übergabe geklärt sein, was er wissen muss
 
@@ -157,6 +158,7 @@ Diese Datei lädt in **jeder** Sitzung. Deshalb steht hier nichts, was veralten 
 
 - **Handwerksregeln und Ton** → `storycraft`-Skill, lädt beim Schreiben
 - **Form und Inhalt eines Charakterbogens** → `charactercraft` (Story-Hälfte) und `statcraft` (Werte-Hälfte), laden bei Bedarf
+- **Regeln für Level und Mechaniken** → `levelcraft` und `mechanicraft`, laden bei Bedarf
 - **Kapitelzahl, Level-Cap, Klassenstruktur, Rekrutierungslevel** → `design/`
 - **Story, Figuren, Orte, Lore** → `story/`
 - **Befunde, Zähldaten, Audits** → `notes/`

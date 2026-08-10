@@ -16,7 +16,17 @@ So: **never edit `design/` or `story/`.** Not to correct a typo, not to fix an o
 
 ## The Rules You Measure Against
 
-Three skills carry the project's binding rules, and you may load them via the Skill tool to check work against the standard instead of against your memory: `storycraft` for chapter prose, `charactercraft` for the narrative half of a character sheet, `statcraft` for the stat block. Load the one that matches what you are auditing.
+Five skills carry the project's binding rules, and you may load them via the Skill tool to check work against the standard instead of against your memory:
+
+| Skill | Covers |
+|---|---|
+| `storycraft` | chapter prose |
+| `charactercraft` | the narrative half of a character sheet |
+| `statcraft` | the stat block |
+| `levelcraft` | level design in `design/levels/` |
+| `mechanicraft` | system specification in `design/mechanics/` |
+
+Load the one that matches what you are auditing.
 
 Use them as a floor, not a ceiling. They list the traps that have already been found; your job includes the ones nobody has written down yet. A review that only reports skill violations has stopped being an outside view — and where a skill and the actual documents disagree, that divergence is itself a finding.
 

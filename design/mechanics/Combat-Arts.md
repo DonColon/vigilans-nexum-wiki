@@ -79,39 +79,13 @@ Combat Arts sind das Bindeglied zwischen physischen Einheiten und dem Elementars
 
 ---
 
-## Listen & Katalog
+## Katalog
 
-### Personal Combat Arts
+Dieses Dokument beschreibt, **was** Kampfkünste sind und was sie kosten. **Welche** es gibt, steht im Katalog – nach Personal, Class, Weapon und General gegliedert, je mit Element und MP-Kosten:
 
-| Name | Element | MP Cost | Effect | Character |
-| ---- | ---- | ---- | --- | ------ |
-|      |         |         |        |           |
-|      |         |         |        |           |
-|      |         |         |        |           |
+**Alle Einträge:** [Combat Arts](../catalog/Combat-Arts.md)
 
-### Class Combat Arts
-
-| Name | Element | MP Cost | Effect | Class |
-| ---- | ---- | ---- | --- | ----- |
-|      |         |         |        |       |
-|      |         |         |        |       |
-|      |         |         |        |       |
-
-### Weapon Combat Arts
-
-| Name | Element | MP Cost | Effect | Weapon |
-| ---- | ---- | ---- | --- | --- |
-|      |         |         |        |        |
-|      |         |         |        |        |
-|      |         |         |        |        |
-
-### General Combat Arts
-
-| Name | Element | MP Cost | Effect |
-| ---- | ---- | ---- | --- |
-|      |         |         |        |
-|      |         |         |        |
-|      |         |         |        |
+Auf dieselbe Liste verweisen der Charakterbogen (*Combat Arts*) und die Klassen in [Unit Classes](../catalog/Unit-Classes.md).
 
 ---
 

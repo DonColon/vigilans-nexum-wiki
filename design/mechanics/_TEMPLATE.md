@@ -52,6 +52,26 @@
 
 ---
 
+## Kosten <!-- Pflicht -->
+
+<!-- Pflicht: Was zahlt der Spieler für den Einsatz?
+     Eine Ressource (MP, Haltbarkeit), eine Aktion, eine Position, ein Risiko –
+     oder eine Kombination. Ein System ohne Kosten ist keine Entscheidung,
+     sondern eine Belohnung mit Regeln drumherum.
+     Zweite Pflichtangabe: Sind die Kosten VOR dem Einsatz sichtbar?
+     Wenn nein, verletzt das System Pillar 5 – der Spieler soll planen können,
+     nicht erst nach dem Fehler verstehen.
+     Konkrete Zahlen gehören in den Balancing-Guide und werden hier verlinkt. -->
+
+| Was | Wert |
+| --- | ---- |
+| Ressource | *[MP / Haltbarkeit / keine]* |
+| Aktion | *[verbraucht den Zug? / freie Aktion]* |
+| Weitere Kosten | *[Position, Risiko, Verzicht]* |
+| Vor Einsatz sichtbar | *[wie der Spieler die Kosten erkennt]* |
+
+---
+
 ## Kernregeln <!-- Pflicht -->
 
 <!-- Pflicht: Die zentralen Regeln der Mechanik, so präzise wie möglich.
@@ -82,6 +102,62 @@
 
 ---
 
+## Design Pillars <!-- Pflicht -->
+
+<!-- Pflicht: Warum gehört dieses System ins Spiel?
+     Alle fünf Fragen aus design/Design-Pillars.md ausgeschrieben beantworten,
+     nicht abhaken. Ein "Nein" ist eine gültige Antwort, wenn sie begründet ist –
+     mehr als zwei bedeuten Redesign, nicht Nachbessern.
+     Ohne diesen Abschnitt fragt in einem halben Jahr jemand,
+     warum es das System gibt, und findet keine Antwort. -->
+
+| Pillar | Frage | Antwort |
+| ------ | ----- | ------- |
+| **Bonds** | Verstärkt es die Verbindungen zwischen Einheiten? | |
+| **Depth** | Einfach zu lernen, schwer zu meistern? | |
+| **Weight** | Haben die Entscheidungen langfristige Folgen? | |
+| **Integration** | Erzählt die Mechanik eine Geschichte? | |
+| **Fairness** | Ist die Herausforderung respektvoll gegenüber der Zeit des Spielers? | |
+
+**Anti-Pillar-Gegenprobe:** {{ANTI-PILLAR}}
+<!-- Kein Grinding-Zwang, keine Macht ohne Preis, nichts, das nur mit
+     übertrainierten Einheiten funktioniert, nichts generisch Austauschbares. -->
+
+---
+
+## Einführung <!-- Pflicht -->
+
+<!-- Pflicht: Wo im Spielverlauf lernt der Spieler dieses System?
+     Vigilans Nexum führt Mechaniken über Situationen ein, nicht über Tutorials.
+     Eine Karte, auf der die neue Fähigkeit der offensichtliche Ausweg ist,
+     lehrt sie besser als ein Textkasten.
+     Muss mit der Spalte "New Mechanics" in design/levels/README.md
+     übereinstimmen – und pro Level wird höchstens eine Mechanik eingeführt. -->
+
+**Erstes Kapitel:** {{KAPITEL}}
+
+**Wie es eingeführt wird:** {{IN-WORLD-EINFUEHRUNG}}
+<!-- Die Situation, die es lehrt – nicht der Text, der es erklärt. -->
+
+**Was der Spieler vorher können muss:** {{VORWISSEN}}
+
+---
+
+## Katalog <!-- Pflicht -->
+
+<!-- Pflicht: EIN LINK, keine Tabelle.
+     Die Einträge dieses Systems – Fähigkeiten, Kampfkünste, Zauber, Waffen –
+     leben ausschließlich in design/catalog/. Dieses Dokument beschreibt,
+     WAS sie sind; der Katalog listet, WELCHE es gibt.
+     Auf denselben Katalogeintrag verweisen auch der Charakterbogen
+     (Personal Abilities) und die Klasse in Unit-Classes.md.
+     Eine Tabelle mit Einträgen an dieser Stelle erzeugt eine zweite Wahrheit.
+     Führt die Mechanik keine Einträge: Abschnitt löschen. -->
+
+Alle Einträge: [{{KATALOG-NAME}}](../catalog/{{KATALOG-DATEI}}.md)
+
+---
+
 ## Balancing-Richtlinien <!-- Optional -->
 
 <!-- Optional: Numerische Richtwerte, Skalierungsformeln, oder Designgrenzen.
@@ -102,26 +178,6 @@
 | Mechanik | Interaktion |
 | -------- | ----------- |
 | *[Andere Mechanik]* | *[Beschreibung der Interaktion]* |
-
----
-
-## Listen & Katalog <!-- Optional -->
-
-<!-- Optional: Tabellen mit konkreten Einträgen (Ability-Listen, Spell-Listen, usw.)
-     Kann in mehrere Unterabschnitte aufgeteilt werden.
-     Leere Zeilen sind als Platzhalter erlaubt. -->
-
-### [Kategorie A]
-
-| Name | Parameter | Effekt | Quelle |
-| ---- | --------- | ------ | ------ |
-|      |           |        |        |
-
-### [Kategorie B]
-
-| Name | Parameter | Effekt | Quelle |
-| ---- | --------- | ------ | ------ |
-|      |           |        |        |
 
 ---
 

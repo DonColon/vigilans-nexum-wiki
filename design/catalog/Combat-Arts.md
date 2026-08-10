@@ -1,35 +1,35 @@
 ## Personal Combat Arts
 
-| Name | MP Cost | Effect | Character |
-| ---- | ------- | ------ | --------- |
-|      |         |        |           |
-|      |         |        |           |
-|      |         |        |           |
-|      |         |        |           |
+| Name | Element | MP Cost | Effect | Character |
+| ---- | ------- | ------- | ------ | --------- |
+|      |         |         |        |           |
+|      |         |         |        |           |
+|      |         |         |        |           |
+|      |         |         |        |           |
 
 ## Class Combat Arts
 
-| Name | MP Cost | Effect | Class |
-| ---- | ------- | ------ | ----- |
-|      |         |        |       |
-|      |         |        |       |
-|      |         |        |       |
-|      |         |        |       |
+| Name | Element | MP Cost | Effect | Class |
+| ---- | ------- | ------- | ------ | ----- |
+|      |         |         |        |       |
+|      |         |         |        |       |
+|      |         |         |        |       |
+|      |         |         |        |       |
 
 ## Weapon Combat Arts
 
-| Name | MP Cost | Effect | Weapon |
-| ---- | ------- | ------ | ------ |
-|      |         |        |        |
-|      |         |        |        |
-|      |         |        |        |
-|      |         |        |        |
+| Name | Element | MP Cost | Effect | Weapon |
+| ---- | ------- | ------- | ------ | ------ |
+|      |         |         |        |        |
+|      |         |         |        |        |
+|      |         |         |        |        |
+|      |         |         |        |        |
 
 ## General Combat Arts
 
-| Name | MP Cost | Effect |
-| ---- | ------- | ------ |
-|      |         |        |
-|      |         |        |
-|      |         |        |
-|      |         |        |
+| Name | Element | MP Cost | Effect |
+| ---- | ------- | ------- | ------ |
+|      |         |         |        |
+|      |         |         |        |
+|      |         |         |        |
+|      |         |         |        |

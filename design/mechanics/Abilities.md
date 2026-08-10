@@ -109,50 +109,13 @@ Ein Charakter der lange in einer Klasse bleibt bevor er aufsteigt hat am Ende me
 
 ---
 
-## Listen & Katalog
+## Katalog
 
-### Personal Abilities
+Dieses Dokument beschreibt, **was** Fähigkeiten sind und nach welchen Regeln sie funktionieren. **Welche** es gibt, steht im Katalog – nach Personal, Class, Mastery, General und Canto gegliedert:
 
-| Name | Capacity | Trigger | Effect | Character |
-| ---- | ----- | ---- | --- | ------ |
-|      |          |         |        |           |
-|      |          |         |        |           |
-|      |          |         |        |           |
+**Alle Einträge:** [Abilities](../catalog/Abilities.md)
 
-### Class Abilities
-
-| Name        | Capacity | Trigger | Effect | Class |
-| -------- | ----- | ---- | --- | ----- |
-| Magic Staff |          |         |        |       |
-| Canto       |          |         |        |       |
-| Steal       |          |         |        |       |
-| Lock Pick   |          |         |        |       |
-
-### Mastery Abilities
-
-| Name        | Capacity | Trigger | Effect | Class |
-| -------- | ----- | ---- | --- | ----- |
-| Swap        |          |         |        |       |
-| Shove       |          |         |        |       |
-| Reposition  |          |         |        |       |
-| Knockback   |          |         |        |       |
-| Draw Back   |          |         |        |       |
-| Mystic Pull |          |         |        |       |
-
-### General Abilities (Scroll)
-
-| Name    | Capacity | Trigger | Effect |
-| ---- | ----- | ---- | --- |
-| Adept   |          |         |        |
-| Vantage |          |         |        |
-|         |          |         |        |
-|         |          |         |        |
-
-### Canto
-
-| Name  | Capacity | Trigger         | Effect                                    |
-| ----- | ----- | --------- | ----------------------- |
-| Canto | 10       | After an action | Use your remaining movement to move again |
+Auf dieselbe Liste verweisen der Charakterbogen (*Abilities* und *Personal Ability*) und die Klassen in [Unit Classes](../catalog/Unit-Classes.md). Eine Fähigkeit, die nur hier stünde, existiert für keinen von beiden.
 
 ---
 

@@ -29,12 +29,12 @@
 
 ## General Abilities
 
-| Name | Capacity | Trigger | Effect |
-| ---- | -------- | ------- | ------ |
-|      |          |         |        |
-|      |          |         |        |
-|      |          |         |        |
-|      |          |         |        |
+| Name    | Capacity | Trigger | Effect |
+| ------- | -------- | ------- | ------ |
+| Adept   |          |         |        |
+| Vantage |          |         |        |
+|         |          |         |        |
+|         |          |         |        |
 
 ## Canto
 
