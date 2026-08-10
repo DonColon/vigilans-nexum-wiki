@@ -21,13 +21,6 @@
 
 # Kapitel {{KAPITEL-NUMMER}}: {{KAPITEL-TITEL}} <!-- Pflicht -->
 
-<!-- Pflicht: Kopfzeile mit Grunddaten -->
-**Kapitel:** {{KAPITEL-NUMMER}}
-**Titel:** {{KAPITEL-TITEL}}
-**Part:** Part {{PART-NUMMER}}: {{PART-NAME}}
-
----
-
 ## {{SZENE-01-TITEL}} <!-- Pflicht -->
 
 <!-- Pflicht: Eröffnungsszene. 3–6 Absätze.
