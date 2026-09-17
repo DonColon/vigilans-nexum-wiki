@@ -4,6 +4,8 @@ The class tree – **the authority on which class promotes into which.** Five ti
 
 The *Weapon Types* column says which weapons a class may wield and is therefore the source for the weapon ranks on every character sheet; the first type listed is the class's main type, every further type is secondary and caps one rank lower (see [Progression System → Weapon Rank](../Progression-System.md#weapon-rank)). *Staff* is a weapon type, not an ability – healers wield it like any other weapon. The *Move Type* column (Infantry, Cavalry, Flying, Armored) is the key that effective weapons ([Balancing Guide](../Balancing-Guide.md#special-weapon-types)) and the Movement rules (still on the [mechanics backlog](../mechanics/README.md#backlog--not-yet-documented)) refer to. Tier gates in the [Progression System](../Progression-System.md), tier stat modifiers in the [Balancing Guide](../Balancing-Guide.md#-class-balancing).
 
+Every class carries **one Class Ability**, granted the moment the unit enters the class, and **one Mastery Ability**, learned later while the unit stays in it (see the [sample ability timeline](../Progression-System.md#sample-ability-timeline-dardan)). Both are kept forever – a promotion never takes an ability away, it only changes what fits inside the class's Capacity. What each ability does, and what it costs in Capacity, is in [Abilities](Abilities.md); the combat arts a class teaches are in [Combat Arts](Combat-Arts.md). A name in these tables without an entry in those two files does not exist.
+
 ---
 
 ## Class Hierarchy
@@ -277,96 +279,96 @@ flowchart TB
 
 | Name           | Move Type | Weapon Types           | Class Abilities | Mastery Ability | Promotes to                                |
 | -------------- | --------- | ---------------------- | --------------- | --------------- | ------------------------------------------ |
-| Myrmidon       | Infantry  | Sword                  |                 |                 | Sword Master, Duelist, Griffon Knight      |
-| Sword Cavalier | Cavalry   | Sword                  | Canto           |                 | Sword Paladin                              |
-| Soldier        | Infantry  | Lance                  |                 |                 | Halberdier, Armored Knight, Pegasus Knight |
-| Lance Cavalier | Cavalry   | Lance                  | Canto           |                 | Lance Paladin                              |
-| Warrior        | Infantry  | Axe                    |                 |                 | Berserker, Gladiator, Wyvern Knight        |
-| Axe Cavalier   | Cavalry   | Axe                    | Canto           |                 | Axe Paladin                                |
-| Sniper         | Infantry  | Bow                    |                 |                 | Marksman, Ranger, Kinshi Knight            |
-| Bow Cavalier   | Cavalry   | Bow                    | Canto           |                 | Bow Paladin                                |
-| Rogue          | Infantry  | Knife                  |                 |                 | Assassin, Trickster                        |
-| Brawler        | Infantry  | Gauntlet, Chain        |                 |                 | Bruiser                                    |
-| Martial Monk   | Infantry  | Gauntlet, Battle Staff |                 |                 | Martial Saint                              |
-| Gunner         | Infantry  | Artillery              |                 |                 | Cannoneer                                  |
-| Bombardier     | Infantry  | Artillery              |                 |                 | Grenadier                                  |
-| Cleric         | Infantry  | Staff, Sword           |                 |                 | Valkyrie                                   |
-| Priest         | Infantry  | Staff, Lux             |                 |                 | Bishop                                     |
-| Pyro Sage      | Infantry  | Pyro                   |                 |                 | Elementalist                               |
-| Aero Sage      | Infantry  | Aero                   |                 |                 | Elementalist                               |
-| Electro Sage   | Infantry  | Electro                |                 |                 | Elementalist                               |
-| Hydro Sage     | Infantry  | Hydro                  |                 |                 | Elementalist                               |
-| Cryo Sage      | Infantry  | Cryo                   |                 |                 | Elementalist                               |
-| Geo Sage       | Infantry  | Geo                    |                 |                 | Elementalist                               |
-| Dendro Sage    | Infantry  | Dendro                 |                 |                 | Elementalist                               |
-| Lux Sage       | Infantry  | Lux                    |                 |                 | Luminary                                   |
-| Umbra Sage     | Infantry  | Umbra                  |                 |                 | Tenebrae                                   |
+| Myrmidon       | Infantry  | Sword                  | Vantage         | Wrath           | Sword Master, Duelist, Griffon Knight      |
+| Sword Cavalier | Cavalry   | Sword                  | Canto           | Momentum        | Sword Paladin                              |
+| Soldier        | Infantry  | Lance                  | Hold Fast       | Brace           | Halberdier, Armored Knight, Pegasus Knight |
+| Lance Cavalier | Cavalry   | Lance                  | Canto           | Unhorse         | Lance Paladin                              |
+| Warrior        | Infantry  | Axe                    | Cleave          | Sunder          | Berserker, Gladiator, Wyvern Knight        |
+| Axe Cavalier   | Cavalry   | Axe                    | Canto           | Trample         | Axe Paladin                                |
+| Sniper         | Infantry  | Bow                    | Pinpoint        | Overwatch       | Marksman, Ranger, Kinshi Knight            |
+| Bow Cavalier   | Cavalry   | Bow                    | Canto           | Harrying Fire   | Bow Paladin                                |
+| Rogue          | Infantry  | Knife                  | Shadowstep      | Flanker         | Assassin, Trickster                        |
+| Brawler        | Infantry  | Gauntlet, Chain        | Grapple         | Counterpunch    | Bruiser                                    |
+| Martial Monk   | Infantry  | Gauntlet, Battle Staff | Inner Peace     | Wide Guard      | Martial Saint                              |
+| Gunner         | Infantry  | Artillery              | Braced Shot     | Crack Shot      | Cannoneer                                  |
+| Bombardier     | Infantry  | Artillery              | Scatter Shot    | Demolition      | Grenadier                                  |
+| Cleric         | Infantry  | Staff, Sword           | Live to Serve   | Miracle         | Valkyrie                                   |
+| Priest         | Infantry  | Staff, Lux             | Consecration    | Intercession    | Bishop                                     |
+| Pyro Sage      | Infantry  | Pyro                   | Conflagration   | Backdraft       | Elementalist                               |
+| Aero Sage      | Infantry  | Aero                   | Updraft         | Wind Walk       | Elementalist                               |
+| Electro Sage   | Infantry  | Electro                | Conduction      | Overcharge      | Elementalist                               |
+| Hydro Sage     | Infantry  | Hydro                  | Mending Rain    | Undertow        | Elementalist                               |
+| Cryo Sage      | Infantry  | Cryo                   | Cold Snap       | Shatter         | Elementalist                               |
+| Geo Sage       | Infantry  | Geo                    | Stonewright     | Crystallize     | Elementalist                               |
+| Dendro Sage    | Infantry  | Dendro                 | Entangle        | Verdant Grasp   | Elementalist                               |
+| Lux Sage       | Infantry  | Lux                    | Beacon          | Aureole         | Luminary                                   |
+| Umbra Sage     | Infantry  | Umbra                  | Blight          | Siphon          | Tenebrae                                   |
 
 ## Advanced Classes
 
-| Name           | Move Type | Weapon Types                  | Class Abilities | Mastery Ability | Promotes to      |
-| -------------- | --------- | ----------------------------- | --------------- | --------------- | ---------------- |
-| Sword Master   | Infantry  | Sword                         |                 |                 | Sword Saint      |
-| Duelist        | Infantry  | Sword, Knife                  |                 |                 | Blade Dancer     |
-| Sword Paladin  | Cavalry   | Sword                         | Canto           |                 | Astra Knight     |
-| Griffon Knight | Flying    | Sword                         | Canto           |                 | Griffon Lord     |
-| Halberdier     | Infantry  | Lance                         |                 |                 | Sentinel         |
-| Armored Knight | Armored   | Lance, Axe                    |                 |                 | Armored General  |
-| Lance Paladin  | Cavalry   | Lance                         | Canto           |                 | Aegis Knight     |
-| Pegasus Knight | Flying    | Lance                         | Canto           |                 | Pegasus Lord     |
-| Berserker      | Infantry  | Axe                           |                 |                 | Warmonger        |
-| Gladiator      | Infantry  | Axe, Chain                    |                 |                 | Spartan          |
-| Axe Paladin    | Cavalry   | Axe                           | Canto           |                 | Colossus Knight  |
-| Wyvern Knight  | Flying    | Axe                           | Canto           |                 | Wyvern Lord      |
-| Marksman       | Infantry  | Bow                           |                 |                 | Deadeye          |
-| Ranger         | Infantry  | Bow, Knife                    |                 |                 | Hunterblade      |
-| Bow Paladin    | Cavalry   | Bow                           | Canto           |                 | Pavise Warden    |
-| Kinshi Knight  | Flying    | Bow                           | Canto           |                 | Kinshi Lord      |
-| Assassin       | Infantry  | Knife                         |                 |                 | Nightveil        |
-| Trickster      | Infantry  | Knife, Chain                  |                 |                 | Saboteur         |
-| Bruiser        | Infantry  | Gauntlet, Chain               |                 |                 | Enforcer         |
-| Martial Saint  | Infantry  | Gauntlet, Battle Staff, Staff |                 |                 | Divine Monk      |
-| Cannoneer      | Infantry  | Artillery                     |                 |                 | Warfire Vanguard |
-| Grenadier      | Infantry  | Artillery                     |                 |                 | Siege Breaker    |
-| Valkyrie       | Cavalry   | Staff, Sword                  |                 |                 | Celestial Valkyrie |
-| Bishop         | Infantry  | Staff, Lux                    |                 |                 | Arch Bishop      |
-| Elementalist   | Infantry  | Natura Magic (2 Types)        |                 |                 | Arcanist         |
-| Luminary       | Infantry  | Lux, Staff                    |                 |                 | Radiant Monarch  |
-| Tenebrae       | Infantry  | Umbra, Sword                  |                 |                 | Shadow Monarch   |
+| Name           | Move Type | Weapon Types                  | Class Abilities  | Mastery Ability | Promotes to      |
+| -------------- | --------- | ----------------------------- | ---------------- | --------------- | ---------------- |
+| Sword Master   | Infantry  | Sword                         | Sol              | Swordfaire      | Sword Saint      |
+| Duelist        | Infantry  | Sword, Knife                  | Duel             | Riposte         | Blade Dancer     |
+| Sword Paladin  | Cavalry   | Sword                         | Canto            | Lancebreaker    | Astra Knight     |
+| Griffon Knight | Flying    | Sword                         | Canto            | Talons          | Griffon Lord     |
+| Halberdier     | Infantry  | Lance                         | Pierce           | Lancefaire      | Sentinel         |
+| Armored Knight | Armored   | Lance, Axe                    | Ironhide         | Ward            | Armored General  |
+| Lance Paladin  | Cavalry   | Lance                         | Canto            | Interpose       | Aegis Knight     |
+| Pegasus Knight | Flying    | Lance                         | Canto            | Uplift          | Pegasus Lord     |
+| Berserker      | Infantry  | Axe                           | Bloodlust        | Axefaire        | Warmonger        |
+| Gladiator      | Infantry  | Axe, Chain                    | Ensnare          | Disarm          | Spartan          |
+| Axe Paladin    | Cavalry   | Axe                           | Canto            | Breakthrough    | Colossus Knight  |
+| Wyvern Knight  | Flying    | Axe                           | Canto            | Dragon's Dive   | Wyvern Lord      |
+| Marksman       | Infantry  | Bow                           | Point Blank      | Bowfaire        | Deadeye          |
+| Ranger         | Infantry  | Bow, Knife                    | Pathfinder       | Hunter's Mark   | Hunterblade      |
+| Bow Paladin    | Cavalry   | Bow                           | Canto            | Covering Fire   | Pavise Warden    |
+| Kinshi Knight  | Flying    | Bow                           | Canto            | Skyfall         | Kinshi Lord      |
+| Assassin       | Infantry  | Knife                         | Vanish           | Lethality       | Nightveil        |
+| Trickster      | Infantry  | Knife, Chain                  | Sleight of Hand  | Misdirection    | Saboteur         |
+| Bruiser        | Infantry  | Gauntlet, Chain               | Stagger          | Second Wind     | Enforcer         |
+| Martial Saint  | Infantry  | Gauntlet, Battle Staff, Staff | Chi Transfer     | Pressure Point  | Divine Monk      |
+| Cannoneer      | Infantry  | Artillery                     | Counter-Battery  | Piercing Shot   | Warfire Vanguard |
+| Grenadier      | Infantry  | Artillery                     | Incendiary       | Smoke Screen    | Siege Breaker    |
+| Valkyrie       | Cavalry   | Staff, Sword                  | Canto            | Grace           | Celestial Valkyrie |
+| Bishop         | Infantry  | Staff, Lux                    | Sanctify         | Blessing        | Arch Bishop      |
+| Elementalist   | Infantry  | Natura Magic (2 Types)        | Resonance        | Cascade         | Arcanist         |
+| Luminary       | Infantry  | Lux, Staff                    | Radiance         | Revelation      | Radiant Monarch  |
+| Tenebrae       | Infantry  | Umbra, Sword                  | Umbral Edge      | Shadowmeld      | Shadow Monarch   |
 
 ## Master Classes
 
 Master is the terminal tier. The *Lord Title* column is the name the class carries when Dardan or Hasan hold it – see *Special Classes* below for the Lord Kit that comes with it.
 
-| Name               | Move Type | Weapon Types                  | Class Abilities | Mastery Ability | Lord Title          | Promotes to |
-| ------------------ | --------- | ----------------------------- | --------------- | --------------- | ------------------- | ----------- |
-| Sword Saint        | Infantry  | Sword                         |                 |                 | Aetherblade         | -           |
-| Blade Dancer       | Infantry  | Sword, Knife                  |                 |                 | Vortex Reaver       | -           |
-| Astra Knight       | Cavalry   | Sword                         | Canto           |                 | Starforged          | -           |
-| Griffon Lord       | Flying    | Sword                         | Canto           |                 | Grypharion          | -           |
-| Sentinel           | Infantry  | Lance                         |                 |                 | Dragoon of Zoah     | -           |
-| Armored General    | Armored   | Lance, Axe                    |                 |                 | Imperator           | -           |
-| Aegis Knight       | Cavalry   | Lance                         | Canto           |                 | Oathguard           | -           |
-| Pegasus Lord       | Flying    | Lance                         | Canto           |                 | Elyssar             | -           |
-| Warmonger          | Infantry  | Axe                           |                 |                 | Ravager             | -           |
-| Spartan            | Infantry  | Axe, Chain                    |                 |                 | Wolf of Sparta      | -           |
-| Colossus Knight    | Cavalry   | Axe                           | Canto           |                 | Titanheart          | -           |
-| Wyvern Lord        | Flying    | Axe                           | Canto           |                 | Drakoryn            | -           |
-| Deadeye            | Infantry  | Bow                           |                 |                 | Vigilant Outlaw     | -           |
-| Hunterblade        | Infantry  | Bow, Sword                    |                 |                 | Dreadslayer         | -           |
-| Pavise Warden      | Cavalry   | Bow                           | Canto           |                 | Ironbulwark         | -           |
-| Kinshi Lord        | Flying    | Bow                           | Canto           |                 | Zephyros            | -           |
-| Nightveil          | Infantry  | Knife                         |                 |                 | Nocturnal           | -           |
-| Saboteur           | Infantry  | Knife, Chain                  |                 |                 | Whisperer of Varnel | -           |
-| Enforcer           | Infantry  | Gauntlet, Chain               |                 |                 | Punisher            | -           |
-| Divine Monk        | Infantry  | Gauntlet, Battle Staff, Staff |                 |                 | Enlightened One     | -           |
-| Warfire Vanguard   | Infantry  | Artillery                     |                 |                 | Hellfire Bastion    | -           |
-| Siege Breaker      | Infantry  | Artillery                     |                 |                 | Living Fortress     | -           |
-| Celestial Valkyrie | Cavalry   | Staff, Sword                  |                 |                 | Valkyros            | -           |
-| Arch Bishop        | Infantry  | Staff, Lux                    |                 |                 | Voice of Aurevia    | -           |
-| Arcanist           | Infantry  | Natura Magic (3 Types)        |                 |                 | Avatar*             | -           |
-| Radiant Monarch    | Infantry  | Lux, Staff                    |                 |                 | Aurelius            | -           |
-| Shadow Monarch     | Infantry  | Umbra, Sword                  |                 |                 | Ashborn             | -           |
+| Name               | Move Type | Weapon Types                  | Class Abilities  | Mastery Ability | Lord Title          | Promotes to |
+| ------------------ | --------- | ----------------------------- | ---------------- | --------------- | ------------------- | ----------- |
+| Sword Saint        | Infantry  | Sword                         | Aether           | Foresight       | Aetherblade         | -           |
+| Blade Dancer       | Infantry  | Sword, Knife                  | Whirl            | Encore          | Vortex Reaver       | -           |
+| Astra Knight       | Cavalry   | Sword                         | Canto            | Astra           | Starforged          | -           |
+| Griffon Lord       | Flying    | Sword                         | Canto            | Stoop           | Grypharion          | -           |
+| Sentinel           | Infantry  | Lance                         | Wall of Spears   | Impale          | Dragoon of Zoah     | -           |
+| Armored General    | Armored   | Lance, Axe                    | Unbreakable      | Bulwark         | Imperator           | -           |
+| Aegis Knight       | Cavalry   | Lance                         | Canto            | Sworn Shield    | Oathguard           | -           |
+| Pegasus Lord       | Flying    | Lance                         | Canto            | Wings of Mercy  | Elyssar             | -           |
+| Warmonger          | Infantry  | Axe                           | Rend             | Last Roar       | Ravager             | -           |
+| Spartan            | Infantry  | Axe, Chain                    | Shield Brother   | Unyielding      | Wolf of Sparta      | -           |
+| Colossus Knight    | Cavalry   | Axe                           | Canto            | Juggernaut      | Titanheart          | -           |
+| Wyvern Lord        | Flying    | Axe                           | Canto            | Drakebreath     | Drakoryn            | -           |
+| Deadeye            | Infantry  | Bow                           | Killshot         | Heartseeker     | Vigilant Outlaw     | -           |
+| Hunterblade        | Infantry  | Bow, Sword                    | Twin Draw        | Run Down        | Dreadslayer         | -           |
+| Pavise Warden      | Cavalry   | Bow                           | Canto            | Pavise          | Ironbulwark         | -           |
+| Kinshi Lord        | Flying    | Bow                           | Canto            | Wind's Blessing | Zephyros            | -           |
+| Nightveil          | Infantry  | Knife                         | Unseen           | Deathmark       | Nocturnal           | -           |
+| Saboteur           | Infantry  | Knife, Chain                  | Sabotage         | Cut the Strings | Whisperer of Varnel | -           |
+| Enforcer           | Infantry  | Gauntlet, Chain               | Chokehold        | Retribution     | Punisher            | -           |
+| Divine Monk        | Infantry  | Gauntlet, Battle Staff, Staff | Open Palm        | Stillness       | Enlightened One     | -           |
+| Warfire Vanguard   | Infantry  | Artillery                     | Barrage          | Scorched Earth  | Hellfire Bastion    | -           |
+| Siege Breaker      | Infantry  | Artillery                     | Wallbreaker      | Bastion         | Living Fortress     | -           |
+| Celestial Valkyrie | Cavalry   | Staff, Sword                  | Canto            | Second Breath   | Valkyros            | -           |
+| Arch Bishop        | Infantry  | Staff, Lux                    | Sanctuary        | Litany          | Voice of Aurevia    | -           |
+| Arcanist           | Infantry  | Natura Magic (3 Types)        | Convergence      | Trinity         | Avatar*             | -           |
+| Radiant Monarch    | Infantry  | Lux, Staff                    | Corona           | Aurelian Ward   | Aurelius            | -           |
+| Shadow Monarch     | Infantry  | Umbra, Sword                  | Umbral Dominion  | Harvest         | Ashborn             | -           |
 
 \* **Avatar is the one Lord Title with an effect on the class itself.** When Dardan or Hasan hold the Arcanist class, the title replaces the Arcanist's three chosen Natura elements with the four fixed elements **Pyro, Aero, Hydro, Geo**. The Elementalist and Arcanist element rules in [Magic Tomes](Magic-Tomes.md) do not apply to the Avatar. This is a title rule, not a class change – the Arcanist's *Weapon Types* stay as listed. All other Lord Titles are cosmetic.
 

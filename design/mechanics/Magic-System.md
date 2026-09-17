@@ -295,7 +295,7 @@ Lux und Natura haben keine Schwäche gegeneinander. Der Natura-Zyklus ist bewuss
 | **Lichtfeld**    | Lux-Magie               | Verbessert Heilung und Buffs um +20%     |
 | **Sturmfeld**    | Aero-Effekt             | Fernangriffe -15% Genauigkeit            |
 | **Kristallfeld** | Geo-Schilde explodieren | +10 Verteidigung für alle auf dem Feld   |
-| **Blütenfeld**   | Dendro + Wasser         | Heilung +5 HP pro Runde                  |
+| **Blütenfeld**   | Dendro + Wasser         | Heilung pro Runde – Wert siehe [Magic Effect Values](../Balancing-Guide.md#magic-effect-values)                  |
 
 ---
 
