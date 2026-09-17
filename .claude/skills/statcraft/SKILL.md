@@ -54,7 +54,7 @@ Reihenfolge ist nicht Geschmack. Wer bei den Basiswerten anfängt, muss dreimal 
 
 **2 – Canon Class Path.** Dieser Pfad wird **nicht hier gesetzt, sondern geprüft.** Er sagt, was die Figur in der Story wird – eine Entscheidung von Dardan, festgehalten von Lorekeeper. Dem Spieler wird er nie genannt: bei den Vigilant Knights, die als Citizen starten, ist die Klassenwahl wirklich seine.
 
-Die Prüfung gegen `catalog/Unit-Classes.md`: Jeder Klassenname muss dort existieren, und jede Klasse muss aus ihrer Vorgängerin tatsächlich hervorgehen können. Unique-Klassen sind Dardan und Hasan vorbehalten. Hält der Pfad nicht, wird er gemeldet – nicht stillschweigend umgeschrieben, denn dann zeigt ein Kapitel eine Figur in einer Klasse, die es nicht geben kann.
+Die Prüfung gegen `catalog/Unit-Classes.md`: Jeder Klassenname muss dort existieren, und jede Klasse muss aus ihrer Vorgängerin tatsächlich hervorgehen können. Es gibt keine Unique-Klassen: Ein Lord Title (Aetherblade, Ashborn, …) ist der Name einer Master-Klasse, wenn Dardan oder Hasan sie halten, und der Lord Kit kommt obendrauf – auf jedem anderen Bogen endet der Pfad mit dem Namen der Master-Klasse. Hält der Pfad nicht, wird er gemeldet – nicht stillschweigend umgeschrieben, denn dann zeigt ein Kapitel eine Figur in einer Klasse, die es nicht geben kann.
 
 Für spätere Zugänge ist der **erste** Eintrag dagegen mechanisch hart: sie treten in einer Klasse bei, die feststeht. Offen ist bei ihnen nur, was nach der Verzweigung kommt.
 
@@ -88,7 +88,7 @@ Der eingetragene Maximalwert ist der kleinere Wert aus *erwartet* und *Cap*. Ste
 
 **Genau eine persönliche Fähigkeit pro Einheit.** Sie ist die mechanische Übersetzung dessen, was `charactercraft` über die Figur sagt – Design Pillar 4, Story und Gameplay sind dasselbe. Sie darf keine Klassenfähigkeit duplizieren und ist an eine Bedingung geknüpft, die der Spieler herstellen kann: eine Position, ein Zustand, ein Verzicht. Eine Passive, die immer gilt, ist ein Statbonus mit Namen.
 
-**8 – Waffenfertigkeiten.** Nur Waffentypen, die es gibt (`catalog/Weapons.md`, `catalog/Magic-Tomes.md`, Spalte *Weapon Types* in `Unit-Classes.md`). Ränge E–A. Die Typen müssen zu den Klassen des Pfads passen – eine Klasse, die keine Bögen führt, gibt keinem Bogenrang einen Ort. Eine Schwäche wird ausdrücklich benannt.
+**8 – Waffenfertigkeiten.** Nur Waffentypen, die es gibt (`catalog/Weapons.md`, `catalog/Magic-Tomes.md`, Spalte *Weapon Types* in `Unit-Classes.md`). Ränge F–S; F hält nur ein Citizen, S öffnet erst in der Master-Klasse, und ein Nebentyp (jeder Typ nach dem ersten in *Weapon Types*) deckelt eine Stufe unter dem Haupttyp – Regel im Progression-System, Caps im Balancing-Guide. Die Typen müssen zu den Klassen des Pfads passen – eine Klasse, die keine Bögen führt, gibt keinem Bogenrang einen Ort. Eine Schwäche wird ausdrücklich benannt.
 
 **Magie ist elementgebunden.** Ein Magier führt nicht „Magie", sondern sein Element: Pyro, Aero, Electro, Hydro, Cryo, Geo, Dendro, Lux oder Umbra. Die Klasse bestimmt welches – ein Pyro Sage führt Pyro-Tomes und sonst nichts. Erst auf höheren Stufen kommen weitere hinzu: Elementalist führt zwei Natura-Elemente, Arcanist drei. Die Spalte *Weapon Types* in `Unit-Classes.md` ist dafür die Autorität.
 
@@ -112,7 +112,7 @@ Diese Zusatzelemente sind eine **Verzweigung wie eine Klassengabelung** und gena
 
 Die meisten spielbaren Bögen haben **leere** Werte-Tabellen. Das ist der offene Rückstand des Projekts, nicht der Normalzustand. Wird einer gefüllt, gilt die Ableitung oben vollständig – nicht „schnell plausible Zahlen eintragen". Und ein gefüllter Bogen ist kein Vorbild, nur weil er gefüllt ist: die wenigen bestehenden entstanden vor diesem Skill.
 
-**Erfundene Klassen.** Der häufigste und teuerste Fehler. Ein Klassenname, der plausibel klingt, ist damit nicht im Katalog – *Warlord*, *Dark Mage*, *Hexenmutter* sind alle schon so entstanden. Jede Klasse im Pfad in `Unit-Classes.md` nachschlagen, keine ausgenommen. Und eine Unique-Klasse behauptet nur, wer Dardan oder Hasan ist.
+**Erfundene Klassen.** Der häufigste und teuerste Fehler. Ein Klassenname, der plausibel klingt, ist damit nicht im Katalog – *Warlord*, *Dark Mage*, *Hexenmutter* sind alle schon so entstanden. Jede Klasse im Pfad in `Unit-Classes.md` nachschlagen, keine ausgenommen. Und einen Lord Title trägt nur, wer Dardan oder Hasan ist – jeder andere Bogen nennt die Master-Klasse beim Namen.
 
 **Erfundene Waffentypen.** Dieselbe Falle eine Ebene tiefer. Der Waffentyp steht in `catalog/Weapons.md`, `catalog/Magic-Tomes.md` oder in der Spalte *Weapon Types* von `Unit-Classes.md` – oder er existiert nicht. „Magie" und „Dark Tome" sind beides keine Typen; die Typen sind die neun Elemente.
 
@@ -140,7 +140,7 @@ Welche Bögen heute konkret betroffen sind, steht in `notes/Character-Sheet-Drif
 
 - Beitrittslevel und Tier aus dem Progression-System, nicht geschätzt?
 - Jede Klasse im Pfad existiert im Katalog und geht aus ihrer Vorgängerin hervor?
-- Unique-Klasse nur bei Dardan oder Hasan?
+- Lord Title nur bei Dardan oder Hasan, sonst die Master-Klasse beim Namen?
 - Basiswerte aus dem Meilenstein beim Beitrittslevel abgeleitet, Klassenmodifikator eingerechnet?
 - Wachstumssumme im Budget, MP separat, Profil statt Gleichverteilung?
 - Erreichbarkeitsprobe gerechnet – kein Maximalwert über Cap oder über dem, was erreichbar ist?

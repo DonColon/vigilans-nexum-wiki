@@ -68,7 +68,7 @@ Charaktere können viele Abilities **lernen**, aber nur so viele **ausrüsten** 
 | Intermediate Class | 5        |
 | Advanced Class     | 7        |
 | Master Class       | 9        |
-| Unique Class       | 11       |
+| Lord Kit           | 11       |
 
 #### Ability-Kosten
 

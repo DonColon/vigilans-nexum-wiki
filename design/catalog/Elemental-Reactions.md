@@ -25,61 +25,7 @@ Das Elementarreaktionssystem von **Vigilans Nexum** erweitert das klassische Fir
 
 ## Elementare Schwächen
 
-Das System folgt einem erweiterten "Stein-Schere-Papier"-Prinzip, bei dem bestimmte Elemente gegen andere besonders effektiv sind.
-
-### Natura-Zyklus
-
-```mermaid
-flowchart LR
-    pyro(Pyro)
-    aero(Aero)
-    electro(Electro)
-    hydro(Hydro)
-    cryo(Cryo)
-    geo(Geo)
-    dendro(Dendro)
-
-    pyro--beats-->cryo
-    pyro--beats-->dendro
-    electro--beats-->hydro
-    hydro--beats-->pyro
-    cryo--beats-->hydro
-    geo--beats-->electro
-    geo--beats-->aero
-    dendro--beats-->geo
-    aero--beats-->dendro
-```
-
-### Magie-Dreieck
-
-```mermaid
-flowchart LR
-    natura(Natura)
-    lux(Lux)
-    umbra(Umbra)
-
-    natura--beats-->lux
-    lux--beats-->umbra
-    umbra--beats-->natura
-```
-
-### Schwächen-Tabelle
-
-
-| Element     | Besiegt       | Begründung                                   |
-| ----------- | ------------- | -------------------------------------------- |
-| **Pyro**    | Cryo, Dendro  | Feuer schmilzt Eis, verbrennt Pflanzen       |
-| **Cryo**    | Hydro         | Eis friert Wasser ein                        |
-| **Hydro**   | Pyro          | Wasser löscht Feuer                          |
-| **Electro** | Hydro         | Elektrizität leitet sich durch Wasser        |
-| **Aero**    | Dendro        | Stürme entwurzeln Bäume, verwehen Pflanzen   |
-| **Geo**     | Electro, Aero | Erde absorbiert Elektrizität, blockiert Wind |
-| **Dendro**  | Geo           | Wurzeln durchbrechen Felsen                  |
-| **Lux**     | Umbra         | Licht vertreibt Schatten                     |
-| **Umbra**   | Lux           | Dunkelheit verschlingt schwaches Licht       |
-
-
-Lux und Umbra sind gegenseitige Konter – das stärkere Element gewinnt.
+Das System folgt einem erweiterten "Stein-Schere-Papier"-Prinzip, bei dem bestimmte Elemente gegen andere besonders effektiv sind. Der Natura-Zyklus und das Magie-Dreieck stehen mit Diagramm und Begründung in [Magic Tomes](Magic-Tomes.md) – dieses Dokument wiederholt sie nicht.
 
 ---
 

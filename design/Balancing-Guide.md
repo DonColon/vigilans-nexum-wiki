@@ -54,6 +54,44 @@ Disadvantage: -15 Hit, -1 Damage
 **Effective Weapons:** +9 Might vs. specific enemy types (cavalry, armor, fliers)  
 **Magic Weapons:** Use Magic stat instead of Strength
 
+### Weapon Rank Caps
+
+*Proposal – all values in this table are first drafts for tuning.*
+
+Ranks run F–S per weapon type; the rule (cap rises with tier, S only at Master, secondary types one step lower, F only in Citizen) is in the [Progression System → Weapon Rank](Progression-System.md#weapon-rank). This table holds the caps.
+
+| Tier | Main type cap | Secondary type cap | Ranks opened by this tier |
+|------|---------------|--------------------|---------------------------|
+| **Citizen** | F | – (all four types F) | F |
+| **Base** | D | – (no hybrid base class) | E, D |
+| **Intermediate** | B | C | C, B |
+| **Advanced** | A | B | A |
+| **Master** | S | A | S |
+
+**Derivation:** Seven ranks over five tiers. Citizen takes F alone, so six ranks remain for four promotions – two each for Base and Intermediate, where promotions come fast (Ch 06, Ch 12), one each for Advanced and Master, where a single rank has 16 and 11 chapters to be earned. The split is chosen so that the [weapon availability timeline](Progression-System.md#-weapon-progression-timeline) can line up with the tiers if weapon ranks are assigned later: Steel (Ch 9) reachable in Base, Silver (Ch 25) at Advanced (Ch 25), Legendary (Ch 41) at Master (Ch 41).
+
+### Battle Staff Guard
+
+*Proposal.*
+
+```
+Attacks against a unit with a Battle Staff equipped, from range 1: -10 Hit
+Attacks from range 2+: no effect
+```
+
+**Why -10:** Below the triangle swing of 15, so Guard on its own never flips a triangle matchup – a Knife, which beats the Battle Staff, still attacks it at a net +5 Hit. The rule is in [Weapons → Battle Staves](catalog/Weapons.md#battle-staves).
+
+### Natura Profile Compensation
+
+*Proposal.*
+
+```
+Aero, Hydro and Dendro tomes (1 win / 2 losses): +5 Hit over the tier baseline
+Pyro, Electro, Cryo, Geo tomes: tier baseline
+```
+
+**Why +5 Hit:** The Natura cycle is deliberately asymmetric (see [Magic Tomes](catalog/Magic-Tomes.md#element-profiles)); Aero, Hydro and Dendro meet one more disadvantaged matchup (-15 Hit, -1 Damage) than they win. A flat +5 Hit on every tome recovers a third of that on every attack without turning a support element into a better duelist – the point of the compensation is that none of the three is a trap pick at the Base fork, not that the matchup table stops mattering.
+
 ---
 
 ## 📊 Unit Stat Balancing
@@ -90,7 +128,7 @@ Disadvantage: -15 Hit, -1 Damage
 
 **MP is budgeted separately** and does not count toward the 300-400%. It is a resource stat, not a combat stat – a unit with high MP growth is not thereby weaker elsewhere. Casters and Combat-Art-heavy classes sit at 45-60%, pure physical units at 15-30%.
 
-### Max Stats (Level 60, Master/Unique Class)
+### Max Stats (Level 60, Master Class)
 
 | Stat | Absolute Cap |
 |------|--------------|
@@ -115,9 +153,8 @@ Disadvantage: -15 Hit, -1 Damage
 | **Intermediate** | +4 | +10 | +2 | +2 | +2 | 6 tiles |
 | **Advanced** | +6 | +15 | +3 | +3 | +3 | 6-7 tiles |
 | **Master** | +10 | +20 | +5 | +4 | +4 | 7 tiles |
-| **Unique** | +12 | +25 | +6 | +5 | +5 | Variable |
 
-**Master and Unique are the same tier, not consecutive ones.** Both promote from Advanced and both are terminal – see [catalog/Unit-Classes.md](catalog/Unit-Classes.md). Unique classes are restricted to Dardan and Hasan and unlock through story events, which is why they may sit slightly above Master without breaking parity: no other unit competes for them.
+**Master is the terminal tier for every unit, Dardan and Hasan included.** A Lord Kit adds abilities on top of the Master class, never stats – see [catalog/Unit-Classes.md](catalog/Unit-Classes.md). The Lords' advantage is the kit, not a hidden stat lead.
 
 ### Class Type Templates
 
@@ -186,7 +223,7 @@ Critical Damage = Damage × 3
 | 17-24 | Part 03 | 20 → 29 | 22 → 31 | Intermediate phase |
 | 25-32 | Part 04 | 29 → 37 | 31 → 39 | **Advanced classes at Lv 30** |
 | 33-40 | Part 05 *or* 06 | 37 → 45 | 39 → 47 | Split roster – **both strands identical** |
-| 41-48 | Part 07 | 45 → 54 | 47 → 56 | **Master/Unique at Lv 45** at the reunion |
+| 41-48 | Part 07 | 45 → 54 | 47 → 56 | **Master at Lv 45** at the reunion; Lord Kit for Dardan and Hasan |
 | 49-52 | Part 08 Tower | 54 → 60 | 56 → 62 | All enemies promoted, four bosses |
 | 53-56 | Part 08 Epilogue | 60, static | – | No combat, no XP |
 
@@ -203,7 +240,7 @@ Modifiers:
 - Boss Kill: ×3 XP
 - Level Difference: +1 XP per level below enemy, -1 per level above
 - Class Tier Difference: +5 XP if enemy is promoted
-- Healing: 10 XP per heal action
+- Staff heal: 10 XP per heal action (the rule is in the [Progression System → Weapon Rank](Progression-System.md#weapon-rank))
 - Supporting: 5 XP per turn adjacent to fighting ally
 ```
 

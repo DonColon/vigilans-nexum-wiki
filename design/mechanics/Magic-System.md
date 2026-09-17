@@ -104,7 +104,7 @@ Nicht-Magier denken in Momentum. Sie kämpfen aktiv auf den richtigen Moment fü
 | --- | ------ | ------- |
 | Magier-Klassen | Erhalten Zugang zu Magie automatisch mit ihrer Klasse | Nur Magier-Klassen |
 | Combat Arts | Ermöglichen Nicht-Magiern, Elemente zu applizieren | Alle Klassen mit entsprechenden Arts |
-| Spells (Katalog) | Einzelne Zauber mit festgelegten Elementen | Magier-spezifisch, über Klasse oder Items |
+| [Magic Tomes](../catalog/Magic-Tomes.md) | Ausrüstbare Tomes mit festgelegtem Element – die Waffen der Magier | Magier-spezifisch, über Klasse oder Items |
 
 ---
 
@@ -142,6 +142,9 @@ flowchart LR
     geo--beats-->aero
     dendro--beats-->geo
     aero--beats-->dendro
+    geo--beats-->pyro
+    cryo--beats-->geo
+    electro--beats-->aero
 ```
 
 ### Magie-Dreieck
@@ -152,10 +155,11 @@ flowchart LR
     lux(Lux)
     umbra(Umbra)
 
-    natura--beats-->lux
     lux--beats-->umbra
     umbra--beats-->natura
 ```
+
+Umbra schlägt Natura, Lux schlägt Umbra, **Lux und Natura sind neutral**. Lux ist der Konter zu Umbra und hätte zu viele Schwächen, wenn es zusätzlich allen sieben Natura-Elementen unterläge.
 
 ### Schwächen-Tabelle
 
@@ -163,15 +167,18 @@ flowchart LR
 | -------- | ------- | ----------------------- |
 | **Pyro**    | Cryo, Dendro  | Feuer schmilzt Eis, verbrennt Pflanzen       |
 | **Cryo**    | Hydro         | Eis friert Wasser ein                        |
+| **Cryo**    | Geo           | Frostsprengung – Eis in den Rissen bricht den Fels |
 | **Hydro**   | Pyro          | Wasser löscht Feuer                          |
 | **Electro** | Hydro         | Elektrizität leitet sich durch Wasser        |
+| **Electro** | Aero          | Der Blitz beherrscht den Sturm               |
 | **Aero**    | Dendro        | Stürme entwurzeln Bäume, verwehen Pflanzen   |
 | **Geo**     | Electro, Aero | Erde absorbiert Elektrizität, blockiert Wind |
+| **Geo**     | Pyro          | Erde und Sand ersticken das Feuer            |
 | **Dendro**  | Geo           | Wurzeln durchbrechen Felsen                  |
 | **Lux**     | Umbra         | Licht vertreibt Schatten                     |
 | **Umbra**   | Natura        | Dunkelheit korrumpiert die Natur             |
 
-Lux und Umbra sind gegenseitige Konter — das stärkere Element gewinnt.
+Lux und Natura haben keine Schwäche gegeneinander. Der Natura-Zyklus ist bewusst asymmetrisch (Geo 3/2, Pyro 2/2, Electro und Cryo 2/1, Aero/Hydro/Dendro 1/2) – Begründung und Ausgleich in [Magic Tomes](../catalog/Magic-Tomes.md#element-profiles).
 
 ---
 

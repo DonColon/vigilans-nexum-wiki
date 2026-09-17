@@ -10,7 +10,7 @@ How characters, classes, and abilities develop across all 64 chapters of Vigilan
 **Chapters per Unit:** 52 progression chapters – Parts 01–04 (32) + one strand of Part 05/06 (8) + Part 07 (8) + Tower (4). The epilogue (Ch 53–56) grants no XP.
 **Level Range:** 1 → 60, cap reached at the Dajjal (Ch 52)
 **Pace:** ~1.13 levels per progression chapter
-**Class Tiers:** Citizen → Base → Intermediate → Advanced → Master *or* Unique
+**Class Tiers:** Citizen → Base → Intermediate → Advanced → Master (Dardan and Hasan add a Lord Kit on top of Master)
 
 **Design intent:** The eight Vigilant Knights are the only units that start at Level 1 in the Citizen class. Everyone else joins at their established experience level. Over 59 level-ups the Bellum orphans overtake the veterans who joined ahead of them – chosen family outgrowing inherited status, expressed as a stat sheet rather than a line of dialogue.
 
@@ -25,7 +25,7 @@ How characters, classes, and abilities develop across all 64 chapters of Vigilan
 | 03 The Champion's Road | 17–24 | 20 → 29 | Intermediate phase |
 | 04 The Name You Were Given | 25–32 | 29 → 37 | **Advanced at Lv 30** |
 | 05 *or* 06 (parallel strand) | 33–40 | 37 → 45 | Advanced – identical band in both strands |
-| 07 Before The Storm | 41–48 | 45 → 54 | **Master / Unique at Lv 45** – mass promotion at the reunion |
+| 07 Before The Storm | 41–48 | 45 → 54 | **Master at Lv 45** – mass promotion at the reunion; Lord Kit for Dardan and Hasan |
 | 08 The Tower | 49–52 | 54 → **60** | Cap reached at the Dajjal |
 | 08 Epilogue | 53–56 | 60, static | No XP – support ranks max out here |
 
@@ -146,7 +146,7 @@ How characters, classes, and abilities develop across all 64 chapters of Vigilan
 
 | Chapter | Avg Level Start | Avg Level End | Mechanics Introduced |
 |---------|-----------------|---------------|----------------------|
-| 41 | 45 | 47 | Reunion · **Master / Unique classes unlock** |
+| 41 | 45 | 47 | Reunion · **Master classes unlock** · Lord Kit for Dardan and Hasan |
 | 42 | 47 | 48 | – |
 | 43 | 48 | 49 | Varnel / Dajjal revelation (Story Event) |
 | 44 | 49 | 50 | – |
@@ -203,13 +203,22 @@ Advanced Classes (Sword Master, Assassin, Elementalist, ...)
     ↓ [Level 45 + Seal]
 Master Classes (Sword Saint, Nightveil, Arcanist, ...)
     │
-    └─ [Level 45 + Story unlock] → Unique Classes (Aetherblade, Ashborn, ...)
-                                    Dardan and Hasan only
+    └─ [Story unlock at Lv 45] → Lord Kit (Dardan and Hasan only)
+                                  Master class + kit abilities, carrying the
+                                  class's Lord Title (Aetherblade, Ashborn, ...)
 ```
 
-**Unique classes are an alternative to Master, not a tier above it.** Both promote from Advanced, both are terminal, and both open at Lv 45. Per [catalog/Unit-Classes.md](catalog/Unit-Classes.md) the Unique classes are restricted to Dardan and Hasan and unlock through story events rather than a purchasable seal.
+**Unique is Master plus a Lord Kit, not a class of its own.** Dardan and Hasan promote into a Master class like everyone else – same gate, same seal, same terminal tier. What sets them apart is the Lord Kit: a set of story-unlocked abilities laid on top of the Master class, opening at Lv 45. The *Lord Title* is simply the Master class's name when Dardan or Hasan hold it – Sword Saint reads *Aetherblade*, Shadow Monarch reads *Ashborn* – and is cosmetic. Which Master class carries which title, and what each kit contains, is in [catalog/Unit-Classes.md](catalog/Unit-Classes.md).
 
 That makes **four promotions** across the campaign, not five.
+
+### Weapon Rank
+
+Weapon ranks run **F–S** (F, E, D, C, B, A, S) per weapon type, and a weapon can only be equipped by a unit holding its rank in that type. How a rank rises (weapon experience through use is the Fire Emblem convention) is not yet specified. The **rank cap rises with class tier**: each promotion opens the next span of ranks, and **S opens only at Master** – the last promotion of the game is also the last thing a weapon rank can give. A hybrid class's secondary weapon types (every type after the first in *Weapon Types*, e.g. the Duelist's Knife, the Tenebrae's Sword, the Priest's Lux) cap **one step below the main type** – a hybrid pays for its breadth in depth, so the single-type branch at the same fork is never strictly worse. **Rank F exists only in the Citizen class** – the eight Vigilant Knights are the only units that ever hold it; every other unit joins in a base class or higher and starts at E or above.
+
+The caps per tier are in the [Balancing Guide → Weapon Rank Caps](Balancing-Guide.md#weapon-rank-caps).
+
+**Healing with a Staff grants XP.** A Staff is a weapon type, so a healer levels like any other unit – through its weapon, not through kills. The value is the heal entry in the [XP Gain Formula](Balancing-Guide.md#xp-gain-formula).
 
 ### Promotion Requirements
 
@@ -221,7 +230,7 @@ That makes **four promotions** across the campaign, not five.
 | Intermediate | Level 15 | 500 Gold |
 | Advanced | Level 30 | 2,000 Gold |
 | Master | Level 45 | 5,000 Gold |
-| Unique | Level 45 + story unlock (Dardan/Hasan) | Cannot buy |
+| Lord Kit | Story unlock at Lv 45, on top of the Master promotion (Dardan/Hasan) | Cannot buy |
 
 Seals are **promotion items, not reclassing items** – each one is consumed to move a unit one tier up its own branch. They cannot move a unit sideways into a different class line.
 
@@ -310,15 +319,19 @@ See [Balancing Guide](Balancing-Guide.md) for growth rate budgets and absolute c
 | **Legendary** | Chapter 41 | Ch 41-52 | Endgame only |
 | **Unique/Prf** | Story-based | Character-specific | Never |
 
-### Magic Spell Availability
+### Magic Tome Availability
 
-| Tier | Spell Level | Available From | Example Spells |
-|------|-------------|----------------|----------------|
-| Basic | E-Rank | Chapter 5 | Fire, Thunder, Wind |
-| Intermediate | D-Rank | Chapter 15 | Fireball, Lightning, Gale |
-| Advanced | C-Rank | Chapter 27 | Inferno, Chain Lightning, Tornado |
-| Expert | B-Rank | Chapter 41 | Meteor, Ragnarok |
-| Ultimate | A-Rank | Chapter 49 | Apocalypse, Judgement |
+*Proposal – the rank-to-tier mapping is a first draft for tuning.* Tomes are weapons and use the same tiers as the table above and the same F–S ranks as every weapon type (see [Weapon Rank](#weapon-rank)). Rows are ranks; the class tier that first holds a rank follows from the [Weapon Rank Caps](Balancing-Guide.md#weapon-rank-caps), the chapter from the tier gates above.
+
+| Rank | First held in | From chapter | Tome tier available |
+|------|---------------|--------------|---------------------|
+| F | Citizen | – | none – a Citizen holds no tome |
+| E | Base | Ch 06 | Iron |
+| D | Base | Ch 06 | Steel |
+| C | Intermediate | Ch 12 | Steel |
+| B | Intermediate | Ch 12 | Steel |
+| A | Advanced | Ch 25 | Silver |
+| S | Master | Ch 41 | Legendary |
 
 ---
 
@@ -326,7 +339,7 @@ See [Balancing Guide](Balancing-Guide.md) for growth rate budgets and absolute c
 
 **Passive Abilities:** Learned through class mastery
 **Combat Arts:** Learned at specific class levels, cost MP
-**Magic Spells:** Learned through magic ranks
+**Magic Tomes:** Equipped like weapons, gated by magic rank – no spell is learned
 **Unique Skills:** Story-based unlocks
 
 ### Sample Ability Timeline (Dardan)

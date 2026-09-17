@@ -19,7 +19,6 @@ Auf diese Liste verweisen der Charakterbogen (*Abilities*, *Personal Ability*) u
 
 | Name        | Capacity | Trigger | Effect | Class |
 | ----------- | -------- | ------- | ------ | ----- |
-| Magic Staff |          |         |        |       |
 | Canto       |          |         |        |       |
 | Steal       |          |         |        |       |
 | Lock Pick   |          |         |        |       |

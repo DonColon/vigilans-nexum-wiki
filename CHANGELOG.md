@@ -59,6 +59,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - **MP** documented as a stat in the Balancing Guide (base values, growth rates, cap), budgeted separately from the eight combat stats
 - Backlog table in Game Mechanics listing undocumented systems by priority, replacing links to files that were never written
 
+**Weapon, tome and class catalogs – structure pass**
+- **Weapon ranks run F–S and the cap rises with class tier; S opens only at Master.** A hybrid class's secondary weapon types cap one step below its main type, so breadth costs depth and the single-type branch at the same fork is never strictly worse. Rank F exists only in the Citizen class – the eight Vigilant Knights are the only units that ever hold it. Every weapon and tome table gained a `Rank` column (empty); the caps per tier are a proposal table in the Balancing Guide
+- **Staff is a weapon type, not an ability.** Healers wield a Mag-based, rank-gated staff with Uses like any other weapon; it stands outside both triangles. An Acolyte cannot attack until promotion at Lv 15 – that is by design. Healing with a staff grants XP (value: the existing heal entry in the XP formula)
+- **Battle Staff carries Guard:** melee attacks (range 1) against the wielder suffer a Hit penalty, ranged attacks ignore it – a staff parries what it sees coming. Value proposed in the Balancing Guide, below the triangle swing so Guard never flips a matchup by itself
+- **Artillery has a minimum range of 2 or more**, expressed only through the Range column; the same convention applies to siege tomes
+- **`Move Type` column (Infantry, Cavalry, Flying, Armored) on every class table**, filled from the class names – it is the key that effective weapons and the still-unwritten Movement rules refer to
+- **Elementalist rule:** the second Natura element must be one the first element loses to – the player closes his weakness instead of stacking advantages. The Arcanist's third element is free
+- **Three Natura edges added – Geo > Pyro (earth and sand smother the fire), Cryo > Geo (frost wedging: ice in the cracks breaks the rock), Electro > Aero (the lightning rules the storm) – for twelve in total.** The Elementalist rule (second element = one the first loses to) is only a choice if an element has two weaknesses; with nine edges five of seven elements had one. Seven further candidates were rejected for lacking a physical reason a sceptical reader would accept (Aero > Pyro, Cryo > Aero, Electro > Cryo, Hydro > Geo, Dendro > Electro, Cryo > Electro, Aero > Cryo). **Electro and Cryo deliberately keep a single weakness** – their Elementalist's second element is forced (Geo, Pyro) and that is the price of their extra win. Resulting profiles, stated as design: Geo duelist (3/2), Pyro balanced (2/2), Electro and Cryo offensive (2/1), Aero/Hydro/Dendro support and control (1/2) whose value lies in reactions and utility. Tome tuning compensates the 1/2 profile – a proposal in the Balancing Guide. Every edge now carries a one-sentence physical reason in `Magic-Tomes.md`
+- **Weapon Rank Progression** added to the mechanics backlog – how a rank rises (weapon XP through use, the Fire Emblem convention) is a decision not yet taken; the scale and the caps exist, the climb does not
+
 ### Changed
 - Campaign length corrected to **8 parts / 64 chapters** across README, Levels, Progression System and Balancing Guide – these still described a 32-chapter game
 - Level cap raised from 45 to **60**; stat caps raised from 40 to **50**, HP from 80 to **90**
@@ -78,11 +88,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - **Skills state rules, `notes/` states the current state.** Concrete file-by-file findings moved out of `charactercraft` and `statcraft` into `notes/Character-Sheet-Drift.md`; the skills keep the traps in general form. A rule that names a specific sheet stops being true when that sheet is fixed
 - `storycraft` no longer opens with "unless the user asks for a different style" – a leftover from the output-style format that contradicted Lorekeeper's instruction to treat the skill as binding. Only Dardan can deviate
 - The dialogue protocol in `CLAUDE.md` (asking, confirming, waiting for the signal) is now explicitly scoped to the session talking to Dardan. Subagents load the same file and were reading "ich frage" as an instruction to themselves, although they cannot ask anyone
+- **Close Combat wheel extended from 10 to 14 edges** (Chain > Sword, Battle Staff > Lance, Knife > Axe, Gauntlet > Battle Staff) so that every one of the seven types beats exactly two and loses to exactly two – no type is a safe or a doomed pick. Each edge now carries a one-sentence physical reason next to the diagram
+- **Magic Triangle: Umbra > Natura, Lux > Umbra, Lux and Natura neutral.** Lux is the counter to Umbra and would carry too many weaknesses if it also lost to all seven Natura elements. The contradictory sentence "Lux und Umbra sind gegenseitige Konter – das stärkere Element gewinnt" is gone from the Magic System
+- **Unique is Master plus a Lord Kit, not a class tier.** Dardan and Hasan promote into any Master class like everyone else; the Lord Title (Aetherblade for Sword Saint, Ashborn for Shadow Monarch, …) is cosmetic and now a column in the Master table, and the kit's abilities are story-unlocked on top of the class. The 27 Unique rows in Special Classes collapse to two Lord Kit rows – Dardan's from the existing ability timeline, Hasan's explicitly *not yet defined*
+- Citizen's weapon types are `Sword, Lance, Axe, Bow` instead of `All` – a Citizen never held a tome or a staff
+- Intros of `Weapons.md`, `Magic-Tomes.md` and `Unit-Classes.md` rewritten in English per the language invariant, and updated for the new structure; `Magic-System.md` stays German and only changed where the triangle changed
+- **Avatar is the one Lord Title with an effect on the class.** On Arcanist it replaces the three chosen Natura elements with the four fixed elements Pyro, Aero, Hydro, Geo – the Elementalist/Arcanist element rules do not apply to it. Reference: *Avatar – The Last Airbender* ("Der Herr der Elemente"): the one bender who commands all four classical elements, where everyone else is bound to one. All other Lord Titles stay cosmetic; the Arcanist's own weapon types are unchanged
+- **The Lords have the same Master stats as everyone else – their advantage is the kit, not a hidden stat lead.** The Balancing Guide's class-tier table no longer carries a separate Unique row (see *Removed*); "Master/Unique" headings in the Balancing Guide read "Master"
+- Old triangle statements cleaned up where the first pass had only found them: the root `README.md` now states Umbra > Natura, Lux > Umbra, Lux–Natura neutral; `catalog/Elemental-Reactions.md` lost its duplicate Natura diagram, Magic Triangle diagram and Schwächen-Tabelle (the latter said "Umbra besiegt Lux", contradicting the Magic System even before) and links to Magic Tomes instead; the mechanics backlog reads "Master (+ Lord Kit)"; the ability-capacity row "Unique Class" is renamed "Lord Kit" with its pre-existing value untouched; `statcraft` speaks of Lord Titles and the F–S scale; the character template's physical weapon list includes Staff
+- **"Magic Spell Availability" → "Magic Tome Availability"** in the Progression System. The old table used E–A ranks with A as the ultimate and named spells (Fire, Thunder, Meteor …) that exist nowhere in the tome model. Rows are now the F–S ranks, cells the class tier that first holds the rank (derived from the caps), the chapter that tier opens, and the tome tier available – marked as a proposal because the rank-to-tier mapping is a first draft
 
 ### Removed
 - **Reclassing.** Promotions are permanent – a unit moves up its branch and never sideways or back. Seals are promotion items, not reclassing items
 - **Stat requirements for promotion.** Level and a seal are the only gates, so no unit can be locked out of its branch by unlucky growth rolls
 - `Game-Setting.md` – a pass-through page whose five links were already in the README
+- **`Magic Staff` as a class ability** – replaced by `Staff` in the *Weapon Types* of every healer class and removed from `catalog/Abilities.md`. An ability that only says "may use one weapon type" is a weapon type
+- The `*Only for Dardan/Hasan` footnote and the `, Name*` suffixes in the Advanced table's *Promotes to* column – superseded by the *Lord Title* column
+- **The Unique tier row (+12 HP / +25 MP / +6 Str-Mag / +5 Spd / +5 Def-Res) and its justification** from the Balancing Guide's class-tier modifiers. Unique is Master plus a Lord Kit, and a kit adds abilities, not stats – a stat lead for the Lords would be a power fantasy without a price
 
 ### Fixed
 - **75 broken internal links reduced to 0.** The largest cluster was Game Mechanics, where all 24 subsystem links pointed at files that did not exist, while four of the five mechanics files that do exist were not linked at all
@@ -91,6 +113,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Broken character link `Edric Thalven.md` (space instead of hyphen)
 - Relative paths in `Caeron.md`, `Valdris.md`, `Eravan.md` pointing one level too high
 - Alex and Raphael assigned to Part 03 consistently; the character index and the progression document disagreed
+- Artillerist's *Promotes to* said `Cannoneer, Bombardier` while the class graph says `Gunner, Bombardier` – table corrected to the graph
+- `knive` → `knife` in the Close Combat diagram
+- Magic System's acquisition table pointed at "Spells (Katalog)", a document that no longer exists – now links to Magic Tomes
 
 ---
 

@@ -150,9 +150,9 @@
 
 ## Weapon Proficiencies
 
-<!-- Nur Typen, die diese Figur wirklich führt. Ränge E–A.
+<!-- Nur Typen, die diese Figur wirklich führt. Ränge F–S.
      Physisch: Sword · Lance · Axe · Knife · Gauntlet · Chain · Battle Staff
-               · Bow · Artillery
+               · Bow · Artillery · Staff
      Magisch:  Pyro · Aero · Electro · Hydro · Cryo · Geo · Dendro
                · Lux · Umbra   (elementgebunden über die Klasse) -->
 

@@ -32,8 +32,9 @@ These systems exist in the design intent but have no specification file yet. Wri
 | Weapon Triangles | Close Combat, Weapon and Magic triangle | High |
 | Movement | Tile-based movement, terrain effects, movement types | High |
 | The Nexus / Exchange | Dardan's signature ability – swap positions with allies | High |
-| Class System | Citizen → Base → Intermediate → Advanced → Master → Unique | High |
+| Class System | Citizen → Base → Intermediate → Advanced → Master (+ Lord Kit) | High |
 | Experience & Leveling | XP gain, level caps, stat growth | High |
+| Weapon Rank Progression | How a rank rises (weapon XP through use); the F–S scale and the caps per tier are already in the [Progression System](../Progression-System.md#weapon-rank) and the [Balancing Guide](../Balancing-Guide.md#weapon-rank-caps) | Medium |
 | Victory & Defeat Conditions | Win/loss scenarios, secondary objectives | Medium |
 | Permadeath & Retreat | Classic vs. Casual mode | Medium |
 | Difficulty Modes | Easy, Normal, Hard, Maddening | Medium |

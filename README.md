@@ -111,7 +111,7 @@ Templates live as `_TEMPLATE.md` inside the folder they belong to – copy the f
 **Combat Systems:**
 - Close Combat Triangle: Sword > Axe/Knife, Lance > Sword/Chain, etc.
 - Weapon Triangle: Close Combat > Bow > Artillery > Close Combat
-- Magic Triangle: Natura > Lux > Umbra > Natura
+- Magic Triangle: Umbra > Natura, Lux > Umbra, Lux and Natura neutral
 
 ---
 
