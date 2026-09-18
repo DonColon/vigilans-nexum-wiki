@@ -144,7 +144,7 @@ The Base tier's masteries are all movement tools. They are what a fresh army lea
 | Swap | 1 | Active (action) | Trade places with an adjacent ally. | Swordsman, Thief |
 | Shove | 1 | Active (action) | Push an adjacent ally one tile directly away. | Lancer, Axe Fighter |
 | Reposition | 1 | Active (action) | Pull an adjacent ally to the tile directly behind this unit. | Archer, Martial Artist |
-| Knockback | 1 | Active (action) | Push an adjacent enemy one tile directly away. | Artillerist |
+| Knockback | 1 | Active (action) | Push an adjacent enemy two tile directly away. | Artillerist |
 | Draw Back | 1 | Active (action) | Move one tile away from an adjacent ally and bring the ally into the tile this unit left. | Acolyte |
 | Mystic Pull | 1 | Active (action) | Pull an ally within range 2 to the tile adjacent to this unit. | All nine mancer classes |
 | Bellum's Will | 2 | – | *Open – not yet specified.* The name carries narrative weight (Bellum), so the effect is a decision, not a gap to be filled by a designer. | Citizen |
