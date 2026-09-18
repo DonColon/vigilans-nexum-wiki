@@ -42,8 +42,8 @@ How characters, classes, and abilities develop across all 64 chapters of Vigilan
 | 01 | 1 | 2 | Dardan, Hasan | Movement, Attack, Items |
 | 02 | 2 | 4 | Maksimo | Weapon Triangle |
 | 03 | 4 | 5 | Ivan, Leona | Terrain Effects, Objectives |
-| 04 | 5 | 6 | - | Naval Combat (Optional) |
-| 05 | 6 | 8 | Lina, Marven | Magic Introduction |
+| 04 | 5 | 6 | - | Naval Combat (Optional) · Weapon delivery – all physical weapon types |
+| 05 | 6 | 8 | Lina, Marven | Magic Introduction · one tome per element found |
 | 06 | 8 | 9 | - | Support Conversations · **Base class chosen at chapter end** |
 | 07 | 9 | 10 | Mikael | The Nexus / Exchange · **first chapter played in the chosen classes** |
 | 08 | 10 | 11 | - | Boss Battle, Promotion Preview |
@@ -214,7 +214,7 @@ That makes **four promotions** across the campaign, not five.
 
 ### Weapon Rank
 
-Weapon ranks run **F–S** (F, E, D, C, B, A, S) per weapon type, and a weapon can only be equipped by a unit holding its rank in that type. How a rank rises (weapon experience through use is the Fire Emblem convention) is not yet specified. The **rank cap rises with class tier**: each promotion opens the next span of ranks, and **S opens only at Master** – the last promotion of the game is also the last thing a weapon rank can give. A hybrid class's secondary weapon types (every type after the first in *Weapon Types*, e.g. the Duelist's Knife, the Tenebrae's Sword, the Priest's Lux) cap **one step below the main type** – a hybrid pays for its breadth in depth, so the single-type branch at the same fork is never strictly worse. **Rank F exists only in the Citizen class** – the eight Vigilant Knights are the only units that ever hold it; every other unit joins in a base class or higher and starts at E or above.
+Weapon ranks run **F–S** (F, E, D, C, B, A, S) per weapon type, and a weapon can only be equipped by a unit holding its rank in that type. How a rank rises (weapon experience through use is the Fire Emblem convention) is not yet specified. The **rank cap rises with class tier**: each promotion opens the next span of ranks, and **S opens only at Master** – the last promotion of the game is also the last thing a weapon rank can give. A hybrid class's secondary weapon types (every type after the first in *Weapon Types*, e.g. the Duelist's Knife, the Tenebrae's Sword, the Priest's Lux) cap **one step below the main type** – a hybrid pays for its breadth in depth, so the single-type branch at the same fork is never strictly worse. **Rank F exists only in the Citizen class** – the eight Vigilant Knights are the only units that ever hold it; every other unit joins in a base class or higher and starts at E or above. A Citizen holds F in **every weapon type**, reached in three stages – Sword, Lance, Axe, Bow and Staff from Ch 01, the remaining physical types with the Ch 04 weapon delivery, the nine elements with the tomes found in Ch 05 – so that every type has been tried before the Ch 06 choice; the staging and the Citizen's MP regime by equipped weapon are in [Growth Modifiers](mechanics/Growth-Modifiers.md#core-rules).
 
 The caps per tier are in the [Balancing Guide → Weapon Rank Caps](Balancing-Guide.md#weapon-rank-caps).
 
@@ -243,14 +243,15 @@ Seals are **promotion items, not reclassing items** – each one is consumed to 
 - **Skill Retention:** Abilities learned in a lower class are kept after promoting.
 - **Level Retention:** Level stays the same across a promotion – levels are continuous 1–60, not per tier.
 - **Stat Adjustments:** Class bonuses apply immediately.
+- **Growth Adjustments:** Every class carries a growth modifier per stat that is added to the unit's personal growth on each level-up spent in that class; it rises with tier and is 0 for the Citizen. The rule is in [Growth Modifiers](mechanics/Growth-Modifiers.md), the values in the [Balancing Guide → Class Growth Modifiers](Balancing-Guide.md#class-growth-modifiers).
 
-**Consequence for the UI:** Because the choice cannot be undone, the branch options and their stat modifiers must be fully visible *before* the player commits. Design Pillar 5 demands the challenge be transparent – an irreversible decision made on hidden information would be punishment, not challenge.
+**Consequence for the UI:** Because the choice cannot be undone, the branch options, their stat modifiers *and their growth modifiers* must be fully visible *before* the player commits. Design Pillar 5 demands the challenge be transparent – an irreversible decision made on hidden information would be punishment, not challenge.
 
 **Consequence for balancing:** No branch may be a trap. A unit promoted down a weaker branch has no recovery path, so every option at a fork needs a niche where it is the right answer – see the "no strictly better options" principle in the [Balancing Guide](Balancing-Guide.md).
 
 ### Class Tier Stat Modifiers
 
-See [Balancing Guide → Class Balancing](Balancing-Guide.md#-class-balancing) – all stat modifiers live there.
+See [Balancing Guide → Class Balancing](Balancing-Guide.md#-class-balancing) – all stat modifiers and the class growth modifiers live there.
 
 ---
 
@@ -325,7 +326,7 @@ See [Balancing Guide](Balancing-Guide.md) for growth rate budgets and absolute c
 
 | Rank | First held in | From chapter | Tome tier available |
 |------|---------------|--------------|---------------------|
-| F | Citizen | – | none – a Citizen holds no tome |
+| F | Citizen | Ch 05 | Bronze – one tome per element, found, not bought |
 | E | Base | Ch 06 | Iron |
 | D | Base | Ch 06 | Steel |
 | C | Intermediate | Ch 12 | Steel |
@@ -427,6 +428,6 @@ Additionally for Parts 05 and 06:
 
 ---
 
-**Version:** 2.0
-**Last Updated:** 2026-08-06
+**Version:** 2.1
+**Last Updated:** 2026-09-18
 **Cross-Reference:** [Balancing Guide](Balancing-Guide.md), [Game Mechanics](mechanics/README.md), [Unit Classes](catalog/Unit-Classes.md), [Levels](levels/README.md)

@@ -4,7 +4,7 @@
 
 The **Rank** column uses the same F–S scale as physical weapons; rank rules are in the [Progression System](../Progression-System.md#weapon-rank), and which tome tier a rank opens is in [Magic Tome Availability](../Progression-System.md#magic-tome-availability). Siege tomes have a minimum range of 2 or more, expressed through the Range column alone (e.g. `3–10`), the same convention as artillery.
 
-Every element carries a **damage line** of three escalating tomes across the tier range, **one or two utility tomes** that express the role the [Magic System](../mechanics/Magic-System.md#die-9-elemente) assigns that element, and **exactly one siege tome**. The names escalate in intensity rather than by suffix – Ember, Flame, Inferno, not Pyro, Pyro+, Pyro++.
+Every element carries **one Bronze-tier tome at rank F** – the Citizen's tome, found in Ch 05 –, a **damage line** of three escalating tomes across the tier range, **one or two utility tomes** that express the role the [Magic System](../mechanics/Magic-System.md#die-9-elemente) assigns that element, and **exactly one siege tome**. The names escalate in intensity rather than by suffix – Kindling, Ember, Flame, Inferno, not Pyro, Pyro+, Pyro++.
 
 The seven Natura elements beat one another in the cycle below – that is the mages' weapon triangle. Above it sits the Magic Triangle of Natura, Lux and Umbra. Rules for both in [Magic System](../mechanics/Magic-System.md).
 
@@ -17,6 +17,8 @@ The seven Natura elements beat one another in the cycle below – that is the ma
 **Might, Hit, Weight and Cost** follow the tier ladder in the [Balancing Guide](../Balancing-Guide.md#weapon-tier-progression) and the magic ranges in [Base Stats Framework](../Balancing-Guide.md#base-stats-framework). Three ranks – D, C and B – share the Steel tier, so a damage line steps *through* the tier instead of repeating one value at three ranks. A tome that does something besides damage pays for it in Might and sits on the floor of the magic Might range; a tome that does nothing but its effect carries no Might, Hit or Critical and shows `–`, the same convention as a healing staff in [Weapons](Weapons.md#staves).
 
 **The +5 Hit on every Aero, Hydro and Dendro tome** is the profile compensation from the [Balancing Guide](../Balancing-Guide.md#natura-profile-compensation), already applied in the tables below – it is not restated per entry. **Electro carries +5 Critical across its damage line**: it is the burst element, and burst in numbers means crit.
+
+**The rank-F tome** is the E tome put through the Bronze rules of the [tier table](../Balancing-Guide.md#weapon-tier-progression), exactly as a Bronze Sword is derived from an Iron Sword: 0.6× Might (3), +5 Hit, Critical 0 – on Electro too, the one tome of that element that cannot crit –, Weight one lower. A tome has no Uses, so the Bronze 15 does not apply; the running cost is MP, and since the tables set no MP rule for a tier below E, the F tome takes the E tome's MP cost and says so here. Tomes are priced off the gold band rather than the Might formula, so the Bronze 0.4× is applied to the E tome's price (0.4 × 600 = 240). Only a Citizen ever holds rank F ([Progression System → Weapon Rank](../Progression-System.md#weapon-rank)), and a Citizen holding one follows the mage MP rules while it is equipped ([Growth Modifiers](../mechanics/Growth-Modifiers.md#core-rules)).
 
 **Siege tomes** are Rank A, one per element, and buy their range with Weight, Hit, MP and the inability to answer anything standing next to them. They are the late-game piece, not an upgrade to the damage line.
 
@@ -73,6 +75,7 @@ The wheel is not symmetric, and that is the design: **Geo is the duelist element
 
 | Name | Rank | Might | Hit  | Critical | Range | Weight | MP Cost | Cost | Description |
 | ---- | ---- | ----- | ---- | -------- | ----- | ------ | ------- | ---- | ----------- |
+| **Kindling**   | F | 3  | 95 | 0 | 2    | 2  | 3  | 240   | The Citizen's tome, found in Ch 05. Barely a flame – but it applies Pyro, and that is what it is for. |
 | **Ember**      | E | 5  | 90 | 0 | 2    | 3  | 3  | 600   | The every-round attack: light, cheap, and the mage still gains MP on the turn he uses it. |
 | **Cinder Burst** | D | 5  | 85 | 0 | 2    | 4  | 4  | 1,500 | Strikes the target tile and the four tiles around it; pays for the area in Might. |
 | **Flame**      | C | 8  | 85 | 0 | 2    | 5  | 5  | 1,700 | The mid-game workhorse – full damage at standard magic range. |
@@ -84,6 +87,7 @@ The wheel is not symmetric, and that is the design: **Geo is the duelist element
 
 | Name | Rank | Might | Hit  | Critical | Range | Weight | MP Cost | Cost | Description |
 | ---- | ---- | ----- | ---- | -------- | ----- | ------ | ------- | ---- | ----------- |
+| **Breeze**   | F | 3  | 100 | 0 | 2    | 2  | 3  | 240   | The Citizen's tome, found in Ch 05. Cannot miss and cannot kill; it teaches what Aero does to an element already on the target. |
 | **Gust**     | E | 5  | 95 | 0 | 2    | 3  | 3  | 600   | The every-round attack; the most accurate Iron-tier tome in the game. |
 | **Updraft**  | D | –  | –  | – | 1–2  | 2  | 4  | 1,500 | Deals no damage; lifts one ally and sets him down on any free tile within range, ignoring terrain cost. |
 | **Gale**     | C | 8  | 90 | 0 | 2    | 5  | 5  | 1,700 | The mid-game workhorse – full damage at standard magic range. |
@@ -95,6 +99,7 @@ The wheel is not symmetric, and that is the design: **Geo is the duelist element
 
 | Name | Rank | Might | Hit  | Critical | Range | Weight | MP Cost | Cost | Description |
 | ---- | ---- | ----- | ---- | -------- | ----- | ------ | ------- | ---- | ----------- |
+| **Static**       | F | 3  | 95 | 0  | 2    | 2  | 3  | 240   | The Citizen's tome, found in Ch 05. The one Electro tome without Critical – Bronze carries none, so a Citizen learns the element before the burst. |
 | **Spark**        | E | 5  | 90 | 5  | 2    | 3  | 3  | 600   | The every-round attack, and the only Iron-tier tome that can crit. |
 | **Jolt**         | D | 5  | 85 | 5  | 2    | 3  | 4  | 1,500 | The struck enemy cannot counterattack this round – safe chip damage against something that hits back harder than it takes. |
 | **Bolt**         | C | 8  | 85 | 5  | 2    | 5  | 5  | 1,700 | The mid-game workhorse – full damage at standard magic range. |
@@ -106,6 +111,7 @@ The wheel is not symmetric, and that is the design: **Geo is the duelist element
 
 | Name | Rank | Might | Hit  | Critical | Range | Weight | MP Cost | Cost | Description |
 | ---- | ---- | ----- | ---- | -------- | ----- | ------ | ------- | ---- | ----------- |
+| **Drizzle**    | F | 3  | 100 | 0 | 2    | 2  | 3  | 240   | The Citizen's tome, found in Ch 05. Wets the target more than it hurts it – which is the setup every Hydro reaction begins with. |
 | **Ripple**     | E | 5  | 95 | 0 | 2    | 3  | 3  | 600   | The every-round attack: light, cheap and highly accurate. |
 | **Wellspring** | D | –  | –  | – | 1–2  | 2  | 5  | 1,500 | Deals no damage; restores HP to one ally in range. Value per [Magic Effect Values](../Balancing-Guide.md#magic-effect-values). |
 | **Torrent**    | C | 8  | 90 | 0 | 2    | 5  | 5  | 1,700 | The mid-game workhorse – full damage at standard magic range. |
@@ -117,6 +123,7 @@ The wheel is not symmetric, and that is the design: **Geo is the duelist element
 
 | Name | Rank | Might | Hit  | Critical | Range | Weight | MP Cost | Cost | Description |
 | ---- | ---- | ----- | ---- | -------- | ----- | ------ | ------- | ---- | ----------- |
+| **Chill**        | F | 3  | 95 | 0 | 2    | 2  | 3  | 240   | The Citizen's tome, found in Ch 05. A cold breath, no more – enough to put Cryo on a target for someone else to finish. |
 | **Frost**        | E | 5  | 90 | 0 | 2    | 3  | 3  | 600   | The every-round attack: light, cheap, sustainable from the first promotion. |
 | **Numbing Cold** | D | 5  | 85 | 0 | 2    | 3  | 5  | 1,500 | The struck enemy's Movement is halved on its next turn – the cheap way to keep a charge from arriving on schedule. |
 | **Icefall**      | C | 8  | 85 | 0 | 2    | 5  | 5  | 1,700 | The mid-game workhorse – full damage at standard magic range. |
@@ -128,6 +135,7 @@ The wheel is not symmetric, and that is the design: **Geo is the duelist element
 
 | Name | Rank | Might | Hit  | Critical | Range | Weight | MP Cost | Cost | Description |
 | ---- | ---- | ----- | ---- | -------- | ----- | ------ | ------- | ---- | ----------- |
+| **Pebble**     | F | 3  | 95 | 0 | 2    | 2  | 3  | 240   | The Citizen's tome, found in Ch 05. A thrown stone by any other name; it applies Geo and nothing else. |
 | **Stone**      | E | 5  | 90 | 0 | 2    | 3  | 3  | 600   | The every-round attack: light, cheap, sustainable from the first promotion. |
 | **Stoneskin**  | D | –  | –  | – | 1–2  | 2  | 5  | 1,500 | Deals no damage; grants one ally a shield that absorbs damage until it is spent. Value per [Magic Effect Values](../Balancing-Guide.md#magic-effect-values). |
 | **Boulder**    | C | 8  | 85 | 0 | 2    | 5  | 5  | 1,700 | The mid-game workhorse – full damage at standard magic range. |
@@ -139,6 +147,7 @@ The wheel is not symmetric, and that is the design: **Geo is the duelist element
 
 | Name | Rank | Might | Hit  | Critical | Range | Weight | MP Cost | Cost | Description |
 | ---- | ---- | ----- | ---- | -------- | ----- | ------ | ------- | ---- | ----------- |
+| **Sprout**       | F | 3  | 100 | 0 | 2    | 2  | 3  | 240   | The Citizen's tome, found in Ch 05. Too soft to be a thorn yet; it lands every time and leaves Dendro behind. |
 | **Thorn**        | E | 5  | 95 | 0 | 2    | 3  | 3  | 600   | The every-round attack: light, cheap and highly accurate. |
 | **Rootsnare**    | D | 5  | 90 | 0 | 2    | 3  | 5  | 1,500 | The struck enemy cannot move on its next turn; it may still attack from where it stands. |
 | **Bramble**      | C | 8  | 90 | 0 | 2    | 5  | 5  | 1,700 | The mid-game workhorse – full damage at standard magic range. |
@@ -165,6 +174,7 @@ Umbra beats Natura, Lux beats Umbra, and **Lux and Natura are neutral** to each 
 
 | Name | Rank | Might | Hit  | Critical | Range | Weight | MP Cost | Cost | Description |
 | ---- | ---- | ----- | ---- | -------- | ----- | ------ | ------- | ---- | ----------- |
+| **Glimmer**         | F | 3  | 95 | 0 | 2    | 2  | 3  | 240   | The Citizen's tome, found in Ch 05. The first light the Knights ever hold; it applies Lux and shows what Lux does to Umbra. |
 | **Gleam**           | E | 5  | 90 | 0 | 2    | 3  | 3  | 600   | The every-round attack: light, cheap, sustainable from the first promotion. |
 | **Healing Light**   | D | –  | –  | – | 1–2  | 2  | 5  | 1,500 | Deals no damage; restores HP to one ally in range. Value per [Magic Effect Values](../Balancing-Guide.md#magic-effect-values). |
 | **Radiance**        | C | 8  | 85 | 0 | 2    | 5  | 5  | 1,700 | The mid-game workhorse – full damage at standard magic range. |
@@ -179,6 +189,7 @@ Umbra alone gives HP back. **Siphon** and **Devour** return part of the damage t
 
 | Name | Rank | Might | Hit  | Critical | Range | Weight | MP Cost | Cost | Description |
 | ---- | ---- | ----- | ---- | -------- | ----- | ------ | ------- | ---- | ----------- |
+| **Dusk**      | F | 3  | 95 | 0 | 2    | 2  | 3  | 240   | The Citizen's tome, found in Ch 05. Applies Umbra and drains nothing – the drain is bought with rank, not handed to a Citizen. |
 | **Shade**     | E | 5  | 90 | 0 | 2    | 3  | 3  | 600   | The every-round attack: light, cheap, sustainable from the first promotion. |
 | **Siphon**    | D | 5  | 85 | 0 | 2    | 3  | 5  | 1,500 | Restores HP to the caster equal to a share of the damage dealt. Value per [Magic Effect Values](../Balancing-Guide.md#magic-effect-values). |
 | **Gloom**     | C | 8  | 85 | 0 | 2    | 5  | 5  | 1,700 | The mid-game workhorse – full damage at standard magic range. |

@@ -67,7 +67,31 @@ Vor ihnen erstreckte sich eine Schatzkammer von schier unglaublichem Ausmaß. Go
 
 Hasan trat einen Schritt vor und lachte leise. „Schnappt euch, was ihr tragen könnt! Wer weiß, ob wir je wieder so eine Gelegenheit bekommen!“
 
-Während die meisten begannen, sich unter die Schätze zu mischen, blieb Leona zurück. Etwas hatte ihre Aufmerksamkeit erregt.
+Sie ließen sich nicht zweimal bitten. Ivan war als Erster im Gold, bis zu den Ellbogen, und Marven hob ein Schwert vom Boden, dessen Griff mehr wert war als die ganze Basis.
+
+Lina blieb stehen. Nicht bei den Münzen. Zwischen zwei umgestürzten Truhen, halb unter einem verrotteten Banner, lag ein Stapel Bücher – neun, in dunkles Leder gebunden, jedes mit einem anderen Zeichen in den Deckel geprägt. Sie kniete sich hin, wischte den Staub mit dem Ärmel fort und nahm das oberste. Sie schlug es nicht auf.
+
+„Leona.“
+
+Leona drehte den Kopf, die Augen schon halb bei der hinteren Wand. Sie sah den Stapel, und ihre Finger fanden das geflochtene Band an ihrem Handgelenk. „Das sind welche.“
+
+Ivan war schon da, das Gold noch in beiden Fäusten. „Was sind welche?“
+
+Lina hielt das Buch hoch, den Deckel nach außen. Das Zeichen darauf sah aus wie eine Flamme – oder wie etwas, das einmal eine gewesen war. „Zauberbücher. Elena hat sie uns erklärt, Leona und mir. Im Waisenhaus, abends, wenn ihr geschlafen habt.“ Sie legte es zurück und nahm das nächste. Ein anderes Zeichen, gewellt wie Wasser. „Damit wirkt man Magie. Und jedes trägt ein anderes Element – Feuer, Wasser, Wind ... ob ich alle neun erkenne, weiß ich nicht.“
+
+„Du kannst zaubern?“
+
+„Ich weiß, wie es geht.“ Lina stand auf. „Das ist nicht dasselbe. In Bellum gab es keine Bücher.“
+
+„Und uns hat sie nie was gezeigt?“
+
+„Du hast nie stillgesessen.“
+
+Maksimo hatte nicht hingesehen. Er hatte mitgezählt. Er nahm eines vom Stapel und wog es in der Hand, als wäre es eine Frage. „Dann kommen die mit“, sagte er. „Gold kann jeder tragen.“
+
+Lina packte sie ein, alle neun, eines nach dem anderen, wie man Dinge einpackt, die man nicht fallen lassen darf.
+
+Während die anderen sich wieder unter die Schätze mischten, blieb Leona zurück. Etwas hatte ihre Aufmerksamkeit erregt.
 
 An der hinteren Wand erhob sich eine riesige Statue – größer als jede, die sie je gesehen hatten. Sie zeigte eine imposante Gestalt in Rüstung, das Schwert tief in den Boden gerammt, als würde sie den Schatz bewachen. Die Wand hinter ihr war übersät mit kunstvollen Malereien, die Szenen aus uralten Legenden zeigten.
 

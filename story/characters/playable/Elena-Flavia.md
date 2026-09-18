@@ -52,6 +52,10 @@ Sie blieben in Bellum weil sie nirgendwo anders hingehen konnten. Und weil Elena
 
 So begann es. Nicht mit einem großen Entschluss. Nicht mit einer Berufung die vom Himmel fiel. Sondern mit einem Mädchen das ein anderes Mädchen auf der Straße fand das weinte und nicht wusste wohin – und das einfach sagte: *Komm mit. Ich weiß einen Ort.*
 
+Was sie den Kindern geben konnte war ein Dach, ein Teller und ihre Hände. Die Hände waren das Wichtigste. Elena heilt – mit dem Stab, mit dem Licht, und wenn beides nicht reicht, indem sie bleibt bis es vorbei ist. Wer im Viertel Fieber hatte oder einen Arm verkehrt herum trug kam zu ihr, nicht zu einem Arzt; einen Arzt gab es nicht mehr. Die Leute nannten sie irgendwann Priesterin. Sie hat es nie behauptet und nie bestritten – sie hat einfach weitergemacht.
+
+Leona und Lina hat sie davon weitergegeben was sich weitergeben ließ: den Stab, das Schließen einer Wunde, und die Grundlagen des Lichts – abends am Küchentisch, wenn die Kleinen schliefen, mit Geduld statt Lehrplan. Zauberbücher gab es in Bellum keine. Die beiden wussten also wie ein Zauber gebaut ist, lange bevor sie je einen gewirkt hatten.
+
 Das Waisenhaus wurde ihr Zuhause. Die Kinder wurden ihre Familie. Dardan, Hasan, Leona, Lina, Ivan, Marven, Maksimo, Mikael – sie alle kamen irgendwann durch die Tür und gingen nie wirklich wieder weg. Auch nicht als sie erwachsen wurden. Auch nicht als sie die Vigilant Knights gründeten. Auch nicht als sie Bellum verließen um die Welt zu verändern.
 
 Elena ließ sie gehen. Weil das das Schwerste und das Richtigste war was sie tun konnte.
@@ -61,6 +65,8 @@ Den Anhänger ihrer Mutter trägt sie seitdem jeden Tag. Eine gepresste Blüte i
 *Damit du weißt wo du hingehörst*, hatte ihre Mutter gesagt. *Egal wo du bist.*
 
 Elena hat nie vergessen.
+
+**Noch nicht festgelegt:** Woher Elena selbst den Stab und das Licht gelernt hat. Solange Dardan es nicht entschieden hat, wird es in keiner Szene erklärt.
 
 ## Recruitment
 
@@ -109,3 +115,11 @@ Elena hat nie vergessen.
 |       |       |       |
 |       |       |       |
 |       |       |       |
+
+## Canon Class Path
+
+```
+Acolyte (Base) → Priest (Intermediate)
+```
+
+Was nach Priest kommt, ist nicht entschieden. Der Pfad bleibt ab hier offen, bis Dardan ihn festlegt.

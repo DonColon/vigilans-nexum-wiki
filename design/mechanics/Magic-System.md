@@ -102,9 +102,11 @@ Nicht-Magier denken in Momentum. Sie kämpfen aktiv auf den richtigen Moment fü
 
 | Quelle | Beschreibung | Verfügbarkeit |
 | --- | ------ | ------- |
-| Magier-Klassen | Erhalten Zugang zu Magie automatisch mit ihrer Klasse | Nur Magier-Klassen |
+| Magier-Klassen | Erhalten Zugang zu Magie automatisch mit ihrer Klasse | Nur Magier-Klassen – mit einer Ausnahme: der **Citizen** hält ab Kapitel 05 Rang F in allen neun Elementen (ein gefundenes Tome je Element), siehe [Growth Modifiers](Growth-Modifiers.md#core-rules) |
 | Combat Arts | Ermöglichen Nicht-Magiern, Elemente zu applizieren | Alle Klassen mit entsprechenden Arts |
-| [Magic Tomes](../catalog/Magic-Tomes.md) | Ausrüstbare Tomes mit festgelegtem Element – die Waffen der Magier | Magier-spezifisch, über Klasse oder Items |
+| [Magic Tomes](../catalog/Magic-Tomes.md) | Ausrüstbare Tomes mit festgelegtem Element – die Waffen der Magier | Magier-spezifisch, über Klasse oder Items; Rang-F-Tomes nur für den Citizen |
+
+**Der Citizen folgt dem MP-Modus seiner ausgerüsteten Waffe.** Ein Citizen ist weder Magier noch Nicht-Magier; welches der beiden Systeme oben für ihn gilt, entscheidet die Waffe in der Hand: Mit Tome gelten die Magier-Regeln (MP pro Angriff, passive Regeneration, Element bei jedem Angriff), mit physischer Waffe oder Stab die Nicht-Magier-Regeln (MP durch Angriffe aufbauen, für Combat Arts ausgeben). Die Regel samt der Wechselwirkung mit *Adaptability* steht in [Growth Modifiers](Growth-Modifiers.md#core-rules).
 
 ---
 
@@ -309,7 +311,7 @@ Lux und Natura haben keine Schwäche gegeneinander. Der Natura-Zyklus ist bewuss
 
 ---
 
-**Version:** 1.0
+**Version:** 1.1
 **Erstellt:** 2026-06-09
-**Zuletzt aktualisiert:** 2026-06-09
-**Querverweise:** [Magic Tomes](../catalog/Magic-Tomes.md) · [Combat Arts](Combat-Arts.md) · [Abilities](Abilities.md) · [Chain Attack](Chain-Attack.md)
+**Zuletzt aktualisiert:** 2026-09-18
+**Querverweise:** [Magic Tomes](../catalog/Magic-Tomes.md) · [Combat Arts](Combat-Arts.md) · [Abilities](Abilities.md) · [Chain Attack](Chain-Attack.md) · [Growth Modifiers](Growth-Modifiers.md)

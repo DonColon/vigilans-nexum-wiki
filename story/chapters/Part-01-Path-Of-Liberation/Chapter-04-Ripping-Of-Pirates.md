@@ -31,7 +31,13 @@ Nachdem der letzte Pirat ins Wasser sprang und die Überreste der Diebesbande di
 Die Bürger am Hafen hatten alles beobachtet. Sie kamen aus ihren Häusern, spendeten Beifall und halfen spontan, die geretteten Kisten zur neuen Basis zu bringen.
  Dardan und Hasan stellten sich als die Bürgerwehr von Bellum vor. Die Menschen hörten gespannt zu, Hoffnung spiegelte sich in ihren Gesichtern. Vielleicht, nur vielleicht, würde Bellum bald wieder sicher sein.
 
-In der neuen Basis angekommen, stapelte die Bürgerwehr die Kisten im zentralen Raum. Während die anderen die neuen Waffen bewunderten, trat Hasan zu Dardan.
+In der neuen Basis angekommen, stapelte die Bürgerwehr die Kisten im zentralen Raum. Ivan hatte die erste schon offen, bevor die letzte auf dem Boden stand.
+
+"Schwerter", verkündete er und hielt eines hoch, als hätte er es selbst geschmiedet. "Äxte. Lanzen. Bögen." Er wühlte tiefer, und seine Stimme wurde mit jeder Kiste eine Spur höher. "Messer. Handschuhe mit Eisen über den Knöcheln. Ketten – wozu braucht jemand Ketten? Kampfstäbe." Bei der letzten Kiste trat er einen Schritt zurück. Was darin lag, brauchte zwei Männer zum Heben. "Ich will jetzt keine Theorie aufstellen. Aber ich glaube, das ist ein Geschütz."
+
+Niemand widersprach. Niemand fasste es an.
+
+Während die anderen die neuen Waffen bewunderten, trat Hasan zu Dardan.
 
 "Du hattest Recht. Wir hätten vorsichtiger sein sollen", sagte er leise.
  Dardan lächelte müde. "Nein... wir beide hatten Recht. Ohne deinen Mut hätten wir nichts gewonnen. Und ohne Vorsicht wären wir untergegangen."

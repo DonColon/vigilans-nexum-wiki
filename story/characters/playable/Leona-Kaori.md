@@ -44,6 +44,8 @@ Sie hat dieses Wissen in sich getragen wie einen Fremdkörper – nicht ignorier
 
 Ihre engste Bindung im Waisenhaus war immer Dardan. Nicht romantisch – tiefer als das. Die Verbindung zweier Menschen die gelernt haben dass Familie kein Blut braucht um echt zu sein. Sie war die Erste die immer wusste was er brauchte. Und er war der Einzige der manchmal – nur manchmal – fragte wie es ihr wirklich ging.
 
+Von Elena hat sie den Stab gelernt. Abends am Küchentisch, wenn die Kleinen schliefen – wie man eine Wunde schließt, wie man eine Hand hält bis das Zittern nachlässt, und danach, in kleinen Stücken, die Grundlagen des Lichts. Leona hat es aufgenommen wie sie alles aufnimmt: mit den Augen zuerst. Ein Zauberbuch hat sie dabei nie in der Hand gehabt; in Bellum gab es keines. Sie kannte die Form des Lichts so wie man ein Lied kennt das man noch nie gesungen hat.
+
 **Was noch unbekannt ist:** Wer ihre Eltern waren und warum sie nach Bellum gebracht wurde ist eine Frage die irgendwo in Vaestrall eine Antwort hat. Ob diese Antwort etwas mit den Ereignissen der Geschichte zu tun hat – das liegt noch im Dunkeln.
 
 ## Recruitment

@@ -46,6 +46,8 @@ Sie wuchs zur inoffiziellen Ordnungshüterin der Kindergruppe heran – nicht we
 
 Ihre Herkunft ist eine weiße Seite in einem ansonsten vollen Buch. Sie hat nie aktiv nach Antworten gesucht – nicht aus Gleichgültigkeit, sondern aus einer stillen Überzeugung dass die Vergangenheit kein Recht hat die Gegenwart zu bestimmen. Bellum ist ihre Heimat. Die Vigilant Knights sind ihre Familie. Das reicht ihr.
 
+Elena hat ihr und Leona den Stab beigebracht, und Lina hat gelernt wie sie alles lernt: in der richtigen Reihenfolge, bis es sitzt. Erst das Schließen einer Wunde, dann die Grundlagen des Lichts – Elena erklärte, Lina stellte eine Frage, dann noch eine, und schrieb sich nichts auf weil sie nichts vergaß. Zauberbücher gab es in Bellum keine. Lina hat das nie bekümmert – für sie hieß es nur dass die Sache noch nicht abgeschlossen war.
+
 Ob die weiße Seite irgendwann beschrieben wird – das liegt noch in der Zukunft.
 
 ## Recruitment

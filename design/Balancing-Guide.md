@@ -50,7 +50,7 @@ Disadvantage: -15 Hit, -1 Damage
 
 Might is multiplied off the type's Iron line and rounded to the nearest whole number (.5 rounds up). The catalog entries derived from this table are in [Weapons](catalog/Weapons.md) and [Magic Tomes](catalog/Magic-Tomes.md).
 
-**Why Bronze** *(Proposal)*: Iron is the first tier a class-locked unit buys, but the eight Vigilant Knights hold rank F in the Citizen class and fight for six chapters before any of them picks a base class. Bronze is the weapon rank F can hold. It is worse in the stat that decides a kill (0.6× Might) and better in the stat that teaches the game (+5 Hit), so a first attack lands and still does not end a fight in one blow. **Critical is 0 on every Bronze weapon** – a player learning the combat maths should not have it overturned by a random triple-damage roll, in either direction. 15 Uses and 0.4× cost keep it disposable: Bronze is meant to be replaced around Ch 09, not maintained.
+**Why Bronze** *(Proposal)*: Iron is the first tier a class-locked unit buys, but the eight Vigilant Knights hold rank F in the Citizen class and fight for six chapters before any of them picks a base class. Bronze is the weapon rank F can hold – in every weapon type, the tomes and the staff included, handed out in three stages (Ch 01 / 04 / 05, see [Growth Modifiers](mechanics/Growth-Modifiers.md#core-rules)) so that every Knight has held every type before the class is chosen. It is worse in the stat that decides a kill (0.6× Might) and better in the stat that teaches the game (+5 Hit), so a first attack lands and still does not end a fight in one blow. **Critical is 0 on every Bronze weapon** – a player learning the combat maths should not have it overturned by a random triple-damage roll, in either direction. 15 Uses and 0.4× cost keep it disposable: Bronze is meant to be replaced around Ch 09, not maintained.
 
 ### Cost Multiplier by Weapon Rank
 
@@ -102,7 +102,7 @@ Ranks run F–S per weapon type; the rule (cap rises with tier, S only at Master
 
 | Tier | Main type cap | Secondary type cap | Ranks opened by this tier |
 |------|---------------|--------------------|---------------------------|
-| **Citizen** | F | – (all four types F) | F |
+| **Citizen** | F | – (every type F; access staged Ch 01 / 04 / 05, see [Growth Modifiers](mechanics/Growth-Modifiers.md#core-rules)) | F |
 | **Base** | D | – (no hybrid base class) | E, D |
 | **Intermediate** | B | C | C, B |
 | **Advanced** | A | B | A |
@@ -131,11 +131,11 @@ Everything a staff or a tome does **other than damage** takes its value from thi
 
 The scale all rank-gated effects read from. A weapon's rank, not its tier, sets the size of its effect.
 
-| Rank | E | D | C | B | A | S |
-|------|---|---|---|---|---|---|
-| **Rank Bonus** | +6 | +9 | +12 | +15 | +18 | +21 |
+| Rank | F | E | D | C | B | A | S |
+|------|---|---|---|---|---|---|---|
+| **Rank Bonus** | +3 | +6 | +9 | +12 | +15 | +18 | +21 |
 
-Rank F does not appear: a Citizen holds neither staff nor tome.
+Rank F is one step of the same +3 progression below E. It is held only in the Citizen class, with the F-rank staff from Ch 01 and the F-rank tomes from Ch 05 – a Citizen with a staff heals `Mag + 3`, which at a Citizen's Mag is a scratch closed, not a wound.
 
 #### 1 – Healing
 
@@ -259,6 +259,22 @@ Pyro, Electro, Cryo, Geo tomes: tier baseline
 
 **MP is budgeted separately** and does not count toward the 300-400%. It is a resource stat, not a combat stat – a unit with high MP growth is not thereby weaker elsewhere. Casters and Combat-Art-heavy classes sit at 45-60%, pure physical units at 15-30%.
 
+**The budget above is the *personal* growth only.** A unit's effective growth on any level-up is personal growth + the [class growth modifier](#class-growth-modifiers) of its current class (+ Aptitude for the Vigilant Knights) – the rule is in [Growth Modifiers](mechanics/Growth-Modifiers.md). Sheets budget the personal part; the rest comes from the class and is the same for every unit in it.
+
+### Aptitude
+
+*Proposal.*
+
+```
+Aptitude = +10 % to every growth rate, including MP
+```
+
+Held by the Citizen class ability of that name ([Abilities](catalog/Abilities.md#citizen)) and kept for the whole campaign, so only the eight Vigilant Knights ever have it.
+
+**Effect on the Knights' budget:** the eight combat stats gain 8 × 10 = **+80 %**, so a Knight's effective personal budget reads **380–480 %** (a Lord's 460–500 %), MP separate. Over 59 level-ups that is ≈ 0.10 × 59 ≈ **6 points per stat** – about what one Master promotion grants in Str/Mag, or a little more than it grants in Spd and Def/Res. That is the intended size of "the Bellum orphans overtake the veterans": a Knight ends the campaign roughly one promotion ahead of a same-class veteran who joined in Part 02, visibly and not overwhelmingly.
+
+**Why 10 and not the Fire Emblem 20:** *Awakening* and *Three Houses* set Aptitude at +20 %, but there it is the only bonus on top of personal growth, and it lands on lower caps with reclassing to spend the surplus. Here it stacks on a class growth modifier that already lifts the class's main stat, under a hard cap of 50 with no reclassing. At +20 % a Knight with *High* personal growth in his line's main stat would cap that stat around Lv 40 – in Part 05/06, where a capped stat reads as wasted level-ups rather than as the Part 08 reward the *Max Stats* note aims for. At +10 % the same Knight caps around the Part 07 reunion (Lv 45), and a *Medium* one around Lv 55.
+
 ### Max Stats (Level 60, Master Class)
 
 | Stat | Absolute Cap |
@@ -270,6 +286,8 @@ Pyro, Electro, Cryo, Geo tomes: tier baseline
 | Def/Res | 50 |
 
 **Why these numbers:** Over 59 level-ups a balanced unit (~44% average growth) gains ~26 points per stat, landing near 32 before class bonuses and ~37 after – enough headroom that caps stay meaningful. Elite growth rates (80-85%) reach the cap around Lv 50, i.e. in Part 08, where capping reads as a reward rather than wasted level-ups.
+
+That paragraph reads personal growth alone. With the [class growth modifier](#class-growth-modifiers) and [Aptitude](#aptitude) on top, the reference case becomes the **line's main stat**: a Knight with *Medium* personal growth there reaches the cap around Lv 55, one with *High* growth around Lv 45 – the Part 07 reunion. Off-line stats behave as the paragraph above says. A sheet that puts *Elite* personal growth into its class's own main stat is therefore over-investing – the reachability check in `statcraft`, which now runs along the canon class path (see [Growth Modifiers](mechanics/Growth-Modifiers.md#interaction-with-other-mechanics)), is where that shows.
 
 ---
 
@@ -286,6 +304,61 @@ Pyro, Electro, Cryo, Geo tomes: tier baseline
 | **Master** | +10 | +20 | +5 | +4 | +4 | 7 tiles |
 
 **Master is the terminal tier for every unit, Dardan and Hasan included.** A Lord Kit adds abilities on top of the Master class, never stats – see [catalog/Unit-Classes.md](catalog/Unit-Classes.md). The Lords' advantage is the kit, not a hidden stat lead.
+
+> **Open – per tier or per class?** This table is per tier: every Base class grants the same +2 HP / +1 Str-Mag. The [class growth modifiers](#class-growth-modifiers) below are per class line. Whether the *stat* modifiers should follow and become per class as well is not decided; until it is, the table above stands as written.
+
+### Class Growth Modifiers
+
+*Proposal – every value here is a first draft for tuning.*
+
+The rule is in [Growth Modifiers](mechanics/Growth-Modifiers.md): on every level-up a unit rolls its personal growth **plus the modifier of the class it is in**, plus Aptitude if it has it. This section holds the modifiers. A class line has a **main attack stat** and **two support stats**; every other stat carries 0. Modifiers are never negative – a penalty on an off-stat would recreate the trap the system exists to remove (Mag feeds MP income for every unit, Spd decides doubling), so a line's profile is expressed by where it puts its points, not by where it takes them away.
+
+#### Magnitude by tier
+
+**Tier scaling rule:** every entry of a line's profile rises by **+5 per tier** above Base, the grain of the growth table. Citizen is 0 in every stat.
+
+| Tier | Main stat | Each support stat | Sum |
+|------|-----------|-------------------|-----|
+| **Citizen** | 0 | 0 | 0 |
+| **Base** | +20 | +10 | +40 |
+| **Intermediate** | +25 | +15 | +55 |
+| **Advanced** | +30 | +20 | +70 |
+| **Master** | +35 | +25 | +85 |
+
+**Derivation of the Base main stat – the anti-trap guard, once:** the [Growth Rates](#growth-rates--chance-per-level) table puts Str/Mag at *Low* 20 % and *Medium* 40 %. The guard demands that a Knight with *Low* personal growth in a line's main stat still reaches *Medium* in that line's Base class: `20 % (Low) + Base main modifier ≥ 40 % (Medium)`, so the Base main modifier is **at least +20**. It is set at exactly +20 so that the guard holds with nothing to spare – a stronger modifier would lift every Knight's main stat toward the cap too early (see the note under [Max Stats](#max-stats-level-60-master-class)). Supports are half the main; +5 per tier is the smallest step the growth table uses.
+
+**Why the modifier scales with tier at all:** a flat modifier would make the Ch 06 choice the only one that mattered for growth. Rising with tier, each of the three later promotions is worth more to *take* than the one before – and each is a fork, so the choice of branch stays live to the end of the game.
+
+#### Profiles by class line
+
+The line is read from the [class tree](catalog/Unit-Classes.md); the tier from the class. A branch override replaces the line's supports from the tier where that branch begins and stays for the rest of the path.
+
+| Line | Classes on the line | Main | Supports | Why |
+|------|---------------------|------|----------|-----|
+| **Sword** | Swordsman → Myrmidon, Sword Cavalier → Sword Master, Duelist, Griffon Knight\*, Sword Paladin → Sword Saint, Blade Dancer, Griffon Lord\*, Astra Knight | Str | Spd, Dex | The light, accurate type wins by doubling and hitting, not by Might |
+| **Lance** | Lancer → Soldier, Lance Cavalier → Halberdier, Armored Knight\*, Pegasus Knight\*, Lance Paladin → Sentinel, Armored General\*, Pegasus Lord\*, Aegis Knight | Str | Def, Dex | The line that holds the front: balanced, accurate, durable |
+| **Axe** | Axe Fighter → Warrior, Axe Cavalier → Berserker, Gladiator, Wyvern Knight\*, Axe Paladin → Warmonger, Spartan, Wyvern Lord\*, Colossus Knight | Str | HP, Def | The heavy type; it takes the hit it could not dodge |
+| **Bow** | Archer → Sniper, Bow Cavalier → Marksman, Ranger, Kinshi Knight\*, Bow Paladin → Deadeye, Hunterblade, Kinshi Lord\*, Pavise Warden | Str | Dex, Spd | Never reached, always landing |
+| **Knife** | Thief → Rogue → Assassin, Trickster → Nightveil, Saboteur | Str | Spd, Lck | Damage by volume and crit; Lck is the Thief's trade |
+| **Gauntlet** | Martial Artist → Brawler, Martial Monk\* → Bruiser, Martial Saint\* → Enforcer, Divine Monk\* | Str | Spd, HP | Two strikes a turn on a unit that has to stand in reach |
+| **Artillery** | Artillerist → Gunner, Bombardier → Cannoneer, Grenadier → Warfire Vanguard, Siege Breaker | Str | Dex, Def | Blind up close, so it must hit from afar and survive being reached |
+| **Staff (healer)** | Acolyte → Cleric\*, Priest → Valkyrie\*, Bishop → Celestial Valkyrie\*, Arch Bishop | Mag | Res, Def | A healer's cost is standing next to the wounded, inside the enemy's reach |
+| **Natura mage** | the nine mancers → the nine Sages → Elementalist → Arcanist | Mag | MP, Res | The tome is fired every round; MP is the running cost |
+| **Lux** | Luxmancer → Lux Sage → Luminary → Radiant Monarch | Mag | Res, HP | The support caster that ends up carrying a Staff and standing in the line |
+| **Umbra** | Umbramancer → Umbra Sage → Tenebrae → Shadow Monarch | Mag | Str, HP | Drain is sustain; the Sword arrives at Advanced and the Str is already there. Also the mage line for a Knight with a physical profile |
+
+**Branch overrides** – the classes marked \* above. They keep their line's main stat and swap the supports:
+
+| Branch | From | Replaces the line's supports with | Why |
+|--------|------|-----------------------------------|-----|
+| **Flying** – Griffon Knight, Pegasus Knight, Wyvern Knight, Kinshi Knight and their Lords | Advanced | Spd, Res | Fast, resistant to magic, and the type every bow is effective against – it must not also be slow |
+| **Armored** – Armored Knight, Armored General | Advanced | Def, HP | The wall. It gives up the Lance line's Dex for the second defensive stat |
+| **Cleric** – Cleric → Valkyrie → Celestial Valkyrie | Intermediate | Str, Res | The healer who also swings a Sword; Str is the hybrid's second attack stat |
+| **Martial Monk** – Martial Monk → Martial Saint → Divine Monk | Intermediate | Mag, Spd | Ki Gauntlet and Staff both read Mag; the monk keeps the gauntlet's speed |
+
+Cavalry branches (the four Cavaliers and their Paladins) keep their line's profile – Canto is what they add, not a different body. Physical hybrids (Duelist, Ranger, Gladiator, Trickster, Brawler and their Masters) keep the line's profile too: both their weapon types read Str.
+
+**Worked example – Sword line, effective growth in Str for a Knight with *Medium* personal Str (40 %) and Aptitude:** Citizen 40 + 0 + 10 = 50 % · Swordsman 40 + 20 + 10 = 70 % · Myrmidon 75 % · Sword Master 80 % · Sword Saint 85 %. The same Knight with *Low* personal Str (20 %): 30 / 50 / 55 / 60 / 65 % – a competent swordsman, not the best one, which is the guard doing exactly what it is for.
 
 ### Class Type Templates
 
@@ -420,7 +493,8 @@ Stat Boosters: 5,000-8,000 Gold
 When creating new content, verify:
 
 - [ ] **Weapon:** Follows tier progression (Bronze → Iron → Steel → Silver) and is priced by its rank
-- [ ] **Character:** Growth rates total 300-400% across the eight combat stats; MP budgeted separately
+- [ ] **Character:** Personal growth rates total 300-400% across the eight combat stats; MP budgeted separately; class modifiers and Aptitude come on top and are not on the sheet
+- [ ] **Class:** Growth modifier follows its line's profile and tier magnitude; the Base main stat keeps the anti-trap guard
 - [ ] **Class:** Stat bonuses align with class archetype
 - [ ] **Level Design:** Enemy level = Player level +2 on Normal
 - [ ] **Economy:** Player can afford 70% of available items
@@ -436,5 +510,5 @@ When creating new content, verify:
 - Fire Emblem: Engage weapon balancing  
 - Advance Wars damage calculator logic  
 
-**Version:** 2.0  
-**Last Updated:** 2026-08-06
+**Version:** 2.1  
+**Last Updated:** 2026-09-18

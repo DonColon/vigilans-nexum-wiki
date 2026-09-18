@@ -15,6 +15,7 @@ Each documented mechanic follows [mechanics/_TEMPLATE.md](_TEMPLATE.md). Numbers
 | **[Abilities](Abilities.md)** | Passive/active ability slots, capacity, requirements, acquisition |
 | **[Chain Attack](Chain-Attack.md)** | Follow-up attacks by adjacent allies |
 | **[Biorhythm](Biorythm.md)** | Per-character performance cycle, UI display, character assignments |
+| **[Growth Modifiers](Growth-Modifiers.md)** | Effective growth = personal + class growth modifier (+ Aptitude for the Vigilant Knights), tier scaling, the anti-trap guard, the Citizen's staged weapon access (Ch 01 / 04 / 05) and its MP regime by equipped weapon |
 
 Item, spell, class and ability **lists** are in the [Game Catalog](../catalog/README.md); this page describes the rules behind them.
 
@@ -33,7 +34,7 @@ These systems exist in the design intent but have no specification file yet. Wri
 | Movement | Tile-based movement, terrain effects, movement types | High |
 | The Nexus / Exchange | Dardan's signature ability – swap positions with allies | High |
 | Class System | Citizen → Base → Intermediate → Advanced → Master (+ Lord Kit) | High |
-| Experience & Leveling | XP gain, level caps, stat growth | High |
+| Experience & Leveling | XP gain, level caps (stat growth composition is now in [Growth Modifiers](Growth-Modifiers.md); the level-up roll itself and the XP formula's rules are still open) | High |
 | Weapon Rank Progression | How a rank rises (weapon XP through use); the F–S scale and the caps per tier are already in the [Progression System](../Progression-System.md#weapon-rank) and the [Balancing Guide](../Balancing-Guide.md#weapon-rank-caps) | Medium |
 | Victory & Defeat Conditions | Win/loss scenarios, secondary objectives | Medium |
 | Permadeath & Retreat | Classic vs. Casual mode | Medium |

@@ -225,10 +225,13 @@ Staff is a weapon type **outside both triangles** – it neither gains nor suffe
 
 **How much a staff heals is set by its Rank**, not by the entry: `Heal = Mag + Rank Bonus`, halved bonus for ranged and multi-target staves, in the [Balancing Guide](../Balancing-Guide.md#magic-effect-values). That makes the Rank column the whole difference between an Acolyte and an Arch Bishop – the same Heal staff restores more in better hands, and the utility that decides a battle sits behind gates an Acolyte cannot reach. Rank S in Staff exists only for the Arch Bishop and the Celestial Valkyrie; Luminary, Radiant Monarch, Martial Saint and Divine Monk carry Staff as a secondary type and cap one rank lower.
 
+**The rank-F staff is the Citizen's**, held from Ch 01 like the Bronze weapons and derived by the same Bronze rules ([tier table](../Balancing-Guide.md#weapon-tier-progression)): a healing staff has no Might or Hit to scale, so Bronze leaves it 15 Uses, Weight one below Heal, and 0.4× the 60-gold staff base cost. What it heals is the F entry of the Rank Bonus. A Citizen holding it follows the non-mage MP rules ([Growth Modifiers](../mechanics/Growth-Modifiers.md#core-rules)); healing with it grants XP like any staff.
+
 There is deliberately **no revival staff.** Loss is permanent in this game, and a staff that undid it would undo the weight every other rule is built to carry.
 
 | Name | Rank | Might | Hit  | Range | Weight | Uses | Cost | Description |
 | ---- | ---- | ----- | ---- | ----- | ------ | ---- | ---- | ----------- |
+| Soothe  | F | - | - | 1   | 2 | 15 | 24   | The Citizen's staff: a scratch closed on an adjacent ally, and the first time one of the eight learns that standing next to someone can be a turn well spent. |
 | Heal    | E | - | - | 1   | 3 | 30 | 60   | The first staff an Acolyte carries: one adjacent ally, one wound undone, and the reason a healer levels at all. |
 | Mend    | D | - | - | 1   | 4 | 25 | 180  | The same act with a better tool – enough to pull a front-line unit back out of one-shot range. |
 | Physic  | C | - | - | 1–5 | 5 | 20 | 300  | Heals at a distance for half the amount: the staff that lets a healer stay behind the line instead of inside it. |

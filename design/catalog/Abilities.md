@@ -30,9 +30,9 @@ Granted the moment a unit enters the class. Never lost.
 
 | Name | Capacity | Trigger | Effect | Class |
 | ---- | -------- | ------- | ------ | ----- |
-| Adaptability | 1 | Active (free) | The unit may change its equipped weapon once per turn without spending its action. The Citizen carries four weapon types; this is what makes that more than a list. | Citizen |
+| Adaptability | 1 | Active (free) | The unit may change its equipped weapon once per turn without spending its action. The Citizen can hold every weapon type (staged over Ch 01 / 04 / 05, see [Growth Modifiers](../mechanics/Growth-Modifiers.md#core-rules)); this is what makes that more than a list. | Citizen |
 | Discipline | 1 | Passive | Weapon experience gained by this unit is doubled. A Citizen starts at rank F, one rank below everyone else – Discipline is how the eight Vigilant Knights close that gap. | Citizen |
-| Aptitude | 2 | Passive | Every growth rate of this unit is raised. *The size of the raise is not yet in the [Balancing Guide](../Balancing-Guide.md#growth-rates--chance-per-level) – open.* Kept for the whole campaign, this is the mechanical form of the design intent that the Bellum orphans overtake the veterans who joined ahead of them. | Citizen |
+| Aptitude | 2 | Passive | Every growth rate of this unit is raised by a flat amount – the value is in the [Balancing Guide → Aptitude](../Balancing-Guide.md#aptitude), the rule in [Growth Modifiers](../mechanics/Growth-Modifiers.md). Kept for the whole campaign, this is the mechanical form of the design intent that the Bellum orphans overtake the veterans who joined ahead of them. | Citizen |
 
 ### Base
 
