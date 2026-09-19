@@ -24,7 +24,7 @@ Tier and rank are two different axes. A tier says what the weapon is made of; a 
 
 This mirrors the rank-to-tier mapping already used for tomes in the [Progression System](../Progression-System.md#magic-tome-availability), and it lines up with the [weapon availability timeline](../Progression-System.md#-weapon-progression-timeline): Steel reaches the shops in Ch 09, by which point every unit has taken a base class (Ch 06) and can hold rank D; Silver reaches them in Ch 25, the chapter the Advanced tier and its A cap open. Every promotion therefore hands the player a new *kind* of weapon, not merely a larger number.
 
-**Secondary weapon types cap one rank lower**, so a hybrid reaches each of these rows one tier later in its off-hand – a Cleric's Sword stops at C, a Duelist's Knife at B. That is the price of breadth, per the [Progression System](../Progression-System.md#weapon-rank). Two types are *always* secondary in every class that carries them – Chain and Battle Staff – and their Silver entries are therefore Master-tier weapons in practice; the C-rank variants are those types' real workhorses.
+**Secondary weapon types cap one rank lower**, so a hybrid reaches each of these rows one tier later in its off-hand – a Cleric's Sword stops at C, a Duelist's Knife at B. That is the price of breadth, per the [Progression System](../Progression-System.md#weapon-rank). One type is *always* secondary in every class that carries it – the Battle Staff – so its Silver entry is a Master-tier weapon in practice and the C-rank variants are its real workhorses. The Chain used to share that status; since the Tamer lines ([Unit Classes](Unit-Classes.md)) carry it as their main type, a Silver Chain is an Advanced weapon in a Tamer's hands and Master-tier only for the hybrids that hold the Chain beside a Gauntlet, an Axe or a Knife.
 
 **Critical is bought, not inherited.** Every weapon here sits at 0 Critical, with two exceptions: the Knife line, whose native 10 is the type's identity, and the Killer variants at 30. A player reading a battle forecast should be able to say where a crit chance came from.
 
@@ -165,7 +165,7 @@ Low Might, the best accuracy on the wheel, and a defensive property: the Battle 
 
 ### Chains
 
-The reach type. Every chain strikes at **1–2 range natively**, with no Might or Hit penalty for it – which is the type's entire argument, since everyone else pays for that reach. It buys the privilege elsewhere: middling numbers across the board, no killer and no brave variant, and the status of a secondary weapon type in every class that carries it (Brawler, Gladiator, Trickster, Bruiser, Spartan, Saboteur, Enforcer). That cap means a chain user reaches C at Intermediate and A only at Master, so the two effective chains below are the type's real mid-game, not the Silver.
+The reach type. Every chain strikes at **1–2 range natively**, with no Might or Hit penalty for it – which is the type's entire argument, since everyone else pays for that reach. It buys the privilege elsewhere: middling numbers across the board, and no killer and no brave variant. Two kinds of class carry it. The **Tamer lines** – Tamer → Dompteur → Bestiarius → Behemoth and Tamer → Harpooner → Retiarius → Leviathan – hold the Chain as their main type and climb its ranks on the main-type cap: the Snare Chain is the Dompteur line's home weapon from Intermediate, the Silver Chain arrives at Advanced. The **hybrids** – Brawler, Gladiator, Trickster, Bruiser, Spartan, Saboteur, Enforcer – hold it as a secondary type beside a Gauntlet, an Axe or a Knife, cap one rank lower, and reach C at Intermediate and A only at Master; for them the two effective chains below are the type's real mid-game, not the Silver.
 
 | Name | Rank | Might | Hit  | Critical | Range | Weight | Uses | Cost | Description |
 | ---- | ---- | ----- | ---- | -------- | ----- | ------ | ---- | ---- | ----------- |
@@ -174,7 +174,7 @@ The reach type. Every chain strikes at **1–2 range natively**, with no Might o
 | Steel Chain  | D | 9  | 75 | 0 | 1–2 | 10 | 35 | 180 | Full mid-game damage at both ranges, which is more than any javelin manages. |
 | Snare Chain  | C | 9  | 75 | 0 | 1–2 | 12 | 25 | 300 | **Effective vs Flying.** Reaches up and pulls a wyvern out of its approach. |
 | Flail Chain  | C | 9  | 75 | 0 | 1–2 | 12 | 25 | 300 | **Effective vs Armored.** A weighted head that does not care what the plate is made of. |
-| Silver Chain | A | 12 | 70 | 0 | 1–2 | 11 | 50 | 600 | Master-tier in practice: the only chain that competes with a Silver Lance on Might. |
+| Silver Chain | A | 12 | 70 | 0 | 1–2 | 11 | 50 | 600 | The only chain that competes with a Silver Lance on Might. An Advanced weapon for the Tamer lines; Master-tier in practice for the hybrids, whose secondary cap reaches A last. |
 
 ## Weapon Triangle
 

@@ -40,7 +40,7 @@ Granted the moment a unit enters the class. Never lost.
 | ---- | -------- | ------- | ------ | ----- |
 | Speed +2 | 1 | Passive | +2 Speed. | Swordsman |
 | Defense +2 | 1 | Passive | +2 Defense. | Lancer |
-| Strength +2 | 1 | Passive | +2 Strength. | Axe Fighter |
+| Strength +2 | 1 | Passive | +2 Strength. On the Tamer it feeds both the heavy hit at range 2 and the Strength gate on Ensnare – a Base ability adds to what the weapon does, it never patches what it lacks. | Axe Fighter, Tamer |
 | Dexterity +2 | 1 | Passive | +2 Dexterity. | Thief |
 | Hit Rate +10 | 1 | Passive | +10 Hit. | Archer, Artillerist |
 | Avoid +10 | 1 | Passive | +10 Avoid. | Martial Artist |
@@ -62,6 +62,8 @@ Granted the moment a unit enters the class. Never lost.
 | Inner Peace | 2 | Passive | This unit regenerates MP passively each turn at the caster rate in [Magic System](../mechanics/Magic-System.md#magier--passiv) instead of building it through attacks. The Brawler punches to pay for his arts; the Monk breathes. | Martial Monk |
 | Braced Shot | 2 | Situational | If this unit has not moved this turn, its Artillery attack cannot miss. | Gunner |
 | Scatter Shot | 2 | Passive | This unit's Artillery attacks also deal half damage to every enemy adjacent to the target. | Bombardier |
+| Leash | 2 | On hit | An enemy damaged by this unit cannot end its next move on a tile farther from this unit than the one it stands on. It may still act. The chilling wind: the prey may close in or hold its ground, but it can no longer run. | Dompteur |
+| Harpoon | 2 | Passive | Every Lance this unit holds is a thrown weapon: its Lance attacks and counter-attacks reach range 1–2, whatever the weapon's listed Range. Together with the Chain this makes the line the only close-combat unit that answers at both ranges with everything it carries. | Harpooner |
 | Live to Serve | 2 | On healing | When this unit heals an ally, it recovers the same amount of HP itself. | Cleric |
 | Consecration | 2 | On healing | Healing performed by this unit also removes one status effect from the target. | Priest |
 | Conflagration | 2 | Passive | A Burning Field created by this unit spreads to one adjacent flammable tile at the start of each turn, for as long as the field lasts (see [Terrain Effects](../mechanics/Magic-System.md#geländeeffekte)). | Pyro Sage |
@@ -83,7 +85,9 @@ Granted the moment a unit enters the class. Never lost.
 | Pierce | 3 | Dex-based | On a triggered attack, the target's Defense is halved. | Halberdier |
 | Ironhide | 2 | Dex-based | Halves the damage of a physical attack against this unit. | Armored Knight |
 | Bloodlust | 2 | Passive | This unit's Critical rate is increased by the percentage of its maximum HP it is currently missing. | Berserker |
-| Ensnare | 2 | On hit | When this unit attacks with a Chain, the target is dragged one tile toward it. | Gladiator |
+| Pit Fighter | 2 | Situational | While this unit is adjacent to two or more enemies, its attacks cannot be countered. The mirror of the Duelist's Duel: one fights best alone, the other in the press. | Gladiator |
+| Beast Call | 3 | Active (action) | Spends MP to summon a Solmare beast – the beasts of Ch 22/23 – on an adjacent empty tile as an Other-faction AI unit that this unit can give orders to within its Chain's reach. Three summons per Bestiarius per map. The beast earns no XP, gives none, counts for no objective, and stays until it falls. Full rules in [Beast Summon](../mechanics/Beast-Summon.md); the MP cost is in the [Balancing Guide → Beast Summon](../Balancing-Guide.md#beast-summon), not yet set. | Bestiarius |
+| Cast Net | 3 | On hit | An enemy damaged by this unit's Chain is netted until the end of the next Player Phase: attacks against it cannot miss. The net does not kill – it holds the target still for the trident, and for everyone else. | Retiarius |
 | Point Blank | 2 | Passive | This unit may attack adjacent enemies with a Bow, and counter-attacks normally at range 1. | Marksman |
 | Pathfinder | 2 | Passive | This unit ignores the extra movement cost of forest, grass, sand and other difficult terrain. | Ranger |
 | Vanish | 2 | Situational | If this unit did not attack on its previous turn, it cannot be targeted by attacks from range 2 or more. | Assassin |
@@ -115,6 +119,8 @@ Granted the moment a unit enters the class. Never lost.
 | Open Palm | 3 | On healing | Staff healing performed by this unit also restores the target's MP by the same amount. | Divine Monk |
 | Barrage | 3 | Situational | If this unit does not move on its turn, it may attack twice with Artillery. | Warfire Vanguard |
 | Wallbreaker | 3 | Passive | This unit's Artillery attacks destroy walls, gates and barricades in a single shot and are effective against Armored targets (see [Effective Weapons](../Balancing-Guide.md#special-weapon-types)). | Siege Breaker |
+| Apex Predator | 3 | Passive | An enemy adjacent to this unit, or to a beast this unit summoned, cannot move to a tile that is not adjacent to that unit. It may still act. Leash without the hit: nothing the pack has closed on gets away. | Behemoth |
+| Wake | 3 | Passive | Every tile within range 1 of this unit is a Flooded Field (see [Terrain Effects](../mechanics/Magic-System.md#geländeeffekte)). It moves with him, it does not spare his allies, and he alone is unaffected by it. The sea around the sailor – and the water an Electro art turns live. | Leviathan |
 | Sanctuary | 3 | Passive | Allied units within range 2 of this unit are immune to status effects and cannot be critically hit. | Arch Bishop |
 | Convergence | 3 | Active (free) | This unit may apply two of its three elements with a single attack, triggering a 2-element reaction on its own. | Arcanist |
 | Corona | 3 | Passive | Every tile within range 2 of this unit is a Light Field, and any Umbra applied to an enemy standing on one is removed. | Radiant Monarch |
@@ -147,6 +153,7 @@ The Base tier's masteries are all movement tools. They are what a fresh army lea
 | Knockback | 1 | Active (action) | Push an adjacent unit – ally or enemy – two tiles directly away. Against an enemy it fails if the target's Strength is above this unit's. | Artillerist |
 | Draw Back | 1 | Active (action) | Move one tile away from an adjacent ally and bring the ally into the tile this unit left. | Acolyte |
 | Mystic Pull | 1 | Active (action) | Pull an ally within range 2 to the tile adjacent to this unit. | All nine mancer classes |
+| Ensnare | 1 | Active (action) | Pull a unit within range 2 – ally or enemy – to the tile adjacent to this unit. Against an enemy it fails if the target's Strength is above this unit's. Mystic Pull with a chain instead of a spell, and with teeth: the one Base mastery that moves an enemy toward the army. Pulling *on hit* is combat-art territory (Riptide Lash, Net Cast) – this is a command, paid with the action and gated by Strength like Shove. | Tamer |
 | Bellum's Will | 2 | – | *Open – not yet specified.* The name carries narrative weight (Bellum), so the effect is a decision, not a gap to be filled by a designer. | Citizen |
 
 ### Intermediate
@@ -166,6 +173,8 @@ The Base tier's masteries are all movement tools. They are what a fresh army lea
 | Wide Guard | 2 | Situational | While this unit has a Battle Staff equipped and has not moved this turn, the [Battle Staff Guard](../Balancing-Guide.md#battle-staff-guard) penalty applies at every range and also to attacks against adjacent allies. | Martial Monk |
 | Crack Shot | 2 | On critical hit | Critical hits with Artillery ignore the target's Defense. | Gunner |
 | Demolition | 2 | On hit | This unit's Artillery destroys walls, gates and barricades in a single shot, and the tiles they stood on become Burning Fields. | Bombardier |
+| Bring Down | 2 | On hit | A Flying enemy damaged by this unit is grounded until the end of its next turn: it pays terrain costs like Infantry and cannot use Canto. It remains a Flying target for effective weapons. Snatched out of the air – and the Snare Chain is what does the snatching. | Dompteur |
+| Receive Charge | 2 | Enemy Phase | When a Cavalry enemy moves into a tile within this unit's Lance range, this unit attacks it once with its Lance before it acts. Once per Enemy Phase. Brace waits to be attacked; the harpooner strikes the moment the rider comes into reach, whoever the rider was going for. | Harpooner |
 | Miracle | 2 | Luck-based | When this unit would be reduced to 0 HP, it survives with 1 HP instead. | Cleric |
 | Intercession | 3 | Enemy Phase | When an adjacent ally would take lethal damage, this unit takes that damage instead. | Priest |
 | Backdraft | 2 | Enemy Phase | An enemy that attacks this unit from range 1 has Pyro applied to it. | Pyro Sage |
@@ -204,6 +213,8 @@ The Base tier's masteries are all movement tools. They are what a fresh army lea
 | Pressure Point | 2 | On hit | An enemy damaged by this unit cannot use Combat Arts or magic on its next turn. | Martial Saint |
 | Piercing Shot | 2 | Passive | This unit's Artillery attack also strikes every enemy on the straight line between it and the target. | Cannoneer |
 | Smoke Screen | 2 | Active (action) | Instead of attacking, fire a shell that turns the target tile and its neighbours into a Sandstorm field: ranged attacks cannot cross it (see [Tactical Reactions](../mechanics/Magic-System.md#taktische-reaktionen-grid-spezifisch)). | Grenadier |
+| Hurl | 3 | Active (action) | Throw an adjacent unit – ally or enemy – onto any empty tile within range 2 of this unit; what lies between does not stop the throw. Against an enemy it fails if the target's Strength is above this unit's. Knockback chooses a direction; the Bestiarius chooses the tile – over a wall, across a river, into the beast's reach. | Bestiarius |
+| Breakwater | 2 | Enemy Phase | When a Cavalry enemy attacks this unit, this unit's counter-attack with a Lance deals additional damage equal to the number of tiles the attacker moved this turn. The charge's own speed, spent on the point set against it. | Retiarius |
 | Grace | 2 | On healing | An ally healed by this unit may immediately move up to half its Movement. | Valkyrie |
 | Blessing | 2 | On healing | An ally healed by this unit cannot be critically hit until the end of the next turn. | Bishop |
 | Cascade | 3 | On triggering a reaction | When this unit triggers a 2-element reaction, the element it applied stays on the target instead of being consumed – the doorway to 3-element reactions outside a chain attack. | Elementalist |
@@ -236,6 +247,8 @@ The Base tier's masteries are all movement tools. They are what a fresh army lea
 | Stillness | 3 | Situational | If this unit neither moves nor attacks on its turn, every ally within range 2 recovers HP equal to this unit's Magic and is cured of one status effect. | Divine Monk |
 | Scorched Earth | 3 | Passive | This unit's Artillery attacks apply Pyro. | Warfire Vanguard |
 | Bastion | 3 | Situational | While this unit has not moved this turn, allies adjacent to it take no damage from attacks made at range 3 or more. | Siege Breaker |
+| Snatch | 3 | On hit | This unit may throw an enemy it damaged up to three tiles directly away from it; a Flying target thrown this way is also grounded as by Bring Down. Optional on every hit, both phases – the Behemoth decides whether the prey lands in the pack's jaws or off the cliff. Never toward this unit: pulling on hit stays a combat art. | Behemoth |
+| Deep Water | 3 | Passive | Cavalry enemies cannot end their move on a tile adjacent to this unit. They may still pass through. A horse does not step into the sea; a rider who wants the Leviathan must throw from range 2 – where the Leviathan throws back with everything it holds. | Leviathan |
 | Second Breath | 3 | On healing | Once per turn, an ally healed by this unit may immediately act again. | Celestial Valkyrie |
 | Litany | 3 | Passive | An ally that begins its turn on a Light Field within range 2 of this unit recovers HP equal to this unit's Magic. | Arch Bishop |
 | Trinity | 3 | On triggering a reaction | When this unit triggers a 2-element reaction, it may immediately apply its third element to the same target and complete a [3-element reaction](../mechanics/Magic-System.md#3-element-reaktionen). | Arcanist |

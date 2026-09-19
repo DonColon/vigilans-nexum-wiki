@@ -184,6 +184,35 @@ flowchart TB
 ```
 ```mermaid
 flowchart TB
+    %% Base Classes
+    citizen(Citizen)
+    tamer(Tamer)
+
+    citizen-->tamer
+
+    %% Intermediate Classes
+    dompteur(Dompteur)
+    harpooner(Harpooner)
+
+    tamer-->dompteur
+    tamer-->harpooner
+
+    %% Advanced Classes
+    bestiarius(Bestiarius)
+    retiarius(Retiarius)
+
+    dompteur-->bestiarius
+    harpooner-->retiarius
+
+    %% Master Classes
+    behemoth(Behemoth)
+    leviathan(Leviathan)
+
+    bestiarius-->behemoth
+    retiarius-->leviathan
+```
+```mermaid
+flowchart TB
 	%% Base Classes
 	citizen(Citizen)
 	pyromancer(Pyromancer)
@@ -264,6 +293,7 @@ flowchart TB
 | Thief          | Infantry  | Knife        | Dexterity +2, Steal, Lock Pick | Swap            | Rogue                    |
 | Martial Artist | Infantry  | Gauntlet     | Avoid +10                      | Reposition      | Brawler, Martial Monk    |
 | Artillerist    | Infantry  | Artillery    | Hit Rate +10                   | Knockback       | Gunner, Bombardier       |
+| Tamer          | Infantry  | Chain        | Strength +2                    | Ensnare         | Dompteur, Harpooner      |
 | Acolyte        | Infantry  | Staff        | MP +10                         | Draw Back       | Cleric, Priest           |
 | Pyromancer     | Infantry  | Pyro         | MP +10                         | Mystic Pull     | Pyro Sage                |
 | Aeromancer     | Infantry  | Aero         | MP +10                         | Mystic Pull     | Aero Sage                |
@@ -292,6 +322,8 @@ flowchart TB
 | Martial Monk   | Infantry  | Gauntlet, Battle Staff | Inner Peace     | Wide Guard      | Martial Saint                              |
 | Gunner         | Infantry  | Artillery              | Braced Shot     | Crack Shot      | Cannoneer                                  |
 | Bombardier     | Infantry  | Artillery              | Scatter Shot    | Demolition      | Grenadier                                  |
+| Dompteur       | Infantry  | Chain                  | Leash           | Bring Down      | Bestiarius                                 |
+| Harpooner      | Infantry  | Chain, Lance           | Harpoon         | Receive Charge  | Retiarius                                  |
 | Cleric         | Infantry  | Staff, Sword           | Live to Serve   | Miracle         | Valkyrie                                   |
 | Priest         | Infantry  | Staff, Lux             | Consecration    | Intercession    | Bishop                                     |
 | Pyro Sage      | Infantry  | Pyro                   | Conflagration   | Backdraft       | Elementalist                               |
@@ -317,7 +349,7 @@ flowchart TB
 | Lance Paladin  | Cavalry   | Lance                         | Canto            | Interpose       | Aegis Knight     |
 | Pegasus Knight | Flying    | Lance                         | Canto            | Uplift          | Pegasus Lord     |
 | Berserker      | Infantry  | Axe                           | Bloodlust        | Axefaire        | Warmonger        |
-| Gladiator      | Infantry  | Axe, Chain                    | Ensnare          | Disarm          | Spartan          |
+| Gladiator      | Infantry  | Axe, Chain                    | Pit Fighter      | Disarm          | Spartan          |
 | Axe Paladin    | Cavalry   | Axe                           | Canto            | Breakthrough    | Colossus Knight  |
 | Wyvern Knight  | Flying    | Axe                           | Canto            | Dragon's Dive   | Wyvern Lord      |
 | Marksman       | Infantry  | Bow                           | Point Blank      | Bowfaire        | Deadeye          |
@@ -330,6 +362,8 @@ flowchart TB
 | Martial Saint  | Infantry  | Gauntlet, Battle Staff, Staff | Chi Transfer     | Pressure Point  | Divine Monk      |
 | Cannoneer      | Infantry  | Artillery                     | Counter-Battery  | Piercing Shot   | Warfire Vanguard |
 | Grenadier      | Infantry  | Artillery                     | Incendiary       | Smoke Screen    | Siege Breaker    |
+| Bestiarius     | Infantry  | Chain                         | Beast Call       | Hurl            | Behemoth         |
+| Retiarius      | Infantry  | Chain, Lance                  | Cast Net         | Breakwater      | Leviathan        |
 | Valkyrie       | Cavalry   | Staff, Sword                  | Canto            | Grace           | Celestial Valkyrie |
 | Bishop         | Infantry  | Staff, Lux                    | Sanctify         | Blessing        | Arch Bishop      |
 | Elementalist   | Infantry  | Natura Magic (2 Types)        | Resonance        | Cascade         | Arcanist         |
@@ -364,6 +398,8 @@ Master is the terminal tier. The *Lord Title* column is the name the class carri
 | Divine Monk        | Infantry  | Gauntlet, Battle Staff, Staff | Open Palm        | Stillness       | Enlightened One     | -           |
 | Warfire Vanguard   | Infantry  | Artillery                     | Barrage          | Scorched Earth  | Hellfire Bastion    | -           |
 | Siege Breaker      | Infantry  | Artillery                     | Wallbreaker      | Bastion         | Living Fortress     | -           |
+| Behemoth           | Infantry  | Chain                         | Apex Predator    | Snatch          | Legiana             | -           |
+| Leviathan          | Infantry  | Chain, Lance                  | Wake             | Deep Water      | Lagiacrus           | -           |
 | Celestial Valkyrie | Cavalry   | Staff, Sword                  | Canto            | Second Breath   | Valkyros            | -           |
 | Arch Bishop        | Infantry  | Staff, Lux                    | Sanctuary        | Litany          | Voice of Aurevia    | -           |
 | Arcanist           | Infantry  | Natura Magic (3 Types)        | Convergence      | Trinity         | Avatar*             | -           |

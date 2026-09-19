@@ -52,6 +52,8 @@ Taught by the class, kept forever, and – unlike abilities – never obtainable
 | Cleansing Palm | Hydro | 6 | The attack removes every applied element and status effect from the target before applying Hydro. | Martial Saint |
 | Chain Shot | Pyro | 7 | The shot strikes every enemy on the straight line between this unit and the target. | Cannoneer |
 | Firepot | Pyro | 6 | Fired at a tile rather than a unit: every enemy on or adjacent to it takes half damage and the tile becomes a Burning Field. | Grenadier |
+| Lash Down | Hydro | 6 | Attack with a Chain at range 2 that cannot be countered; the target is thrown one tile directly away. | Bestiarius |
+| Net and Trident | Hydro + Cryo | 7 | Strike with Chain and Lance in one action, applying both elements – this unit triggers a 2-element reaction (Gefrieren) on its own. | Retiarius |
 | Healing Charge | Lux | 6 | Heal an ally at range 2 during this unit's move; the ally's tile becomes a Light Field. | Valkyrie |
 | Radiant Rebuke | Lux | 6 | Every enemy within range 1 of the target takes damage equal to this unit's Magic. | Bishop |
 
@@ -81,6 +83,8 @@ Taught by the class, kept forever, and – unlike abilities – never obtainable
 | Palm of Stillness | Hydro | 10 | The target cannot move, attack or use abilities on its next turn. | Divine Monk |
 | Hellfire Salvo | Pyro | 12 | Two Artillery attacks against two different targets in one action. | Warfire Vanguard |
 | Fortress Shot | Geo | 12 | Effective against Armored targets; destroys any destructible terrain between this unit and the target. | Siege Breaker |
+| Talon Throw | Electro | 11 | Attack with a Chain; the target is thrown onto any empty tile within range 3 of this unit and charged. If it is Flying, it is grounded as by Bring Down. The line's one pull on hit – toward the Behemoth, its beasts, or the edge. | Behemoth |
+| Harpoon Line | Cryo | 10 | Throw a Lance at range 2; the attack is effective against Cavalry and the target is dragged to the tile adjacent to this unit. The harpoon has a line on it, and the rider comes in with it. | Leviathan |
 | Valkyrie's Descent | Lux | 11 | Heals every ally within range 2 for this unit's Magic; each healed tile becomes a Light Field. | Celestial Valkyrie |
 | Aurevian Rite | Lux | 12 | Every ally within range 2 is cured of all status effects and cannot be critically hit until this unit's next turn. | Arch Bishop |
 
@@ -108,7 +112,7 @@ Tied to the weapon type, not the class: any unit that holds the weapon type can 
 | Artillery | Pyro | Powder and blast; the shot burns where it lands | Geo | Shot and shrapnel – stone thrown at stone |
 | Staff | Lux | The healer's light | Hydro | Water as mending |
 
-A useful consequence: most hybrid classes hold two weapon types whose elements react with each other, so a hybrid can set up and trigger a reaction alone. Brawler and Martial Monk reach Electro and Hydro (Schockladung), Armored Knight reaches Cryo and Geo (Kristallisieren), Gladiator Geo and Hydro (Schlammfeld), Trickster Umbra and Hydro (Finsternisflut), Ranger Dendro and Umbra (Seelenfresser), Cleric Lux and Aero (Blendwirbel). That self-sufficiency is the hybrid's compensation for capping one rank lower in its second weapon type.
+A useful consequence: most hybrid classes hold two weapon types whose elements react with each other, so a hybrid can set up and trigger a reaction alone. Brawler and Martial Monk reach Electro and Hydro (Schockladung), Armored Knight reaches Cryo and Geo (Kristallisieren), Gladiator Geo and Hydro (Schlammfeld), Trickster Umbra and Hydro (Finsternisflut), Ranger Dendro and Umbra (Seelenfresser), Cleric Lux and Aero (Blendwirbel), Harpooner Hydro and Cryo (Gefrieren). That self-sufficiency is the hybrid's compensation for capping one rank lower in its second weapon type. The Chain is the one type whose *own* two elements react with each other (Hydro + Electro, Schockladung), so the Tamer line reaches a reaction with a single weapon type – Riptide Lash to set, Arc Chain to trigger – which is the pure line's compensation for having no second weapon at all.
 
 | Name | Element | MP Cost | Effect | Weapon |
 | ---- | ------- | ------- | ------ | ------ |

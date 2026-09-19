@@ -16,6 +16,7 @@ Each documented mechanic follows [mechanics/_TEMPLATE.md](_TEMPLATE.md). Numbers
 | **[Chain Attack](Chain-Attack.md)** | Follow-up attacks by adjacent allies |
 | **[Biorhythm](Biorythm.md)** | Per-character performance cycle, UI display, character assignments |
 | **[Growth Modifiers](Growth-Modifiers.md)** | Effective growth = personal + class growth modifier (+ Aptitude for the Vigilant Knights), tier scaling, the anti-trap guard, the Citizen's staged weapon access (Ch 01 / 04 / 05) and its MP regime by equipped weapon |
+| **[Beast Summon](Beast-Summon.md)** | The Bestiarius' *Beast Call*: the Solmare beast as an Other-faction unit, its stat derivation from the summoner, the three-per-map budget, the order set and the Chain-reach leash, what the beast is excluded from (XP, objectives, staves, Exchange, chain attack), and the wild beasts of Ch 22/23 as the same unit |
 
 Item, spell, class and ability **lists** are in the [Game Catalog](../catalog/README.md); this page describes the rules behind them.
 

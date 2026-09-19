@@ -342,6 +342,7 @@ The line is read from the [class tree](catalog/Unit-Classes.md); the tier from t
 | **Knife** | Thief → Rogue → Assassin, Trickster → Nightveil, Saboteur | Str | Spd, Lck | Damage by volume and crit; Lck is the Thief's trade |
 | **Gauntlet** | Martial Artist → Brawler, Martial Monk\* → Bruiser, Martial Saint\* → Enforcer, Divine Monk\* | Str | Spd, HP | Two strikes a turn on a unit that has to stand in reach |
 | **Artillery** | Artillerist → Gunner, Bombardier → Cannoneer, Grenadier → Warfire Vanguard, Siege Breaker | Str | Dex, Def | Blind up close, so it must hit from afar and survive being reached |
+| **Chain** | Tamer → Dompteur, Harpooner → Bestiarius, Retiarius → Behemoth, Leviathan | Str | Dex, Spd | A thrown weapon whose Hit line sits below every close-combat type but the Axe and whose Weight sits above the Sword's: Dex to land it at range 2, Spd to keep doubling under the chain's weight, Str for the heavy hit and for the Strength gate on Ensnare and Hurl. Both branches share the profile – the Harpooner's Lance reads Str too |
 | **Staff (healer)** | Acolyte → Cleric\*, Priest → Valkyrie\*, Bishop → Celestial Valkyrie\*, Arch Bishop | Mag | Res, Def | A healer's cost is standing next to the wounded, inside the enemy's reach |
 | **Natura mage** | the nine mancers → the nine Sages → Elementalist → Arcanist | Mag | MP, Res | The tome is fired every round; MP is the running cost |
 | **Lux** | Luxmancer → Lux Sage → Luminary → Radiant Monarch | Mag | Res, HP | The support caster that ends up carrying a Staff and standing in the line |
@@ -356,9 +357,29 @@ The line is read from the [class tree](catalog/Unit-Classes.md); the tier from t
 | **Cleric** – Cleric → Valkyrie → Celestial Valkyrie | Intermediate | Str, Res | The healer who also swings a Sword; Str is the hybrid's second attack stat |
 | **Martial Monk** – Martial Monk → Martial Saint → Divine Monk | Intermediate | Mag, Spd | Ki Gauntlet and Staff both read Mag; the monk keeps the gauntlet's speed |
 
-Cavalry branches (the four Cavaliers and their Paladins) keep their line's profile – Canto is what they add, not a different body. Physical hybrids (Duelist, Ranger, Gladiator, Trickster, Brawler and their Masters) keep the line's profile too: both their weapon types read Str.
+Cavalry branches (the four Cavaliers and their Paladins) keep their line's profile – Canto is what they add, not a different body. Physical hybrids (Duelist, Ranger, Gladiator, Trickster, Brawler, Harpooner and their promotions) keep the line's profile too: both their weapon types read Str.
 
 **Worked example – Sword line, effective growth in Str for a Knight with *Medium* personal Str (40 %) and Aptitude:** Citizen 40 + 0 + 10 = 50 % · Swordsman 40 + 20 + 10 = 70 % · Myrmidon 75 % · Sword Master 80 % · Sword Saint 85 %. The same Knight with *Low* personal Str (20 %): 30 / 50 / 55 / 60 / 65 % – a competent swordsman, not the best one, which is the guard doing exactly what it is for.
+
+### Beast Summon
+
+*Not yet set – every value in this table is open.* The rules are in [Beast Summon](mechanics/Beast-Summon.md); this table holds the tuning values that document links to. The design intent the values must express is written next to the derivation rule there: the beast is a body – HP and Str at or above the summoner's, Def near it, Spd and Dex below, Res and Lck well below.
+
+| Parameter | Value |
+|-----------|-------|
+| Beast Call – MP cost per summon | *not yet set* |
+| Beast factor – HP (× summoner's max HP) | *not yet set* |
+| Beast factor – Str | *not yet set* |
+| Beast factor – Spd | *not yet set* |
+| Beast factor – Dex | *not yet set* |
+| Beast factor – Lck | *not yet set* |
+| Beast factor – Def | *not yet set* |
+| Beast factor – Res | *not yet set* |
+| Natural weapon – Might | *not yet set* |
+| Natural weapon – Hit | *not yet set* |
+| Beast Movement | *not yet set* |
+
+Fixed by rule, not tuned here: three summons per Bestiarius per map, order reach range 1–2, Mag and MP none, natural weapon Range 1 / Critical 0 / no Uses. Wild-beast stats for Ch 22 and Ch 23 belong in those level documents, like every generic enemy's.
 
 ### Class Type Templates
 
