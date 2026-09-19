@@ -47,7 +47,7 @@ Taught by the class, kept forever, and – unlike abilities – never obtainable
 | Parthian Shot | Aero | 6 | An attack made during this unit's Canto movement, after it has already acted. | Bow Paladin |
 | Falling Volley | Aero | 7 | The attack also deals half damage to every enemy adjacent to the target. | Kinshi Knight |
 | Silent Kill | Umbra | 7 | Double Critical rate against an enemy that has not yet acted this round. | Assassin |
-| Cutpurse | Umbra | 6 | The attack also steals one unequipped item from the target. | Trickster |
+| Cutpurse | Umbra | 6 | The attack also steals one unequipped item from the target. | Saboteur |
 | Haymaker | Electro | 6 | The target cannot counter this attack and is pushed one tile back. | Bruiser |
 | Cleansing Palm | Hydro | 6 | The attack removes every applied element and status effect from the target before applying Hydro. | Martial Saint |
 | Chain Shot | Pyro | 7 | The shot strikes every enemy on the straight line between this unit and the target. | Cannoneer |
@@ -78,7 +78,7 @@ Taught by the class, kept forever, and – unlike abilities – never obtainable
 | Warding Volley | Dendro | 10 | Until this unit's next turn, every ally within range 2 takes half damage from attacks at range 2 or more. | Pavise Warden |
 | Stormfeather | Aero | 11 | Strikes every enemy on the straight line beneath this unit's flight path. | Kinshi Lord |
 | Veilstrike | Umbra | 10 | The attack cannot be countered, and enemies will not target this unit on the following Enemy Phase. | Nightveil |
-| Unmaking | Umbra | 10 | Destroys the target's equipped weapon. | Saboteur |
+| Unmaking | Umbra | 10 | Destroys the target's equipped weapon. | Puppeteer |
 | Breaking Point | Electro | 11 | If the target already carries an element, the resulting reaction triggers twice. | Enforcer |
 | Palm of Stillness | Hydro | 10 | The target cannot move, attack or use abilities on its next turn. | Divine Monk |
 | Hellfire Salvo | Pyro | 12 | Two Artillery attacks against two different targets in one action. | Warfire Vanguard |

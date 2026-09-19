@@ -58,6 +58,7 @@ Granted the moment a unit enters the class. Never lost.
 | Cleave | 2 | On defeating an enemy | When this unit defeats an enemy on the Player Phase, every enemy adjacent to the defeated one takes damage equal to this unit's Strength minus its own Defense. | Warrior |
 | Pinpoint | 2 | Passive | This unit's attacks ignore the target's terrain Avoid bonus. The answer to enemies camping in forests. | Sniper |
 | Shadowstep | 2 | Passive | This unit may move through tiles occupied by enemies. It may not end its move on one. | Rogue |
+| Sleight of Hand | 2 | Active (action) | This unit's Steal may take the target's equipped weapon, not only unequipped items. | Trickster |
 | Grapple | 2 | On hit | An enemy damaged by this unit at range 1 cannot move on its next turn. It may still act. | Brawler |
 | Inner Peace | 2 | Passive | This unit regenerates MP passively each turn at the caster rate in [Magic System](../mechanics/Magic-System.md#magier--passiv) instead of building it through attacks. The Brawler punches to pay for his arts; the Monk breathes. | Martial Monk |
 | Braced Shot | 2 | Situational | If this unit has not moved this turn, its Artillery attack cannot miss. | Gunner |
@@ -91,7 +92,7 @@ Granted the moment a unit enters the class. Never lost.
 | Point Blank | 2 | Passive | This unit may attack adjacent enemies with a Bow, and counter-attacks normally at range 1. | Marksman |
 | Pathfinder | 2 | Passive | This unit ignores the extra movement cost of forest, grass, sand and other difficult terrain. | Ranger |
 | Vanish | 2 | Situational | If this unit did not attack on its previous turn, it cannot be targeted by attacks from range 2 or more. | Assassin |
-| Sleight of Hand | 2 | Active (action) | This unit's Steal may take the target's equipped weapon, not only unequipped items. | Trickster |
+| Sabotage | 3 | Active (action) | Instead of attacking, disable an enemy within range 2: it cannot use Combat Arts, magic or abilities until the end of the next Enemy Phase. | Saboteur |
 | Stagger | 2 | On critical hit | A critical hit by this unit cancels the target's action on its next turn. | Bruiser |
 | Chi Transfer | 2 | Active (action) | This unit may give an adjacent ally any amount of its own MP. The only way in the game to move MP between units. | Martial Saint |
 | Counter-Battery | 2 | Enemy Phase | When an enemy attacks this unit or an ally within this unit's range from range 3 or more, this unit attacks the attacker after that combat resolves. | Cannoneer |
@@ -114,7 +115,7 @@ Granted the moment a unit enters the class. Never lost.
 | Killshot | 3 | On critical hit | This unit's critical hits ignore the target's Defense and Resistance entirely. | Deadeye |
 | Twin Draw | 3 | Passive | This unit fights with its Bow at range 2 or more and its Sword at range 1 without an equip action, and counter-attacks at every range. | Hunterblade |
 | Unseen | 3 | Situational | This unit cannot be targeted by an enemy attack unless it is the only allied unit within that attacker's range. | Nightveil |
-| Sabotage | 3 | Active (action) | Instead of attacking, disable an enemy within range 2: it cannot use Combat Arts, magic or abilities until the end of the next Enemy Phase. | Saboteur |
+| Tripwire | 3 | Active (action) | Instead of attacking, lay a hidden wire on an empty tile within range 2. The first enemy that moves onto or through the tile stops there: its move ends and it loses its action for that turn. The wire is spent and shown to both sides when it fires. Allies neither trigger it nor are hindered by it. One wire per Puppeteer may lie on the map at a time; an unfired wire stays until the map ends. Hidden from the enemy AI, which plans as if the tile were empty – but always visible to the player, his own and an enemy Puppeteer's alike (see *Master* note below). | Puppeteer |
 | Chokehold | 3 | Passive | An enemy adjacent to this unit cannot be healed and cannot use a Staff. | Enforcer |
 | Open Palm | 3 | On healing | Staff healing performed by this unit also restores the target's MP by the same amount. | Divine Monk |
 | Barrage | 3 | Situational | If this unit does not move on its turn, it may attack twice with Artillery. | Warfire Vanguard |
@@ -125,6 +126,8 @@ Granted the moment a unit enters the class. Never lost.
 | Convergence | 3 | Active (free) | This unit may apply two of its three elements with a single attack, triggering a 2-element reaction on its own. | Arcanist |
 | Corona | 3 | Passive | Every tile within range 2 of this unit is a Light Field, and any Umbra applied to an enemy standing on one is removed. | Radiant Monarch |
 | Umbral Dominion | 3 | Passive | Every tile within range 2 of this unit is a Shadow Field (see [Special Fields](../mechanics/Magic-System.md#spezialfelder)). | Shadow Monarch |
+
+**Why a wire is hidden from the AI but never from the player.** Every system the player uses is also used against him, and an enemy Puppeteer lays wires like any other. A trap the player cannot see is hidden information, which [Pillar 5](../Design-Pillars.md) forbids – a unit lost to an invisible tile is a loss the player could not have planned around. So the asymmetry is between human and machine, not between sides: the enemy AI does not route around a wire, the player always can. An enemy wire is therefore a visible hazard that closes a path, and it is still a threat – the path is closed.
 
 ### Lord Kit
 
@@ -169,6 +172,7 @@ The Base tier's masteries are all movement tools. They are what a fresh army lea
 | Overwatch | 2 | Enemy Phase | If this unit has not moved this turn, it strikes first when attacked from range 2 or more. | Sniper |
 | Harrying Fire | 2 | On hit | An enemy damaged by this unit has its Movement halved on its next turn. | Bow Cavalier |
 | Flanker | 2 | Situational | When the target is adjacent to another allied unit, this unit's attack ignores the target's terrain Defense bonus and cannot be countered. | Rogue |
+| Misdirection | 2 | Enemy Phase | When an attack against this unit at range 1 misses, this unit and the attacker trade places. | Trickster |
 | Counterpunch | 2 | Enemy Phase | This unit counter-attacks attacks made from range 2. | Brawler |
 | Wide Guard | 2 | Situational | While this unit has a Battle Staff equipped and has not moved this turn, the [Battle Staff Guard](../Balancing-Guide.md#battle-staff-guard) penalty applies at every range and also to attacks against adjacent allies. | Martial Monk |
 | Crack Shot | 2 | On critical hit | Critical hits with Artillery ignore the target's Defense. | Gunner |
@@ -208,7 +212,7 @@ The Base tier's masteries are all movement tools. They are what a fresh army lea
 | Covering Fire | 3 | Enemy Phase | When an enemy attacks an ally within this unit's weapon range, this unit attacks it first. | Bow Paladin |
 | Skyfall | 2 | Passive | This unit's Bow attacks ignore the target's terrain Defense bonus. It shoots from above. | Kinshi Knight |
 | Lethality | 3 | Dex-based | On a triggered attack, the target is defeated outright. | Assassin |
-| Misdirection | 2 | Enemy Phase | When an attack against this unit at range 1 misses, this unit and the attacker trade places. | Trickster |
+| Cut the Strings | 3 | On stealing | An enemy this unit steals from loses its action on its next turn. | Saboteur |
 | Second Wind | 2 | On defeating an enemy | This unit recovers HP equal to half the damage it dealt. | Bruiser |
 | Pressure Point | 2 | On hit | An enemy damaged by this unit cannot use Combat Arts or magic on its next turn. | Martial Saint |
 | Piercing Shot | 2 | Passive | This unit's Artillery attack also strikes every enemy on the straight line between it and the target. | Cannoneer |
@@ -242,7 +246,7 @@ The Base tier's masteries are all movement tools. They are what a fresh army lea
 | Pavise | 3 | Dex-based | Halves the damage of an attack against an ally adjacent to this unit; the ally takes the reduced damage. | Pavise Warden |
 | Wind's Blessing | 3 | Passive | Allied units that begin their turn within range 2 of this unit gain [Canto](#canto) for that turn. | Kinshi Lord |
 | Deathmark | 3 | Situational | This unit's first attack against an enemy at full HP is an automatic critical hit. | Nightveil |
-| Cut the Strings | 3 | On stealing | An enemy this unit steals from loses its action on its next turn. | Saboteur |
+| Pull the Strings | 3 | Passive | This unit may keep more than one wire on the map at once – the number is in the [Balancing Guide](../Balancing-Guide.md#puppeteer-wires), not yet set. And when one of its wires fires while this unit is within range 2 of it, the caught enemy is dragged to the tile adjacent to this unit before it loses its action. The wire runs back to the hand that laid it. A pull on a *trap*, not on a hit: the Puppeteer paid an action for the wire in advance, it fires once, and the enemy walked into it – the same shape as Ensnare, not as Riptide Lash, which is why it is an ability and the pull-on-hit rule stands. Unbreakable stops the drag; the wire still stops the unit. | Puppeteer |
 | Retribution | 3 | Enemy Phase | This unit's counter-attack deals the damage it just took in addition to its own damage. | Enforcer |
 | Stillness | 3 | Situational | If this unit neither moves nor attacks on its turn, every ally within range 2 recovers HP equal to this unit's Magic and is cured of one status effect. | Divine Monk |
 | Scorched Earth | 3 | Passive | This unit's Artillery attacks apply Pyro. | Warfire Vanguard |

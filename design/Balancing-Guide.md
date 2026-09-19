@@ -339,7 +339,7 @@ The line is read from the [class tree](catalog/Unit-Classes.md); the tier from t
 | **Lance** | Lancer → Soldier, Lance Cavalier → Halberdier, Armored Knight\*, Pegasus Knight\*, Lance Paladin → Sentinel, Armored General\*, Pegasus Lord\*, Aegis Knight | Str | Def, Dex | The line that holds the front: balanced, accurate, durable |
 | **Axe** | Axe Fighter → Warrior, Axe Cavalier → Berserker, Gladiator, Wyvern Knight\*, Axe Paladin → Warmonger, Spartan, Wyvern Lord\*, Colossus Knight | Str | HP, Def | The heavy type; it takes the hit it could not dodge |
 | **Bow** | Archer → Sniper, Bow Cavalier → Marksman, Ranger, Kinshi Knight\*, Bow Paladin → Deadeye, Hunterblade, Kinshi Lord\*, Pavise Warden | Str | Dex, Spd | Never reached, always landing |
-| **Knife** | Thief → Rogue → Assassin, Trickster → Nightveil, Saboteur | Str | Spd, Lck | Damage by volume and crit; Lck is the Thief's trade |
+| **Knife** | Thief → Rogue, Trickster → Assassin, Saboteur → Nightveil, Puppeteer | Str | Spd, Lck | Damage by volume and crit; Lck is the Thief's trade |
 | **Gauntlet** | Martial Artist → Brawler, Martial Monk\* → Bruiser, Martial Saint\* → Enforcer, Divine Monk\* | Str | Spd, HP | Two strikes a turn on a unit that has to stand in reach |
 | **Artillery** | Artillerist → Gunner, Bombardier → Cannoneer, Grenadier → Warfire Vanguard, Siege Breaker | Str | Dex, Def | Blind up close, so it must hit from afar and survive being reached |
 | **Chain** | Tamer → Dompteur, Harpooner → Bestiarius, Retiarius → Behemoth, Leviathan | Str | Dex, Spd | A thrown weapon whose Hit line sits below every close-combat type but the Axe and whose Weight sits above the Sword's: Dex to land it at range 2, Spd to keep doubling under the chain's weight, Str for the heavy hit and for the Strength gate on Ensnare and Hurl. Both branches share the profile – the Harpooner's Lance reads Str too |
@@ -380,6 +380,14 @@ Cavalry branches (the four Cavaliers and their Paladins) keep their line's profi
 | Beast Movement | *not yet set* |
 
 Fixed by rule, not tuned here: three summons per Bestiarius per map, order reach range 1–2, Mag and MP none, natural weapon Range 1 / Critical 0 / no Uses. Wild-beast stats for Ch 22 and Ch 23 belong in those level documents, like every generic enemy's.
+
+### Puppeteer Wires
+
+*Not yet set.* The rules of the wire – hidden from the AI, visible to the player, one per Puppeteer at a time, spent when it fires – are on the *Tripwire* and *Pull the Strings* rows in [Abilities](catalog/Abilities.md#master). The one value that only changes the strength of the system is here.
+
+| Parameter | Value |
+|-----------|-------|
+| Wires on the map at once with *Pull the Strings* | *not yet set* |
 
 ### Class Type Templates
 

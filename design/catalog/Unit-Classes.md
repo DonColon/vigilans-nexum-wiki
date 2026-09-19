@@ -96,7 +96,7 @@ flowchart TB
 	%% Base Classes
 	citizen(Citizen)
 	archer(Archer)
-	acolyte(Acolyte)
+	tamer(Tamer)
     thief(Thief)
     martial-artist(Martial Artist)
     artillerist(Artillerist)
@@ -105,14 +105,15 @@ flowchart TB
     citizen-->thief
     citizen-->martial-artist
     citizen-->artillerist
-    citizen-->acolyte
+    citizen-->tamer
     
     %% Intermediate Classes
     sniper(Sniper)
     bow-cavalier(Bow Cavalier)
-    cleric(Cleric)
-	priest(Priest)
+    dompteur(Dompteur)
+    harpooner(Harpooner)
     rogue(Rogue)
+    trickster(Trickster)
     brawler(Brawler)
     martial-monk(Martial Monk)
     gunner(Gunner)
@@ -120,9 +121,10 @@ flowchart TB
     
     archer-->sniper
     archer-->bow-cavalier
-    acolyte-->cleric
-	acolyte-->priest
+    tamer-->dompteur
+    tamer-->harpooner
     thief-->rogue
+    thief-->trickster
     martial-artist-->brawler
     martial-artist-->martial-monk
     artillerist-->gunner
@@ -133,10 +135,10 @@ flowchart TB
     ranger(Ranger)
     kinshi-knight(Kinshi Knight)
     bow-paladin(Bow Paladin)
-    valkyrie(Valkyrie)
-	bishop(Bishop)
+    bestiarius(Bestiarius)
+    retiarius(Retiarius)
     assassin(Assassin)
-    trickster(Trickster)
+    saboteur(Saboteur)
     bruiser(Bruiser)
     martial-saint(Martial Saint)
     cannoneer(Cannoneer)
@@ -146,10 +148,10 @@ flowchart TB
     sniper-->ranger
     sniper-->kinshi-knight
     bow-cavalier-->bow-paladin
-    cleric-->valkyrie
-	priest-->bishop
+    dompteur-->bestiarius
+    harpooner-->retiarius
     rogue-->assassin
-    rogue-->trickster
+    trickster-->saboteur
     brawler-->bruiser
     martial-monk-->martial-saint
     gunner-->cannoneer
@@ -160,10 +162,10 @@ flowchart TB
     hunterblade(Hunterblade)
     kinshi-lord(Kinshi Lord)
     pavise-warden(Pavise Warden)
-    celestial-valkyrie(Celestial Valkyrie)
-	arch-bishop(Arch Bishop)
+    behemoth(Behemoth)
+    leviathan(Leviathan)
     nightveil(Nightveil)
-    saboteur(Saboteur)
+    puppeteer(Puppeteer)
     enforcer(Enforcer)
     divine-monk(Divine Monk)
     warfire-vanguard(Warfire Vanguard)
@@ -173,43 +175,14 @@ flowchart TB
     ranger-->hunterblade
     kinshi-knight-->kinshi-lord
     bow-paladin-->pavise-warden
-    valkyrie-->celestial-valkyrie
-	bishop-->arch-bishop
+    bestiarius-->behemoth
+    retiarius-->leviathan
     assassin-->nightveil
-    trickster-->saboteur
+    saboteur-->puppeteer
     bruiser-->enforcer
     martial-saint-->divine-monk
     cannoneer-->warfire-vanguard
     grenadier-->siege-breaker
-```
-```mermaid
-flowchart TB
-    %% Base Classes
-    citizen(Citizen)
-    tamer(Tamer)
-
-    citizen-->tamer
-
-    %% Intermediate Classes
-    dompteur(Dompteur)
-    harpooner(Harpooner)
-
-    tamer-->dompteur
-    tamer-->harpooner
-
-    %% Advanced Classes
-    bestiarius(Bestiarius)
-    retiarius(Retiarius)
-
-    dompteur-->bestiarius
-    harpooner-->retiarius
-
-    %% Master Classes
-    behemoth(Behemoth)
-    leviathan(Leviathan)
-
-    bestiarius-->behemoth
-    retiarius-->leviathan
 ```
 ```mermaid
 flowchart TB
@@ -224,6 +197,7 @@ flowchart TB
 	dendromancer(Dendromancer)
 	luxmancer(Luxmancer)
 	umbramancer(Umbramancer)
+	acolyte(Acolyte)
 	
 	citizen-->umbramancer
 	citizen-->pyromancer
@@ -234,6 +208,7 @@ flowchart TB
 	citizen-->geomancer
 	citizen-->dendromancer
 	citizen-->luxmancer
+	citizen-->acolyte
 	
 	%% Intermediate Classes
 	pyro-sage(Pyro Sage)
@@ -245,6 +220,8 @@ flowchart TB
 	dendro-sage(Dendro Sage)
 	lux-sage(Lux Sage)
 	umbra-sage(Umbra Sage)
+	cleric(Cleric)
+	priest(Priest)
 	
 	pyromancer-->pyro-sage
 	aeromancer-->aero-sage
@@ -255,11 +232,15 @@ flowchart TB
 	dendromancer-->dendro-sage
 	luxmancer-->lux-sage
 	umbramancer-->umbra-sage
+	acolyte-->cleric
+	acolyte-->priest
 	
 	%% Advanced Classes
 	elementalist(Elementalist)
 	luminary(Luminary)
 	tenebrae(Tenebrae)
+	valkyrie(Valkyrie)
+	bishop(Bishop)
 	
 	pyro-sage-->elementalist
 	aero-sage-->elementalist
@@ -270,15 +251,21 @@ flowchart TB
 	dendro-sage-->elementalist
 	lux-sage-->luminary
 	umbra-sage-->tenebrae
+	cleric-->valkyrie
+	priest-->bishop
 	
 	%% Master Classes
 	arcanist(Arcanist)
 	radiant-monarch(Radiant Monarch)
 	shadow-monarch(Shadow Monarch)
+	celestial-valkyrie(Celestial Valkyrie)
+	arch-bishop(Arch Bishop)
 	
 	elementalist-->arcanist
 	luminary-->radiant-monarch
 	tenebrae-->shadow-monarch
+	valkyrie-->celestial-valkyrie
+	bishop-->arch-bishop
 	
 ```
 
@@ -290,7 +277,7 @@ flowchart TB
 | Lancer         | Infantry  | Lance        | Defense +2                     | Shove           | Soldier, Lance Cavalier  |
 | Axe Fighter    | Infantry  | Axe          | Strength +2                    | Shove           | Warrior, Axe Cavalier    |
 | Archer         | Infantry  | Bow          | Hit Rate +10                   | Reposition      | Sniper, Bow Cavalier     |
-| Thief          | Infantry  | Knife        | Dexterity +2, Steal, Lock Pick | Swap            | Rogue                    |
+| Thief          | Infantry  | Knife        | Dexterity +2, Steal, Lock Pick | Swap            | Rogue, Trickster         |
 | Martial Artist | Infantry  | Gauntlet     | Avoid +10                      | Reposition      | Brawler, Martial Monk    |
 | Artillerist    | Infantry  | Artillery    | Hit Rate +10                   | Knockback       | Gunner, Bombardier       |
 | Tamer          | Infantry  | Chain        | Strength +2                    | Ensnare         | Dompteur, Harpooner      |
@@ -317,7 +304,8 @@ flowchart TB
 | Axe Cavalier   | Cavalry   | Axe                    | Canto           | Trample         | Axe Paladin                                |
 | Sniper         | Infantry  | Bow                    | Pinpoint        | Overwatch       | Marksman, Ranger, Kinshi Knight            |
 | Bow Cavalier   | Cavalry   | Bow                    | Canto           | Harrying Fire   | Bow Paladin                                |
-| Rogue          | Infantry  | Knife                  | Shadowstep      | Flanker         | Assassin, Trickster                        |
+| Rogue          | Infantry  | Knife                  | Shadowstep      | Flanker         | Assassin                                   |
+| Trickster      | Infantry  | Knife, Chain           | Sleight of Hand | Misdirection    | Saboteur                                   |
 | Brawler        | Infantry  | Gauntlet, Chain        | Grapple         | Counterpunch    | Bruiser                                    |
 | Martial Monk   | Infantry  | Gauntlet, Battle Staff | Inner Peace     | Wide Guard      | Martial Saint                              |
 | Gunner         | Infantry  | Artillery              | Braced Shot     | Crack Shot      | Cannoneer                                  |
@@ -357,7 +345,7 @@ flowchart TB
 | Bow Paladin    | Cavalry   | Bow                           | Canto            | Covering Fire   | Pavise Warden    |
 | Kinshi Knight  | Flying    | Bow                           | Canto            | Skyfall         | Kinshi Lord      |
 | Assassin       | Infantry  | Knife                         | Vanish           | Lethality       | Nightveil        |
-| Trickster      | Infantry  | Knife, Chain                  | Sleight of Hand  | Misdirection    | Saboteur         |
+| Saboteur       | Infantry  | Knife, Chain                  | Sabotage         | Cut the Strings | Puppeteer        |
 | Bruiser        | Infantry  | Gauntlet, Chain               | Stagger          | Second Wind     | Enforcer         |
 | Martial Saint  | Infantry  | Gauntlet, Battle Staff, Staff | Chi Transfer     | Pressure Point  | Divine Monk      |
 | Cannoneer      | Infantry  | Artillery                     | Counter-Battery  | Piercing Shot   | Warfire Vanguard |
@@ -393,7 +381,7 @@ Master is the terminal tier. The *Lord Title* column is the name the class carri
 | Pavise Warden      | Cavalry   | Bow                           | Canto            | Pavise          | Ironbulwark         | -           |
 | Kinshi Lord        | Flying    | Bow                           | Canto            | Wind's Blessing | Zephyros            | -           |
 | Nightveil          | Infantry  | Knife                         | Unseen           | Deathmark       | Nocturnal           | -           |
-| Saboteur           | Infantry  | Knife, Chain                  | Sabotage         | Cut the Strings | Whisperer of Varnel | -           |
+| Puppeteer          | Infantry  | Knife, Chain                  | Tripwire         | Pull the Strings | Whisperer of Varnel | -           |
 | Enforcer           | Infantry  | Gauntlet, Chain               | Chokehold        | Retribution     | Punisher            | -           |
 | Divine Monk        | Infantry  | Gauntlet, Battle Staff, Staff | Open Palm        | Stillness       | Enlightened One     | -           |
 | Warfire Vanguard   | Infantry  | Artillery                     | Barrage          | Scorched Earth  | Hellfire Bastion    | -           |
