@@ -17,6 +17,7 @@ Each documented mechanic follows [mechanics/_TEMPLATE.md](_TEMPLATE.md). Numbers
 | **[Biorhythm](Biorythm.md)** | Per-character performance cycle, UI display, character assignments |
 | **[Growth Modifiers](Growth-Modifiers.md)** | Effective growth = personal + class growth modifier (+ Aptitude for the Vigilant Knights), tier scaling, the anti-trap guard, the Citizen's staged weapon access (Ch 01 / 04 / 05) and its MP regime by equipped weapon |
 | **[Beast Summon](Beast-Summon.md)** | The Bestiarius' *Beast Call*: the Solmare beast as an Other-faction unit, its stat derivation from the summoner, the three-per-map budget, the order set and the Chain-reach leash, what the beast is excluded from (XP, objectives, staves, Exchange, chain attack), and the wild beasts of Ch 22/23 as the same unit |
+| **[The Nexus](The-Nexus.md)** | Dardan's Lord-Kit system: *Exchange* (position swap through everything, range by support rank, flat global cooldown, Ch 08), *Lifeline* (a share of an ally's wounds carried by Dardan, no floor, chapter open), *Heartpulse* (map-wide heal by each unit's rank, once per chapter, Ch 21), *Earthbound* (seals one enemy's access to the band – abilities, arts, magic, auras – for N rounds, Ch 44; cuts the Dajjal's chain in Ch 52), the golden/black band state set per chapter, and the exclusion of summoned beasts. Depends on the Support System's rank scale |
 
 Item, spell, class and ability **lists** are in the [Game Catalog](../catalog/README.md); this page describes the rules behind them.
 
@@ -33,7 +34,6 @@ These systems exist in the design intent but have no specification file yet. Wri
 | Combat Fundamentals | Attack calculation, damage, hit rate (formulas already in Balancing Guide) | High |
 | Weapon Triangles | Close Combat, Weapon and Magic triangle | High |
 | Movement | Tile-based movement, terrain effects, movement types | High |
-| The Nexus / Exchange | Dardan's signature ability – swap positions with allies | High |
 | Class System | Citizen → Base → Intermediate → Advanced → Master (+ Lord Kit) | High |
 | Experience & Leveling | XP gain, level caps (stat growth composition is now in [Growth Modifiers](Growth-Modifiers.md); the level-up roll itself and the XP formula's rules are still open) | High |
 | Weapon Rank Progression | How a rank rises (weapon XP through use); the F–S scale and the caps per tier are already in the [Progression System](../Progression-System.md#weapon-rank) and the [Balancing Guide](../Balancing-Guide.md#weapon-rank-caps) | Medium |
@@ -50,7 +50,7 @@ These systems exist in the design intent but have no specification file yet. Wri
 | Inventory | Item capacity, convoy, trading between units | Medium |
 | Durability | Weapon uses, repair | Medium |
 | Gold & Economy | Earning gold, shops, item costs | Medium |
-| Support System | Building bonds, support conversations, stat bonuses | High |
+| Support System | Building bonds, support conversations, stat bonuses. **[The Nexus](The-Nexus.md) depends on it:** Exchange range, Lifeline range and Heartpulse strength read the support rank between Dardan and a unit, and the per-rank tables in the [Balancing Guide → The Nexus](../Balancing-Guide.md#the-nexus) wait for this system's rank scale. Two requirements it must honour: the eight Vigilant Knights start above rank zero with Dardan, and Elena's rank with Dardan in Ch 08 is at or above the Exchange threshold | High |
 | Ability Management | Learning, equipping, upgrading abilities | Low |
 | Skill Inheritance | Which abilities a unit keeps when promoting up its branch (promotion is one-way – there is no reclassing) | Low |
 | Base Management | Between-chapter activities, character conversations | Medium |
@@ -61,7 +61,7 @@ These systems exist in the design intent but have no specification file yet. Wri
 
 | Mechanic | Open question |
 |----------|---------------|
-| Trust & Bonds | Separate system, or already covered by Support System + Nexus? |
+| Trust & Bonds | **Answered by [The Nexus](The-Nexus.md):** there is no separate system. A bond *is* the Support System's rank, and the Nexus reads it – range and strength scale with the rank between Dardan and the unit. Row kept until the Support System is written, so the answer is not lost |
 | The Vigilant Knights | Faction/reputation mechanic, or purely narrative? |
 | Divine Pulse | Turn rewind – include at all? Currently referenced in the Balancing Guide's difficulty table |
 | Gambits & Battalions | Group tactics – include at all? |

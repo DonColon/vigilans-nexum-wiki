@@ -345,7 +345,7 @@ flowchart TB
 | Bow Paladin    | Cavalry   | Bow                           | Canto            | Covering Fire   | Pavise Warden    |
 | Kinshi Knight  | Flying    | Bow                           | Canto            | Skyfall         | Kinshi Lord      |
 | Assassin       | Infantry  | Knife                         | Vanish           | Lethality       | Nightveil        |
-| Saboteur       | Infantry  | Knife, Chain                  | Sabotage         | Cut the Strings | Puppeteer        |
+| Saboteur       | Infantry  | Knife, Chain                  | Disarray         | Cut the Strings | Puppeteer        |
 | Bruiser        | Infantry  | Gauntlet, Chain               | Stagger          | Second Wind     | Enforcer         |
 | Martial Saint  | Infantry  | Gauntlet, Battle Staff, Staff | Chi Transfer     | Pressure Point  | Divine Monk      |
 | Cannoneer      | Infantry  | Artillery                     | Counter-Battery  | Piercing Shot   | Warfire Vanguard |
@@ -403,5 +403,5 @@ Citizen is the starting class of the eight Vigilant Knights and the only class t
 | Name             | Move Type       | Weapon Types            | Class Abilities                    | Mastery Ability | Promotes to    |
 | ---------------- | --------------- | ----------------------- | ---------------------------------- | --------------- | -------------- |
 | Citizen          | Infantry        | All types (staged: Ch 01 / 04 / 05, see above) | Adaptability, Discipline, Aptitude | Bellum's Will   | Any base class |
-| Lord Kit: Dardan | as Master class | as Master class         | Nexus Mastery (Lv 45), Bond of Souls (Lv 54) – see [ability timeline](../Progression-System.md#sample-ability-timeline-dardan) | -               | -              |
+| Lord Kit: Dardan | as Master class | as Master class         | **The Nexus** – Exchange (Ch 08), Heartpulse (Ch 21), Earthbound (Ch 44), Lifeline (chapter open), unlocked by chapter and outside Capacity, rules in [The Nexus](../mechanics/The-Nexus.md); Nexus Mastery (Part 08, trigger open), Bond of Souls (Lv 54) – see [ability timeline](../Progression-System.md#sample-ability-timeline-dardan) | -               | -              |
 | Lord Kit: Hasan  | as Master class | as Master class         | *not yet defined*                  | -               | -              |

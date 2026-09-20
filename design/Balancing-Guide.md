@@ -389,6 +389,70 @@ Fixed by rule, not tuned here: three summons per Bestiarius per map, order reach
 |-----------|-------|
 | Wires on the map at once with *Pull the Strings* | *not yet set* |
 
+### The Nexus
+
+*Not yet set – every value in this section is open or a proposal.* The rules are in [The Nexus](mechanics/The-Nexus.md); this section holds the tuning values that document links to. Three of the tables read the **support rank** between Dardan and a unit. The rank scale is the Support System's (backlog, no specification yet) and does not exist in `design/` – the rank rows below are therefore **empty by dependency**, to be added when that system defines the scale. Two requirements the Support System must honour, decided by Dardan and recorded here so the tables can be filled: **the eight Vigilant Knights start above rank zero with Dardan**, and **Elena's rank with Dardan in Ch 08 is at or above the Exchange threshold** – the Ch 08 tutorial depends on it.
+
+#### Exchange
+
+| Parameter | Value |
+|-----------|-------|
+| Exchange cooldown (turns, global, flat) | *not yet set* |
+
+| Support rank | Exchange range (tiles, through everything) |
+|--------------|--------------------------------------------|
+| *(no rank)* | *not reachable – rule* |
+| *rank rows: not yet defined – waits on the Support System's scale* | |
+
+**Design intent the values must express:** the cooldown is the *cadence* of the signature move, not a stock – on a map of ordinary length Dardan should swap several times, never every turn, and *Nexus Mastery* removes the cooldown in Part 08, so the number must be large enough that its removal is felt in the Tower. The range table must open at a distance that makes the Ch 08 hostage reachable and grow with rank to a distance no positional command in the catalog reaches (Ensnare, Hurl, Mystic Pull all stop at range 2), so that at high rank the Exchange is the only thing on the roster that crosses a room.
+
+#### Nexus Mastery
+
+Unlocked in Part 08 (trigger open – see [The Nexus → Open decisions](mechanics/The-Nexus.md#open-decisions)). Removing every Nexus cooldown is a rule and stays in the mechanic document; the value here is the range growth.
+
+| Parameter | Value |
+|-----------|-------|
+| Nexus Mastery range bonus (added to the Exchange range and the Lifeline range at every support rank) | *not yet set* |
+
+**Design intent:** with cooldowns gone, range is the only thing left that the bond still gates, so the bonus should be small enough that rank still orders the roster – the Knight Dardan grew up with must still reach further than the Part 07 recruit – and large enough that the Tower's larger maps (16 deployed, [Deployment Limits](Progression-System.md#deployment-limits-by-chapter)) are crossed at high rank.
+
+#### Lifeline
+
+| Parameter | Value |
+|-----------|-------|
+| Lifeline share (fraction of each attack's damage to the linked ally, carried by Dardan) | *not yet set* |
+
+| Support rank | Lifeline range (tiles, through everything) |
+|--------------|--------------------------------------------|
+| *(no rank)* | *not reachable – rule* |
+| *rank rows: not yet defined – waits on the Support System's scale* | |
+
+**Design intent:** the share must be large enough that a linked front-liner survives one hit it would not have survived alone, and large enough that three enemy attacks on that front-liner in one Enemy Phase put Dardan in real danger – Lifeline is only a decision because it can kill him. There is no floor and no separate difficulty scaling here; if a mode ever changes the share, the column goes in the [difficulty table](#-difficulty-mode-scaling).
+
+#### Heartpulse
+
+Once per chapter is a rule and stays in the mechanic document. The value here is only how much each unit recovers.
+
+| Support rank | Heartpulse heal (per unit, by that unit's rank with Dardan) |
+|--------------|-------------------------------------------------------------|
+| *(no rank)* | *not yet set – open whether zero or the lowest row* |
+| *rank rows: not yet defined – waits on the Support System's scale* | |
+| Dardan himself | *not yet set* |
+
+**Proposal for the unit of the value:** a **percentage of the target's maximum HP** per rank rather than a flat number. Heartpulse is usable from Ch 21 to Ch 52 and cannot read Mag (Dardan's sword line does not grow it – the same reason the kit has no MP cost); a flat heal would be a full heal in Part 03 and a scratch in Part 08, and the poison tick above already uses the percentage form for the same reason. At the highest rank it should stay **below a single-target staff heal of the same chapter** (`Mag + Rank Bonus`, [Healing](#1--healing)) on any one unit – Heartpulse is wide, a staff is deep, and the once-per-chapter limit only keeps healers in the game if the pulse does not out-heal them per target.
+
+#### Earthbound
+
+| Parameter | Value |
+|-----------|-------|
+| Earthbound range | **1–2** *(proposal)* |
+| Earthbound duration (rounds; set on round R, expires at the start of round R + N) | *not yet set* |
+| Earthbound cooldown (turns, global, flat) | *not yet set* |
+
+**Why 1–2:** the seal is a full action on the Lord, so it should not cost him his position on top – range 1 alone would mean walking Dardan into the press to seal the healer behind it. Range 2 matches the reach of every other targeted command in the catalog (Disarray, Ensnare, Mystic Pull) and keeps him out of the front line's counter. Longer would make it artillery. **Duration and cooldown:** the duration is the window in which the Dajjal is vulnerable (Level 52) and, on every map from Ch 44, the number of Enemy Phases a healer stays silent. Design intent proposed: **cooldown at or above the duration**, so at most one enemy is sealed at a time and the seal is a choice of target rather than a rolling blanket – Dardan's to confirm (see the mechanic's *Open decisions*).
+
+Fixed by rule, not tuned here: no rank scaling and no hit roll on Earthbound; the cooldowns do not scale with rank; one Lifeline at a time; Lifeline shares attack damage and moves status effects whole onto Dardan; Nexus Mastery removes every cooldown; Nexus abilities take no Capacity. Everything about the Dajjal's chain – how many units, how much healing, how often reinforcements come – belongs to the Level 52 document.
+
 ### Class Type Templates
 
 **Physical Attacker:** High Str/Spd, Low Mag/Res  
@@ -539,5 +603,5 @@ When creating new content, verify:
 - Fire Emblem: Engage weapon balancing  
 - Advance Wars damage calculator logic  
 
-**Version:** 2.1  
-**Last Updated:** 2026-09-18
+**Version:** 2.2  
+**Last Updated:** 2026-09-20

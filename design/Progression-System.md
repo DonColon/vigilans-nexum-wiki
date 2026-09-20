@@ -45,8 +45,8 @@ How characters, classes, and abilities develop across all 64 chapters of Vigilan
 | 04 | 5 | 6 | - | Naval Combat (Optional) · Weapon delivery – all physical weapon types |
 | 05 | 6 | 8 | Lina, Marven | Magic Introduction · one tome per element found |
 | 06 | 8 | 9 | - | Support Conversations · **Base class chosen at chapter end** |
-| 07 | 9 | 10 | Mikael | The Nexus / Exchange · **first chapter played in the chosen classes** |
-| 08 | 10 | 11 | - | Boss Battle, Promotion Preview |
+| 07 | 9 | 10 | Mikael | **First chapter played in the chosen classes** – no new system |
+| 08 | 10 | 11 | - | [The Nexus / Exchange](mechanics/The-Nexus.md) (tutorial – the hostage swap) · Boss Battle · Promotion Preview |
 
 **Why the class choice sits at the end of Ch 06:** By that point the player has seen movement, the weapon triangle, terrain, objectives, naval combat, magic (Ch 05) and support conversations. The first irreversible decision of the campaign is therefore made with the systems already demonstrated rather than guessed at – and Ch 07 is immediately there to play the result.
 
@@ -353,8 +353,9 @@ See [Balancing Guide](Balancing-Guide.md) for growth rate budgets and absolute c
 | 22 | Myrmidon | Wrath |
 | 30 | Sword Master | Sol |
 | 38 | Sword Master | Swordfaire |
-| 45 | Aetherblade (Unique) | **Nexus Mastery** (Exchange has no cooldown) |
+| 45 | Aetherblade (Unique) | Master promotion; the Lord Title. *(Nexus Mastery no longer unlocks here – see below)* |
 | 54 | Aetherblade | **Bond of Souls** (Adjacent allies +5 all stats) |
+| Part 08, trigger open | Aetherblade | **Nexus Mastery** (every Nexus cooldown removed, Exchange and Lifeline ranges grow) – Ch 49–52, whether by chapter or by level is not decided; rules in [The Nexus](mechanics/The-Nexus.md). The chapter-unlocked Nexus abilities (Exchange Ch 08, Heartpulse Ch 21, Earthbound Ch 44, Lifeline open) are not yet rows in this table |
 
 ---
 
