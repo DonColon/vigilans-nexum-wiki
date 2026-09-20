@@ -42,6 +42,8 @@ Ihr größter innerer Konflikt ist die Frage wann Schutz aufhört Schutz zu sein
 
 **Personality Type:** ISTJ
 
+**Elemental Affinity:** Geo
+
 ------
 
 ### Backstory

@@ -54,7 +54,7 @@ Wenn sie liebt — und sie liebt, tief und leise und ohne Aufwand — dann ohne 
 
 **Personality Type:** INFJ
 
-**Elemental Affinity:**
+**Elemental Affinity:** Umbra
 
 ------
 

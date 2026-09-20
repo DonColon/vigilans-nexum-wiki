@@ -42,6 +42,8 @@ Ihre Verbindung zu Dardan ist etwas das sich nicht in Kategorien pressen lässt.
 
 **Personality Type:** ISFJ
 
+**Elemental Affinity:** Hydro
+
 ## Backstory
 
 Tifa wuchs in Nokoa auf – dem Dorf das ihr Großvater väterlicherseits als Heimat für seine Familie gebaut hatte, nachdem der Krieg vorbei war. Nokoa war kein gewöhnliches Dorf. Es war eine Idee die in Stein und Holz gebaut worden war: dass jeder Mensch gleich ist, unabhängig von Herkunft oder Stand. Der Sohn eines Generals arbeitete neben dem einfachen Bauern. Die Tochter einer Adelsfamilie spielte neben dem Kind eines Händlers. Namen zählten nichts. Taten zählten alles.

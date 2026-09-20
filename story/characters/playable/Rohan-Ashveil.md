@@ -42,6 +42,8 @@ Sein eigener blinder Fleck ist seine Einsamkeit. Rohan hat so lange allein geleb
 
 **Personality Type:** ISTP
 
+**Elemental Affinity:** Cryo
+
 ## Backstory
 
 Niemand weiß woher Rohan Ashveil wirklich kommt.

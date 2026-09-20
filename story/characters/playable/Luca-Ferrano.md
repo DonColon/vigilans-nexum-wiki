@@ -40,6 +40,8 @@ Mit Hasan versteht er sich sofort auf eine Art die beide selbst überrascht – 
 
 **Personality Type:** INTJ
 
+**Elemental Affinity:** Pyro
+
 ## Backstory
 
 Luca Ferrano wurde in Stravar geboren als Sohn von Marco Ferrano – dem jüngeren Bruder von Aldric – und einer Frau aus einer Händlerfamilie die die Hitze der Stadt liebte und die Kälte der Winter hasste. Seine Kindheit war warm und laut, mit dem beständigen Rumpeln der Öfen als Hintergrundgeräusch und dem Geruch von Metall und Kohle der sich in alles einzog was die Familie besaß.

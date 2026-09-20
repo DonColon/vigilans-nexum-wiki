@@ -38,6 +38,8 @@ Was unter der Stille liegt ist schwer zu greifen. Er ist kein kalter Mensch – 
 
 **Personality Type:** INTJ
 
+**Elemental Affinity:** Umbra
+
 ## Backstory
 
 Niemand weiß woher Mikael Flaco kommt.

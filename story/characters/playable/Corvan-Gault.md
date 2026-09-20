@@ -54,7 +54,7 @@ Sein Humor ist trocken und selten — aber wenn er kommt, kommt er ohne Vorwarnu
 
 **Personality Type:** ISTP
 
-**Elemental Affinity:**
+**Elemental Affinity:** Geo
 
 ------
 

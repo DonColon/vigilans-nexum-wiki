@@ -38,6 +38,8 @@ Er hat einen trockenen, leisen Humor der selten aber präzise kommt – meistens
 
 **Personality Type:** ISTJ
 
+**Elemental Affinity:** Geo
+
 ## Backstory
 
 Matteo Ferri ist in Bellum aufgewachsen – nicht im Waisenhaus, sondern in einem der ärmeren Viertel der Stadt, in einer kleinen Familie die nicht viel hatte aber zusammenhielt. Sein Vater war Zimmermann. Seine Mutter nähte Kleider für die Händler am Marktplatz. Er hatte eine jüngere Schwester die er vergötterte.

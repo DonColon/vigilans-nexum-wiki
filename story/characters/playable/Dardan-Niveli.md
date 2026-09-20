@@ -40,6 +40,8 @@ Er ist tolerant und aufgeschlossen gegenüber anderen Kulturen und Denkweisen, e
 
 **Personality Type:** INFP
 
+**Elemental Affinity:** Dendro
+
 ## Backstory
 
 Dardan wuchs im Waisenhaus von Bellum auf – einer Stadt die niemandem gehört und allen gleichzeitig, an der Grenze aller drei Großmächte Trideras. Er kam als Kleinkind dorthin ohne Namen, ohne Geschichte, ohne jemanden der erklärte wer er war. Elena gab ihm den Namen. Das Waisenhaus gab ihm ein Zuhause. Die anderen Kinder gaben ihm eine Familie.

@@ -38,6 +38,8 @@ Was sie selten zeigt ist ihre eigene Trauer. Elena trägt sie tief und ordentlic
 
 **Personality Type:** ISFJ
 
+**Elemental Affinity:** Hydro
+
 ## Backstory
 
 Elena Flavia wurde in Luenava geboren – der Hauptstadt des Königreichs Adolla – als Tochter eines ambitionierten Händlers und einer Frau die Blumen züchtete und Lieder kannte für jeden Anlass. Ihre Kindheit war nicht reich aber warm. Ihr Vater träumte groß. Ihre Mutter träumte leise. Elena träumte gar nicht – sie beobachtete einfach beide und liebte was sie sah.

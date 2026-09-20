@@ -34,6 +34,8 @@ Was ihn aber von einem bloßen Haudrauf unterscheidet ist seine tiefe, aufrichti
 
 **Personality Type:** ESTP
 
+**Elemental Affinity:** Pyro
+
 ## Backstory
 
 Hasan Eyletmez kam als Säugling ins Waisenhaus von Bellum – ohne Namen, ohne Herkunft, ohne eine einzige Notiz die erklärte wer ihn dort abgelegt hatte. Elena gab ihm den Namen. Die anderen Kinder gaben ihm eine Familie.

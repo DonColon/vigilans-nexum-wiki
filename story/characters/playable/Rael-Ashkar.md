@@ -42,6 +42,8 @@ Seine Verbindung zu Dardan ist die eines Mannes der erkennt dass ein anderer den
 
 **Personality Type:** ENTJ
 
+**Elemental Affinity:** Dendro
+
 ## Backstory
 
 Rael wuchs in einem kleinen Dorf an der Grenze Vaestralls auf – ein Ort der keinen Namen hatte den irgendjemand außerhalb der Region kannte. Sein Vater war ein einfacher Bauer, seine Mutter flickte Kleidung für die Nachbarn. Er hatte einen älteren Bruder der alles war was Rael werden wollte – stark, ruhig, mit einer Güte die nicht naiv war sondern gewählt.

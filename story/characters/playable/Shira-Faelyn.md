@@ -38,6 +38,8 @@ Das macht ihre Entscheidung ihm zu folgen nicht selbstlos. Das ist ihr ehrlichst
 
 **Personality Type:** INTP
 
+**Elemental Affinity:** Aero
+
 ## Backstory
 
 Shira Faelyn wurde in einer mittelgroßen Stadt im Vaestrall Empire geboren – eine Stadt die für ihre Magie-Akademie bekannt war, die älteste und renommierteste in ganz Vaestrall. Ihre Eltern waren beide Gelehrte – ihr Vater Historiker, ihre Mutter Spezialistin für antike Magie-Systeme. Shira wuchs zwischen Büchern und Formeln auf, zwischen Diskussionen die bis tief in die Nacht gingen und Experimenten die manchmal die Küche verwüsteten.

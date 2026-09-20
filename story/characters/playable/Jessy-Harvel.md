@@ -40,6 +40,8 @@ Ihre Magie ist ihr kein Werkzeug und kein Prestigeobjekt – sie ist ein Teil vo
 
 **Personality Type:** INTJ
 
+**Elemental Affinity:** Geo
+
 ## Backstory
 
 Jessy Harvel wuchs in Areval auf – nicht als Kind einer großen Familie oder eines wichtigen Namens, sondern als Tochter einer Buchhändlerin und eines Handwerkers. Areval war ihr ganzes Leben: die Türme der Akademie die man von überall in der Stadt sah, die Gerüche von Tinte und Kräutern und Steinstaub, die Diskussionen die aus den Fenstern der Studiersäle auf die Gassen tropften.

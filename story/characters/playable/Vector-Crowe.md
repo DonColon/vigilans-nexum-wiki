@@ -38,6 +38,8 @@ Seine eigentliche Sprache sind seine Hände. Er denkt durch Berühren, durch Ert
 
 **Personality Type:** ISTP
 
+**Elemental Affinity:** Umbra
+
 ## Backstory
 
 Niemand weiß woher Vector Crowe kommt.

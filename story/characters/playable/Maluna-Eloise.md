@@ -44,6 +44,8 @@ Claires Mut. Malunas Wärme. Dazwischen – ein Mädchen aus Velinor das eines M
 
 **Personality Type:** ENFP
 
+**Elemental Affinity:** Pyro
+
 ## Backstory
 
 Maluna Eloise wuchs in Velinor auf – in einer Stadt die schon immer den Schatten des Herzogtums Niveli trug, mit dem Gewicht einer Geschichte die größer war als die Menschen die darin lebten.

@@ -40,6 +40,8 @@ Ihren Hass auf den Kult und Varnel trägt sie nicht laut. Sie trägt ihn still �
 
 **Personality Type:** ENTJ
 
+**Elemental Affinity:** Electro
+
 ## Backstory
 
 Aylin wuchs im Kaiserpalast von Emira auf — nicht als verwöhnte Prinzessin, sondern als Tochter eines Mannes der ihr früh erklärte dass der Palast ein Werkzeug ist und kein Thron. Soran ließ sie kämpfen lernen als sie acht war. Mit zwölf saß sie in Ratssitzungen. Mit sechzehn führte sie ihre erste Patrouille.

@@ -40,6 +40,8 @@ Er zeigt Emotionen – langsam, dosiert, als wäre er nicht ganz sicher ob er es
 
 **Personality Type:** ISTJ
 
+**Elemental Affinity:** Cryo
+
 ## Backstory
 
 Edric Thalven wuchs in Velinor auf – in einer kleinen Familie ohne besondere Mittel, aber mit einem Vater der einmal als Ritter gedient hatte und dessen größtes Erbe nicht Geld war sondern eine Geschichte.

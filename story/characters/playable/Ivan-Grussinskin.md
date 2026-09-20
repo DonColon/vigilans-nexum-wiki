@@ -36,6 +36,8 @@ Seine Dynamik mit Marven ist eine der ältesten Konstanten der Gruppe: ewiger St
 
 **Personality Type:** ENTP
 
+**Elemental Affinity:** Electro
+
 ## Backstory
 
 Ivan kam als Säugling ins Waisenhaus von Bellum – gebracht von einer älteren Frau die Elena nur sagte dass die Eltern nicht mehr kommen würden und dass das Kind Ivan heißen solle. Mehr gab sie nicht preis. Dann war sie weg.

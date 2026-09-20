@@ -38,6 +38,8 @@ Was er selten zeigt ist seine Zuneigung. Nicht weil er sie nicht fühlt – sond
 
 **Personality Type:** ISTP
 
+**Elemental Affinity:** Dendro
+
 ## Backstory
 
 Marven wurde als Kleinkind vor der Tür des Waisenhauses gefunden – eingewickelt in einen groben Wollumhang der nach Wald und Rauch roch, ohne Notiz, ohne Namen. Elena nannte ihn Marven weil ihr der Name gefiel. Den Nachnamen Camini gab sie ihm nach einer alten Feuerstelle die im Hof des Waisenhauses stand – weil er, sagte sie, von Anfang an die Wärme festhielt ohne sie zu verschwenden.

@@ -42,6 +42,8 @@ Mit anderen Rittern ist er loyal bis zur Grenze der Unbedingheit – er verläss
 
 **Personality Type:** ENTJ
 
+**Elemental Affinity:** Pyro
+
 ## Backstory
 
 Die Halvorns sind eine alte Ritterfamilie aus Luenava – nicht adlig im großen Sinn, aber tief verwurzelt im Dienst der Krone. Seit vier Generationen stellt die Familie Ritter für König Riku und seine Vorfahren. Aldric wuchs damit auf dass Dienst keine Frage war sondern eine Selbstverständlichkeit – nicht aufgezwungen, sondern gelebt durch Väter und Onkel und Großväter die er kannte und respektierte.

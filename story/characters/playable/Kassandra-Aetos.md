@@ -42,6 +42,8 @@ Crowley mag sie irgendwie. Das sagt mehr über sie als jede lange Erklärung –
 
 **Personality Type:** ESTP
 
+**Elemental Affinity:** Aero
+
 ## Backstory
 
 Kassandra wurde in Athea geboren – der größten Stadt der thysianischen Allianz, mit dem Kolosseum das über allem thront wie eine steinerne Erinnerung daran dass das Leben Entscheidungen verlangt und Entscheidungen Konsequenzen haben.
