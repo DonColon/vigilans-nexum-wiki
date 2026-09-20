@@ -13,15 +13,15 @@ Der Anführer des Kults, vom Kampf gezeichnet und verzweifelt, schrie aufgebrach
 
 Ein Moment eisiger Spannung lag in der Luft.
 
-Dann, in einem plötzlichen Aufblitzen von Licht und Bewegung, tauschte Dardan mit Elena den Platz. Seine Waffe fing den Schlag des Anführers ab, Funken sprühten auf.
- Der Anführer sprang erschrocken zurück. 
+> **Level 08 beginnt:**
+> Beschütze die Bürger und besiege den Anführer. Bonusbelohnung, wenn alle Bewohner überleben. Elena steht neben dem Anführer und kämpft in diesem Level mit – sie kann nur heilen. Dardans erste Aktion ist der Tausch mit Elena.
 
-Dardan wich in den Norden aus und trifft sich mit der Gruppe aus dem Norden.
+Dardan griff nach dem, was er im Tempel getan hatte – und das Band spannte sich, quer durch die Reihen der Kultisten hindurch.
+ Ein Aufblitzen von Licht und Bewegung. Dardan stand, wo eben noch Elena gestanden hatte. Seine Waffe fing den Schlag des Anführers ab, Funken sprühten auf.
+ Der Anführer sprang erschrocken zurück.
+ Elena stolperte zu den anderen, eine Hand an der Kehle.
 
 Die Bürgerwehr sammelte sich neu – entschlossen, den Schutz der Bewohner an erste Stelle zu setzen.
-
-> **Level 08 beginnt:**
-> Beschütze die Bürger und besiege den Anführer. Bonusbelohnung, wenn alle Bewohner überleben.
 
 Nach einem erbitterten Kampf fiel der Anführer des Kults.
  Die übrigen Kultisten warfen ihre Waffen nieder und wurden gefangen genommen.

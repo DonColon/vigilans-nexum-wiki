@@ -160,8 +160,7 @@ Die Entschlossenheit in seinen Worten ließ selbst die Mauern erzittern.
 
 Für einen Moment herrschte völlige Stille. Dann loderten in den Augen der Bürgerwehr neue Flammen auf. Sie umklammerten ihre Waffen fester – und der Kampf begann von Neuem.
 
-> Level 05 beginnt und das Ziel des Levels ist entweder 10 Runden zu überleben oder den Wächter zu besiegen. Wenn der Wächter besiegt wird, erhaltet die Gruppe eine weitere Belohnung. Ab jetzt kann Dardan die Fähigkeit "Exchange" nutzen.
->
+> Level 05 beginnt und das Ziel des Levels ist entweder 10 Runden zu überleben oder den Wächter zu besiegen. Wenn der Wächter besiegt wird, erhaltet die Gruppe eine weitere Belohnung.
 
 ## Die Prüfung und der Triumph
 

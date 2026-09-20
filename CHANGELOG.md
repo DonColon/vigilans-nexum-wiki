@@ -166,6 +166,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Artillerist's *Promotes to* said `Cannoneer, Bombardier` while the class graph says `Gunner, Bombardier` – table corrected to the graph
 - `knive` → `knife` in the Close Combat diagram
 - Magic System's acquisition table pointed at "Spells (Katalog)", a document that no longer exists – now links to Magic Tomes
+- Progression System's Part 03 table had the desert and Rohan one chapter early: Ch 21 is the labyrinth under the northern temple (Heartpulse), Ch 22 is the Solmare desert where Rohan appears – the Ch 22 level box, the level index and Beast Summon all said so
 
 ---
 

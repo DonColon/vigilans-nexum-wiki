@@ -49,6 +49,7 @@ Abilities haben keine universellen Voraussetzungen — jede Einheit kann Abiliti
 | **Skill-basiert**     | Hohe Chance unter bestimmten Bedingungen (z.B. bei kritischen Treffern) | Skill-Stat                  |
 | **Situationsbasiert** | Triggert bei festen Bedingungen (z.B. HP ≤ 50%)              | Fix — kein Stat             |
 | **Kombiniert**        | Prozentige Chance + situative Bedingung                      | Luck oder Skill + Situation |
+| **Active (command)**  | Aktiv gewählt; beendet die Bewegung der Einheit für diesen Zug, die Aktion bleibt erhalten (Exchange, Lifeline – siehe [The Nexus](The-Nexus.md)) | Fix — kein Stat             |
 
 Luck und Skill sind damit über Abilities hinaus relevant — sie beeinflussen direkt wie verlässlich ein Charakter in der Enemy Phase reagiert.
 

@@ -87,8 +87,8 @@ How characters, classes, and abilities develop across all 64 chapters of Vigilan
 | 18 | 21 | 22 | - | Ghost Ship (Horror Theme) |
 | 19 | 22 | 24 | Kassandra | Thysian Combat Arts |
 | 20 | 24 | 25 | - | Darkness Magic (Umbra) |
-| 21 | 25 | 26 | Rohan | Desert Survival Mechanics |
-| 22 | 26 | 27 | - | Sandstorm Hazards |
+| 21 | 25 | 26 | - | [Heartpulse (The Nexus)](mechanics/The-Nexus.md) – the labyrinth under the northern temple |
+| 22 | 26 | 27 | Rohan | Desert Survival Mechanics · Sandstorm Hazards |
 | 23 | 27 | 28 | - | Arena Tournament (Multi-Battle) |
 | 24 | 28 | 29 | - | Dardan's Awakening (Story Event) |
 
@@ -204,11 +204,13 @@ Advanced Classes (Sword Master, Assassin, Elementalist, ...)
 Master Classes (Sword Saint, Nightveil, Arcanist, ...)
     │
     └─ [Story unlock at Lv 45] → Lord Kit (Dardan and Hasan only)
-                                  Master class + kit abilities, carrying the
-                                  class's Lord Title (Aetherblade, Ashborn, ...)
+                                  Master class + Unique abilities (Lv 45+), carrying
+                                  the class's Lord Title (Aetherblade, Ashborn, ...)
+                                  + Dardan's Nexus abilities, unlocked by chapter
+                                  from Ch 08 and outside Capacity
 ```
 
-**Unique is Master plus a Lord Kit, not a class of its own.** Dardan and Hasan promote into a Master class like everyone else – same gate, same seal, same terminal tier. What sets them apart is the Lord Kit: a set of story-unlocked abilities laid on top of the Master class, opening at Lv 45. The *Lord Title* is simply the Master class's name when Dardan or Hasan hold it – Sword Saint reads *Aetherblade*, Shadow Monarch reads *Ashborn* – and is cosmetic. Which Master class carries which title, and what each kit contains, is in [catalog/Unit-Classes.md](catalog/Unit-Classes.md).
+**Unique is Master plus a Lord Kit, not a class of its own.** Dardan and Hasan promote into a Master class like everyone else – same gate, same seal, same terminal tier. What sets them apart is the Lord Kit: the Lord's Unique-class abilities (Lv 45 and above, story-unlocked, laid on top of the Master class) **plus** – for Dardan – the Nexus abilities, which unlock by chapter from Ch 08 and sit outside Capacity ([The Nexus](mechanics/The-Nexus.md)). The *Lord Title* is simply the Master class's name when Dardan or Hasan hold it – Sword Saint reads *Aetherblade*, Shadow Monarch reads *Ashborn* – and is cosmetic. Which Master class carries which title, and what each kit contains, is in [catalog/Unit-Classes.md](catalog/Unit-Classes.md).
 
 That makes **four promotions** across the campaign, not five.
 
@@ -230,7 +232,7 @@ The caps per tier are in the [Balancing Guide → Weapon Rank Caps](Balancing-Gu
 | Intermediate | Level 15 | 500 Gold |
 | Advanced | Level 30 | 2,000 Gold |
 | Master | Level 45 | 5,000 Gold |
-| Lord Kit | Story unlock at Lv 45, on top of the Master promotion (Dardan/Hasan) | Cannot buy |
+| Lord Kit | Unique abilities: story unlock at Lv 45, on top of the Master promotion (Dardan/Hasan). Dardan's Nexus abilities: unlocked by chapter from Ch 08, outside Capacity | Cannot buy |
 
 Seals are **promotion items, not reclassing items** – each one is consumed to move a unit one tier up its own branch. They cannot move a unit sideways into a different class line.
 
@@ -349,13 +351,19 @@ See [Balancing Guide](Balancing-Guide.md) for growth rate budgets and absolute c
 |-------|-------|------------------------|
 | 1 | Citizen | Adaptability, Discipline, Aptitude |
 | 9 (Ch 06) | Swordsman | Speed +2 |
+| 10 (Ch 08) | Swordsman | **Exchange** (The Nexus – chapter unlock, outside Capacity) |
 | 15 | Myrmidon | Vantage |
 | 22 | Myrmidon | Wrath |
+| 25 (Ch 21) | Myrmidon | **Heartpulse** (The Nexus – chapter unlock) |
 | 30 | Sword Master | Sol |
 | 38 | Sword Master | Swordfaire |
-| 45 | Aetherblade (Unique) | Master promotion; the Lord Title. *(Nexus Mastery no longer unlocks here – see below)* |
+| 45 | Aetherblade (Unique) | Master promotion; the Lord Title |
+| 49 (Ch 44) | Aetherblade | **Earthbound** (The Nexus – chapter unlock) |
 | 54 | Aetherblade | **Bond of Souls** (Adjacent allies +5 all stats) |
-| Part 08, trigger open | Aetherblade | **Nexus Mastery** (every Nexus cooldown removed, Exchange and Lifeline ranges grow) – Ch 49–52, whether by chapter or by level is not decided; rules in [The Nexus](mechanics/The-Nexus.md). The chapter-unlocked Nexus abilities (Exchange Ch 08, Heartpulse Ch 21, Earthbound Ch 44, Lifeline open) are not yet rows in this table |
+| Part 08, trigger open | Aetherblade | **Nexus Mastery** (every Nexus cooldown removed, Exchange and Lifeline ranges grow) – Ch 49–52, whether by chapter or by level is not decided |
+| *chapter open* | – | **Lifeline** (The Nexus – chapter unlock; Dardan has not set the chapter) |
+
+The Nexus rows are placed by the level Dardan holds in the unlocking chapter per the [level curve](#-level-curve-per-part); their rules are in [The Nexus](mechanics/The-Nexus.md).
 
 ---
 
