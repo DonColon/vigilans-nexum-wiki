@@ -60,6 +60,11 @@
 **Speech Pattern:** <!-- Wie diese Figur einen Satz baut. Struktur, nicht Haltung.
                         Raster: story/Speech-Patterns.md -->
 
+**Elemental Affinity:** <!-- Eines der neun Elemente: Pyro · Cryo · Hydro · Electro
+                            · Aero · Geo · Dendro · Lux · Umbra. Ein Charakterzug,
+                            keine Magie – die Axtkämpferin darf Hydro sein.
+                            Erst die Persönlichkeit, dann das Element. Siehe charactercraft. -->
+
 ---
 
 ## Backstory
@@ -181,16 +186,20 @@
 
 ---
 
-## Support Conversations
+## Heart-to-Hearts
 
 <!-- Zwei bis vier Partner. Reibung, nicht Sympathie.
-     Nur erreichbare Partner – getrennte Stränge treffen sich erst ab Part 07. -->
+     Nur erreichbare Partner – getrennte Stränge treffen sich erst ab Part 07.
+     Genau drei Gespräche pro Paar, jedes an einen Affinity-Rang gebunden
+     (D · C · B · A · S), pro Paar frei platziert – nicht bei jedem Aufstieg.
+     S ist nur das Maximum der Skala, keine Paarung. Ein Gespräch darf
+     zusätzlich hinter einem Kapitel liegen: „(nicht vor Ch XX)". -->
 
 **{{PARTNER}}** —
 
-- **C:**
-- **B:**
-- **A:**
+- **{{RANK}}:**
+- **{{RANK}}:**
+- **{{RANK}}:**
 
 ---
 

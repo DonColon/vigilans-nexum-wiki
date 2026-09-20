@@ -54,6 +54,8 @@ Sein Humor ist trocken und selten — aber wenn er kommt, kommt er ohne Vorwarnu
 
 **Personality Type:** ISTP
 
+**Elemental Affinity:**
+
 ------
 
 ### Backstory
@@ -148,7 +150,7 @@ Und dann kam Hasan.
 
 ### Weapon Proficiencies
 
-| Weapon Type | Starting Rank | Affinity |
+| Weapon Type | Starting Rank | Aptitude |
 | ----------- | ------------- | -------- |
 | Axe         | B             | High     |
 | Lance       | E             | Low      |
@@ -177,21 +179,21 @@ Ironclad (Lv 35) [Unique Class]
 
 ------
 
-### Support Conversations
+### Heart-to-Hearts
 
-#### Potentielle Support-Partner
+#### Partner
 
 - **Hasan Eyletmez** — Tiefste Bindung; zwei Männer die beide zu spät richtig lagen
 - **Rael Ashkar** — Zwei ehemalige Rebellenführer; ähnlicher Weg, andere Entscheidungen
 - **Lina Yukari** — Kontrast; Linas direkte Art trifft auf Corvans Schweigen
 - **Aylin Vaestrall** — Respekt; sie sieht in ihm was ihr Vater Soran in Menschen sieht
 
-#### Key Support Unlocks
+#### Heart-to-Hearts
 
-- **C-Support mit Hasan:** Hasan fragt Corvan warum er die Axt immer so sorgfältig pflegt. Corvan antwortet nicht sofort
-- **B-Support mit Hasan:** Corvan erzählt von Sela — nicht von Eren, nur von Sela. Das ist das erste Mal
-- **A-Support mit Hasan:** Eren. Der Name fällt. Hasan hört zu ohne zu sprechen
-- **C-Support mit Rael:** Beide erkennen sich — nicht als Freunde, als Spiegel
+- **C – Hasan:** Hasan fragt Corvan warum er die Axt immer so sorgfältig pflegt. Corvan antwortet nicht sofort
+- **B – Hasan:** Corvan erzählt von Sela — nicht von Eren, nur von Sela. Das ist das erste Mal
+- **A – Hasan:** Eren. Der Name fällt. Hasan hört zu ohne zu sprechen
+- **C – Rael:** Beide erkennen sich — nicht als Freunde, als Spiegel
 
 ------
 
@@ -224,6 +226,6 @@ Ironclad (Lv 35) [Unique Class]
 
 ------
 
-**Version:** 1.0
+**Version:** 1.1
  **Created:** 19.06.2026
- **Last Updated:** 19.06.2026
+ **Last Updated:** 20.09.2026

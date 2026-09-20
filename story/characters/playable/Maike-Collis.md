@@ -54,6 +54,8 @@ Wenn sie liebt — und sie liebt, tief und leise und ohne Aufwand — dann ohne 
 
 **Personality Type:** INFJ
 
+**Elemental Affinity:**
+
 ------
 
 ### Backstory
@@ -160,7 +162,7 @@ Und blieb.
 
 ### Weapon Proficiencies
 
-| Weapon Type | Starting Rank | Affinity |
+| Weapon Type | Starting Rank | Aptitude |
 | ----------- | ------------- | -------- |
 | Dark Tome   | C             | High     |
 | Umbra       | D             | High     |
@@ -189,21 +191,20 @@ Hexenmutter (Lv 35)
 
 ------
 
-### Support Conversations
+### Heart-to-Hearts
 
-#### Potentielle Support-Partner
+#### Partner
 
 - **Luca Ferrano** — Romantisches Interest; Kindheitsfreunde die nie ausgesprochen haben was sie fühlen
 - **Aylin Vaestrall** — Zwei junge Frauen die beide mehr sehen als sie zeigen
 - **Claude Luenava** — Gegenseitiger Respekt zweier Menschen die analytisch denken und emotional schweigen
 - **Corvan Gault** — Stille Verbindung; beide tragen etwas das sie nicht zeigen
 
-#### Key Support Unlocks
+#### Heart-to-Hearts
 
-- **C-Support mit Luca:** Luca fragt wo sie die letzten Jahre war. Maike antwortet mit einer Gegenfrage
-- **B-Support mit Luca:** Maike zeigt ihm zum ersten Mal bewusst einen Umbra-Zauber — nicht als Demonstration, als Vertrauen
-- **A-Support mit Luca:** Das Lederband. Luca fragt. Maike antwortet
-- **S-Support mit Luca:** Endgame only
+- **C – Luca:** Luca fragt wo sie die letzten Jahre war. Maike antwortet mit einer Gegenfrage
+- **B – Luca:** Maike zeigt ihm zum ersten Mal bewusst einen Umbra-Zauber — nicht als Demonstration, als Vertrauen
+- **A – Luca:** Das Lederband. Luca fragt. Maike antwortet
 
 ------
 
@@ -236,6 +237,6 @@ Hexenmutter (Lv 35)
 
 ------
 
-**Version:** 1.0
+**Version:** 1.1
  **Created:** 19.06.2026
- **Last Updated:** 19.06.2026
+ **Last Updated:** 20.09.2026

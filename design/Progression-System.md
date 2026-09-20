@@ -27,7 +27,7 @@ How characters, classes, and abilities develop across all 64 chapters of Vigilan
 | 05 *or* 06 (parallel strand) | 33–40 | 37 → 45 | Advanced – identical band in both strands |
 | 07 Before The Storm | 41–48 | 45 → 54 | **Master at Lv 45** – mass promotion at the reunion; Lord Kit for Dardan and Hasan |
 | 08 The Tower | 49–52 | 54 → **60** | Cap reached at the Dajjal |
-| 08 Epilogue | 53–56 | 60, static | No XP – support ranks max out here |
+| 08 Epilogue | 53–56 | 60, static | No XP – affinity ranks max out here |
 
 ---
 
@@ -44,11 +44,11 @@ How characters, classes, and abilities develop across all 64 chapters of Vigilan
 | 03 | 4 | 5 | Ivan, Leona | Terrain Effects, Objectives |
 | 04 | 5 | 6 | - | Naval Combat (Optional) · Weapon delivery – all physical weapon types |
 | 05 | 6 | 8 | Lina, Marven | Magic Introduction · one tome per element found |
-| 06 | 8 | 9 | - | Support Conversations · **Base class chosen at chapter end** |
+| 06 | 8 | 9 | - | [Affinity](mechanics/Affinity.md) – map talks on the map, the first Heart-to-Hearts and the Affinity Chart after it · **Base class chosen at chapter end** |
 | 07 | 9 | 10 | Mikael | **First chapter played in the chosen classes** – no new system |
 | 08 | 10 | 11 | - | [The Nexus / Exchange](mechanics/The-Nexus.md) (tutorial – the hostage swap) · Boss Battle · Promotion Preview |
 
-**Why the class choice sits at the end of Ch 06:** By that point the player has seen movement, the weapon triangle, terrain, objectives, naval combat, magic (Ch 05) and support conversations. The first irreversible decision of the campaign is therefore made with the systems already demonstrated rather than guessed at – and Ch 07 is immediately there to play the result.
+**Why the class choice sits at the end of Ch 06:** By that point the player has seen movement, the weapon triangle, terrain, objectives, naval combat, magic (Ch 05) and affinity – the map talks and the first Heart-to-Hearts of Ch 06 ([Affinity](mechanics/Affinity.md)). The first irreversible decision of the campaign is therefore made with the systems already demonstrated rather than guessed at – and Ch 07 is immediately there to play the result.
 
 **Milestone:** By end of Part 01, all eight Vigilant Knights are recruited.
 
@@ -182,7 +182,7 @@ How characters, classes, and abilities develop across all 64 chapters of Vigilan
 
 **Level:** 60, static. No XP, no promotions, no seals. Every unit's class is final long before this point.
 
-The journey through Adolla, Thysia and Vaestrall, gathering people until all roads lead to Bellum. The Nexus bond is finished as a combat tool at Ch 52; here it pays off as a relationship. **Support ranks reach their maximum in these four chapters** – that is their mechanical purpose.
+The journey through Adolla, Thysia and Vaestrall, gathering people until all roads lead to Bellum. The Nexus bond is finished as a combat tool at Ch 52; here it pays off as a relationship. **Affinity ranks reach their maximum in these four chapters** – that is their mechanical purpose: four chapters, four rank-ups per unit under the one-per-chapter throttle, and the Heart-to-Hearts that come with them ([Affinity](mechanics/Affinity.md#3--rising-the-throttle)).
 
 > **Permadeath consideration:** `Pacing-Audit.md` marks Ch 52 as the intended place for a lasting loss. Four epilogue chapters have to carry that loss without breaking their fixed text – whoever falls at the Dajjal must stay gone through the festival.
 
@@ -437,6 +437,6 @@ Additionally for Parts 05 and 06:
 
 ---
 
-**Version:** 2.1
-**Last Updated:** 2026-09-18
+**Version:** 2.2
+**Last Updated:** 2026-09-20
 **Cross-Reference:** [Balancing Guide](Balancing-Guide.md), [Game Mechanics](mechanics/README.md), [Unit Classes](catalog/Unit-Classes.md), [Levels](levels/README.md)

@@ -389,9 +389,95 @@ Fixed by rule, not tuned here: three summons per Bestiarius per map, order reach
 |-----------|-------|
 | Wires on the map at once with *Pull the Strings* | *not yet set* |
 
+### Affinity
+
+*Proposal – every value in this section is a first draft for tuning unless marked decided.* The rules are in [Affinity](mechanics/Affinity.md); this section holds the tuning values that document links to. The reference shape is Xenoblade Chronicles 1's affinity scale – 0 / 1000 / 2000 / 3000 / 5000 with +10 per chain attack, +20 per help and +300 per Heart-to-Heart – rescaled to a tactics game in which a pair has a handful of shared actions per map instead of hundreds per hour. The magnitude is ours; the shape (widening gaps, S far above A) is XC1's.
+
+Fixed by rule, not tuned here: five ranks D–S; points never fall; **one rank-up per unit per chapter**, chosen by the player; only the strongest partner in range counts; each element carries two of six bonus types and a pair sums both; three Heart-to-Hearts per pair; map talks once per pair per chapter; no points for proximity; enemies and beasts have none.
+
+#### Rank thresholds
+
+| Rank | Points needed | Gap from previous | Colour |
+|------|---------------|-------------------|--------|
+| *(no rank)* | 0–19 | – | – |
+| **D** | 20 | 20 | Yellow |
+| **C** | 120 | 100 | Green |
+| **B** | 300 | 180 | Blue |
+| **A** | 600 | 300 | Lavender |
+| **S** | 1,000 | 400 | Pink – the cap; points stop counting here |
+
+**Derivation:** D costs one deed (one shared kill, one heal), so a single act of trust opens the band – which is what a Part 04 recruit needs before Dardan can exchange with it. Each later gap is roughly 1.5× the one before, so that a pair which only occasionally acts together stalls at B or A, while a pair the player builds deliberately – two or three deeds a map, a talk every few chapters, three Heart-to-Hearts – clears the S threshold with points to spare and is paced by the throttle, not by the numbers. Three Heart-to-Hearts contribute 300 of the 1,000, so conversations carry a third of a bond and deeds the rest; XC1's +300 per conversation against a 5,000 cap would have let the conversations carry most of it. The thresholds are also tuned to what Dardan decided about S: reachable in Part 07–08 for pairs the player invested in, so the S rows of the Nexus tables are live in the Tower, and landing in the epilogue for the rest ([Affinity → Core Rules → 3](mechanics/Affinity.md#3--rising-the-throttle)).
+
+#### Points per source
+
+| Source | Points | To whom |
+|--------|--------|---------|
+| Chain Attack | **30** | Each of the three pairs among the attackers |
+| Shared kill | **20** | Each damager with the killer |
+| Help – heal | **20** | Healer ↔ healed, per unit healed |
+| Help – cure | **20** | Curer ↔ cured |
+| Help – out of danger | **20** | Mover ↔ moved |
+| Nexus – Exchange | **20** | Dardan ↔ the swapped ally |
+| Nexus – Lifeline | **30** | Dardan ↔ the linked ally, once per round in which a share was carried |
+| Nexus – Heartpulse | **10** | Dardan ↔ each unit the pulse healed |
+| Map talk | **40** | The two talkers, once per pair per chapter |
+| Heart-to-Heart | **100** | The two, on viewing |
+
+**Why these weights:** a deed in battle is worth 20 – the unit of the scale, so that five deeds make a C and fifteen make a B on top of it. A chain attack is worth more because it is rare (Special enemies only, after a shield break) and costs three units their action; Lifeline more because Dardan paid in HP; Heartpulse less per unit because it touches the whole roster at once and would otherwise let Dardan out-bond everyone with one action per chapter. A map talk is two deeds for one action on a map where the action had a use – and it is capped at one per pair per chapter by rule. A Heart-to-Heart is five deeds: the biggest single step, but a pair's three together are less than a third of S.
+
+#### Bonus range
+
+| Parameter | Value |
+|-----------|-------|
+| Bonus range (tiles between the two units for the combat bonus to apply) | **3** *(decided by Dardan)* |
+
+#### Combat bonus by rank
+
+The value each bonus type takes, **per element that carries it**. A pair sums both units' mixes ([Element mixes](#element-mixes)); a same-element pair therefore doubles its two types. Fractions are summed first and rounded down at the end.
+
+| Rank | Attack / Defense (per element carrying it) | Hit / Avoid / Critical / Dodge (per element carrying it) |
+|------|--------------------------------------------|----------------------------------------------------------|
+| **D** | +0.5 | +2 |
+| **C** | +1 | +4 |
+| **B** | +1.5 | +6 |
+| **A** | +2 | +8 |
+| **S** | +2.5 | +10 |
+
+**Worked examples:** Pyro (Attack, Critical) with Aero (Hit, Avoid) at B → Attack +1, Critical +6, Hit +6, Avoid +6. Pyro with Pyro at S → Attack +5, Critical +20. Geo (Defense, Dodge) with Hydro (Defense, Avoid) at A → Defense +4, Dodge +8, Avoid +8.
+
+**Derivation:** the ceiling is the same-element S pair – +5 to Attack or Defense, which equals the Str/Mag a Master promotion grants and must not exceed it, or the bond would outweigh the last promotion of the game; +20 to a rate stat, which is the size of a Killer weapon's Critical (30) minus a margin, on a pair that had to share one element and reach S. FE7 reaches Attack +3 / Critical +15 at its A cap with three steps; five ranks here need a finer step, hence the halves. A cross-element pair – the common case, with nine elements – spreads the same budget over four types, none of them above +10 at S. Dodge exists so that a defensive pair can answer a Killer weapon without the game needing crit immunity anywhere else.
+
+#### Element mixes
+
+Each element carries two of the six bonus types; every type is carried by exactly three elements, so no type is rare and no element is a trap. The mixes are read from the elements' roles in the [Magic System](mechanics/Magic-System.md#die-9-elemente) and the [tome profiles](catalog/Magic-Tomes.md#element-profiles).
+
+| Element | Carries | Why |
+|---------|---------|-----|
+| **Pyro** | Attack, Critical | Fire hits harder and burns through |
+| **Cryo** | Critical, Dodge | Ice is the still moment – the shattering blow, the guard that does not flinch |
+| **Hydro** | Defense, Avoid | Water yields and flows around the blow |
+| **Electro** | Hit, Critical | Lightning lands where it aims and strikes hard |
+| **Aero** | Hit, Avoid | Wind is accurate and never where the blow falls |
+| **Geo** | Defense, Dodge | Stone is the wall |
+| **Dendro** | Attack, Defense | Growth – roots hold, thorns bite |
+| **Lux** | Hit, Dodge | Light sees clearly and cannot be surprised |
+| **Umbra** | Attack, Avoid | Shadow strikes from where it is not seen |
+
+The affinity is a trait of the person and says nothing about the magic the unit wields ([Affinity → Core Rules → 7](mechanics/Affinity.md#7--elemental-affinity-and-who-has-none)). Which unit carries which element is set on its character sheet by Lorekeeper and is not assigned in this document.
+
+#### Starting ranks
+
+Every pair not listed starts at *no rank*. A starting rank sets the pair's points to that rank's threshold exactly.
+
+| Pair | Starting rank | Status |
+|------|---------------|--------|
+| Each of the eight Vigilant Knights ↔ Dardan | **C** | *decided by Dardan* – the orphanage and Ch 01–05, priced in |
+| Elena ↔ Dardan (from Ch 08, kept until she joins in Ch 25) | **B** | *decided by Dardan* – "wie eine Mutter"; makes the Ch 08 hostage reachable by Exchange |
+| The eight Vigilant Knights among each other (every pair) | **C** | *decided by Dardan* – raised together, for the same reason as the Dardan rows |
+
 ### The Nexus
 
-*Not yet set – every value in this section is open or a proposal.* The rules are in [The Nexus](mechanics/The-Nexus.md); this section holds the tuning values that document links to. Three of the tables read the **support rank** between Dardan and a unit. The rank scale is the Support System's (backlog, no specification yet) and does not exist in `design/` – the rank rows below are therefore **empty by dependency**, to be added when that system defines the scale. Two requirements the Support System must honour, decided by Dardan and recorded here so the tables can be filled: **the eight Vigilant Knights start above rank zero with Dardan**, and **Elena's rank with Dardan in Ch 08 is at or above the Exchange threshold** – the Ch 08 tutorial depends on it.
+*Proposal – every value in this section is a first draft for tuning unless marked otherwise, and several are still not set.* The rules are in [The Nexus](mechanics/The-Nexus.md); this section holds the tuning values that document links to. Three of the tables read the **affinity rank** between Dardan and a unit, on the scale of [Affinity](mechanics/Affinity.md) above. Two requirements decided by Dardan and honoured by the [starting ranks](#starting-ranks): **the eight Vigilant Knights start at C with Dardan**, and **Elena holds B with Dardan in Ch 08** – the Ch 08 tutorial depends on it.
 
 #### Exchange
 
@@ -399,12 +485,18 @@ Fixed by rule, not tuned here: three summons per Bestiarius per map, order reach
 |-----------|-------|
 | Exchange cooldown (turns, global, flat) | *not yet set* |
 
-| Support rank | Exchange range (tiles, through everything) |
-|--------------|--------------------------------------------|
+| Affinity rank | Exchange range (tiles, through everything) |
+|---------------|--------------------------------------------|
 | *(no rank)* | *not reachable – rule* |
-| *rank rows: not yet defined – waits on the Support System's scale* | |
+| **D** | 2 |
+| **C** | 3 |
+| **B** | 4 |
+| **A** | 5 |
+| **S** | 6 |
 
-**Design intent the values must express:** the cooldown is the *cadence* of the signature move, not a stock – on a map of ordinary length Dardan should swap several times, never every turn, and *Nexus Mastery* removes the cooldown in Part 08, so the number must be large enough that its removal is felt in the Tower. The range table must open at a distance that makes the Ch 08 hostage reachable and grow with rank to a distance no positional command in the catalog reaches (Ensnare, Hurl, Mystic Pull all stop at range 2), so that at high rank the Exchange is the only thing on the roster that crosses a room.
+**Design intent the values must express:** the cooldown is the *cadence* of the signature move, not a stock – on a map of ordinary length Dardan should swap several times, never every turn, and *Nexus Mastery* removes the cooldown in Part 08, so the number must be large enough that its removal is felt in the Tower. The range table opens at a distance that makes the Ch 08 hostage reachable and grows with rank to a distance no positional command in the catalog reaches (Ensnare, Hurl, Mystic Pull all stop at range 2), so that at high rank the Exchange is the only thing on the roster that crosses a room.
+
+**Derivation of the range rows:** D equals the reach of the catalog's positional commands (2) – the first deed buys a swap that is already unique for going through walls, nothing more. Each rank adds one tile, so the table is learnable without looking it up. B = 4 is the Ch 08 row: Level 08 must place the hostage Elena within four tiles of a tile Dardan can reach, and the cultists between them do not matter. S = 6 is the width of an ordinary room, and with Nexus Mastery becomes 8 in the Tower.
 
 #### Nexus Mastery
 
@@ -412,9 +504,9 @@ Unlocked in Part 08 (trigger open – see [The Nexus → Open decisions](mechani
 
 | Parameter | Value |
 |-----------|-------|
-| Nexus Mastery range bonus (added to the Exchange range and the Lifeline range at every support rank) | *not yet set* |
+| Nexus Mastery range bonus (added to the Exchange range and the Lifeline range at every affinity rank) | **+2** |
 
-**Design intent:** with cooldowns gone, range is the only thing left that the bond still gates, so the bonus should be small enough that rank still orders the roster – the Knight Dardan grew up with must still reach further than the Part 07 recruit – and large enough that the Tower's larger maps (16 deployed, [Deployment Limits](Progression-System.md#deployment-limits-by-chapter)) are crossed at high rank.
+**Design intent:** with cooldowns gone, range is the only thing left that the bond still gates, so the bonus should be small enough that rank still orders the roster – the Knight Dardan grew up with must still reach further than the Part 07 recruit – and large enough that the Tower's larger maps (16 deployed, [Deployment Limits](Progression-System.md#deployment-limits-by-chapter)) are crossed at high rank. **Why +2:** a Part 07 recruit at D reaches 4 – a corridor; a Knight at S reaches 8 – a Tower map's half-width. The order of the roster is untouched and the top row crosses the room the Dajjal stands in.
 
 #### Lifeline
 
@@ -422,24 +514,34 @@ Unlocked in Part 08 (trigger open – see [The Nexus → Open decisions](mechani
 |-----------|-------|
 | Lifeline share (fraction of each attack's damage to the linked ally, carried by Dardan) | *not yet set* |
 
-| Support rank | Lifeline range (tiles, through everything) |
-|--------------|--------------------------------------------|
+| Affinity rank | Lifeline range (tiles, through everything) |
+|---------------|--------------------------------------------|
 | *(no rank)* | *not reachable – rule* |
-| *rank rows: not yet defined – waits on the Support System's scale* | |
+| **D** | 2 |
+| **C** | 3 |
+| **B** | 4 |
+| **A** | 5 |
+| **S** | 6 |
 
-**Design intent:** the share must be large enough that a linked front-liner survives one hit it would not have survived alone, and large enough that three enemy attacks on that front-liner in one Enemy Phase put Dardan in real danger – Lifeline is only a decision because it can kill him. There is no floor and no separate difficulty scaling here; if a mode ever changes the share, the column goes in the [difficulty table](#-difficulty-mode-scaling).
+**Design intent:** the share must be large enough that a linked front-liner survives one hit it would not have survived alone, and large enough that three enemy attacks on that front-liner in one Enemy Phase put Dardan in real danger – Lifeline is only a decision because it can kill him. There is no floor and no separate difficulty scaling here; if a mode ever changes the share, the column goes in the [difficulty table](#-difficulty-mode-scaling). **Why the range equals the Exchange range:** the band reaches as far as the bond, whatever runs along it – one table to learn, and a player who knows whom Dardan can swap with knows whom he can link. The line is checked only when placed and holds at any distance afterwards (rule, [The Nexus → 3](mechanics/The-Nexus.md#3--lifeline)).
 
 #### Heartpulse
 
 Once per chapter is a rule and stays in the mechanic document. The value here is only how much each unit recovers.
 
-| Support rank | Heartpulse heal (per unit, by that unit's rank with Dardan) |
-|--------------|-------------------------------------------------------------|
-| *(no rank)* | *not yet set – open whether zero or the lowest row* |
-| *rank rows: not yet defined – waits on the Support System's scale* | |
-| Dardan himself | *not yet set* |
+| Affinity rank | Heartpulse heal (per unit, by that unit's rank with Dardan) |
+|---------------|-------------------------------------------------------------|
+| *(no rank)* | **0** – not reached (rule, [Affinity → Core Rules → 8](mechanics/Affinity.md#8--what-the-nexus-reads)) |
+| **D** | 10 % of the unit's maximum HP |
+| **C** | 15 % |
+| **B** | 20 % |
+| **A** | 30 % |
+| **S** | 40 % |
+| Dardan himself | 10 % – the D row: the pulse goes outward |
 
-**Proposal for the unit of the value:** a **percentage of the target's maximum HP** per rank rather than a flat number. Heartpulse is usable from Ch 21 to Ch 52 and cannot read Mag (Dardan's sword line does not grow it – the same reason the kit has no MP cost); a flat heal would be a full heal in Part 03 and a scratch in Part 08, and the poison tick above already uses the percentage form for the same reason. At the highest rank it should stay **below a single-target staff heal of the same chapter** (`Mag + Rank Bonus`, [Healing](#1--healing)) on any one unit – Heartpulse is wide, a staff is deep, and the once-per-chapter limit only keeps healers in the game if the pulse does not out-heal them per target.
+Rounded down, minimum 1 HP where the row is above zero; overheal is lost.
+
+**Why a percentage of maximum HP:** Heartpulse is usable from Ch 21 to Ch 52 and cannot read Mag (Dardan's sword line does not grow it – the same reason the kit has no MP cost); a flat heal would be a full heal in Part 03 and a scratch in Part 08, and the poison tick above already uses the percentage form for the same reason. **Why the S row is 40 %:** it stays **below a single-target staff heal of the same chapter** (`Mag + Rank Bonus`, [Healing](#1--healing)) on any one unit – at Lv 26 a staff heal restores roughly two thirds of a unit's HP, at Lv 60 roughly three quarters – and it sits at the level of *Fortify* (a multi-target heal for half the amount). Heartpulse is wide, a staff is deep, and the once-per-chapter limit only keeps healers in the game if the pulse does not out-heal them per target. **Why Dardan takes the D row:** the band carries strength outward; the unit at its centre is the last one it heals.
 
 #### Earthbound
 
@@ -451,7 +553,7 @@ Once per chapter is a rule and stays in the mechanic document. The value here is
 
 **Why 1–2:** the seal is a full action on the Lord, so it should not cost him his position on top – range 1 alone would mean walking Dardan into the press to seal the healer behind it. Range 2 matches the reach of every other targeted command in the catalog (Disarray, Ensnare, Mystic Pull) and keeps him out of the front line's counter. Longer would make it artillery. **Duration and cooldown:** the duration is the window in which the Dajjal is vulnerable (Level 52) and, on every map from Ch 44, the number of Enemy Phases a healer stays silent. Design intent proposed: **cooldown at or above the duration**, so at most one enemy is sealed at a time and the seal is a choice of target rather than a rolling blanket – Dardan's to confirm (see the mechanic's *Open decisions*).
 
-Fixed by rule, not tuned here: no rank scaling and no hit roll on Earthbound; the cooldowns do not scale with rank; one Lifeline at a time; Lifeline shares attack damage and moves status effects whole onto Dardan; Nexus Mastery removes every cooldown; Nexus abilities take no Capacity. Everything about the Dajjal's chain – how many units, how much healing, how often reinforcements come – belongs to the Level 52 document.
+Fixed by rule, not tuned here: no rank scaling and no hit roll on Earthbound; the cooldowns do not scale with rank; one Lifeline at a time; Lifeline shares attack damage and moves status effects whole onto Dardan; Nexus Mastery removes every cooldown; Nexus abilities take no Capacity; a unit with no affinity rank is reached by no Nexus ability. Everything about the Dajjal's chain – how many units, how much healing, how often reinforcements come – belongs to the Level 52 document.
 
 ### Class Type Templates
 
@@ -466,12 +568,14 @@ Fixed by rule, not tuned here: no rank scaling and no hit roll on Earthbound; th
 ## 🎲 Damage Calculation Formula
 
 ```
-Attack = (Weapon Might) + (Str or Mag) + (Triangle Bonus) + (Support Bonus)
-Defense = (Enemy Def or Res) + (Terrain Bonus)
+Attack = (Weapon Might) + (Str or Mag) + (Triangle Bonus) + (Affinity Bonus)
+Defense = (Enemy Def or Res) + (Terrain Bonus) + (Affinity Bonus)
 
 Damage = Attack - Defense
 Minimum Damage = 0
 ```
+
+**Affinity Bonus:** the Attack, Defense, Hit, Avoid, Critical or Dodge value the unit draws from its strongest affinity partner within the bonus range – see [Affinity](#affinity) for the values and [Affinity → Core Rules → 4](mechanics/Affinity.md#4--the-combat-bonus) for the rule. Zero when no ranked partner is in range.
 
 ### Attack Speed (AS) Calculation
 
@@ -485,8 +589,8 @@ If Attacker AS ≥ Enemy AS + 4:
 ### Hit Rate Calculation
 
 ```
-Hit = (Weapon Hit) + (Dex × 2) + (Luck ÷ 2) + (Support Bonus) + (Triangle Bonus)
-Avoid = (Speed × 2) + (Luck) + (Terrain Bonus)
+Hit = (Weapon Hit) + (Dex × 2) + (Luck ÷ 2) + (Affinity Bonus) + (Triangle Bonus)
+Avoid = (Speed × 2) + (Luck) + (Terrain Bonus) + (Affinity Bonus)
 
 True Hit% = Hit - Avoid
 Display Hit% = True Hit% (capped at 0-100%)
@@ -497,8 +601,8 @@ Display Hit% = True Hit% (capped at 0-100%)
 ### Critical Hit Calculation
 
 ```
-Crit = (Weapon Crit) + (Dex ÷ 2)
-Dodge = (Luck)
+Crit = (Weapon Crit) + (Dex ÷ 2) + (Affinity Bonus)
+Dodge = (Luck) + (Affinity Bonus)
 
 Crit% = Crit - Dodge (minimum 0%)
 
@@ -603,5 +707,5 @@ When creating new content, verify:
 - Fire Emblem: Engage weapon balancing  
 - Advance Wars damage calculator logic  
 
-**Version:** 2.2  
+**Version:** 2.3  
 **Last Updated:** 2026-09-20

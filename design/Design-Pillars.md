@@ -15,7 +15,7 @@ Vigilans Nexum ist kein Spiel über Einzelkämpfer. Es ist ein Spiel über Verbi
 
 **Gameplay Expression:**
 - **The Nexus Ability:** Dardan kann mit Verbündeten die Position tauschen – ein mechanisches Symbol für Vertrauen
-- **Support System:** Kämpfer werden stärker, wenn sie Seite an Seite kämpfen
+- **Affinity:** Kämpfer werden stärker, wenn sie Seite an Seite kämpfen
 - **Narrative Weight:** Charakterbeziehungen sind nicht nur Flavor – sie sind Spielmechanik
 - **Permadeath Impact:** Der Verlust einer Unit bedeutet mehr, weil sie Teil eines sozialen Geflechts war
 

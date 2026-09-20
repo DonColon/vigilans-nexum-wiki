@@ -30,7 +30,7 @@ Alle Level-Designs für die **64 Kapitel** von Vigilans Nexum (8 Parts × 8 Kapi
 | 03 | All Your Base Belong To Us | Defense | Hold Territory | Territory Control | [📄](Level-03-All-Your-Base-Belong-To-Us.md) |
 | 04 | Ripping Of Pirates | Story | Defeat Boss | Naval Combat (Optional) | [📄](Level-04-Ripping-Of-Pirates.md) |
 | 05 | A Heart Of Gold | Story | Rout Enemy | Magic System | [📄](Level-05-A-Heart-Of-Gold.md) |
-| 06 | Heroes Are Made By The Path They Choose... | Story | Defend NPC | Support Conversations | [📄](Level-06-Heroes-Are-Made-By-The-Path-They-Choose.md) |
+| 06 | Heroes Are Made By The Path They Choose... | Story | Defend NPC | [Affinity](../mechanics/Affinity.md) – the first map talks; the first Heart-to-Hearts and the Affinity Chart after the map | [📄](Level-06-Heroes-Are-Made-By-The-Path-They-Choose.md) |
 | 07 | ...Not By The Power They Are Graced With | Story | Survive + Objective | First chapter played in the chosen classes (no new system – see [Progression System](../Progression-System.md#part-01-path-of-liberation-chapters-1-8)) | [📄](Level-07-Not-By-The-Power-They-Are-Graced-With.md) |
 | 08 | The Vigilant Knights | Boss | Defeat Boss | [The Nexus / Exchange](../mechanics/The-Nexus.md) – tutorial: the player performs the swap with the hostage Elena | [📄](Level-08-The-Vigilant-Knights.md) |
 

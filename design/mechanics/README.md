@@ -17,7 +17,8 @@ Each documented mechanic follows [mechanics/_TEMPLATE.md](_TEMPLATE.md). Numbers
 | **[Biorhythm](Biorythm.md)** | Per-character performance cycle, UI display, character assignments |
 | **[Growth Modifiers](Growth-Modifiers.md)** | Effective growth = personal + class growth modifier (+ Aptitude for the Vigilant Knights), tier scaling, the anti-trap guard, the Citizen's staged weapon access (Ch 01 / 04 / 05) and its MP regime by equipped weapon |
 | **[Beast Summon](Beast-Summon.md)** | The Bestiarius' *Beast Call*: the Solmare beast as an Other-faction unit, its stat derivation from the summoner, the three-per-map budget, the order set and the Chain-reach leash, what the beast is excluded from (XP, objectives, staves, Exchange, chain attack), and the wild beasts of Ch 22/23 as the same unit |
-| **[The Nexus](The-Nexus.md)** | Dardan's Lord-Kit system: *Exchange* (position swap through everything, range by support rank, flat global cooldown, Ch 08), *Lifeline* (a share of an ally's wounds carried by Dardan, no floor, chapter open), *Heartpulse* (map-wide heal by each unit's rank, once per chapter, Ch 21), *Earthbound* (seals one enemy's access to the band – abilities, arts, magic, auras – for N rounds, Ch 44; cuts the Dajjal's chain in Ch 52), the golden/black band state set per chapter, and the exclusion of summoned beasts. Depends on the Support System's rank scale |
+| **[The Nexus](The-Nexus.md)** | Dardan's Lord-Kit system: *Exchange* (position swap through everything, range by affinity rank, flat global cooldown, Ch 08), *Lifeline* (a share of an ally's wounds carried by Dardan, no floor, chapter open), *Heartpulse* (map-wide heal by each unit's rank, once per chapter, Ch 21), *Earthbound* (seals one enemy's access to the band – abilities, arts, magic, auras – for N rounds, Ch 44; cuts the Dajjal's chain in Ch 52), the golden/black band state set per chapter, and the exclusion of summoned beasts. Reads the affinity rank of [Affinity](Affinity.md) |
+| **[Affinity](Affinity.md)** | The bond system: one affinity value per pair of playable units, earned only by acting together (chain attacks, shared kills, healing, curing, rescuing, Dardan's Nexus abilities, map talks, Heart-to-Hearts) and never by proximity; five ranks D–S with XC1's colours; one rank-up per unit per chapter, chosen by the player (the Path of Radiance throttle); a combat bonus whose kind comes from the pair's two elemental affinities and whose size from the rank, from the strongest partner within range only; three Heart-to-Hearts per pair at pair-specific ranks, viewed between chapters; the Affinity Chart with story characters by subtitle and without rank; Skill Links rejected. The Nexus reads its rank; Base Management inherits its between-chapter selection |
 
 Item, spell, class and ability **lists** are in the [Game Catalog](../catalog/README.md); this page describes the rules behind them.
 
@@ -50,10 +51,9 @@ These systems exist in the design intent but have no specification file yet. Wri
 | Inventory | Item capacity, convoy, trading between units | Medium |
 | Durability | Weapon uses, repair | Medium |
 | Gold & Economy | Earning gold, shops, item costs | Medium |
-| Support System | Building bonds, support conversations, stat bonuses. **[The Nexus](The-Nexus.md) depends on it:** Exchange range, Lifeline range and Heartpulse strength read the support rank between Dardan and a unit, and the per-rank tables in the [Balancing Guide → The Nexus](../Balancing-Guide.md#the-nexus) wait for this system's rank scale. Two requirements it must honour: the eight Vigilant Knights start above rank zero with Dardan, and Elena's rank with Dardan in Ch 08 is at or above the Exchange threshold | High |
 | Ability Management | Learning, equipping, upgrading abilities | Low |
 | Skill Inheritance | Which abilities a unit keeps when promoting up its branch (promotion is one-way – there is no reclassing) | Low |
-| Base Management | Between-chapter activities, character conversations | Medium |
+| Base Management | Between-chapter activities at a place in the world. **First requirement, set by [Affinity](Affinity.md#6--heart-to-hearts):** a between-chapter selection in which rank-ups are confirmed and the available Heart-to-Hearts are listed and viewed – after the chapter, before the next deployment. Everything else Base Management does is its own | Medium |
 | Unit Deployment | Selecting units for missions, restrictions | Medium |
 | Bonus Objectives | Optional goals, rewards, recruitment conditions | Low |
 
@@ -61,7 +61,6 @@ These systems exist in the design intent but have no specification file yet. Wri
 
 | Mechanic | Open question |
 |----------|---------------|
-| Trust & Bonds | **Answered by [The Nexus](The-Nexus.md):** there is no separate system. A bond *is* the Support System's rank, and the Nexus reads it – range and strength scale with the rank between Dardan and the unit. Row kept until the Support System is written, so the answer is not lost |
 | The Vigilant Knights | Faction/reputation mechanic, or purely narrative? |
 | Divine Pulse | Turn rewind – include at all? Currently referenced in the Balancing Guide's difficulty table |
 | Gambits & Battalions | Group tactics – include at all? |

@@ -1,6 +1,6 @@
 ---
 name: 'charactercraft'
-description: "Binding rules for the narrative half of a Vigilans Nexum character sheet — personal data, appearance, personality, backstory, recruitment framing, supports, story role. Load before creating or revising any file in story/characters/, and before answering questions about who a character is. Covers section order and form, the wound/lie/test-moment method, idiolect, the wiki-first verification pass, and the known drift in existing sheets. The gameplay half (stats, growth rates, classes, abilities) belongs to `statcraft`."
+description: "Binding rules for the narrative half of a Vigilans Nexum character sheet — personal data, appearance, personality, backstory, recruitment framing, elemental affinity, Heart-to-Hearts, story role. Load before creating or revising any file in story/characters/, and before answering questions about who a character is. Covers section order and form, the wound/lie/test-moment method, idiolect, the wiki-first verification pass, and the known drift in existing sheets. The gameplay half (stats, growth rates, classes, abilities) belongs to `statcraft`."
 ---
 
 Dieser Skill trägt die **Story-Hälfte** eines Charakterbogens: wer die Figur ist, wie sie aussieht, woher sie kommt, was sie in der Geschichte tut. Für Basiswerte, Wachstumsraten, Klassenpfad und Fähigkeiten gilt `statcraft`. Für den Ton von Kapitelprosa gilt `storycraft` – ein Bogen ist kein Kapitel, aber er wird in derselben Stimme geschrieben.
@@ -47,7 +47,7 @@ Erscheint die Figur bereits in geschriebenen Kapiteln, wird der Bogen **aus dem 
 
 Ein Boss levelt nicht; er tritt auf, kämpft, fällt. Deshalb trägt sein Bogen die Werte pro Auftritt statt einer Kurve – und `levelcraft` verlinkt sie, statt sie zu wiederholen.
 
-Nicht rekrutierbare Figuren lassen *Recruitment* und *Support Conversations* weg. Alles andere gilt für alle.
+Nicht rekrutierbare Figuren lassen *Recruitment* und *Heart-to-Hearts* weg. Alles andere gilt für alle.
 
 ---
 
@@ -64,7 +64,7 @@ Personal Information · Appearance · Personality · Backstory · Recruitment
 ─── Rulewright ───────────────────────────────────────────────
 [Werteblock] · Abilities · Combat Arts · Weapon Proficiencies
 ─── Lorekeeper ───────────────────────────────────────────────
-Canon Class Path · Support Conversations · Story Role · Trivia
+Canon Class Path · Heart-to-Hearts · Story Role · Trivia
 ```
 
 *Recruitment* ist geteilt: die Prosa gehört hierher, Beitrittslevel, Startklasse und Ausrüstung zu `statcraft`. *Canon Class Path* steht auf der Story-Seite, weil er sagt, was die Figur **wird** – Rulewright prüft ihn nur gegen den Klassenbaum.
@@ -100,7 +100,7 @@ Der Fehler, der hier lauert, ist die **Kostümliste**: fünf Sätze Kleidungsinv
 
 ### Personality – drei bis fünf Absätze
 
-Kernzüge, Motivation, Umgang mit anderen, Angst und Schwäche, wie die Herkunft das geformt hat. Danach zwei Zeilen: `**Personality Type:**` mit dem MBTI-Kürzel und `**Speech Pattern:**` mit der grammatischen Signatur der Figur.
+Kernzüge, Motivation, Umgang mit anderen, Angst und Schwäche, wie die Herkunft das geformt hat. Danach drei Zeilen: `**Personality Type:**` mit dem MBTI-Kürzel, `**Speech Pattern:**` mit der grammatischen Signatur der Figur und `**Elemental Affinity:**` mit einem der neun Elemente.
 
 Drei Anforderungen:
 
@@ -109,6 +109,12 @@ Drei Anforderungen:
 - **Die Lüge zeigt sich im Verhalten**, nicht in einer Diagnose. Nicht „sie hat Angst vor Nähe", sondern was sie tut, wenn jemand nah kommt.
 
 Der MBTI-Typ ist Ergebnis, nicht Vorgabe: erst die Persönlichkeit schreiben, dann den Typ zuordnen, der zu dem passt, was dasteht.
+
+#### Elemental Affinity – ein Charakterzug, kein Zauber
+
+Jede Figur trägt genau eines der neun Elemente – Pyro, Cryo, Hydro, Electro, Aero, Geo, Dendro, Lux, Umbra – als Affinität. Das Feld sagt, **wer die Figur ist**, nicht welche Magie sie führt: ein Axtkämpfer kann Hydro sein, eine Lux-Priesterin Umbra. Gelesen wird es vom Affinity-System (`design/mechanics/Affinity.md`): die Elemente zweier Partner bestimmen, *welchen* Kampfbonus das Paar bekommt. Die Zuordnung der Elemente zu Bonusarten steht im Balancing Guide und wird hier nicht wiederholt.
+
+Wie beim MBTI-Typ gilt: erst die Persönlichkeit, dann das Element. Die Rollenbeschreibungen der Elemente im Magic System (Pyro offensiv, Hydro heilend, Geo defensiv, Umbra sabotierend …) sind der Anhaltspunkt – wer die Figur im Kern ist, entscheidet, nicht was sie kämpft. Kein Element ist mechanisch besser als ein anderes, es gibt also keinen Grund, aus Gameplay-Sicht zu wählen.
 
 #### Speech Pattern – wie die Figur einen Satz baut
 
@@ -132,16 +138,18 @@ Hier steht **warum** sich die Figur anschließt: die Szene, die Bedingung, wer s
 
 Der Beitrittsgrund ist eine Entscheidung der Figur, kein Zufall. „Trifft die Gruppe unterwegs und schließt sich an" ist kein Grund. Was gewinnt sie, was riskiert sie, und was hätte sie stattdessen tun können?
 
-### Support Conversations
+### Heart-to-Hearts
 
-Zwei bis vier Partner, jeweils mit einem Halbsatz, worin die Reibung besteht. Regeln:
+Die großen Gespräche des Affinity-Systems (`design/mechanics/Affinity.md`). Zwei bis vier Partner, jeweils mit einem Halbsatz, worin die Reibung besteht. Regeln:
 
-- Partner müssen **existieren** und **erreichbar** sein. Eine Part-05-Figur hat keine Supports mit Part-06-Figuren, solange die Stränge getrennt laufen – erst ab Part 07 sind alle wieder am selben Ort.
+- Partner müssen **existieren** und **erreichbar** sein. Eine Part-05-Figur hat keine Heart-to-Hearts mit Part-06-Figuren, solange die Stränge getrennt laufen – erst ab Part 07 sind alle wieder am selben Ort.
 - Reibung, nicht Sympathie. Zwei Figuren, die sich einig sind, haben kein Gespräch.
 - **Keine zwei Spiegel.** Trägt der Partner dieselbe Wunde, trösten sich beide mit ihrem eigenen Schmerz und beide Bögen verlieren. Das gilt besonders gegenüber Dardan und Hasan.
-- S-Support nur bei romantischen Endgame-Paarungen, und nur wenn Dardan sie bestätigt hat.
+- **Genau drei Gespräche pro Paar**, jedes an einen Affinity-Rang gebunden – **D, C, B, A oder S**, pro Paar frei platziert. Nicht jeder Rang hat ein Gespräch; das ist Absicht. Ein Paar, dessen Geschichte spät zündet, hat seine drei bei B, A und S; ein Paar, das sich sofort reibt, bei D, C und A.
+- **S ist nur das Maximum der Skala**, keine Paarung. Es gibt keine Heirat, kein exklusives Paar, kein gebundenes Ende. Ob zwei Figuren einander lieben, entscheidet die Story auf dem Bogen und im Kapitel – nicht ein Rang. Ein „S-Support: Endgame only" ist ein Rest des alten Modells und wird gestrichen.
+- Ein Gespräch darf zusätzlich hinter einem Kapitel liegen („nicht vor Ch 30"), wenn es Wissen braucht, das die Gruppe vorher nicht hat. Dann steht das Kapitel dabei.
 
-C bis A skizzieren eine Bewegung: C stellt die Frage, B legt etwas offen, A verändert etwas. Ein Satz pro Rang genügt.
+Die drei skizzieren eine Bewegung: das erste stellt die Frage, das zweite legt etwas offen, das dritte verändert etwas. Ein Satz pro Gespräch genügt. Auf dem Bogen steht der Rang vor dem Satz, damit Lorekeeper beim Ausschreiben weiß, wie weit das Paar da schon ist.
 
 ### Story Role
 
@@ -173,7 +181,7 @@ Nur, was den Bogen sonst nirgends berührt und trotzdem eine Szene tragen könnt
 
 **Sprachmischung.** Überschrift Englisch, Prosa Deutsch – aber innerhalb einer Tabelle nicht halb und halb. „Effekt"/„Effect" und „Kosten"/„Cost" wechseln im Bestand mehrfach innerhalb derselben Datei. Innerhalb eines Bogens durchhalten.
 
-**Falscher Strang.** Wer bei Dardan ist, ist nicht bei Hasan. Das betrifft Supports, Schlüsselkapitel und Story Role gleichermaßen und ist der Fehler, der in diesem Projekt am häufigsten passiert.
+**Falscher Strang.** Wer bei Dardan ist, ist nicht bei Hasan. Das betrifft Heart-to-Hearts, Schlüsselkapitel und Story Role gleichermaßen und ist der Fehler, der in diesem Projekt am häufigsten passiert.
 
 **Falsches Geschlecht.** Vor dem Schreiben im Kapiteltext prüfen, nicht aus dem Namen schließen.
 
@@ -189,7 +197,7 @@ Nur, was den Bogen sonst nirgends berührt und trotzdem eine Szene tragen könnt
 
 - Eintrag in `story/characters/README.md`, im Part des Beitritts, in der richtigen Gruppe (Playable / Story)
 - Ist die Figur spielbar: Rekrutierungszeile in `design/Progression-System.md` – Beitrittslevel und Tier – über `statcraft`
-- Bögen der genannten Familienmitglieder, Mentoren und Support-Partner gegenprüfen und dort ergänzen
+- Bögen der genannten Familienmitglieder, Mentoren und Heart-to-Heart-Partner gegenprüfen und dort ergänzen
 - Ort in `story/locations/` verlinkt vorhanden?
 - `CHANGELOG.md` unter `[Unreleased] → Added`: die Figur und ihre Rolle, nicht der Dateiname
 
@@ -202,7 +210,7 @@ Nur, was den Bogen sonst nirgends berührt und trotzdem eine Szene tragen könnt
 - Backstory: ein prägendes Ereignis, nicht vier?
 - Speech Pattern gefüllt – und zwar mit Struktur, nicht mit Haltung? Könnte jemand daraus eine Dialogzeile schreiben?
 - Testmoment vorhanden und einem Kapitel zugeordnet?
-- Supports: existieren, erreichbar, kein Doppelspiegel?
+- Heart-to-Hearts: existieren, erreichbar, kein Doppelspiegel, genau drei pro Paar mit Rang?
 - Story Role: nur die Parts, in denen die Figur vorkommt?
 - Alle Template-Kommentare gelöscht, Version und Datum gesetzt?
 - Index-Eintrag geschrieben?

@@ -1,6 +1,6 @@
 # Kettenangriff
 
-> **Verwandte Dateien:** [Magic System](Magic-System.md) · [Combat Arts](Combat-Arts.md) · [Unit Classes](../catalog/Unit-Classes.md)
+> **Verwandte Dateien:** [Magic System](Magic-System.md) · [Combat Arts](Combat-Arts.md) · [Unit Classes](../catalog/Unit-Classes.md) · [Affinity](Affinity.md) – ein ausgeführter Kettenangriff ist eine Affinity-Quelle für alle drei Paare der Beteiligten
 
 ---
 
