@@ -46,7 +46,7 @@ How characters, classes, and abilities develop across all 64 chapters of Vigilan
 | 05 | 6 | 8 | Lina, Marven | Magic Introduction · one tome per element found |
 | 06 | 8 | 9 | - | [Affinity](mechanics/Affinity.md) – map talks on the map, the first Heart-to-Hearts and the Affinity Chart after it · **Base class chosen at chapter end** |
 | 07 | 9 | 10 | Mikael | **First chapter played in the chosen classes** – no new system |
-| 08 | 10 | 11 | - | [The Nexus / Exchange](mechanics/The-Nexus.md) (tutorial – the hostage swap) · Boss Battle · Promotion Preview |
+| 08 | 10 | 11 | - | [The Nexus / Exchange](mechanics/Nexus.md) (tutorial – the hostage swap) · Boss Battle · Promotion Preview |
 
 **Why the class choice sits at the end of Ch 06:** By that point the player has seen movement, the weapon triangle, terrain, objectives, naval combat, magic (Ch 05) and affinity – the map talks and the first Heart-to-Hearts of Ch 06 ([Affinity](mechanics/Affinity.md)). The first irreversible decision of the campaign is therefore made with the systems already demonstrated rather than guessed at – and Ch 07 is immediately there to play the result.
 
@@ -87,7 +87,7 @@ How characters, classes, and abilities develop across all 64 chapters of Vigilan
 | 18 | 21 | 22 | - | Ghost Ship (Horror Theme) |
 | 19 | 22 | 24 | Kassandra | Thysian Combat Arts |
 | 20 | 24 | 25 | - | Darkness Magic (Umbra) |
-| 21 | 25 | 26 | - | [Heartpulse (The Nexus)](mechanics/The-Nexus.md) – the labyrinth under the northern temple |
+| 21 | 25 | 26 | - | [Heartpulse (The Nexus)](mechanics/Nexus.md) – the labyrinth under the northern temple |
 | 22 | 26 | 27 | Rohan | Desert Survival Mechanics · Sandstorm Hazards |
 | 23 | 27 | 28 | - | Arena Tournament (Multi-Battle) |
 | 24 | 28 | 29 | - | Dardan's Awakening (Story Event) |
@@ -210,7 +210,7 @@ Master Classes (Sword Saint, Nightveil, Arcanist, ...)
                                   from Ch 08 and outside Capacity
 ```
 
-**Unique is Master plus a Lord Kit, not a class of its own.** Dardan and Hasan promote into a Master class like everyone else – same gate, same seal, same terminal tier. What sets them apart is the Lord Kit: the Lord's Unique-class abilities (Lv 45 and above, story-unlocked, laid on top of the Master class) **plus** – for Dardan – the Nexus abilities, which unlock by chapter from Ch 08 and sit outside Capacity ([The Nexus](mechanics/The-Nexus.md)). The *Lord Title* is simply the Master class's name when Dardan or Hasan hold it – Sword Saint reads *Aetherblade*, Shadow Monarch reads *Ashborn* – and is cosmetic. Which Master class carries which title, and what each kit contains, is in [catalog/Unit-Classes.md](catalog/Unit-Classes.md).
+**Unique is Master plus a Lord Kit, not a class of its own.** Dardan and Hasan promote into a Master class like everyone else – same gate, same seal, same terminal tier. What sets them apart is the Lord Kit: the Lord's Unique-class abilities (Lv 45 and above, story-unlocked, laid on top of the Master class) **plus** – for Dardan – the Nexus abilities, which unlock by chapter from Ch 08 and sit outside Capacity ([The Nexus](mechanics/Nexus.md)). The *Lord Title* is simply the Master class's name when Dardan or Hasan hold it – Sword Saint reads *Aetherblade*, Shadow Monarch reads *Ashborn* – and is cosmetic. Which Master class carries which title, and what each kit contains, is in [catalog/Unit-Classes.md](catalog/Unit-Classes.md).
 
 That makes **four promotions** across the campaign, not five.
 
@@ -363,7 +363,7 @@ See [Balancing Guide](Balancing-Guide.md) for growth rate budgets and absolute c
 | Part 08, trigger open | Aetherblade | **Nexus Mastery** (every Nexus cooldown removed, Exchange and Lifeline ranges grow) – Ch 49–52, whether by chapter or by level is not decided |
 | *chapter open* | – | **Lifeline** (The Nexus – chapter unlock; Dardan has not set the chapter) |
 
-The Nexus rows are placed by the level Dardan holds in the unlocking chapter per the [level curve](#-level-curve-per-part); their rules are in [The Nexus](mechanics/The-Nexus.md).
+The Nexus rows are placed by the level Dardan holds in the unlocking chapter per the [level curve](#-level-curve-per-part); their rules are in [The Nexus](mechanics/Nexus.md).
 
 ---
 

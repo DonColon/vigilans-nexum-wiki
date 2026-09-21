@@ -32,7 +32,7 @@ Alle Level-Designs für die **64 Kapitel** von Vigilans Nexum (8 Parts × 8 Kapi
 | 05 | A Heart Of Gold | Story | Rout Enemy | Magic System | [📄](Level-05-A-Heart-Of-Gold.md) |
 | 06 | Heroes Are Made By The Path They Choose... | Story | Defend NPC | [Affinity](../mechanics/Affinity.md) – the first map talks; the first Heart-to-Hearts and the Affinity Chart after the map | [📄](Level-06-Heroes-Are-Made-By-The-Path-They-Choose.md) |
 | 07 | ...Not By The Power They Are Graced With | Story | Survive + Objective | First chapter played in the chosen classes (no new system – see [Progression System](../Progression-System.md#part-01-path-of-liberation-chapters-1-8)) | [📄](Level-07-Not-By-The-Power-They-Are-Graced-With.md) |
-| 08 | The Vigilant Knights | Boss | Defeat Boss | [The Nexus / Exchange](../mechanics/The-Nexus.md) – tutorial: the player performs the swap with the hostage Elena | [📄](Level-08-The-Vigilant-Knights.md) |
+| 08 | The Vigilant Knights | Boss | Defeat Boss | [The Nexus / Exchange](../mechanics/Nexus.md) – tutorial: the player performs the swap with the hostage Elena | [📄](Level-08-The-Vigilant-Knights.md) |
 
 ---
 
@@ -65,7 +65,7 @@ Alle Level-Designs für die **64 Kapitel** von Vigilans Nexum (8 Parts × 8 Kapi
 | 18 | Dead Men Tell No Tales | 📦 Im Kapitel |
 | 19 | Welcome To Thysia | 📦 Im Kapitel |
 | 20 | When The Light Above Fades... | 📦 Im Kapitel |
-| 21 | ...Seek The Light Within | 📦 Im Kapitel · Neue Mechanik: [Heartpulse (The Nexus)](../mechanics/The-Nexus.md) |
+| 21 | ...Seek The Light Within | 📦 Im Kapitel · Neue Mechanik: [Heartpulse (The Nexus)](../mechanics/Nexus.md) |
 | 22 | The Desert Knows No Kings | 📦 Im Kapitel |
 | 23 | Death Or Glory | 📦 Im Kapitel |
 | 24 | The Great Pretender | 📦 Im Kapitel |
@@ -136,7 +136,7 @@ Alle Level-Designs für die **64 Kapitel** von Vigilans Nexum (8 Parts × 8 Kapi
 | 41 | Where It All Began | 📦 Im Kapitel |
 | 42 | Fear Makes Believers | 📦 Im Kapitel |
 | 43 | She Who Judges All | 📦 Im Kapitel |
-| 44 | ...Must Face The One Who Refuses To Fall | 📦 Im Kapitel · Neue Mechanik: [Earthbound (The Nexus)](../mechanics/The-Nexus.md) |
+| 44 | ...Must Face The One Who Refuses To Fall | 📦 Im Kapitel · Neue Mechanik: [Earthbound (The Nexus)](../mechanics/Nexus.md) |
 | 45 | The Weight Of What We Know | 📦 Im Kapitel |
 | 46 | What A Legend Leaves Behind | 📦 Im Kapitel |
 | 47 | The Devil Of The Sea | 📦 Im Kapitel |

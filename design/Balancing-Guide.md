@@ -477,7 +477,7 @@ Every pair not listed starts at *no rank*. A starting rank sets the pair's point
 
 ### The Nexus
 
-*Proposal – every value in this section is a first draft for tuning unless marked otherwise, and several are still not set.* The rules are in [The Nexus](mechanics/The-Nexus.md); this section holds the tuning values that document links to. Three of the tables read the **affinity rank** between Dardan and a unit, on the scale of [Affinity](mechanics/Affinity.md) above. Two requirements decided by Dardan and honoured by the [starting ranks](#starting-ranks): **the eight Vigilant Knights start at C with Dardan**, and **Elena holds B with Dardan in Ch 08** – the Ch 08 tutorial depends on it.
+*Proposal – every value in this section is a first draft for tuning unless marked otherwise, and several are still not set.* The rules are in [The Nexus](mechanics/Nexus.md); this section holds the tuning values that document links to. Three of the tables read the **affinity rank** between Dardan and a unit, on the scale of [Affinity](mechanics/Affinity.md) above. Two requirements decided by Dardan and honoured by the [starting ranks](#starting-ranks): **the eight Vigilant Knights start at C with Dardan**, and **Elena holds B with Dardan in Ch 08** – the Ch 08 tutorial depends on it.
 
 #### Exchange
 
@@ -500,7 +500,7 @@ Every pair not listed starts at *no rank*. A starting rank sets the pair's point
 
 #### Nexus Mastery
 
-Unlocked in Part 08 (trigger open – see [The Nexus → Open decisions](mechanics/The-Nexus.md#open-decisions)). Removing every Nexus cooldown is a rule and stays in the mechanic document; the value here is the range growth.
+Unlocked in Part 08 (trigger open – see [The Nexus → Open decisions](mechanics/Nexus.md#open-decisions)). Removing every Nexus cooldown is a rule and stays in the mechanic document; the value here is the range growth.
 
 | Parameter | Value |
 |-----------|-------|
@@ -523,7 +523,7 @@ Unlocked in Part 08 (trigger open – see [The Nexus → Open decisions](mechani
 | **A** | 5 |
 | **S** | 6 |
 
-**Design intent:** the share must be large enough that a linked front-liner survives one hit it would not have survived alone, and large enough that three enemy attacks on that front-liner in one Enemy Phase put Dardan in real danger – Lifeline is only a decision because it can kill him. There is no floor and no separate difficulty scaling here; if a mode ever changes the share, the column goes in the [difficulty table](#-difficulty-mode-scaling). **Why the range equals the Exchange range:** the band reaches as far as the bond, whatever runs along it – one table to learn, and a player who knows whom Dardan can swap with knows whom he can link. The line is checked only when placed and holds at any distance afterwards (rule, [The Nexus → 3](mechanics/The-Nexus.md#3--lifeline)).
+**Design intent:** the share must be large enough that a linked front-liner survives one hit it would not have survived alone, and large enough that three enemy attacks on that front-liner in one Enemy Phase put Dardan in real danger – Lifeline is only a decision because it can kill him. There is no floor and no separate difficulty scaling here; if a mode ever changes the share, the column goes in the [difficulty table](#-difficulty-mode-scaling). **Why the range equals the Exchange range:** the band reaches as far as the bond, whatever runs along it – one table to learn, and a player who knows whom Dardan can swap with knows whom he can link. The line is checked only when placed and holds at any distance afterwards (rule, [The Nexus → 3](mechanics/Nexus.md#3--lifeline)).
 
 #### Heartpulse
 
@@ -531,7 +531,7 @@ Once per chapter is a rule and stays in the mechanic document. The value here is
 
 | Affinity rank | Heartpulse heal (per unit, by that unit's rank with Dardan) |
 |---------------|-------------------------------------------------------------|
-| *(no rank)* | **0** – not reached (rule, [Affinity → Core Rules → 8](mechanics/Affinity.md#8--what-the-nexus-reads)) |
+| *(no rank)* | **0** – not reached (rule, [Affinity → Core Rules → 8](mechanics/Affinity.md#8--what-nexus-reads)) |
 | **D** | 10 % of the unit's maximum HP |
 | **C** | 15 % |
 | **B** | 20 % |
