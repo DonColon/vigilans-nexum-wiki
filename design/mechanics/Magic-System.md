@@ -1,6 +1,6 @@
 # Magic System
 
-> **Verwandte Dateien:** [Magic Tomes](../catalog/Magic-Tomes.md) · [Combat Arts](Combat-Arts.md) · [Abilities](Abilities.md) · [Unit Classes](../catalog/Unit-Classes.md)
+> **Verwandte Dateien:** [Magic Tomes](../catalog/Magic-Tomes.md) · [Combat Arts](Combat-Arts.md) · [Abilities](Abilities.md) · [Unit Classes](../catalog/Unit-Classes.md) · [The Nexus](Nexus.md) *(Wavelength — die einzige Ausnahme bei der Elementapplikation)*
 
 ---
 
@@ -22,7 +22,7 @@ Das Magiesystem von Tridera teilt sich in zwei parallele Systeme auf — Magier 
 | Bedingung | Regel |
 | ------ | ----- |
 | Magier | Applizieren Elemente bei jedem Angriff automatisch |
-| Nicht-Magier | Benötigen Combat Arts um Elemente zu applizieren |
+| Nicht-Magier | Benötigen Combat Arts um Elemente zu applizieren — **einzige Ausnahme:** Dardan mit aktivem [*Wavelength*](Nexus.md#8--wavelength) appliziert mit normalen Angriffen, löst aber nie eine Reaktion aus (siehe [Wie Elemente appliziert werden](#wie-elemente-appliziert-werden)) |
 | Reaktion auslösen | Zweites Element auf einen Gegner mit bereits appliziertem Element anwenden |
 | MP-Verfügbarkeit | Angriffe und Arts erfordern ausreichend MP |
 
@@ -192,6 +192,13 @@ Lux und Natura haben keine Schwäche gegeneinander. Der Natura-Zyklus ist bewuss
 | ------ | ---------- |
 | Magier       | Jeden Angriff    |
 | Nicht-Magier | Combat Arts      |
+| Dardan mit aktivem *Wavelength* | Jeden normalen Angriff — **die einzige Ausnahme**, siehe unten |
+
+#### Die einzige Ausnahme: *Wavelength*
+
+Dardans Nexus-Fähigkeit [*Wavelength*](Nexus.md#8--wavelength) leiht sich die **Elementaraffinität eines lebenden Verbündeten** und legt es für eine begrenzte, vom Affinitätsrang abhängige Anzahl von Angriffen auf seine Klinge. Solange sie läuft, appliziert er mit einem **normalen Angriff** — ohne Combat Art. Das ist die einzige Stelle im Spiel, an der ein Nicht-Magier das kann, und sie ist absichtlich eng: **eine** Einheit, ein Kommando mit Cooldown, ein geliehenes Element, gezählte Angriffe, ein lebender Verbündeter in Reichweite des Bandes. Die Regeln dazu stehen in [The Nexus](Nexus.md#8--wavelength), die Werte im [Balancing Guide](../Balancing-Guide.md#nexus).
+
+**Er appliziert — er löst nie aus.** Dardan bleibt Nicht-Magier. Trifft ein *Wavelength*-Angriff einen Gegner, der bereits ein Element trägt, gilt unverändert die Zeile *Normaler Angriff (Nicht-Magier) auf Element*: Schaden, und das Element **bleibt liegen**. Die Reaktion zündet jemand anderes — ein Magier, die Combat Art eines Verbündeten oder Dardans eigene Art nach deren eigenen Regeln. Er ist der Setzende, nie der Auslösende; das ist der Grund, warum die Ausnahme genau einmal erlaubt ist, ohne das Zwei-Systeme-Modell aus der *Übersicht* aufzulösen.
 
 ### Wie Reaktionen ausgelöst werden
 
@@ -201,6 +208,7 @@ Lux und Natura haben keine Schwäche gegeneinander. Der Natura-Zyklus ist bewuss
 | Magier-Angriff auf Element                           | Elementarreaktion ausgelöst             |
 | Combat Art (Nicht-Magier) auf Element                | Elementarreaktion ausgelöst             |
 | Nicht-Magier A appliziert → Nicht-Magier B nutzt Art | Reaktion ausgelöst                      |
+| *Wavelength*-Angriff (Dardan) auf Element            | Schaden — Element **bleibt** auf Gegner |
 
 ---
 
@@ -311,7 +319,7 @@ Lux und Natura haben keine Schwäche gegeneinander. Der Natura-Zyklus ist bewuss
 
 ---
 
-**Version:** 1.1
+**Version:** 1.2
 **Erstellt:** 2026-06-09
-**Zuletzt aktualisiert:** 2026-09-18
-**Querverweise:** [Magic Tomes](../catalog/Magic-Tomes.md) · [Combat Arts](Combat-Arts.md) · [Abilities](Abilities.md) · [Chain Attack](Chain-Attack.md) · [Growth Modifiers](Growth-Modifiers.md)
+**Zuletzt aktualisiert:** 2026-09-22 – *Wavelength* als einzige Ausnahme bei der Elementapplikation durch Nicht-Magier eingetragen (entschieden von Dardan, 2026-09-22)
+**Querverweise:** [Magic Tomes](../catalog/Magic-Tomes.md) · [Combat Arts](Combat-Arts.md) · [Abilities](Abilities.md) · [Chain Attack](Chain-Attack.md) · [Growth Modifiers](Growth-Modifiers.md) · [The Nexus](Nexus.md)

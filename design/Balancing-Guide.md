@@ -543,6 +543,29 @@ Rounded down, minimum 1 HP where the row is above zero; overheal is lost.
 
 **Why a percentage of maximum HP:** Heartpulse is usable from Ch 21 to Ch 52 and cannot read Mag (Dardan's sword line does not grow it – the same reason the kit has no MP cost); a flat heal would be a full heal in Part 03 and a scratch in Part 08, and the poison tick above already uses the percentage form for the same reason. **Why the S row is 40 %:** it stays **below a single-target staff heal of the same chapter** (`Mag + Rank Bonus`, [Healing](#1--healing)) on any one unit – at Lv 26 a staff heal restores roughly two thirds of a unit's HP, at Lv 60 roughly three quarters – and it sits at the level of *Fortify* (a multi-target heal for half the amount). Heartpulse is wide, a staff is deep, and the once-per-chapter limit only keeps healers in the game if the pulse does not out-heal them per target. **Why Dardan takes the D row:** the band carries strength outward; the unit at its centre is the last one it heals.
 
+#### Wavelength
+
+The rules are in [Nexus → Core Rules → 8](mechanics/Nexus.md#8--wavelength). Two levers, **both still open** – neither can be derived from an existing table, and neither is invented here.
+
+| Parameter | Value |
+|-----------|-------|
+| Wavelength cooldown (turns, global, flat) | *not yet set* |
+
+| Affinity rank | Wavelength attacks (how long the borrowed element lasts) |
+|---------------|-----------------------------------------------------------|
+| *(no rank)* | *not reachable – rule: no rank, no loan* |
+| **D** | *not yet set* |
+| **C** | *not yet set* |
+| **B** | *not yet set* |
+| **A** | *not yet set* |
+| **S** | *not yet set* |
+
+**The one rule the row must obey:** the number **rises monotonically with the rank** – that is fixed in the mechanic and is not a tuning decision. Everything else is open.
+
+**Design intent the values will have to express**, written so that the row can be filled later without re-deriving it: the cooldown is the *cadence of the setter* – Dardan should be able to change the element he carries several times on a map of ordinary length, but not every turn, or the choice of donor stops being a choice. The attack count decides whether a loan survives an Enemy Phase: at the low ranks it should be spent on the Player Phase Dardan set it on, at the high ranks it should still be on his blade when the enemy comes to him – that is what makes the rank worth having, and it is the same shape as the Exchange range table (a small number that grows one step at a time and is learnable without looking it up).
+
+**Range:** Wavelength reads the band's rank-range and, in the conservative reading, **shares the Exchange and Lifeline table above** rather than owning a third one ([Nexus → Open decisions → 28](mechanics/Nexus.md#open-decisions)). No separate range row is created here; if Dardan wants one, it belongs beside the other two.
+
 #### Earthbound
 
 | Parameter | Value |
@@ -553,7 +576,9 @@ Rounded down, minimum 1 HP where the row is above zero; overheal is lost.
 
 **Why 1–2:** the seal is a full action on the Lord, so it should not cost him his position on top – range 1 alone would mean walking Dardan into the press to seal the healer behind it. Range 2 matches the reach of every other targeted command in the catalog (Disarray, Ensnare, Mystic Pull) and keeps him out of the front line's counter. Longer would make it artillery. **Duration and cooldown:** the duration is the window in which the Dajjal is vulnerable (Level 52) and, on every map from Ch 44, the number of Enemy Phases a healer stays silent. Design intent proposed: **cooldown at or above the duration**, so at most one enemy is sealed at a time and the seal is a choice of target rather than a rolling blanket – Dardan's to confirm (see the mechanic's *Open decisions*).
 
-Fixed by rule, not tuned here: no rank scaling and no hit roll on Earthbound; the cooldowns do not scale with rank; one Lifeline at a time; Lifeline shares attack damage and moves status effects whole onto Dardan; Nexus Mastery removes every cooldown; Nexus abilities take no Capacity; a unit with no affinity rank is reached by no Nexus ability. Everything about the Dajjal's chain – how many units, how much healing, how often reinforcements come – belongs to the Level 52 document.
+**Soulcairn has no values of its own, by decision** – it reads the [rank thresholds](#rank-thresholds), the [combat bonus by rank](#combat-bonus-by-rank), the [element mixes](#element-mixes) and the [bonus range](#bonus-range) of the Affinity section above, unchanged. Tuning those tunes it with them; there is no separate lever and no table for it here ([Nexus → Core Rules → 7](mechanics/Nexus.md#7--soulcairn)).
+
+Fixed by rule, not tuned here: Wavelength is a command on a cooldown and not a use per chapter, borrows the element only, fixes it at the moment of the command, applies without a Combat Art (the Magic System's one exception) and never triggers a reaction, and its attack count rises monotonically with the rank; no rank scaling and no hit roll on Earthbound; the cooldowns do not scale with rank; one Lifeline at a time; Lifeline shares attack damage and moves status effects whole onto Dardan; Nexus Mastery removes every cooldown; Nexus abilities take no Capacity; a unit with no affinity rank is reached by no Nexus ability. Everything about the Dajjal's chain – how many units, how much healing, how often reinforcements come – belongs to the Level 52 document.
 
 ### Class Type Templates
 
