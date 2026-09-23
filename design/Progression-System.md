@@ -363,6 +363,7 @@ See [Balancing Guide](Balancing-Guide.md) for growth rate budgets and absolute c
 | Part 08, trigger open | Aetherblade | **Nexus Mastery** (every Nexus cooldown removed, Exchange and Lifeline ranges grow) – Ch 49–52, whether by chapter or by level is not decided |
 | *chapter open* | – | **Lifeline** (The Nexus – chapter unlock; Dardan has not set the chapter) |
 | *chapter open* | – | **Wavelength** (The Nexus – chapter unlock; Dardan has not set the chapter) |
+| *chapter open* | – | **Bloodoath** (The Nexus – chapter unlock; Dardan has not set the chapter) |
 | *no level, no chapter* | – | **Soulcairn** (The Nexus – appears at the first permanent loss in Classic; never in Casual, and never in a run without losses) |
 
 The Nexus rows are placed by the level Dardan holds in the unlocking chapter per the [level curve](#-level-curve-per-part); their rules are in [The Nexus](mechanics/Nexus.md). Soulcairn has no row in the curve because it is gated by an event the player causes, not by a level or a chapter.

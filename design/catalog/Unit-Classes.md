@@ -365,7 +365,7 @@ Master is the terminal tier. The *Lord Title* column is the name the class carri
 | Name               | Move Type | Weapon Types                  | Class Abilities  | Mastery Ability | Lord Title          | Promotes to |
 | ------------------ | --------- | ----------------------------- | ---------------- | --------------- | ------------------- | ----------- |
 | Sword Saint        | Infantry  | Sword                         | Aether           | Foresight       | Aetherblade         | -           |
-| Blade Dancer       | Infantry  | Sword, Knife                  | Whirl            | Encore          | Vortex Reaver       | -           |
+| Blade Dancer       | Infantry  | Sword, Knife                  | Whirl            |                 | Vortex Reaver       | -           |
 | Astra Knight       | Cavalry   | Sword                         | Canto            | Astra           | Starforged          | -           |
 | Griffon Lord       | Flying    | Sword                         | Canto            | Stoop           | Grypharion          | -           |
 | Sentinel           | Infantry  | Lance                         | Wall of Spears   | Impale          | Dragoon of Zoah     | -           |
@@ -388,7 +388,7 @@ Master is the terminal tier. The *Lord Title* column is the name the class carri
 | Siege Breaker      | Infantry  | Artillery                     | Wallbreaker      | Bastion         | Living Fortress     | -           |
 | Behemoth           | Infantry  | Chain                         | Apex Predator    | Snatch          | Legiana             | -           |
 | Leviathan          | Infantry  | Chain, Lance                  | Wake             | Deep Water      | Lagiacrus           | -           |
-| Celestial Valkyrie | Cavalry   | Staff, Sword                  | Canto            | Second Breath   | Valkyros            | -           |
+| Celestial Valkyrie | Cavalry   | Staff, Sword                  | Canto            |                 | Valkyros            | -           |
 | Arch Bishop        | Infantry  | Staff, Lux                    | Sanctuary        | Litany          | Voice of Aurevia    | -           |
 | Arcanist           | Infantry  | Natura Magic (3 Types)        | Convergence      | Trinity         | Avatar*             | -           |
 | Radiant Monarch    | Infantry  | Lux, Staff                    | Corona           | Aurelian Ward   | Aurelius            | -           |
@@ -403,5 +403,5 @@ Citizen is the starting class of the eight Vigilant Knights and the only class t
 | Name             | Move Type       | Weapon Types            | Class Abilities                    | Mastery Ability | Promotes to    |
 | ---------------- | --------------- | ----------------------- | ---------------------------------- | --------------- | -------------- |
 | Citizen          | Infantry        | All types (staged: Ch 01 / 04 / 05, see above) | Adaptability, Discipline, Aptitude | Bellum's Will   | Any base class |
-| Lord Kit: Dardan | as Master class | as Master class         | **The Nexus** – Exchange (Ch 08), Heartpulse (Ch 21), Earthbound (Ch 44), Lifeline (chapter open), Wavelength (chapter open), Soulcairn (no chapter – from the first Classic loss), unlocked by chapter and outside Capacity, rules in [The Nexus](../mechanics/Nexus.md); Nexus Mastery (Part 08, trigger open), Bond of Souls (Lv 54) – see [ability timeline](../Progression-System.md#sample-ability-timeline-dardan) | -               | -              |
+| Lord Kit: Dardan | as Master class | as Master class         | **The Nexus** – Exchange (Ch 08), Heartpulse (Ch 21), Earthbound (Ch 44), Lifeline (chapter open), Wavelength (chapter open), Bloodoath (chapter open), Soulcairn (no chapter – from the first Classic loss), unlocked by chapter and outside Capacity, rules in [The Nexus](../mechanics/Nexus.md); Nexus Mastery (Part 08, trigger open), Bond of Souls (Lv 54) – see [ability timeline](../Progression-System.md#sample-ability-timeline-dardan) | -               | -              |
 | Lord Kit: Hasan  | as Master class | as Master class         | *not yet defined*                  | -               | -              |
