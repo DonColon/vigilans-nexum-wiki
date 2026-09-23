@@ -588,6 +588,23 @@ The rules are in [Nexus → Core Rules → 9](mechanics/Nexus.md#9--bloodoath). 
 
 **Design intent the values will have to express**, written so that the rows can be filled later without re-deriving them: the **cooldown** is the cadence of the oath, and because each oath puts one Enemy Phase under a defeat condition the player chose, it also sets how many such phases a map of ordinary length can hold – several, never every turn. The **Echo range** decides whether a pair can hold a wall and a firing line at once: at D the two should have to stand close, so a new bond binds two units already fighting side by side; at S they should be able to split a front line from the rank behind it. The same shape as the Exchange table – a small number that grows one step per rank and is learnable without looking it up – is the natural candidate, but whether the Echo range should be shorter than the band's reach (the partner strikes, it does not only swap) is the question the row has to answer. The **echo strike strength** decides whether the Echo is a second attacker or a chip: at full strength a bound wall on the Enemy Phase doubles its damage output, which is the ceiling the other two levers have to be tuned against.
 
+#### Dawnbreak
+
+The rules are in [Nexus → Core Rules → 10](mechanics/Nexus.md#10--dawnbreak). Three of its values are **rules set by Dardan**, not levers – they are recorded here because every number lives here, and they are marked so that nobody tunes them. One lever is **still open**.
+
+| Parameter | Value |
+|-----------|-------|
+| Dawnbreak base length (tiles – the line when nobody is counted) | **2** *(decided by Dardan – rule)* |
+| Dawnbreak step (tiles added per counted ally, the same for every rank) | **+1** *(decided by Dardan – rule)* |
+| Dawnbreak cap (tiles) | **8** *(decided by Dardan – rule)* |
+| Dawnbreak strike strength (relative to Dardan's ordinary strike with his equipped weapon, per target) | *not yet set* – conservative rule until then: one ordinary strike ([Nexus → Open decisions → 41](mechanics/Nexus.md#open-decisions)) |
+
+**What the rules add up to:** six counted allies reach the cap; a seventh adds nothing. The cap is the game's own number – eight Knights, eight Parts of eight chapters, eight Nexus abilities. The base is what Dardan strikes with when nobody stands with him.
+
+**Count radius:** Dawnbreak has **no radius of its own**. It counts the allies within the Affinity [bonus range](#bonus-range) above; that value is Affinity's lever, and tuning it tunes Dawnbreak with it.
+
+**Design intent the open lever will have to express:** the line is a once-per-chapter strike that can reach several enemies without a roll, so its strength is multiplied by the number of enemies on it. At the ordinary strike it is Dardan's normal damage spread over a row – strong because of the width and the certainty, not the size of any single hit. Anything above the ordinary strike should be read against the cap first: a line at the cap through a column of enemies is the ceiling this row has to be tuned against.
+
 #### Earthbound
 
 | Parameter | Value |
@@ -600,7 +617,7 @@ The rules are in [Nexus → Core Rules → 9](mechanics/Nexus.md#9--bloodoath). 
 
 **Soulcairn has no values of its own, by decision** – it reads the [rank thresholds](#rank-thresholds), the [combat bonus by rank](#combat-bonus-by-rank), the [element mixes](#element-mixes) and the [bonus range](#bonus-range) of the Affinity section above, unchanged. Tuning those tunes it with them; there is no separate lever and no table for it here ([Nexus → Core Rules → 7](mechanics/Nexus.md#7--soulcairn)).
 
-Fixed by rule, not tuned here: Wavelength is a command on a cooldown and not a use per chapter, borrows the element only, fixes it at the moment of the command, applies without a Combat Art (the Magic System's one exception) and never triggers a reaction, and its attack count rises monotonically with the rank; Bloodoath is an action on a cooldown, lasts until Dardan's next Player Phase and cannot be lifted, its Echo fires without a roll when the partner is within the pair's range at that moment, the echo strike cannot be countered, wears no shield and triggers no further Echo, its act-again fires once per oath, and either bound unit's fall loses the map; no rank scaling and no hit roll on Earthbound; the cooldowns do not scale with rank; one Lifeline at a time; Lifeline shares attack damage and moves status effects whole onto Dardan; Nexus Mastery removes every cooldown; Nexus abilities take no Capacity; a unit with no affinity rank is reached by no Nexus ability. Everything about the Dajjal's chain – how many units, how much healing, how often reinforcements come – belongs to the Level 52 document.
+Fixed by rule, not tuned here: Wavelength is a command on a cooldown and not a use per chapter, borrows the element only, fixes it at the moment of the command, applies without a Combat Art (the Magic System's one exception) and never triggers a reaction, and its attack count rises monotonically with the rank; Bloodoath is an action on a cooldown, lasts until Dardan's next Player Phase and cannot be lifted, its Echo fires without a roll when the partner is within the pair's range at that moment, the echo strike cannot be countered, wears no shield and triggers no further Echo, its act-again fires once per oath, and either bound unit's fall loses the map; Dawnbreak is an action once per chapter, its base, step and cap are the rule values above, rank does not matter to its count, beasts, Other-faction units and Soulcairn are never counted, walls stop it, it strikes every enemy on the line and no ally, draws no counter and applies no element, and – in the conservative reading – rolls nothing; no rank scaling and no hit roll on Earthbound; the cooldowns do not scale with rank; one Lifeline at a time; Lifeline shares attack damage and moves status effects whole onto Dardan; Nexus Mastery removes every cooldown; Nexus abilities take no Capacity; a unit with no affinity rank is reached by no Nexus ability. Everything about the Dajjal's chain – how many units, how much healing, how often reinforcements come – belongs to the Level 52 document.
 
 ### Class Type Templates
 
