@@ -193,12 +193,15 @@ Lux und Natura haben keine Schwäche gegeneinander. Der Natura-Zyklus ist bewuss
 | Magier       | Jeden Angriff    |
 | Nicht-Magier | Combat Arts      |
 | Dardan mit aktivem *Wavelength* | Jeden normalen Angriff — **die einzige Ausnahme**, siehe unten |
+| Dardan während des *Soulcairn*-Rufs (nur mit *Nexus Mastery*) | Jeden normalen Angriff — dieselbe Ausnahme, siehe unten |
 
 #### Die einzige Ausnahme: *Wavelength*
 
 Dardans Nexus-Fähigkeit [*Wavelength*](Nexus.md#8--wavelength) leiht sich die **Elementaraffinität eines lebenden Verbündeten** und legt es für eine begrenzte, vom Affinitätsrang abhängige Anzahl von Angriffen auf seine Klinge. Solange sie läuft, appliziert er mit einem **normalen Angriff** — ohne Combat Art. Das ist die einzige Stelle im Spiel, an der ein Nicht-Magier das kann, und sie ist absichtlich eng: **eine** Einheit, ein Kommando mit Cooldown, ein geliehenes Element, gezählte Angriffe, ein lebender Verbündeter in Reichweite des Bandes. Die Regeln dazu stehen in [The Nexus](Nexus.md#8--wavelength), die Werte im [Balancing Guide](../Balancing-Guide.md#nexus).
 
 **Er appliziert — er löst nie aus.** Dardan bleibt Nicht-Magier. Trifft ein *Wavelength*-Angriff einen Gegner, der bereits ein Element trägt, gilt unverändert die Zeile *Normaler Angriff (Nicht-Magier) auf Element*: Schaden, und das Element **bleibt liegen**. Die Reaktion zündet jemand anderes — ein Magier, die Combat Art eines Verbündeten oder Dardans eigene Art nach deren eigenen Regeln. Er ist der Setzende, nie der Auslösende; das ist der Grund, warum die Ausnahme genau einmal erlaubt ist, ohne das Zwei-Systeme-Modell aus der *Übersicht* aufzulösen.
+
+**Unter *Nexus Mastery* (Part 08) bleibt die Ausnahme Dardans und wird an zwei Stellen weiter** ([The Nexus → Core Rules → 11](Nexus.md#11--nexus-mastery)): Ein *Wavelength*-Element landet zusätzlich auf jedem Gegner, der an das Ziel angrenzt; und während des einmal pro Karte nutzbaren *Soulcairn*-Rufs applizieren seine normalen Angriffe das Element der schwersten gefallenen Einheit. Beides appliziert, nichts davon löst aus, und er trägt weiterhin nur ein Element zugleich – ein *Wavelength*-Element ersetzt das der Gefallenen, bis seine Angriffe verbraucht sind. Es bleibt eine Einheit, und es bleibt eine Ausnahme.
 
 ### Wie Reaktionen ausgelöst werden
 
@@ -209,6 +212,7 @@ Dardans Nexus-Fähigkeit [*Wavelength*](Nexus.md#8--wavelength) leiht sich die *
 | Combat Art (Nicht-Magier) auf Element                | Elementarreaktion ausgelöst             |
 | Nicht-Magier A appliziert → Nicht-Magier B nutzt Art | Reaktion ausgelöst                      |
 | *Wavelength*-Angriff (Dardan) auf Element            | Schaden — Element **bleibt** auf Gegner |
+| Angriff während des *Soulcairn*-Rufs (Dardan) auf Element | Schaden — Element **bleibt** auf Gegner |
 
 ---
 

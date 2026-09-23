@@ -10,6 +10,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ### Added
 
+**Nexus Mastery reworked: every Nexus ability gets its own Part 08 upgrade**
+- **Mastery no longer removes every cooldown or adds range across the board. It upgrades each of the eight abilities individually.** The blanket rule no longer fit the newer abilities: a Wavelength without a cooldown would be a permanently borrowed element, and Heartpulse and Dawnbreak have no cooldown at all. Eight abilities with eight upgrades makes Part 08 the part where the whole band grows up
+- **The eight upgrades:**
+  - **Exchange:** triggers on the Enemy Phase. When a hit on an ally in range lands and would kill, Dardan takes their place and the hit is recalculated against him. It's automatic, once per unit per map, and never fires if the hit would kill Dardan too, so it never turns a lost ally into a forced game over. Also +2 range
+  - **Lifeline:** two lines at once, +2 range, still no floor
+  - **Heartpulse:** also removes every status effect, and heals as if each rank were one higher
+  - **Earthbound:** the seal also hits every enemy next to the target
+  - **Soulcairn:** a once-per-map, 3-turn call inspired by Engage. The fallen's bonus applies even when living partners are near, never stacking, and Dardan's blade carries the heaviest fallen's element. The dead still never give more than a living friend of the same rank would
+  - **Wavelength:** the element spreads to adjacent enemies, +2 donor range, still never triggers
+  - **Bloodoath:** each bound ally can act again once, instead of once per oath, and both ranges get +2
+  - **Dawnbreak:** a flat damage multiplier (value not yet set) and +2 counting radius. The cap of 8 and once per map stay
+- **The rescue on the Enemy Phase is part of Exchange's upgrade, not a ninth ability**, so the kit stays at eight. Level 52 now has to be designed for the spreading seal and the Enemy Phase Exchange. The Magic System names the Soulcairn call as a second, Mastery-only case of Dardan applying an element (Nexus Open Decisions 50–58)
+
 **Dawnbreak – the eighth Nexus ability, and the kit is closed at eight**
 - **The Nexus has exactly eight abilities, by decision.** The game runs on eight: 8 Vigilant Knights, 8 Parts of 8 chapters. Nexus Mastery and Bond of Souls stay Lord Kit passives and are not counted, so the count can't be stretched later. A rescue on the Enemy Phase ("Dardan steps in") lost the eighth slot and may return later as an upgrade to Exchange, not as a ninth ability
 - **Dardan strikes in a line as long as the number of friends standing with him.** Once per map, as his action: a straight line from Dardan that hits every enemy on it, with no counters. Allies on the line are unharmed and walls stop it. Length: a base of 2 tiles, +1 for every living ally holding an affinity rank with him within the affinity bonus range, capped at 8. **Rank doesn't matter.** Every other Nexus ability reads the *depth* of one bond; Dawnbreak reads the *breadth*, how many people stand with him. Summoned beasts and Soulcairn don't count. It applies no element. Reference: Xenoblade's *Monado Buster*
@@ -195,6 +208,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - The `*Only for Dardan/Hasan` footnote and the `, Name*` suffixes in the Advanced table's *Promotes to* column – superseded by the *Lord Title* column
 - **The Unique tier row (+12 HP / +25 MP / +6 Str-Mag / +5 Spd / +5 Def-Res) and its justification** from the Balancing Guide's class-tier modifiers. Unique is Master plus a Lord Kit, and a kit adds abilities, not stats – a stat lead for the Lords would be a power fantasy without a price
 - **Encore (Blade Dancer) and Second Breath (Celestial Valkyrie)**, the two "act again" mastery abilities. An earlier session wrote them without Dardan deciding them. Removing them keeps "act again" unclaimed while a Nexus ability built on it is being designed. Both classes' Mastery Ability cells are now empty – not yet filled, not "no mastery"
+- **Bond of Souls.** A Lord Kit passive (Lv 54, "+5 to adjacent allies' stats") that an older session wrote without Dardan deciding it. The Lv 54 slot in Dardan's ability timeline is now empty – not yet filled
 
 ### Fixed
 - **75 broken internal links reduced to 0.** The largest cluster was Game Mechanics, where all 24 subsystem links pointed at files that did not exist, while four of the five mechanics files that do exist were not linked at all

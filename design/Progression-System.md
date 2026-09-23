@@ -359,8 +359,8 @@ See [Balancing Guide](Balancing-Guide.md) for growth rate budgets and absolute c
 | 38 | Sword Master | Swordfaire |
 | 45 | Aetherblade (Unique) | Master promotion; the Lord Title |
 | 49 (Ch 44) | Aetherblade | **Earthbound** (The Nexus – chapter unlock) |
-| 54 | Aetherblade | **Bond of Souls** (Adjacent allies +5 all stats) |
-| Part 08, trigger open | Aetherblade | **Nexus Mastery** (every Nexus cooldown removed, Exchange and Lifeline ranges grow) – Ch 49–52, whether by chapter or by level is not decided |
+| 54 | Aetherblade | *not yet filled* |
+| Part 08, trigger open | Aetherblade | **Nexus Mastery** (upgrades each of the eight Nexus abilities individually – [The Nexus → Core Rules → 11](mechanics/Nexus.md#11--nexus-mastery)) – Ch 49–52, whether by chapter or by level is not decided |
 | *chapter open* | – | **Lifeline** (The Nexus – chapter unlock; Dardan has not set the chapter) |
 | *chapter open* | – | **Wavelength** (The Nexus – chapter unlock; Dardan has not set the chapter) |
 | *chapter open* | – | **Bloodoath** (The Nexus – chapter unlock; Dardan has not set the chapter) |
