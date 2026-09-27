@@ -38,6 +38,8 @@ Ihre ruhige Oberfläche verbirgt eine Frau die tief fühlt und selten darüber s
 
 **Elemental Affinity:** Lux
 
+**Biorhythm:** Solus
+
 ## Backstory
 
 Lina kam mit etwa drei Jahren ins Waisenhaus von Bellum. Niemand weiß woher sie kam. Es gab keine Notiz, keinen Namen, keine Erklärung – nur ein kleines Mädchen das nicht weinte und jeden der sich näherte mit einem Blick ansah der für drei Jahre viel zu alt war.

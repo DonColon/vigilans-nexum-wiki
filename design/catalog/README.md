@@ -4,6 +4,7 @@ This section of the document describes the items, abilities and unit classes tha
 
 - [Abilities](Abilities.md)
 - [Accessoires](Accessoires.md)
+- [Biorhythms](Biorhythms.md)
 - [Combat Arts](Combat-Arts.md)
 - [Consumables](Consumables.md)
 - [Magic Tomes](Magic-Tomes.md)

@@ -65,6 +65,9 @@
                             keine Magie – die Axtkämpferin darf Hydro sein.
                             Erst die Persönlichkeit, dann das Element. Siehe charactercraft. -->
 
+**Biorhythm:** <!-- Der Lebensrhythmus der Figur, wie ein Herzschlag. Fest, ändert sich nie.
+                   Typenliste: design/catalog/Biorhythms.md -->
+
 ---
 
 ## Backstory

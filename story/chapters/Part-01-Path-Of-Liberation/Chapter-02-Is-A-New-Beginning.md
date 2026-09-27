@@ -2,6 +2,28 @@
 
 Die Sonne brannte warm auf die wiederaufgebauten Gassen von Bellum. Zwischen den Steinen der Häuser konnte man noch hier und da die Narben des Krieges erkennen – Risse, eingesackte Mauern, neu gesetzte Balken. Doch das Leben war zurückgekehrt. Händler priesen lautstark ihre Waren an, Kinder jagten lachend über den Marktplatz, und der Duft von frischem Brot und gebratenem Fleisch lag in der Luft.
 
+Hasans Schwert kam von oben, schwer und ohne Umweg. Dardan trat zur Seite, ließ die Klinge am Stab entlanggleiten und war wieder da, bevor Hasan das Gewicht zurückgeholt hatte. Ein Tippen gegen die Rippen. Nicht fest. Nur so, dass es zählte.
+
+Hasan sprang zurück und schüttelte den Arm aus. „Schon wieder.“
+
+„Du holst Luft, bevor du zuschlägst“, sagte Dardan. „Nicht viel. Aber jedes Mal.“
+
+„Jeder holt Luft.“
+
+„Schon – nur eben nicht jeder an derselben Stelle.“ Dardan drehte den Stab in den Händen, als ließen sich die Worte daraus hervorwringen. „Jeder, gegen den man kämpft, hat so etwas wie einen Takt, glaube ich. Wann er stark ist. Wann er nachlässt. Wenn man lange genug hinhört, könnte man fast sagen, wann der nächste Schlag kommt – und wann der danach nicht mehr kommt.“
+
+Hasan musterte ihn, als hätte Dardan gerade behauptet, die Pflastersteine auf dem Marktplatz hätten Namen. „Du zählst meine Atemzüge.“
+
+„So ungefähr.“
+
+„Lass das.“ Er grinste. „Nochmal.“
+
+Manchmal war es mehr als Hinhören. Dann schlug der Takt des anderen für einen Atemzug in Dardans eigener Brust mit, und er wusste, wohin der andere wollte, bevor der es selbst wusste. Erzählt hatte er davon nie jemandem. Es klang nach etwas, das man sich einbildete. Übung vermutlich. Übung und ein bisschen Glück.
+
+Hasan griff wieder an. Dardan hörte das Luftholen, hob den Stab – und der Schlag kam nicht. Hasan hatte mitten in der Bewegung etwas anderes beschlossen, ohne Grund, wie immer, und die flache Seite der Klinge klatschte gegen Dardans Flanke.
+
+Bei Hasan war es schon immer so gewesen. Man fand seinen Takt, und im nächsten Moment spielte er ein anderes Lied.
+
 Dardan wischte sich den Schweiß von der Stirn und ließ den Übungsstab sinken. Ihm gegenüber stand Hasan, ebenso außer Atem, das Schwert locker in der Hand.
 
 „Nicht schlecht“, grinste Hasan und klopfte ihm auf die Schulter. „Aber du hast die Deckung an der Flanke offen gelassen.“
@@ -32,13 +54,43 @@ Dardan spürte, wie sein Herz schneller schlug. Er ballte die Fäuste. „Wir k�
 
 Hasan grinste schief. „Darauf habe ich gewartet.“
 
-Ohne zu zögern stürzten sie sich ins Getümmel.
+„Warte.“ Dardan hielt ihn am Ärmel fest, den Blick auf dem Platz.
 
-> Level 02 beginnt und alle Diebe müssen besiegt werden, bevor sie mit dem Diebesgut verschwinden. Je mehr Diebe gefasst werden, desto größer ist die Belohnung am Ende.
+Die Diebe waren schnell, aber sie liefen nicht wild. Einer riss einen Stoffballen vom Stand und sah sich um, bevor er weiterrannte. Zwei stießen gleichzeitig einen Händler zur Seite und zögerten gleichzeitig. Und in der Mitte stand ein stämmiger Junge mit zerfetztem Umhang und rief Befehle – jedes Mal, wenn er rief, rannten sie. Jedes Mal, wenn er Luft holte, blieben sie stehen.
 
-Es war ein wilder, hektischer Kampf. Dardan schob einen Dieb mit einem gezielten Stoß zu Boden, während Hasan geschickt zwei andere in die Enge trieb. Ivan nutzte die Holzbalken der Marktstände, um aus der Höhe anzugreifen. Maksimo und Marven arbeiteten im Team, lenkten ab und packten zu.
+„Sie laufen alle nach demselben Takt“, sagte Dardan. „Seinem. Wenn wir in die Lücken gehen, dann – ich glaube, dann hätten wir den Vorteil. Nicht sie.“
 
-Die Diebe, überrascht von der Entschlossenheit der jungen Männer, gerieten schnell in die Defensive. Als Dardan den Anführer – einen stämmigen Jungen mit zerfetztem Umhang – zu Boden rang, floh der Rest der Bande in panischer Hast.
+Hasan folgte seinem Blick zu dem Jungen im Umhang. „Du hörst sie atmen. Alle.“
+
+„Die meisten.“
+
+„Und mich?“
+
+„Bei dir hab ich's aufgegeben.“
+
+Hasan lachte. Dann ließ Dardan den Ärmel los, und sie stürzten sich ins Getümmel.
+
+> Level 02 beginnt und der Anführer der Diebe – der stämmige Junge mit dem zerfetzten Umhang – muss besiegt werden. Fällt er, flieht der Rest der Bande. Jeder Dieb, der vorher gefasst wird, erhöht die Belohnung am Ende; wer mit dem Diebesgut den Rand des Marktplatzes erreicht, ist verloren.
+
+Es war ein wilder, hektischer Kampf. Dardan wartete auf den Ruf des Anführers, auf das Zögern danach, und schob einen Dieb genau in diesem Zögern mit einem gezielten Stoß zu Boden, während Hasan geschickt zwei andere in die Enge trieb. Ivan nutzte die Holzbalken der Marktstände, um aus der Höhe anzugreifen. Maksimo und Marven arbeiteten im Team, lenkten ab und packten zu.
+
+Den Knüppel hörte Dardan nicht kommen.
+
+Er traf ihn in die Seite, von hinter einem umgestürzten Stand, von einem Dieb, der auf keinen Befehl gehört hatte. Der Platz kippte. Dardans Schulter schlug auf das Pflaster, dann seine Wange, und für einen Herzschlag gab es nur Staub, zertretenes Gemüse und das eigene Blut, das in den Ohren rauschte.
+
+„Dardan!“
+
+Der Dieb holte ein zweites Mal aus.
+
+Dardan stemmte die Hand zwischen die Körbe und kam hoch. Nicht schnell. Er spuckte Staub aus, wischte sich mit dem Handrücken über den Mund und sah den Jungen mit dem Knüppel an.
+
+„Den“, sagte er, „hätte ich eigentlich hören müssen.“
+
+Der zweite Schlag kam. Aber etwas hatte sich verschoben. Der Schmerz in seiner Seite saß da wie ein Trommelschlag, gleichmäßig, hart, und alles um ihn herum war mit einem Mal klarer – das Scharren der Füße, das Keuchen des Diebes, der Moment, in dem der Arm oben stand und nicht mehr weiterwusste. Dardan ging hinein. Er fing den Knüppel am Stab ab, drehte ihn aus der Hand, und sein Stoß warf den Dieb gegen die Balken eines Standes, härter als alles, was er an diesem Tag geschlagen hatte. Der Nächste, der sich ihm in den Weg stellte, lag, bevor er die Arme heben konnte.
+
+„Angeber“, rief Hasan von der anderen Seite des Platzes herüber.
+
+Die Diebe, überrascht von der Entschlossenheit der jungen Männer, gerieten schnell in die Defensive. Als Dardan den Anführer zu Boden rang, verstummten die Befehle – und ohne sie wusste der Rest der Bande nicht mehr, wohin. Sie flohen in panischer Hast.
 
 Der Marktplatz atmete auf. Händler und Bürger umringten Dardan und seine Freunde, klopften ihnen auf die Schultern, riefen Dankesworte.
 

@@ -42,6 +42,8 @@ Er ist tolerant und aufgeschlossen gegenüber anderen Kulturen und Denkweisen, e
 
 **Elemental Affinity:** Dendro
 
+**Biorhythm:** Animado
+
 ## Backstory
 
 Dardan wuchs im Waisenhaus von Bellum auf – einer Stadt die niemandem gehört und allen gleichzeitig, an der Grenze aller drei Großmächte Trideras. Er kam als Kleinkind dorthin ohne Namen, ohne Geschichte, ohne jemanden der erklärte wer er war. Elena gab ihm den Namen. Das Waisenhaus gab ihm ein Zuhause. Die anderen Kinder gaben ihm eine Familie.
@@ -54,7 +56,7 @@ Der Angriff auf Bellum als er ein Kind war prägte ihn tief. Er sah seine Stadt 
 
 Die Gründung der Vigilant Knights war der erste Schritt. Die Reise nach Adolla, Thysia und Vaestrall war der Rest. Jedes Land, jede Stadt, jeder Mensch den er unterwegs traf formte ihn weiter – bis er am Ende nicht mehr nur der Junge aus dem Waisenhaus war sondern der Mann der wusste woher er kam und wohin er gehen wollte.
 
-Die Familie Niveli ist eine der ältesten und einflussreichsten Adelsfamilien des Königreichs Adolla mit einem eigenen Herzogtum. Seit Generationen tragen die Nivelis die Verantwortung für die Außenpolitik des Königreichs – bekannt für ihre Großzügigkeit, ihre Friedfertigkeit und ihre Fähigkeit Brücken zwischen Nationen zu bauen wo andere Mauern errichten.
+Die Familie Niveli ist eine der ältesten und einflussreichsten Adelsfamilien des Königreichs Adolla mit einem eigenen Herzogtum. Seit Generationen tragen die Nivelis die Verantwortung für die Außenpolitik des Königreichs – bekannt für ihre Großzügigkeit, ihre Friedfertigkeit und ihre Fähigkeit Brücken zwischen Nationen zu bauen wo andere Mauern errichten. Und sie vererben noch etwas das in keinem Titel steht: den Willen immer wieder aufzustehen. Bashkim wurde verraten, verbannt, zur Flucht gezwungen und verlor sein erstes Kind – und ging trotzdem weiter.
 
 Dardans Vater Bashkim Niveli verließ das Herzogtum auf einer Reise die ihn durch die Welt führte – auf der Suche nach einem Heilmittel für den erkrankten Familienpatriarchen. Er fand es. Er fand auch auf dieser Reise die Frau die er liebte – Luljeta, eine begnadete Heilerin. Er kehrte als Held zurück.
 

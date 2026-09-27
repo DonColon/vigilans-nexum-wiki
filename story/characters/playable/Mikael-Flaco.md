@@ -40,6 +40,8 @@ Was unter der Stille liegt ist schwer zu greifen. Er ist kein kalter Mensch – 
 
 **Elemental Affinity:** Umbra
 
+**Biorhythm:** Quadratus
+
 ## Backstory
 
 Niemand weiß woher Mikael Flaco kommt.

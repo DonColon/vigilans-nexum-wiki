@@ -619,7 +619,105 @@ The rules are in [Nexus → Core Rules → 10](mechanics/Nexus.md#10--dawnbreak)
 
 **Soulcairn has no values of its own, by decision** – it reads the [rank thresholds](#rank-thresholds), the [combat bonus by rank](#combat-bonus-by-rank), the [element mixes](#element-mixes) and the [bonus range](#bonus-range) of the Affinity section above, unchanged. Tuning those tunes it with them; there is no separate lever and no table for it here ([Nexus → Core Rules → 7](mechanics/Nexus.md#7--soulcairn)).
 
-Fixed by rule, not tuned here: Wavelength is a command on a cooldown and not a use per chapter, borrows the element only, fixes it at the moment of the command, applies without a Combat Art (the Magic System's one exception) and never triggers a reaction, and its attack count rises monotonically with the rank; Bloodoath is an action on a cooldown, lasts until Dardan's next Player Phase and cannot be lifted, its Echo fires without a roll when the partner is within the pair's range at that moment, the echo strike cannot be countered, wears no shield and triggers no further Echo, its act-again fires once per oath, and either bound unit's fall loses the map; Dawnbreak is an action once per chapter, its base, step and cap are the rule values above, rank does not matter to its count, beasts, Other-faction units and Soulcairn are never counted, walls stop it, it strikes every enemy on the line and no ally, draws no counter and applies no element, and – in the conservative reading – rolls nothing; no rank scaling and no hit roll on Earthbound; the cooldowns do not scale with rank; one Lifeline at a time (two under Nexus Mastery); Lifeline shares attack damage and moves status effects whole onto Dardan; Nexus Mastery upgrades each ability individually and removes no cooldown and no use per chapter – its range bonus applies only where an upgrade names it, its Enemy-Phase Exchange is once per unit per map and its Soulcairn call once per map; Nexus abilities take no Capacity; a unit with no affinity rank is reached by no Nexus ability. Everything about the Dajjal's chain – how many units, how much healing, how often reinforcements come – belongs to the Level 52 document.
+Fixed by rule, not tuned here: Wavelength is a command on a cooldown and not a use per chapter, borrows the element and the donor's whole biorhythm and nothing else – the rhythm for exactly as long as the element, with Dardan's own Animado suspended meanwhile ([Biorhythm → Core Rules → 8](mechanics/Biorythm.md#8--wavelength-carries-the-rhythm)) – fixes the element at the moment of the command, applies without a Combat Art (the Magic System's one exception) and never triggers a reaction, and its attack count rises monotonically with the rank; Bloodoath is an action on a cooldown, lasts until Dardan's next Player Phase and cannot be lifted, its Echo fires without a roll when the partner is within the pair's range at that moment, the echo strike cannot be countered, wears no shield and triggers no further Echo, its act-again fires once per oath, and either bound unit's fall loses the map; Dawnbreak is an action once per chapter, its base, step and cap are the rule values above, rank does not matter to its count, beasts, Other-faction units and Soulcairn are never counted, walls stop it, it strikes every enemy on the line and no ally, draws no counter and applies no element, and – in the conservative reading – rolls nothing; no rank scaling and no hit roll on Earthbound; the cooldowns do not scale with rank; one Lifeline at a time (two under Nexus Mastery); Lifeline shares attack damage and moves status effects whole onto Dardan; Nexus Mastery upgrades each ability individually and removes no cooldown and no use per chapter – its range bonus applies only where an upgrade names it, its Enemy-Phase Exchange is once per unit per map and its Soulcairn call once per map; Nexus abilities take no Capacity; a unit with no affinity rank is reached by no Nexus ability. Everything about the Dajjal's chain – how many units, how much healing, how often reinforcements come – belongs to the Level 52 document.
+
+### Biorhythm
+
+The rules are in [Biorhythm](mechanics/Biorythm.md). The types are in the [catalog → Biorhythms](catalog/Biorhythms.md). This section holds the values those documents link to. **Every value below is a proposal (2026-09-27) that replaces the values of the earlier version (v1.1, 2026-06-09).** Dardan decided the rhythm was worth too much, and the old rows are no longer valid. The new rows are derived below against two anchors already in this guide: the [Affinity combat bonus](#combat-bonus-by-rank) and the [weapon triangle](#weapon-triangle-bonuses).
+
+The Biorhythm term enters the [combat formulas](#-damage-calculation-formula) on **Attack, Hit, Avoid and Critical** only, as its own term beside the *Affinity Bonus*, and the two stack. "Attack" is the value the earlier version called "damage", read as a change to Attack before Defense ([Biorhythm → Open decisions → 13](mechanics/Biorythm.md#open-decisions)).
+
+#### Resonance – Standard and Rare
+
+Single and double are read inside the unit's own tier ([Biorhythm → Core Rules → 3](mechanics/Biorythm.md#3--the-three-states-standard-and-rare-types)).
+
+| Tier | Resonance | Hit / Avoid | Attack |
+|------|-----------|-------------|--------|
+| **Standard** | Single | +3 | – |
+| **Standard** | Double | +5 | – |
+| **Rare** | Single | +5 | +1 |
+| **Rare** | Double | +7 | +1 |
+
+#### Resonance – Unique
+
+One value per type. There is no single or double.
+
+| Type | Hit / Avoid | Attack | Critical | Status |
+|------|-------------|--------|----------|--------|
+| **Crescendo** | +8 | +1 | – | proposal. The Unique common value |
+| **Mersenne** | +8 | +1 | – | proposal. The Unique common value |
+| **Perfectus** | +10 | +1 | +5 | proposal. It is the strongest fixed Resonance in the game, paid for with the sparsest sequence (rounds 6 and 28) |
+| **Chaos** | +8 | +1 | – | proposal. The Unique common value. It uses the Chaos Dissonance row below |
+| **Animado** | +7 | +1 | – | proposal. Set **below** the Unique common value, at the Rare-double level, because Animado resonates far more often than any other Unique type. Not decided by Dardan ([Biorhythm → Open decisions → 7](mechanics/Biorythm.md#open-decisions)) |
+
+**Animado: why it sits below its tier.** The other fixed Unique types resonate on 2–4 rounds up to round 30:
+
+- Crescendo on 1, 2, 6, 24.
+- Mersenne on 3, 7, 15.
+- Perfectus on 6 and 28.
+
+Animado resonates on **8**: 1, 2, 4, 7, 11, 16, 22, 29. Like the other Unique types, it never falls into Dissonance. That frequency is close to a Standard type's. Trinus, for comparison, resonates double on 10 rounds up to 30, but also meets Dissonance on 4. Paying Animado the Unique common value on 8 rounds, with no Dissonance, would make it the strongest rhythm in the game by a wide margin. The proposal therefore sets it one step below that value, at the Rare-double level (+7 / +1):
+
+- It keeps the ordering: Rare double ≤ Animado < Unique common.
+- It trades strength for the lack of Dissonance.
+- It keeps the tier's special feature, one value and no bad rounds.
+
+**Over a map, compared with a Standard type** (rounds 1–30, Hit/Avoid only):
+
+- Animado: 8 beats × 7, with no Dissonance, is 56.
+- Solus: 8 single rounds × 3 plus 7 double rounds × 5 is 59, before its Dissonance rounds are taken off.
+
+The two carry about the same total. Animado's is simply concentrated early, which is its intended shape.
+
+**The shape the value must keep:** Animado's beats are densest early (1, 2, 4, 7) and thin out later, with the gaps growing by one each time. A map's opening is where Dardan's own rhythm carries him, and the late rounds are where he has to lean on a friend's through Wavelength. A value high enough to make the early cluster decisive would make borrowing early a trap. Tune it against that.
+
+#### Dissonance by difficulty
+
+Applies to every unit, player and enemy alike, in its Dissonance rounds. The literal reading is that the enemy side takes the same row ([Biorhythm → Open decisions → 12](mechanics/Biorythm.md#open-decisions)). **Standard Dissonance** covers every type that has Dissonance except Chaos. The fixed-sequence Unique types, Animado among them, have none.
+
+| Mode | Standard Dissonance | Chaos Dissonance |
+|------|---------------------|------------------|
+| **Casual** | none | none |
+| **Normal** | −1 Hit / Avoid | −6 Hit / Avoid, −1 Attack |
+| **Hard** | −2 Hit / Avoid | −6 Hit / Avoid, −1 Attack |
+| **Maddening** | −2 Hit / Avoid | −6 Hit / Avoid, −1 Attack |
+
+**Why Standard Dissonance never touches Attack:** at every difficulty it has to stay smaller than the smallest Resonance it can meet. That is the Standard single, which has no Attack term, so Dissonance never takes Attack away. Hard and Maddening therefore share a row. Maddening's extra difficulty comes from its enemy stat and number scaling, not from a harsher rhythm.
+
+**Why Chaos's Dissonance is heavier and flat:** it is the price of a Unique-strength Resonance on whatever type the battle rolls. A roll onto a parity type puts that Resonance on every other round. It is scaled down in proportion to the old row. The old row was 75 % of Chaos's Resonance in Hit / Avoid, and −6 is 75 % of +8. The Attack loss is capped at −1, like every Attack term here. It stays three times the Standard row and still smaller than Chaos's own Resonance. A Wavelength copy of Chaos carries this row with it.
+
+**Derivation: two ceilings.** Biorhythm is free, passive and universal. Affinity is earned by deeds, paid for in formation, and throttled to one rank-up per chapter. So the rhythm is set clearly under the bond, and under the weapon triangle, which is the planning factor the player already reads on every attack.
+
+- **Against Affinity** ([Combat bonus by rank](#combat-bonus-by-rank); per element carrying a type: D +2, C +4, A +8, S +10 in a rate stat, and +0.5 to +2.5 Attack):
+  - A Standard single (+3) sits between a D and a C pair.
+  - A Rare double and Animado (+7) sit just under an A pair.
+  - The Unique common value (+8) equals a single element at A.
+  - Perfectus (+10) equals a single element at S, once or twice a map.
+  - Nothing reaches a **same-element S pair** (+20 rate, +5 Attack). The strongest rhythm is half of it in Hit and a fifth of it in Attack.
+- **Against the weapon triangle** (+15 Hit, +1 Damage):
+  - No row gives more Hit than two-thirds of a triangle advantage.
+  - **No row gives more than +1 Attack.** A good round is never worth more damage than choosing the right weapon.
+
+The round counter is a reason to wait one turn, not a reason a fight is won.
+
+**The stack with Affinity, checked.** The two terms add up, but neither breaks a curve:
+
+- **Worst Hit / Critical case:** Perfectus on round 6 for a unit in a same-element Electro S pair with triangle advantage. That comes to Hit +45 (triangle 15, Affinity 20, rhythm 10) and Critical +25 (Affinity 20, rhythm 5). The old values gave Hit +60. Critical +25 stays under a Killer weapon's 30.
+- **Worst Attack case:** a same-element Pyro or Dendro S pair on a Unique round. That comes to Attack +6 (Affinity 5, rhythm 1), one point over the Master promotion's +5 that bounds the Affinity ceiling. It is reachable on a handful of rounds per map, only for a unit that reached S with a partner of its own element and stands within range. That is accepted. The old values gave +8.
+- **Avoid:** the rhythm raises Avoid as much as Hit, so two resonating units facing each other largely cancel out.
+
+Because Biorhythm reads no position, the stack pays nothing for clumping. This replaces the earlier flag that the values might be too strong against Affinity: they have been lowered, and that flag is resolved.
+
+Fixed by rule, not tuned here:
+
+- The type never changes. Enemies take theirs from their class, and Unique types never go to a class.
+- Single, double and Dissonance are read inside the own tier.
+- Unique types have no single or double. Crescendo, Mersenne, Perfectus and Animado have no Dissonance.
+- Chaos rolls one Standard or Rare type per battle and shows it from turn 1.
+- Every type reads the round number except Chaos, which reads its roll. Animado resonates on the rounds n·(n+1)/2 + 1.
+- Wavelength copies the donor's whole rhythm for exactly as long as the element.
+- Resonance earns no affinity.
+- Nothing applies before Ch 02.
 
 ### Class Type Templates
 
@@ -634,14 +732,16 @@ Fixed by rule, not tuned here: Wavelength is a command on a cooldown and not a u
 ## 🎲 Damage Calculation Formula
 
 ```
-Attack = (Weapon Might) + (Str or Mag) + (Triangle Bonus) + (Affinity Bonus)
+Attack = (Weapon Might) + (Str or Mag) + (Triangle Bonus) + (Affinity Bonus) + (Biorhythm)
 Defense = (Enemy Def or Res) + (Terrain Bonus) + (Affinity Bonus)
 
 Damage = Attack - Defense
 Minimum Damage = 0
 ```
 
-**Affinity Bonus:** the Attack, Defense, Hit, Avoid, Critical or Dodge value the unit draws from its strongest affinity partner within the bonus range – see [Affinity](#affinity) for the values and [Affinity → Core Rules → 4](mechanics/Affinity.md#4--the-combat-bonus) for the rule. Zero when no ranked partner is in range.
+**Affinity Bonus:** the Attack, Defense, Hit, Avoid, Critical or Dodge value the unit draws from its strongest affinity partner within the bonus range. The values are in [Affinity](#affinity) and the rule in [Affinity → Core Rules → 4](mechanics/Affinity.md#4--the-combat-bonus). It is zero when no ranked partner is in range.
+
+**Biorhythm:** the Attack, Hit, Avoid or Critical change from the unit's biorhythm state this round: positive in Resonance, negative in Dissonance, zero when Neutral. The values are in [Biorhythm](#biorhythm) and the rule in [Biorhythm → Core Rules → 7](mechanics/Biorythm.md#7--what-the-states-do). It is a separate term and stacks with the Affinity Bonus.
 
 ### Attack Speed (AS) Calculation
 
@@ -655,8 +755,8 @@ If Attacker AS ≥ Enemy AS + 4:
 ### Hit Rate Calculation
 
 ```
-Hit = (Weapon Hit) + (Dex × 2) + (Luck ÷ 2) + (Affinity Bonus) + (Triangle Bonus)
-Avoid = (Speed × 2) + (Luck) + (Terrain Bonus) + (Affinity Bonus)
+Hit = (Weapon Hit) + (Dex × 2) + (Luck ÷ 2) + (Affinity Bonus) + (Triangle Bonus) + (Biorhythm)
+Avoid = (Speed × 2) + (Luck) + (Terrain Bonus) + (Affinity Bonus) + (Biorhythm)
 
 True Hit% = Hit - Avoid
 Display Hit% = True Hit% (capped at 0-100%)
@@ -667,7 +767,7 @@ Display Hit% = True Hit% (capped at 0-100%)
 ### Critical Hit Calculation
 
 ```
-Crit = (Weapon Crit) + (Dex ÷ 2) + (Affinity Bonus)
+Crit = (Weapon Crit) + (Dex ÷ 2) + (Affinity Bonus) + (Biorhythm)
 Dodge = (Luck) + (Affinity Bonus)
 
 Crit% = Crit - Dodge (minimum 0%)
@@ -748,6 +848,8 @@ Stat Boosters: 5,000-8,000 Gold
 | **Normal** | Base | Base | Optional | 10 per battle |
 | **Hard** | +15% | +30% | On | 5 per battle |
 | **Maddening** | +30% | +50% | On | 3 per battle |
+
+Biorhythm Dissonance also scales by mode. Its rows are in [Biorhythm → Dissonance by difficulty](#dissonance-by-difficulty) and are not repeated here.
 
 ---
 

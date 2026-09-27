@@ -40,6 +40,8 @@ Sein blinder Fleck ist seine Tendenz alles allein lösen zu wollen – nicht aus
 
 **Elemental Affinity:** Cryo
 
+**Biorhythm:** Mersenne
+
 ## Backstory
 
 Claude Luenava wurde in Nokoa geboren – dem Dorf das sein Großvater väterlicherseits als Heimat für seine Familie gebaut hatte, nachdem der Krieg vorbei war und ein General beschlossen hatte dass seine Kinder in Frieden aufwachsen sollten.

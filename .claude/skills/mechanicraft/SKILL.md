@@ -74,7 +74,7 @@ Wo eine Wahl entsteht, gilt **No Trap Options**: Jede Option braucht eine Situat
 
 **6 – Die Einführung in der Welt.** Das Feld, das am häufigsten fehlt: **In welchem Kapitel taucht das System zuerst auf, und wie lernt der Spieler es, ohne dass ein UI-Popup es erklärt?**
 
-Vigilans Nexum führt Mechaniken über Situationen ein, nicht über Tutorials. Eine Karte, auf der die neue Fähigkeit der offensichtliche Ausweg ist, lehrt sie besser als ein Textkasten. Die Antwort gehört ins Dokument und muss mit `design/levels/README.md` übereinstimmen – und höchstens eine neue Mechanik pro Level, das ist die Regel aus `levelcraft`.
+Vigilans Nexum führt Mechaniken über Situationen ein, nicht über Tutorials. Eine Karte, auf der die neue Fähigkeit der offensichtliche Ausweg ist, lehrt sie besser als ein Textkasten. Die Antwort gehört ins Dokument und muss mit `design/levels/README.md` übereinstimmen. Eine Obergrenze neuer Mechaniken pro Level gibt es nicht – aber die Karte muss jede neue tragen (`levelcraft`).
 
 **7 – Die Darstellung.** Woran erkennt der Spieler, dass das System gerade wirkt? Kein Zustand darf unsichtbar sein, an dem eine Entscheidung hängt – das ist Pillar 5 in seiner konkretesten Form: *No Hidden Information.*
 

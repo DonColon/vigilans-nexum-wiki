@@ -44,6 +44,8 @@ Der Druck der Familie ist immer da. Wie ein Gewicht das man so lange trägt dass
 
 **Elemental Affinity:** Cryo
 
+**Biorhythm:** Duplex
+
 ## Backstory
 
 Die Familie Concordia ist eine der ältesten Militärfamilien Adollas. Seit Generationen stellen sie Ritter, Generäle, Garde-Offiziere – Männer und Frauen die dem Königreich mit Schwert und Disziplin dienen. Der Name Concordia ist in Luenava ein Versprechen. Wer diesen Namen trägt dient. Wer diesen Namen trägt ist stark. Wer diesen Namen trägt macht keine Fehler die das Erbe beschmutzen.

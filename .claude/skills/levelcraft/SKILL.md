@@ -58,7 +58,7 @@ Wer bei der Karte anfängt, baut ein Schlachtfeld und sucht sich danach ein Ziel
 
 **2 – Missionsziel und Niederlagebedingung.** Aus dem Kasten, wenn er existiert. Das Ziel muss zu Schritt 1 passen: Wer eine Belagerung erzählt, gibt kein *Rout Enemy*. Die Niederlagebedingung nennt immer die Lord-Einheit des Strangs – Dardan in Part 05, Hasan in Part 06 – plus das, was die Szene sonst noch verlieren kann.
 
-**3 – Die tragende Mechanik.** Höchstens **eine neue** pro Level. Sie muss im Kasten stehen und in `design/mechanics/` dokumentiert sein. Ist sie es nicht, wird sie dort zuerst angelegt. Die Karte wird um diese Mechanik gebaut, nicht umgekehrt – ein Level, dessen neue Mechanik man ignorieren kann, hat sie nicht eingeführt.
+**3 – Die tragende Mechanik.** Es gibt keine Obergrenze für neue Mechaniken pro Level – aber jede neue muss im Kasten stehen und in `design/mechanics/` dokumentiert sein. Ist sie es nicht, wird sie dort zuerst angelegt. Die Karte wird um diese Mechanik gebaut, nicht umgekehrt – ein Level, dessen neue Mechanik man ignorieren kann, hat sie nicht eingeführt.
 
 **4 – Die Karte.** Größe aus dem Deployment-Limit ableiten, nicht schätzen: mehr Einheiten brauchen mehr Fläche, sonst blockieren sie sich. Jede Karte braucht mindestens eine Stelle, an der Position eine Entscheidung ist – ein Engpass, eine Brücke, eine Anhöhe, ein zweiter Zugang, den man aufgeben kann. Eine offene Ebene ist keine taktische Karte, sondern ein Rechenblatt.
 
@@ -155,7 +155,7 @@ Wo der Bestand heute konkret abweicht – mit Kapitel, Befund und Schwere – st
 - Missionsziel, Niederlagebedingung, Sekundärziel und Mechanik stimmen wörtlich mit dem Kapitel-Kasten überein?
 - Feindlevel aus dem Band des Parts, nicht geschätzt?
 - Deployment-Limit aus dem Progression-System – und im Gegenstrang derselbe Wert?
-- Höchstens eine neue Mechanik, und trägt die Karte sie wirklich?
+- Trägt die Karte jede neue Mechanik wirklich?
 - Mindestens eine Geländestelle, an der Position eine Entscheidung ist?
 - Jede Feindklasse und jeder Gegenstand im Katalog vorhanden?
 - Jeder Gegner mit KI-Verhalten, jede Verstärkung mit Auslöser und Spawnpunkt?

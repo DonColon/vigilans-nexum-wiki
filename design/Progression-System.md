@@ -40,7 +40,7 @@ How characters, classes, and abilities develop across all 64 chapters of Vigilan
 | Chapter | Avg Level Start | Avg Level End | New Units | Mechanics Introduced |
 |---------|-----------------|---------------|-----------|----------------------|
 | 01 | 1 | 2 | Dardan, Hasan | Movement, Attack, Items |
-| 02 | 2 | 4 | Maksimo | Weapon Triangle |
+| 02 | 2 | 4 | Maksimo | Weapon Triangle · [Biorhythm](mechanics/Biorythm.md) – every unit and every enemy has a rhythm from here, and Ch 01 has none |
 | 03 | 4 | 5 | Ivan, Leona | Terrain Effects, Objectives |
 | 04 | 5 | 6 | - | Naval Combat (Optional) · Weapon delivery – all physical weapon types |
 | 05 | 6 | 8 | Lina, Marven | Magic Introduction · one tome per element found |
@@ -48,7 +48,7 @@ How characters, classes, and abilities develop across all 64 chapters of Vigilan
 | 07 | 9 | 10 | Mikael | **First chapter played in the chosen classes** – no new system |
 | 08 | 10 | 11 | - | [The Nexus / Exchange](mechanics/Nexus.md) (tutorial – the hostage swap) · Boss Battle · Promotion Preview |
 
-**Why the class choice sits at the end of Ch 06:** By that point the player has seen movement, the weapon triangle, terrain, objectives, naval combat, magic (Ch 05) and affinity – the map talks and the first Heart-to-Hearts of Ch 06 ([Affinity](mechanics/Affinity.md)). The first irreversible decision of the campaign is therefore made with the systems already demonstrated rather than guessed at – and Ch 07 is immediately there to play the result.
+**Why the class choice sits at the end of Ch 06:** By that point the player has seen movement, the weapon triangle, biorhythm, terrain, objectives, naval combat, magic (Ch 05) and affinity – the map talks and the first Heart-to-Hearts of Ch 06 ([Affinity](mechanics/Affinity.md)). The first irreversible decision of the campaign is therefore made with the systems already demonstrated rather than guessed at – and Ch 07 is immediately there to play the result.
 
 **Milestone:** By end of Part 01, all eight Vigilant Knights are recruited.
 

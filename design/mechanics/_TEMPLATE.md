@@ -132,7 +132,8 @@
      Eine Karte, auf der die neue Fähigkeit der offensichtliche Ausweg ist,
      lehrt sie besser als ein Textkasten.
      Muss mit der Spalte "New Mechanics" in design/levels/README.md
-     übereinstimmen – und pro Level wird höchstens eine Mechanik eingeführt. -->
+     übereinstimmen. Eine Obergrenze neuer Mechaniken pro Level gibt es nicht –
+     aber die Karte muss jede neue tragen (levelcraft). -->
 
 **Erstes Kapitel:** {{KAPITEL}}
 

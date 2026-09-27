@@ -40,6 +40,8 @@ Lina ist der erste Moment wo Fabius handelt ohne taktisches Kalkül. Er steht zw
 
 **Elemental Affinity:** Electro
 
+**Biorhythm:** Quintus
+
 ## Backstory
 
 Fabius Aldenbourg wuchs in Luenava auf als Sohn einer Adelsfamilie mit langer militärischer Tradition. Der Name Aldenbourg stand für Dienst – jede Generation hatte Männer und Frauen in die Armee des Königreichs geschickt, jede Generation hatte Ehre verdient durch Disziplin und Loyalität zur Krone. Das war die Sprache in der Fabius aufwuchs. Pflicht. Leistung. Ergebnis.

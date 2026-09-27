@@ -36,6 +36,8 @@ Musik ist für sie mehr als Genuss – es ist Sprache. Was sie nicht in Worte fa
 
 **Elemental Affinity:** Lux
 
+**Biorhythm:** Perfectus
+
 ## Backstory
 
 Leona kam als Kleinkind ins Waisenhaus von Bellum. Das Einzige was Elena damals bei ihr fand war ein kleines Stück Papier mit einem einzigen Satz darauf – in einer Schrift die niemand in Bellum kannte: *„Halte sie sicher."* Auf Vaestrallisch.

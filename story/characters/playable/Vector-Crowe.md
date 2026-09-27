@@ -40,6 +40,8 @@ Seine eigentliche Sprache sind seine Hände. Er denkt durch Berühren, durch Ert
 
 **Elemental Affinity:** Umbra
 
+**Biorhythm:** Primus
+
 ## Backstory
 
 Niemand weiß woher Vector Crowe kommt.

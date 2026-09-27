@@ -38,6 +38,8 @@ Unter dem Redeschwall liegt ein Mensch der tiefer fühlt als er zeigt. Maksimo m
 
 **Elemental Affinity:** Aero
 
+**Biorhythm:** Natura
+
 ## Backstory
 
 Maksimo kam mit etwa zwei Jahren ins Waisenhaus von Bellum. Die Frau die ihn brachte sagte nur dass seine Eltern nicht zurückkommen würden und dass er Maksimo heiße. Dann verschwand sie bevor Elena weitere Fragen stellen konnte.
