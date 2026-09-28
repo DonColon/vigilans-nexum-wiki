@@ -112,7 +112,7 @@ Der MBTI-Typ ist Ergebnis, nicht Vorgabe: erst die Persönlichkeit schreiben, da
 
 #### Elemental Affinity – ein Charakterzug, kein Zauber
 
-Jede Figur trägt genau eines der neun Elemente – Pyro, Cryo, Hydro, Electro, Aero, Geo, Dendro, Lux, Umbra – als Affinität. Das Feld sagt, **wer die Figur ist**, nicht welche Magie sie führt: ein Axtkämpfer kann Hydro sein, eine Lux-Priesterin Umbra. Gelesen wird es vom Affinity-System (`design/mechanics/Affinity.md`): die Elemente zweier Partner bestimmen, *welchen* Kampfbonus das Paar bekommt. Die Zuordnung der Elemente zu Bonusarten steht im Balancing Guide und wird hier nicht wiederholt.
+Jede Figur trägt genau eines der neun Elemente – Pyro, Cryo, Hydro, Electro, Aero, Geo, Dendro, Lux, Umbra – als Affinität. Das Feld sagt, **wer die Figur ist**, nicht welche Magie sie führt: ein Axtkämpfer kann Hydro sein, eine Lux-Priesterin Umbra. Gelesen wird es vom Affinity-System (`design/mechanics/Affinity.md`): die Elemente zweier Partner bestimmen, *welchen* Kampfbonus das Paar bekommt. Die Zuordnung der Elemente zu Bonusarten steht im Abschnitt *Balancing* von `Affinity.md` und wird hier nicht wiederholt.
 
 Wie beim MBTI-Typ gilt: erst die Persönlichkeit, dann das Element. Die Rollenbeschreibungen der Elemente im Magic System (Pyro offensiv, Hydro heilend, Geo defensiv, Umbra sabotierend …) sind der Anhaltspunkt – wer die Figur im Kern ist, entscheidet, nicht was sie kämpft. Kein Element ist mechanisch besser als ein anderes, es gibt also keinen Grund, aus Gameplay-Sicht zu wählen.
 
@@ -171,7 +171,7 @@ Nur, was den Bogen sonst nirgends berührt und trotzdem eine Szene tragen könnt
 
 **Das Bild vor dem Gefühlswort.** Auch im Bogen. Was tut die Hand, was tut der Blick – die Emotion entsteht beim Leser.
 
-**Keine Zahlen in der Story-Hälfte.** Kein Schadenswert, kein Wachstumsprozentsatz, keine Kapitelrundenzahl. Werte leben in `design/Balancing-Guide.md` und im Gameplay-Block des Bogens.
+**Keine Zahlen in der Story-Hälfte.** Kein Schadenswert, kein Wachstumsprozentsatz, keine Kapitelrundenzahl. Werte leben in `design/Balancing-Guide.md`, im Abschnitt *Balancing* der jeweiligen Mechanik und im Gameplay-Block des Bogens.
 
 **Kein Bruch der vierten Wand.** Der Bogen darf Spielbegriffe verwenden – er ist Dokumentation. Die Figur darf nicht wissen, dass sie eine Einheit ist.
 

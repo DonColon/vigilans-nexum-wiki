@@ -11,6 +11,7 @@ How characters, classes, and abilities develop across all 64 chapters of Vigilan
 **Level Range:** 1 → 60, cap reached at the Dajjal (Ch 52)
 **Pace:** ~1.13 levels per progression chapter
 **Class Tiers:** Citizen → Base → Intermediate → Advanced → Master (Dardan and Hasan add a Lord Kit on top of Master)
+**Ch 01 is a self-contained prologue** (decided by Dardan, 2026-09-29). The Vigilant Knights are children there, mechanically Citizens at level 1, fighting with improvised actions taken from the chapter's prose ([Combat Arts](mechanics/Combat-Arts.md#4--learning-and-keeping), [Abilities](mechanics/Abilities.md#1--learning-and-equipping)). **Nothing carries over from Ch 01 into Ch 02** – no levels, experience, weapon experience, items, abilities, arts or affinity points. The game proper begins in Ch 02, years later; the Knights' starting affinity rank already stands for their childhood ([Affinity → Starting ranks](mechanics/Affinity.md#starting-ranks)).
 
 **Design intent:** The eight Vigilant Knights are the only units that start at Level 1 in the Citizen class. Everyone else joins at their established experience level. Over 59 level-ups the Bellum orphans overtake the veterans who joined ahead of them – chosen family outgrowing inherited status, expressed as a stat sheet rather than a line of dialogue.
 
@@ -39,16 +40,18 @@ How characters, classes, and abilities develop across all 64 chapters of Vigilan
 
 | Chapter | Avg Level Start | Avg Level End | New Units | Mechanics Introduced |
 |---------|-----------------|---------------|-----------|----------------------|
-| 01 | 1 | 2 | Dardan, Hasan | Movement, Attack, Items |
-| 02 | 2 | 4 | Maksimo | Weapon Triangle · [Biorhythm](mechanics/Biorythm.md) – every unit and every enemy has a rhythm from here, and Ch 01 has none |
-| 03 | 4 | 5 | Ivan, Leona | Terrain Effects, Objectives |
+| 01 | 1 | 2 | Dardan, Hasan | **Prologue – nothing carries over into Ch 02.** The full combat tutorial in three fights: Movement, Attack, Items (fight 1) · Weapon Triangle, Terrain, [Abilities](mechanics/Abilities.md), [Combat Arts](mechanics/Combat-Arts.md) (fight 2) · [Chain Attack](mechanics/Chain-Attack.md) (fight 3) |
+| 02 | 2 | 4 | Maksimo | [Biorhythm](mechanics/Biorythm.md) – every unit and every enemy has a rhythm from here, and Ch 01 has none |
+| 03 | 4 | 5 | Ivan, Leona | Objectives |
 | 04 | 5 | 6 | - | Naval Combat (Optional) · Weapon delivery – all physical weapon types |
-| 05 | 6 | 8 | Lina, Marven | Magic Introduction · one tome per element found |
+| 05 | 6 | 8 | Lina, Marven | [Magic](mechanics/Magic-System.md) Introduction · one tome per element found |
 | 06 | 8 | 9 | - | [Affinity](mechanics/Affinity.md) – map talks on the map, the first Heart-to-Hearts and the Affinity Chart after it · **Base class chosen at chapter end** |
 | 07 | 9 | 10 | Mikael | **First chapter played in the chosen classes** – no new system |
 | 08 | 10 | 11 | - | [The Nexus / Exchange](mechanics/Nexus.md) (tutorial – the hostage swap) · Boss Battle · Promotion Preview |
 
-**Why the class choice sits at the end of Ch 06:** By that point the player has seen movement, the weapon triangle, biorhythm, terrain, objectives, naval combat, magic (Ch 05) and affinity – the map talks and the first Heart-to-Hearts of Ch 06 ([Affinity](mechanics/Affinity.md)). The first irreversible decision of the campaign is therefore made with the systems already demonstrated rather than guessed at – and Ch 07 is immediately there to play the result.
+> **Open – the level numbers still count Ch 01.** Under the prologue rule a level gained in Ch 01 does not carry, so the Knights begin Ch 02 at Lv 1, not at the Ch 01 end value of 2 in the table above. Ch 01 is also still counted among the *52 progression chapters* and in the pace of ~1.13 levels per chapter at the top of this document, and in the Part 01 band of the [Balancing Guide's level table](Balancing-Guide.md#recommended-average-levels-per-part). Recounting the curve is a structural change and is proposed, not made: the numbers stand until Dardan decides. Ch 01 also shows Maksimo, Ivan, Leona and Lina fighting, although the *New Units* column recruits them in Ch 02–05 – in the prologue they are scripted units, not recruitments.
+
+**Why the class choice sits at the end of Ch 06:** By that point the player has seen movement, the weapon triangle, terrain, abilities, combat arts and the chain attack (Ch 01), biorhythm (Ch 02), objectives, naval combat, magic (Ch 05) and affinity – the map talks and the first Heart-to-Hearts of Ch 06 ([Affinity](mechanics/Affinity.md)). The first irreversible decision of the campaign is therefore made with the systems already demonstrated rather than guessed at – and Ch 07 is immediately there to play the result.
 
 **Milestone:** By end of Part 01, all eight Vigilant Knights are recruited.
 
@@ -245,7 +248,7 @@ Seals are **promotion items, not reclassing items** – each one is consumed to 
 - **Skill Retention:** Abilities learned in a lower class are kept after promoting.
 - **Level Retention:** Level stays the same across a promotion – levels are continuous 1–60, not per tier.
 - **Stat Adjustments:** Class bonuses apply immediately.
-- **Growth Adjustments:** Every class carries a growth modifier per stat that is added to the unit's personal growth on each level-up spent in that class; it rises with tier and is 0 for the Citizen. The rule is in [Growth Modifiers](mechanics/Growth-Modifiers.md), the values in the [Balancing Guide → Class Growth Modifiers](Balancing-Guide.md#class-growth-modifiers).
+- **Growth Adjustments:** Every class carries a growth modifier per stat that is added to the unit's personal growth on each level-up spent in that class; it rises with tier and is 0 for the Citizen. The rule is in [Growth Modifiers](mechanics/Growth-Modifiers.md), the values in [Growth Modifiers → Balancing](mechanics/Growth-Modifiers.md#class-growth-modifiers).
 
 **Consequence for the UI:** Because the choice cannot be undone, the branch options, their stat modifiers *and their growth modifiers* must be fully visible *before* the player commits. Design Pillar 5 demands the challenge be transparent – an irreversible decision made on hidden information would be punishment, not challenge.
 
@@ -441,6 +444,6 @@ Additionally for Parts 05 and 06:
 
 ---
 
-**Version:** 2.2
-**Last Updated:** 2026-09-20
+**Version:** 2.3
+**Last Updated:** 2026-09-29 – Ch 01 carries the full combat tutorial (weapon triangle, terrain, abilities, combat arts, chain attack); Ch 02 introduces Biorhythm alone; Ch 03 no longer lists terrain
 **Cross-Reference:** [Balancing Guide](Balancing-Guide.md), [Game Mechanics](mechanics/README.md), [Unit Classes](catalog/Unit-Classes.md), [Levels](levels/README.md)

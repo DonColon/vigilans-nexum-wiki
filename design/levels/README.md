@@ -25,11 +25,11 @@ Alle Level-Designs für die **64 Kapitel** von Vigilans Nexum (8 Parts × 8 Kapi
 
 | # | Name | Type | Objective | New Mechanics | Datei |
 |---|------|------|-----------|---------------|-------|
-| 01 | Every End... | Story | Rout Enemy | Movement, Attack, Items | [📄](Level-01-Every-End.md) |
-| 02 | ...Is A New Beginning | Story | Defeat Boss (the thieves' leader; the gang flees when he falls · side objective: every thief caught raises the reward, a thief who reaches the map edge with the loot is lost) | Weapon Triangle · [Biorhythm](../mechanics/Biorythm.md): the thieves (Quintus) are Neutral on rounds 1, 2 and 4, in Dissonance on round 3 and in Resonance from round 5, while Dardan's *Animado* resonates on rounds 1, 2 and 4, so he should use his own rhythm before the enemy finds theirs | [📄](Level-02-Is-A-New-Beginning.md) |
+| 01 | Every End... | Story | Rout Enemy | The full combat tutorial, in three fights. Fight 1: Movement, Attack, Items · fight 2 (the older children): Weapon Triangle, Terrain, [Abilities](../mechanics/Abilities.md), [Combat Arts](../mechanics/Combat-Arts.md) · fight 3 (the red soldier, scripted): [Chain Attack](../mechanics/Chain-Attack.md) | [📄](Level-01-Every-End.md) |
+| 02 | ...Is A New Beginning | Story | Defeat Boss (the thieves' leader; the gang flees when he falls · side objective: every thief caught raises the reward, a thief who reaches the map edge with the loot is lost) | [Biorhythm](../mechanics/Biorythm.md): the thieves (Quintus) are Neutral on rounds 1, 2 and 4, in Dissonance on round 3 and in Resonance from round 5, while Dardan's *Animado* resonates on rounds 1, 2 and 4, so he should use his own rhythm before the enemy finds theirs | [📄](Level-02-Is-A-New-Beginning.md) |
 | 03 | All Your Base Belong To Us | Defense | Hold Territory | Territory Control | [📄](Level-03-All-Your-Base-Belong-To-Us.md) |
 | 04 | Ripping Of Pirates | Story | Defeat Boss | Naval Combat (Optional) | [📄](Level-04-Ripping-Of-Pirates.md) |
-| 05 | A Heart Of Gold | Story | Rout Enemy | Magic System | [📄](Level-05-A-Heart-Of-Gold.md) |
+| 05 | A Heart Of Gold | Story | Rout Enemy | [Magic System](../mechanics/Magic-System.md) | [📄](Level-05-A-Heart-Of-Gold.md) |
 | 06 | Heroes Are Made By The Path They Choose... | Story | Defend NPC | [Affinity](../mechanics/Affinity.md) – the first map talks; the first Heart-to-Hearts and the Affinity Chart after the map | [📄](Level-06-Heroes-Are-Made-By-The-Path-They-Choose.md) |
 | 07 | ...Not By The Power They Are Graced With | Story | Survive + Objective | First chapter played in the chosen classes (no new system – see [Progression System](../Progression-System.md#part-01-path-of-liberation-chapters-1-8)) | [📄](Level-07-Not-By-The-Power-They-Are-Graced-With.md) |
 | 08 | The Vigilant Knights | Boss | Defeat Boss | [The Nexus / Exchange](../mechanics/Nexus.md) – tutorial: the player performs the swap with the hostage Elena | [📄](Level-08-The-Vigilant-Knights.md) |

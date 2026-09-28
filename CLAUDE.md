@@ -107,7 +107,7 @@ Wenn etwas nicht im Wiki steht: **Lücke melden, nicht füllen.** Eine erfundene
 ## Invarianten
 
 - **Sprache:** Kapitelprosa Deutsch, Spec und Dokumentation Englisch
-- **Zahlen:** leben ausschließlich in `design/Balancing-Guide.md`. Nie in ein zweites Dokument kopieren – verlinken
+- **Zahlen:** Jede Zahl existiert genau einmal. Die Werte einer einzelnen Mechanik stehen im Abschnitt `## Balancing` ihrer Datei in `design/mechanics/`; was mehrere Systeme lesen – Formeln, Caps, Budgets, Schwierigkeit – steht in `design/Balancing-Guide.md`. Nie in ein zweites Dokument kopieren – verlinken
 - **Templates:** heißen `_TEMPLATE.md` und liegen im jeweiligen Ordner
 - **Index-Seiten:** heißen `README.md` und liegen im eigenen Ordner. Neue Datei ohne Indexeintrag existiert nicht
 - **Leere Tabellen:** Eine leere oder halb gefüllte Tabelle heißt **immer** „noch nicht befüllt", nie „hier gibt es bewusst nichts". Sie ist offener Rückstand und wird als solcher gemeldet – nicht mit erfundenen Werten aufgefüllt und nicht als Aussage gelesen
@@ -127,7 +127,7 @@ Wenn etwas nicht im Wiki steht: **Lücke melden, nicht füllen.** Eine erfundene
 - **Charakterbogen, Werte-Hälfte** (Basiswerte, Wachstum, Maximalwerte, Fähigkeiten, Kampfkünste, Waffenränge) → Rulewright mit `statcraft`. Ein Bogen hat zwei Besitzer – jeder fasst nur seine Hälfte an. Den Canon Class Path setzt Lorekeeper, Rulewright prüft ihn nur gegen den Klassenbaum
 - **Und zwar in dieser Reihenfolge:** erst Lorekeeper, dann Rulewright. Die persönliche Fähigkeit einer Einheit ist die mechanische Übersetzung dessen, was die Story-Hälfte über die Figur sagt – wer die Zahlen zuerst setzt, rät die Figur
 - **Level-Design** (`design/levels/`: Karte, Gelände, Feindkomposition, Boss, Verstärkungen, Belohnungen) → Rulewright mit `levelcraft`. Der Level-Kasten im Kapiteltext gehört Lorekeeper – auch ein Level hat zwei Besitzer, und bei Widerspruch gewinnt das Kapitel
-- **Mechanik-Spezifikation** (`design/mechanics/`) → Rulewright mit `mechanicraft`. Die Regel steht dort, die Stellschraube im Balancing-Guide, die Liste im Katalog
+- **Mechanik-Spezifikation** (`design/mechanics/`) → Rulewright mit `mechanicraft`. Die Regel und ihre Stellschrauben stehen dort (Stellschrauben im Abschnitt `## Balancing`), systemübergreifende Zahlen im Balancing-Guide, die Liste im Katalog
 - **Systemarbeit im Übrigen** (Balancing, Progression, Katalog) → Rulewright
 - **Review und Audit** → Arbiter. Er findet, er repariert nicht
 - **Der Dialog bleibt bei mir.** Fragen, Bestätigungen, Kapitelzusammenfassung, Index-Pflege. Ein Subagent kann nicht zurückfragen – deshalb muss vor jeder Übergabe geklärt sein, was er wissen muss

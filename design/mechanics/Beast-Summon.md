@@ -1,8 +1,8 @@
 # Beast Summon
 
-How the Bestiarius' class ability *Beast Call* puts a Solmare beast on the map as a unit of its own – what the beast is, what it costs, how it is ordered, and what it can and cannot take part in. This document holds the rules; every value lives in the [Balancing Guide](../Balancing-Guide.md#beast-summon). The same unit definition serves the wild beasts the player fights as enemies in Ch 22 and Ch 23.
+How the Bestiarius' class ability *Beast Call* puts a Solmare beast on the map as a unit of its own – what the beast is, what it costs, how it is ordered, and what it can and cannot take part in. This document holds the rules, and its values are in its own [Balancing](#balancing) section. The same unit definition serves the wild beasts the player fights as enemies in Ch 22 and Ch 23.
 
-> **Related files:** [Abilities → Beast Call](../catalog/Abilities.md#advanced) · [Unit Classes](../catalog/Unit-Classes.md) · [Balancing Guide → Beast Summon](../Balancing-Guide.md#beast-summon) · [Progression System](../Progression-System.md) · [Magic System](Magic-System.md) · [Chain Attack](Chain-Attack.md) · [Ch 22](../../story/chapters/Part-03-The-Champions-Road/Chapter-22-The-Desert-Knows-No-Kings.md) · [Ch 23](../../story/chapters/Part-03-The-Champions-Road/Chapter-23-Death-Or-Glory.md)
+> **Related files:** [Abilities → Beast Call](../catalog/Abilities.md#advanced) · [Unit Classes](../catalog/Unit-Classes.md) · [Balancing](#balancing) · [Progression System](../Progression-System.md) · [Magic System](Magic-System.md) · [Chain Attack](Chain-Attack.md) · [Ch 22](../../story/chapters/Part-03-The-Champions-Road/Chapter-22-The-Desert-Knows-No-Kings.md) · [Ch 23](../../story/chapters/Part-03-The-Champions-Road/Chapter-23-Death-Or-Glory.md)
 
 ---
 
@@ -30,7 +30,7 @@ The reference Dardan named is Tanith's *Reinforce* in *Path of Radiance* – all
 | Class | The unit holds *Beast Call* – the Bestiarius class ability, kept by the Behemoth. No other class, scroll or item grants it |
 | Capacity | *Beast Call* must be **equipped** (Capacity 3, [Abilities](../catalog/Abilities.md#advanced)). A Bestiarius that has unequipped it to make room cannot summon and cannot give orders |
 | Summons left | The summoner has at least one of its three summons for this map unspent |
-| MP | The summoner holds at least the summon's MP cost ([Balancing Guide](../Balancing-Guide.md#beast-summon), not yet set) |
+| MP | The summoner holds at least the summon's MP cost ([Balancing](#balancing), not yet set) |
 | Tile | At least one **empty, passable tile adjacent** to the summoner. The player chooses which; if there is none, the ability cannot be used |
 | Action | The summoner has not yet acted this turn. Summoning is the action – it cannot attack, use a staff or use another action ability in the same turn. It may still move first, and it may give an order afterwards (orders are free) |
 
@@ -40,7 +40,7 @@ The reference Dardan named is Tanith's *Reinforce* in *Path of Radiance* – all
 
 | What | Value |
 | ---- | ----- |
-| Resource | **MP** – a fixed cost per summon, value in the [Balancing Guide](../Balancing-Guide.md#beast-summon), not yet set. A Bestiarius is a non-mage and builds MP by attacking ([Magic System](Magic-System.md#nicht-magier--aktiv)); every summon is therefore paid with attacks it made earlier, and competes with its Combat Arts for the same pool |
+| Resource | **MP** – a fixed cost per summon, value in the [Balancing](#balancing), not yet set. A Bestiarius is a non-mage and builds MP by attacking ([Magic System](Magic-System.md#non-mages--active)); every summon is therefore paid with attacks it made earlier, and competes with its Combat Arts for the same pool |
 | Action | **The summoner's action.** A turn spent calling a beast is a turn the Bestiarius did not attack with a Chain that reaches two tiles. Giving an order costs nothing (*Core Rules → 3*) |
 | Further cost | **One of three summons per map**, never refunded – not when the beast falls, not when it is dismissed, not when the map ends early. **Position**: an order needs the beast within the Chain's reach, so a tamer who wants to keep control stays with its beast instead of where its own Chain would be most useful. **Risk**: a beast beyond the leash acts on its own AI, and that AI attacks enemies – including an enemy the player intended to recruit |
 | Visible before use | The MP cost and the number of summons left are shown on the summoner at all times; the target tile is chosen on a highlighted grid like any placement; the beast's stat block is shown before the summon is confirmed, derived from the summoner's current stats (*Core Rules → 1*). Nothing about the beast is revealed only after it exists |
@@ -71,11 +71,11 @@ Nothing is lost when a beast dies except the beast. That is deliberate: the summ
 | Mag, MP | – | **None.** A beast has no Mag and no MP: it casts nothing, uses no arts, builds no MP and can be given none (Chi Transfer has no legal target in it) |
 | Movement | – | A fixed value per beast, not derived – the beast does not get faster because the tamer did |
 
-The factors and the Movement are tuning values in the [Balancing Guide → Beast Summon](../Balancing-Guide.md#beast-summon), **not yet set**. The design intent they must express, so that the table is not filled arbitrarily: the beast is a **body** – HP and Str at or above the summoner's own, Def near it, Spd and Dex below it, Res and Lck well below. A beast should hit hard and take hits; it should not double, dodge or shrug off magic. Shira drives the beasts back with wind in Ch 23, and the numbers should let a mage do that.
+The factors and the Movement are tuning values in [Balancing](#balancing), **not yet set**. The design intent they must express, so that the table is not filled arbitrarily: the beast is a **body** – HP and Str at or above the summoner's own, Def near it, Spd and Dex below it, Res and Lck well below. A beast should hit hard and take hits; it should not double, dodge or shrug off magic. Shira drives the beasts back with wind in Ch 23, and the numbers should let a mage do that.
 
 The beast is summoned at **full HP** and is never healed (*Interaction → Staves*).
 
-**Natural weapon.** The beast attacks with fangs and claws: a natural weapon with **Range 1**, **Critical 0**, no Uses, no Rank, no Weight. Its Might and Hit are in the Balancing Guide (not yet set). The natural weapon is **not an item**: it cannot be stolen, disarmed, sundered or destroyed, and it stands **outside both weapon triangles** – like the Staff, it neither gains nor suffers a triangle bonus. It applies no element.
+**Natural weapon.** The beast attacks with fangs and claws: a natural weapon with **Range 1**, **Critical 0**, no Uses, no Rank, no Weight. Its Might and Hit are in [Balancing](#balancing) (not yet set). The natural weapon is **not an item**: it cannot be stolen, disarmed, sundered or destroyed, and it stands **outside both weapon triangles** – like the Staff, it neither gains nor suffers a triangle bonus. It applies no element.
 
 **Move Type.** The beast is **Infantry**. It pays terrain costs like any Infantry unit and no effective weapon in the catalog targets it. Whether the beasts warrant a Move Type of their own is an open decision (*Open decisions → 1*); until it is made, Infantry carries the mechanic and nothing here depends on the answer.
 
@@ -195,9 +195,25 @@ All entries: [Abilities](../catalog/Abilities.md#advanced) – *Beast Call* is t
 
 ---
 
-## Balancing Guidelines
+## Balancing
 
-Every value lives in the [Balancing Guide → Beast Summon](../Balancing-Guide.md#beast-summon), all of them **not yet set**:
+This section holds Beast Summon's values. *Not yet set: every value in this table is open.* The design intent the values must express (the beast is a body) is written next to the derivation rule in *Core Rules*.
+
+| Parameter | Value |
+|-----------|-------|
+| Beast Call – MP cost per summon | *not yet set* |
+| Beast factor – HP (× summoner's max HP) | *not yet set* |
+| Beast factor – Str | *not yet set* |
+| Beast factor – Spd | *not yet set* |
+| Beast factor – Dex | *not yet set* |
+| Beast factor – Lck | *not yet set* |
+| Beast factor – Def | *not yet set* |
+| Beast factor – Res | *not yet set* |
+| Natural weapon – Might | *not yet set* |
+| Natural weapon – Hit | *not yet set* |
+| Beast Movement | *not yet set* |
+
+### What each value tunes
 
 | Parameter | What it tunes |
 | --------- | ------------- |
@@ -206,7 +222,12 @@ Every value lives in the [Balancing Guide → Beast Summon](../Balancing-Guide.m
 | Natural weapon Might and Hit | The beast's bite |
 | Beast Movement | How far the beast goes beyond the leash in a turn |
 
-Three things are **rules, not tuning values**, and stay here: three summons per Bestiarius per map; the order reach of range 1–2 (the Chain's reach – change it and the leash is a different system); Mag and MP at none.
+These are **rules, not tuning values**, and stay as rules:
+
+- three summons per Bestiarius per map;
+- the order reach of range 1–2 (the Chain's reach – change it and the leash is a different system);
+- Mag and MP at none;
+- the natural weapon's fixed profile (range, Critical, no Uses), as *Core Rules* states it.
 
 Wild-beast stats for Ch 22 and Ch 23 are set in those level documents against their chapter's enemy band, per the existing rule that generic enemies carry the stats of one battle.
 

@@ -29,7 +29,7 @@ Die Schritte 1 bis 6 unten gelten für spielbare Einheiten. Für benannte Nicht-
 
 ## Das Grundgesetz
 
-**Alle Regelzahlen leben in `design/Balancing-Guide.md`.** Formeln, Budgets, Caps, Klassenmodifikatoren, Level-Bänder – nichts davon wird in einen Charakterbogen, in diesen Skill oder in `notes/` kopiert. Verlinkt wird, nicht dupliziert.
+**Systemübergreifende Regelzahlen leben in `design/Balancing-Guide.md`** – Formeln, Budgets, Caps, Klassen-Tier-Modifikatoren, Level-Bänder. **Die Werte einer einzelnen Mechanik** (Klassen-Wachstumsmodifikatoren und Aptitude in `Growth-Modifiers.md`, Affinity, Biorhythm …) stehen im Abschnitt `## Balancing` ihrer Datei in `design/mechanics/`. Nichts davon wird in einen Charakterbogen, in diesen Skill oder in `notes/` kopiert. Verlinkt wird, nicht dupliziert.
 
 Der Charakterbogen ist die **einzige** Stelle, an der die *eigenen* Zahlen einer Einheit stehen: ihre Basiswerte, ihre Wachstumsraten, ihre Maximalwerte, ihre Fähigkeiten. Diese Zahlen sind abgeleitet, nicht gewürfelt – jede muss sich aus dem Balancing-Guide und dem Progression-System begründen lassen.
 

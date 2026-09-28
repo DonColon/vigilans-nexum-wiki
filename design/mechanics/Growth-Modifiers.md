@@ -1,8 +1,8 @@
 # Growth Modifiers
 
-How a unit's growth rates are composed – personal growth plus a class growth modifier, plus Aptitude for the eight Vigilant Knights – and, because the two are inseparable, how the Citizen class reaches every weapon type before the class choice is made. This document holds the rules; every value lives in the [Balancing Guide](../Balancing-Guide.md#class-growth-modifiers).
+How a unit's growth rates are composed – personal growth plus a class growth modifier, plus Aptitude for the eight Vigilant Knights – and, because the two are inseparable, how the Citizen class reaches every weapon type before the class choice is made. This document holds the rules, and its values are in its own [Balancing](#balancing) section. The growth bands and caps it builds on are shared and stay in the [Balancing Guide](../Balancing-Guide.md#growth-rates--chance-per-level).
 
-> **Related files:** [Balancing Guide → Class Growth Modifiers](../Balancing-Guide.md#class-growth-modifiers) · [Progression System](../Progression-System.md) · [Unit Classes](../catalog/Unit-Classes.md) · [Abilities](../catalog/Abilities.md) · [Magic System](Magic-System.md) · [Weapons](../catalog/Weapons.md) · [Magic Tomes](../catalog/Magic-Tomes.md)
+> **Related files:** [Balancing → Class Growth Modifiers](#class-growth-modifiers) · [Balancing Guide → Growth Rates](../Balancing-Guide.md#growth-rates--chance-per-level) · [Progression System](../Progression-System.md) · [Unit Classes](../catalog/Unit-Classes.md) · [Abilities](../catalog/Abilities.md) · [Magic System](Magic-System.md) · [Weapons](../catalog/Weapons.md) · [Magic Tomes](../catalog/Magic-Tomes.md)
 
 ---
 
@@ -37,7 +37,7 @@ The purpose in one sentence: **the player can send any Knight down any class lin
 | ---- | ----- |
 | Resource | None |
 | Action | None – growth is rolled on level-up, not chosen |
-| Further cost | **The class choice.** Promotions are permanent ([Progression System → Class Change Rules](../Progression-System.md#class-change-rules)); choosing a line means accepting its growth profile for every level-up spent in it. A line puts its points where the class wants them – the price is the stats it leaves alone. **Aptitude** is a Capacity-2 passive in [Abilities](../catalog/Abilities.md#citizen); like every ability it works only while equipped, so a Knight in a Base class (Capacity 3) who keeps it has one slot left for Adaptability, Discipline *or* the class ability |
+| Further cost | **The class choice.** Promotions are permanent ([Progression System → Class Change Rules](../Progression-System.md#class-change-rules)); choosing a line means accepting its growth profile for every level-up spent in it. A line puts its points where the class wants them – the price is the stats it leaves alone. **Aptitude** is a Citizen passive with a Capacity cost ([catalog → Citizen](../catalog/Abilities.md#citizen)); like every ability it works only while equipped, so a Knight in a Base class ([Capacity by tier](Abilities.md#capacity-by-tier)) who keeps it has only the room left over for Adaptability, Discipline and the class ability – at today's values, one of the three |
 | Visible before use | The promotion preview shows every branch's growth modifier next to its stat modifier **before** the player commits – the "Consequence for the UI" rule in the [Progression System](../Progression-System.md#class-change-rules). A modifier the player cannot read before an irreversible choice would be punishment, not challenge |
 
 ---
@@ -54,18 +54,18 @@ Floor: 0 %
 ```
 
 - **Personal growth** is set on the character sheet and never changes.
-- **Class growth modifier** is a per-stat value carried by every class. It is added while the unit is in that class and replaced – not stacked – when the unit promotes. The values, grouped by class line and tier, are in the [Balancing Guide → Class Growth Modifiers](../Balancing-Guide.md#class-growth-modifiers).
-- **Aptitude** is a flat bonus to every growth rate, identical for all stats, held by the Citizen class and kept through every promotion. Its size is in the [Balancing Guide → Aptitude](../Balancing-Guide.md#aptitude).
-- **Str and Mag stay two separate growths.** There is no merged attack stat: Mag drives MP income for every unit, mage or not, per the [Magic System](Magic-System.md#duales-mp-system), so a physical unit's Mag growth is never dead weight.
+- **Class growth modifier** is a per-stat value carried by every class. It is added while the unit is in that class and replaced – not stacked – when the unit promotes. The values, grouped by class line and tier, are in [Balancing → Class Growth Modifiers](#class-growth-modifiers).
+- **Aptitude** is a flat bonus to every growth rate, identical for all stats, held by the Citizen class and kept through every promotion. Its size is in [Balancing → Aptitude](#aptitude).
+- **Str and Mag stay two separate growths.** There is no merged attack stat: Mag drives MP income for every unit, mage or not, per the [Magic System](Magic-System.md#1--two-mp-regimes), so a physical unit's Mag growth is never dead weight.
 - **MP** is modified like any other stat but stays outside the combat growth budget, as the [Balancing Guide](../Balancing-Guide.md#growth-rates--chance-per-level) already rules.
 
 ### 2 – Tier scaling
 
-The modifier grows with the tier of the class: **Base < Intermediate < Advanced < Master**. The Citizen class carries a modifier of 0 in every stat – a Citizen is nobody yet, and the eight level-ups before Ch 06 are rolled on personal growth and Aptitude alone. The exact step per tier is a tuning value and lives with the table in the Balancing Guide.
+The modifier grows with the tier of the class: **Base < Intermediate < Advanced < Master**. The Citizen class carries a modifier of 0 in every stat – a Citizen is nobody yet, and the level-ups before Ch 06 are rolled on personal growth and Aptitude alone. **Level-ups in Ch 01 do not count toward them:** Ch 01 is a self-contained prologue, and nothing of it – levels, experience, weapon experience, items – carries into Ch 02 ([Progression System](../Progression-System.md#part-01-path-of-liberation-chapters-1-8)). The exact step per tier is a tuning value and lives with the table in [Balancing](#magnitude-by-tier).
 
 ### 3 – The anti-trap guard
 
-**No Base class modifier may leave a Knight's main attack stat below the *Medium* band** of the growth table – Mag for the mage lines, Str for the physical lines – even for a Knight whose personal growth in that stat sits at the *Low* band. This is a rule the table must satisfy, not a number: it is what makes the "no branch may be a trap" consequence in the [Progression System](../Progression-System.md#class-change-rules) true for the Ch 06 choice. The arithmetic is shown once, next to the table, in the [Balancing Guide](../Balancing-Guide.md#class-growth-modifiers).
+**No Base class modifier may leave a Knight's main attack stat below the *Medium* band** of the growth table – Mag for the mage lines, Str for the physical lines – even for a Knight whose personal growth in that stat sits at the *Low* band. This is a rule the table must satisfy, not a number: it is what makes the "no branch may be a trap" consequence in the [Progression System](../Progression-System.md#class-change-rules) true for the Ch 06 choice. The arithmetic is shown once, next to the table, in [Balancing → Magnitude by tier](#magnitude-by-tier).
 
 ### 4 – Citizen weapon access
 
@@ -73,7 +73,7 @@ The Citizen class holds **rank F in every weapon type** – it remains the only 
 
 | From | Types | In-world source |
 | ---- | ----- | --------------- |
-| Ch 01 | Sword, Lance, Axe, Bow, Staff | What the militia has |
+| Ch 01 | Sword, Lance, Axe, Bow, Staff | What the militia has. **In the Ch 01 prologue** the children fight with improvised weapons – sticks, boards, pans, stones, a rusty dagger – and nothing they hold or learn there carries over; which weapon entries the improvised weapons use is Level 01's. The stage holds for the game proper from Ch 02 on |
 | Ch 04 | Knife, Gauntlet, Battle Staff, Chain, Artillery | The weapon delivery – the crates unloaded and defended at the harbour in [Ch 04](../../story/chapters/Part-01-Path-Of-Liberation/Chapter-04-Ripping-Of-Pirates.md) |
 | Ch 05 | Pyro, Aero, Electro, Hydro, Cryo, Geo, Dendro, Lux, Umbra | One tome per element, found by the Vigilant Knights in Ch 05 – the scene itself is Lorekeeper's |
 
@@ -81,7 +81,7 @@ The F-rank entries a Citizen can hold – Bronze weapons, the Bronze-tier tomes 
 
 ### 5 – A Citizen's MP mode follows the equipped weapon
 
-The [Magic System](Magic-System.md#duales-mp-system) runs two MP regimes, keyed to whether a unit is a mage. A Citizen is neither, so the regime is read off the weapon in hand:
+The [Magic System](Magic-System.md#1--two-mp-regimes) runs two MP regimes, keyed to whether a unit is a mage. A Citizen is neither, so the regime is read off the weapon in hand:
 
 | Equipped | MP regime |
 | -------- | --------- |
@@ -133,7 +133,7 @@ The interaction with *Adaptability* – the free once-per-turn swap – is worke
 
 **How it is introduced:** Not by a popup. From Ch 01 the Knights level on personal growth and Aptitude alone, and the player sees numbers that are already good. In Ch 04 the crates arrive and every Knight can suddenly hold a knife, a gauntlet, a chain, a cannon; in Ch 05 the tomes are found and every Knight can cast. By the end of Ch 06 the player has *used* every type on every Knight, and the class preview shows what each line would do to the growths he has been watching for six chapters. The choice explains itself because the player has the data.
 
-**What the player must already know:** Level-ups and stat growth (Ch 01 onward), the weapon triangle (Ch 02), magic and elements (Ch 05). All of them are in place before the choice, which is why the [Progression System](../Progression-System.md#part-01-path-of-liberation-chapters-1-8) puts the choice at the end of Ch 06.
+**What the player must already know:** Level-ups and stat growth (Ch 01 onward), the weapon triangle (Ch 01), magic and elements (Ch 05). All of them are in place before the choice, which is why the [Progression System](../Progression-System.md#part-01-path-of-liberation-chapters-1-8) puts the choice at the end of Ch 06.
 
 The level index's *New Mechanics* column is unchanged: Ch 04 already carries the weapon delivery as its story beat and Ch 05 already carries the Magic System, which the tomes are the vehicle for. Growth modifiers are part of the Class System entry at Ch 06, not a separate mechanic a map must carry.
 
@@ -145,15 +145,87 @@ All entries: [Unit Classes](../catalog/Unit-Classes.md) (which class sits on whi
 
 ---
 
-## Balancing Guidelines
+## Balancing
 
-Every value lives in the Balancing Guide, in three places:
+This section holds the values that belong to this mechanic: the class growth modifiers and Aptitude. The growth bands, the personal growth budget, MP as a separate budget and the stat caps are shared by every unit and every system that reads a sheet, so they stay in the Balancing Guide ([Growth Rates](../Balancing-Guide.md#growth-rates--chance-per-level), [Max Stats](../Balancing-Guide.md#max-stats-level-60-master-class)).
+
+### Class Growth Modifiers
+
+*Proposal – every value here is a first draft for tuning.*
+
+The rule is in *Core Rules*: on every level-up a unit rolls its personal growth **plus the modifier of the class it is in**, plus Aptitude if it has it. This section holds the modifiers.
+
+A class line has a **main attack stat** and **two support stats**; every other stat carries 0. Modifiers are never negative – a penalty on an off-stat would recreate the trap the system exists to remove (Mag feeds MP income for every unit, Spd decides doubling), so a line's profile is expressed by where it puts its points, not by where it takes them away.
+
+#### Magnitude by tier
+
+**Tier scaling rule:** every entry of a line's profile rises by **+5 per tier** above Base, the grain of the growth table. Citizen is 0 in every stat.
+
+| Tier | Main stat | Each support stat | Sum |
+|------|-----------|-------------------|-----|
+| **Citizen** | 0 | 0 | 0 |
+| **Base** | +20 | +10 | +40 |
+| **Intermediate** | +25 | +15 | +55 |
+| **Advanced** | +30 | +20 | +70 |
+| **Master** | +35 | +25 | +85 |
+
+**Derivation of the Base main stat – the anti-trap guard, once:** the [Growth Rates](../Balancing-Guide.md#growth-rates--chance-per-level) table puts Str/Mag at *Low* 20 % and *Medium* 40 %. The guard demands that a Knight with *Low* personal growth in a line's main stat still reaches *Medium* in that line's Base class: `20 % (Low) + Base main modifier ≥ 40 % (Medium)`, so the Base main modifier is **at least +20**. It is set at exactly +20 so that the guard holds with nothing to spare – a stronger modifier would lift every Knight's main stat toward the cap too early (see the note under [Max Stats](../Balancing-Guide.md#max-stats-level-60-master-class)). Supports are half the main; +5 per tier is the smallest step the growth table uses.
+
+**Why the modifier scales with tier at all:** a flat modifier would make the Ch 06 choice the only one that mattered for growth. Rising with tier, each of the three later promotions is worth more to *take* than the one before – and each is a fork, so the choice of branch stays live to the end of the game.
+
+#### Profiles by class line
+
+The line is read from the [class tree](../catalog/Unit-Classes.md); the tier from the class. A branch override replaces the line's supports from the tier where that branch begins and stays for the rest of the path.
+
+| Line | Classes on the line | Main | Supports | Why |
+|------|---------------------|------|----------|-----|
+| **Sword** | Swordsman → Myrmidon, Sword Cavalier → Sword Master, Duelist, Griffon Knight\*, Sword Paladin → Sword Saint, Blade Dancer, Griffon Lord\*, Astra Knight | Str | Spd, Dex | The light, accurate type wins by doubling and hitting, not by Might |
+| **Lance** | Lancer → Soldier, Lance Cavalier → Halberdier, Armored Knight\*, Pegasus Knight\*, Lance Paladin → Sentinel, Armored General\*, Pegasus Lord\*, Aegis Knight | Str | Def, Dex | The line that holds the front: balanced, accurate, durable |
+| **Axe** | Axe Fighter → Warrior, Axe Cavalier → Berserker, Gladiator, Wyvern Knight\*, Axe Paladin → Warmonger, Spartan, Wyvern Lord\*, Colossus Knight | Str | HP, Def | The heavy type; it takes the hit it could not dodge |
+| **Bow** | Archer → Sniper, Bow Cavalier → Marksman, Ranger, Kinshi Knight\*, Bow Paladin → Deadeye, Hunterblade, Kinshi Lord\*, Pavise Warden | Str | Dex, Spd | Never reached, always landing |
+| **Knife** | Thief → Rogue, Trickster → Assassin, Saboteur → Nightveil, Puppeteer | Str | Spd, Lck | Damage by volume and crit; Lck is the Thief's trade |
+| **Gauntlet** | Martial Artist → Brawler, Martial Monk\* → Bruiser, Martial Saint\* → Enforcer, Divine Monk\* | Str | Spd, HP | Two strikes a turn on a unit that has to stand in reach |
+| **Artillery** | Artillerist → Gunner, Bombardier → Cannoneer, Grenadier → Warfire Vanguard, Siege Breaker | Str | Dex, Def | Blind up close, so it must hit from afar and survive being reached |
+| **Chain** | Tamer → Dompteur, Harpooner → Bestiarius, Retiarius → Behemoth, Leviathan | Str | Dex, Spd | A thrown weapon whose Hit line sits below every close-combat type but the Axe and whose Weight sits above the Sword's: Dex to land it at range 2, Spd to keep doubling under the chain's weight, Str for the heavy hit and for the Strength gate on Ensnare and Hurl. Both branches share the profile – the Harpooner's Lance reads Str too |
+| **Staff (healer)** | Acolyte → Cleric\*, Priest → Valkyrie\*, Bishop → Celestial Valkyrie\*, Arch Bishop | Mag | Res, Def | A healer's cost is standing next to the wounded, inside the enemy's reach |
+| **Natura mage** | the nine mancers → the nine Sages → Elementalist → Arcanist | Mag | MP, Res | The tome is fired every round; MP is the running cost |
+| **Lux** | Luxmancer → Lux Sage → Luminary → Radiant Monarch | Mag | Res, HP | The support caster that ends up carrying a Staff and standing in the line |
+| **Umbra** | Umbramancer → Umbra Sage → Tenebrae → Shadow Monarch | Mag | Str, HP | Drain is sustain; the Sword arrives at Advanced and the Str is already there. Also the mage line for a Knight with a physical profile |
+
+**Branch overrides** – the classes marked \* above. They keep their line's main stat and swap the supports:
+
+| Branch | From | Replaces the line's supports with | Why |
+|--------|------|-----------------------------------|-----|
+| **Flying** – Griffon Knight, Pegasus Knight, Wyvern Knight, Kinshi Knight and their Lords | Advanced | Spd, Res | Fast, resistant to magic, and the type every bow is effective against – it must not also be slow |
+| **Armored** – Armored Knight, Armored General | Advanced | Def, HP | The wall. It gives up the Lance line's Dex for the second defensive stat |
+| **Cleric** – Cleric → Valkyrie → Celestial Valkyrie | Intermediate | Str, Res | The healer who also swings a Sword; Str is the hybrid's second attack stat |
+| **Martial Monk** – Martial Monk → Martial Saint → Divine Monk | Intermediate | Mag, Spd | Ki Gauntlet and Staff both read Mag; the monk keeps the gauntlet's speed |
+
+Cavalry branches (the four Cavaliers and their Paladins) keep their line's profile – Canto is what they add, not a different body. Physical hybrids (Duelist, Ranger, Gladiator, Trickster, Brawler, Harpooner and their promotions) keep the line's profile too: both their weapon types read Str.
+
+**Worked example – Sword line, effective growth in Str for a Knight with *Medium* personal Str (40 %) and Aptitude:** Citizen 40 + 0 + 10 = 50 % · Swordsman 40 + 20 + 10 = 70 % · Myrmidon 75 % · Sword Master 80 % · Sword Saint 85 %. The same Knight with *Low* personal Str (20 %): 30 / 50 / 55 / 60 / 65 % – a competent swordsman, not the best one, which is the guard doing exactly what it is for.
+
+### Aptitude
+
+*Proposal.*
+
+```
+Aptitude = +10 % to every growth rate, including MP
+```
+
+Held by the Citizen class ability of that name ([Abilities](../catalog/Abilities.md#citizen)) and kept for the whole campaign, so only the eight Vigilant Knights ever have it.
+
+**Effect on the Knights' budget:** the eight combat stats gain 8 × 10 = **+80 %**, so a Knight's effective personal budget reads **380–480 %** (a Lord's 460–500 %), MP separate. Over 59 level-ups that is ≈ 0.10 × 59 ≈ **6 points per stat** – about what one Master promotion grants in Str/Mag, or a little more than it grants in Spd and Def/Res. That is the intended size of "the Bellum orphans overtake the veterans": a Knight ends the campaign roughly one promotion ahead of a same-class veteran who joined in Part 02, visibly and not overwhelmingly.
+
+**Why 10 and not the Fire Emblem 20:** *Awakening* and *Three Houses* set Aptitude at +20 %, but there it is the only bonus on top of personal growth, and it lands on lower caps with reclassing to spend the surplus. Here it stacks on a class growth modifier that already lifts the class's main stat, under a hard cap of 50 with no reclassing. At +20 % a Knight with *High* personal growth in his line's main stat would cap that stat around Lv 40 – in Part 05/06, where a capped stat reads as wasted level-ups rather than as the Part 08 reward the *Max Stats* note aims for. At +10 % the same Knight caps around the Part 07 reunion (Lv 45), and a *Medium* one around Lv 55.
+
+### What each value tunes
 
 | Parameter | Where |
 | --------- | ----- |
-| Class growth modifier per line and tier, the tier step, the anti-trap arithmetic | [Class Growth Modifiers](../Balancing-Guide.md#class-growth-modifiers) |
-| Aptitude, and its effect on the Knights' effective growth budget | [Aptitude](../Balancing-Guide.md#aptitude) |
-| Growth bands, the personal budget, MP as a separate budget, caps | [Growth Rates](../Balancing-Guide.md#growth-rates--chance-per-level), [Max Stats](../Balancing-Guide.md#max-stats-level-60-master-class) |
+| Class growth modifier per line and tier, the tier step, the anti-trap arithmetic | [Class Growth Modifiers](#class-growth-modifiers) |
+| Aptitude, and its effect on the Knights' effective growth budget | [Aptitude](#aptitude) |
+| Growth bands, the personal budget, MP as a separate budget, caps | Balancing Guide: [Growth Rates](../Balancing-Guide.md#growth-rates--chance-per-level), [Max Stats](../Balancing-Guide.md#max-stats-level-60-master-class) |
 
 ---
 
@@ -182,5 +254,5 @@ Every value lives in the Balancing Guide, in three places:
 
 **Version:** 1.0
 **Created:** 2026-09-18
-**Last updated:** 2026-09-18
+**Last updated:** 2026-09-28. The class growth modifiers and Aptitude moved from the Balancing Guide into this document's [Balancing](#balancing) section (decided by Dardan). Growth bands and caps stay in the guide.
 **Cross-references:** [Balancing Guide](../Balancing-Guide.md) · [Progression System](../Progression-System.md) · [Unit Classes](../catalog/Unit-Classes.md) · [Magic System](Magic-System.md) · [Abilities](../catalog/Abilities.md)

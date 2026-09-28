@@ -205,24 +205,4 @@ Elementarmagie verändert nicht nur Gegner, sondern auch das Schlachtfeld selbst
 
 ---
 
-## Balancing-Richtlinien
-
-### Reaktionsstärke
-
-- **Basis-Reaktionen:** +50% Schaden
-- **Schwäche-Reaktionen:** +100% Schaden
-- **3-Element-Reaktionen:** +200% Schaden + Spezialeffekt
-
-### Geländedauer
-
-- Schwache Effekte: 1-2 Runden
-- Mittlere Effekte: 3-4 Runden
-- Starke Effekte: 5+ Runden oder permanent (Geo)
-
-### MP-Kosten
-
-Je stärker die potenzielle Reaktion, desto höher die MP-Kosten:
-
-- Einzelelement-Zauber: 5-15 MP
-- Reaktions-fähige Zauber: 10-25 MP
-- Spezielle 3-Element-Setup-Zauber: 30+ MP
+The reaction damage bonus, the terrain duration bands and the spell MP cost bands that stood here are in [Magic System → Balancing](../mechanics/Magic-System.md#balancing) (moved 2026-09-29).

@@ -5,7 +5,7 @@ The normative specification for Vigilans Nexum – what gets built, and by which
 - **[Design Pillars](Design-Pillars.md)** – the five questions every design decision must answer
 - **[Game Mechanics](mechanics/README.md)** – combat, magic, abilities, movement
 - **[Game Catalog](catalog/README.md)** – weapons, spells, classes, items
-- **[Balancing Guide](Balancing-Guide.md)** – single source of truth for all numbers
+- **[Balancing Guide](Balancing-Guide.md)** – the cross-system numbers (formulas, passive bonus budget, stat and growth frameworks, tiers, XP, economy, difficulty) and the index of every mechanic's own `## Balancing` section. Every number exists in exactly one place
 - **[Progression System](Progression-System.md)** – level curve, promotions, recruitment
 - **[Levels](levels/README.md)** – level designs per chapter
 

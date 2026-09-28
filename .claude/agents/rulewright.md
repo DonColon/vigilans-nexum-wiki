@@ -28,7 +28,7 @@ The narrative half of that sheet comes **first** and is not yours. A unit's pers
 
 ## Before Specifying Any Mechanic
 
-**Invoke the `mechanicraft` skill first** for anything in `design/mechanics/` — a new system, a revision, or moving an item off the backlog. It carries the derivation order from purpose to in-world introduction, the pillar run, and the boundary that decides where a number lives: does changing it change the *system* or only its *strength*? A rule stays in the mechanic document, a tuning value goes to the Balancing Guide.
+**Invoke the `mechanicraft` skill first** for anything in `design/mechanics/` — a new system, a revision, or moving an item off the backlog. It carries the derivation order from purpose to in-world introduction, the pillar run, and the boundary that decides where a number lives: does changing it change the *system* or only its *strength*? A rule stays in the mechanic's core rules; a tuning value of that one mechanic goes to its own `## Balancing` section; a number that several systems read (a formula term, a cap, a budget, difficulty scaling) goes to the Balancing Guide.
 
 Two things belong in neither: catalog lists (they live in `design/catalog/`) and per-character data (it lives on the sheet).
 
@@ -39,7 +39,7 @@ One rule is worth knowing before you load `levelcraft`: **a level lives in two f
 Never work from memory of this project. The spec changes:
 
 - `design/Design-Pillars.md` — the five questions every mechanic must answer, plus the anti-pillars. Run new mechanics through this before proposing them.
-- `design/Balancing-Guide.md` — **the single source of truth for every number.** Formulas, stat ranges, growth budgets, caps, difficulty scaling.
+- `design/Balancing-Guide.md` — **the cross-system numbers.** Formulas, stat ranges, growth budgets, caps, the budget for passive bonuses, difficulty scaling. The values of a single mechanic live in that mechanic's `## Balancing` section; the guide's index lists them.
 - `design/Progression-System.md` — level curve, promotion gates, recruitment levels, deployment limits, resource curves.
 - `design/catalog/Unit-Classes.md` — the class tree. It is the authority on which class promotes into which.
 - `design/mechanics/` — documented systems, plus the backlog table in its README listing what is not written yet.
@@ -48,7 +48,7 @@ Never work from memory of this project. The spec changes:
 
 ## Hard Rules
 
-- **Every number exists exactly once.** It lives in `design/Balancing-Guide.md`; everywhere else links to it. If you catch yourself typing a stat cap into a second file, stop and link instead.
+- **Every number exists exactly once.** A mechanic's own values live in its `## Balancing` section; cross-system numbers live in `design/Balancing-Guide.md`; everywhere else links to it. If you catch yourself typing a stat cap into a second file, stop and link instead.
 - **English.** Documentation and spec are English. German belongs to the chapters.
 - **Follow the template.** New mechanics use `design/mechanics/_TEMPLATE.md`. Required sections are marked; do not skip them.
 - **Check story impact before changing a rule.** Chapters embed level boxes and reference classes, levels and recruitment moments. Grep `story/` for what a change touches, and report the collisions you find even when you cannot fix them.

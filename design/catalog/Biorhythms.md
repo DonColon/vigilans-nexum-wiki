@@ -1,6 +1,6 @@
 # Biorhythms
 
-The catalog of every biorhythm type: its tier, and the rule or sequence that decides its Resonance rounds. The rules that read these types (single and double resonance, Dissonance, Chaos's roll, the Wavelength copy) are in [Biorhythm](../mechanics/Biorythm.md). What each tier and each Unique type is worth is in the [Balancing Guide → Biorhythm](../Balancing-Guide.md#biorhythm).
+The catalog of every biorhythm type: its tier, and the rule or sequence that decides its Resonance rounds. The rules that read these types (single and double resonance, Dissonance, Chaos's roll, the Wavelength copy) are in [Biorhythm](../mechanics/Biorythm.md). What each tier and each Unique type is worth is in [Biorhythm → Balancing](../mechanics/Biorythm.md#balancing).
 
 Two other places refer to this list:
 
@@ -56,4 +56,4 @@ The Unique type called *Nexus* in earlier versions no longer exists. It was repl
 
 **Version:** 1.0
 **Created:** 2026-09-27
-**Cross-references:** [Biorhythm](../mechanics/Biorythm.md) · [Balancing Guide → Biorhythm](../Balancing-Guide.md#biorhythm) · [Unit Classes](Unit-Classes.md) · [Game Catalog](README.md)
+**Cross-references:** [Biorhythm](../mechanics/Biorythm.md) · [Biorhythm → Balancing](../mechanics/Biorythm.md#balancing) · [Unit Classes](Unit-Classes.md) · [Game Catalog](README.md)

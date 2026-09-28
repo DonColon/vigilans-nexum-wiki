@@ -88,13 +88,13 @@ Templates live as `_TEMPLATE.md` inside the folder they belong to – copy the f
 - Levels: Objectives, Enemy Composition, Victory/Defeat Conditions
 - Chapters: Minimum 2 scenes + Level box + END OF CHAPTER
 
-**Balancing:** All numbers, ranges and formulas live in the [Balancing Guide](design/Balancing-Guide.md) – it is the single source of truth. Never copy values into other documents; link to it instead.
+**Balancing:** Every number exists in exactly one place. A mechanic's own values live in its spec's `## Balancing` section. Cross-system numbers live in the [Balancing Guide](design/Balancing-Guide.md): formulas, the passive bonus budget, stat and growth frameworks, tiers, XP, economy and difficulty. The guide also indexes every `## Balancing` section. Never copy values into other documents; link to where they live instead.
 
 ### ✅ Checklist Before Commit
 
 - [ ] Template completely filled (no `[placeholders]` remaining)
 - [ ] Cross-references to other documents added
-- [ ] Stats/values according to [Balancing Guide](design/Balancing-Guide.md)
+- [ ] Stats/values according to the [Balancing Guide](design/Balancing-Guide.md) and the mechanic's own `## Balancing` section
 - [ ] Spelling/grammar checked
 - [ ] File name follows naming convention
 - [ ] File saved in correct folder

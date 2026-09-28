@@ -1,14 +1,14 @@
 # Combat Arts
 
-Catalog of every combat art – the active weapon techniques that cost MP and are the only way a non-mage applies an element at all. The rules behind them are in [Game Mechanics](../mechanics/Combat-Arts.md); **which** arts exist is here.
+Catalog of every combat art – the active weapon techniques that cost MP and are the only way a non-mage applies an element at all. The rules behind them are in [Game Mechanics](../mechanics/Combat-Arts.md); **which** arts exist is here. The one exception to "only through an art" is Dardan's *Wavelength* ([Magic System → How elements are applied](../mechanics/Magic-System.md#3--how-elements-are-applied)).
 
 This list is referenced by the character sheet (*Combat Arts*) and by the classes in [Unit Classes](Unit-Classes.md).
 
-**Element** is the point of the table. A mage applies an element with every attack; everyone else applies one only by spending an art. The element an art carries is therefore what decides whether a physical unit can take part in an [elemental reaction](../mechanics/Magic-System.md#elementarreaktionen) at all, and which one.
+**Element** is the point of the table. A mage applies an element with every attack; everyone else applies one only by spending an art. The element an art carries is therefore what decides whether a physical unit can take part in an [elemental reaction](../mechanics/Magic-System.md#elemental-reactions) at all, and which one.
 
-**MP Cost** is paid out of MP the unit built up by attacking: a non-mage gains +1 to +3 MP per normal attack depending on Mag (see [Magic System](../mechanics/Magic-System.md#nicht-magier--aktiv)). Costs are set so an art is something a unit fights *toward* – two or three attacks for a basic art, four or five for a class signature, most of a Master unit's built-up pool for a terminal one. An art that could be fired every turn would remove the decision the system exists for.
+**MP Cost** is paid out of MP the unit built up by attacking: a non-mage gains MP with every normal attack, more with higher Mag (rule in [Magic System → Non-mages – active](../mechanics/Magic-System.md#non-mages--active), values in [Combat Arts → Balancing](../mechanics/Combat-Arts.md#balancing)). Costs are set so an art is something a unit fights *toward* – two or three attacks for a basic art, four or five for a class signature, most of a Master unit's built-up pool for a terminal one. An art that could be fired every turn would remove the decision the system exists for.
 
-**When arts arrive.** Weapon Combat Arts open at Intermediate, matching the chapter where the player meets combat arts – Ch 19, *Thysian Combat Arts*, in the [Progression System](../Progression-System.md#part-03-the-champions-road-chapters-17-24). Class Combat Arts are taught at Advanced and again at Master. The Base tier has none – a Base unit is still learning where to stand, which is what its positional Mastery Ability is for.
+**When arts arrive.** Weapon Combat Arts open at Intermediate. Class Combat Arts are taught at Advanced and again at Master. The Base tier has none – a Base unit is still learning where to stand, which is what its positional Mastery Ability is for. The *system* is introduced earlier, in Ch 01 ([Combat Arts → Introduction](../mechanics/Combat-Arts.md#introduction)), through the improvised arts of the children in [Prologue Combat Arts](#prologue-combat-arts-ch-01-only) – the only arts without an element, and the only ones that do not last.
 
 ---
 
@@ -150,3 +150,18 @@ Universal techniques. Unlike abilities there are no combat-art scrolls – these
 | Guarded Strike | Weapon primary | 5 | The attack deals half damage; until this unit's next turn it takes half damage. |
 | Wide Strike | Weapon primary | 6 | Applies the element to every enemy adjacent to the target as well, without damaging them – pure setup for someone else's reaction. |
 | Bonded Strike | Ally's weapon primary | 5 | Applies the primary element of an adjacent ally's weapon type instead of this unit's own. Two units standing together can produce a reaction that neither could alone. |
+
+---
+
+## Prologue Combat Arts (Ch 01 only)
+
+*Names, effects and MP costs are proposals (Rulewright, 2026-09-29). That these arts exist, and that they exist only in Ch 01, is Dardan's decision.*
+
+In Ch 01 the Vigilant Knights are children – mechanically Citizens at level 1 – and their arts are **improvised actions taken from the chapter's prose**, not trained techniques. Each belongs to the child the text shows doing it. They exist **in Ch 01 only**: scripted prologue actions that disappear when the chapter ends, and no unit ever has them again ([Combat Arts → Core Rules → 4](../mechanics/Combat-Arts.md#4--learning-and-keeping)). They carry **no element** – magic does not exist yet ([Magic System → Open Decisions → 1](../mechanics/Magic-System.md#open-decisions)). The improvised weapons they are used with (sticks, boards, pans, stones, a rusty dagger) are Level 01's. The MP cost is in [Combat Arts → Balancing → Prologue values](../mechanics/Combat-Arts.md#prologue-values), and so is every flat value an effect names.
+
+| Name | Element | MP Cost | Effect | Character | Fight | From the prose |
+| ---- | ------- | ------- | ------ | --------- | ----- | -------------- |
+| Leg Sweep | – | [2](../mechanics/Combat-Arts.md#prologue-values) | An attack at the target's legs. On hit, the target is off balance: until the end of this Player Phase, the next attack against it by another unit cannot miss. | Dardan | 2 | "Mit einem schnellen Schlag an die Beine brachte Dardan ihn aus dem Gleichgewicht – Hasan nutzte die Chance und traf ihn direkt an der Schulter." (line 87) |
+| Sand in the Eyes | – | [2](../mechanics/Combat-Arts.md#prologue-values) | An attack. On hit, the target's Hit is lowered until the end of its next turn ([value](../mechanics/Combat-Arts.md#prologue-values)). | Maksimo | 3 | "Maksimo warf Sand in die Augen des Soldaten." (line 220) |
+
+Both are learned when the fight that shows them begins and are kept for the rest of the chapter, so both are available in fight 3 and inside its [Chain Attack](../mechanics/Chain-Attack.md#introduction). Both count as the *certain combat arts* that wear down a shield (proposal, so that the Ch 01 shield is breakable before magic exists).

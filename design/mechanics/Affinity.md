@@ -1,8 +1,8 @@
 # Affinity
 
-The bond system of Vigilans Nexum – how a bond between two playable units is earned by acting together, how it rises through five ranks, what it pays out in combat, what it opens between chapters, and how the Nexus reads it. This document holds the rules; every value lives in the [Balancing Guide → Affinity](../Balancing-Guide.md#affinity). It replaces the *Support System* entry of the backlog and is the system the [Design Pillars](../Design-Pillars.md) call *Affinity* under Pillar 1.
+The bond system of Vigilans Nexum – how a bond between two playable units is earned by acting together, how it rises through five ranks, what it pays out in combat, what it opens between chapters, and how the Nexus reads it. This document holds the rules, and its values are in its own [Balancing](#balancing) section. It replaces the *Support System* entry of the backlog and is the system the [Design Pillars](../Design-Pillars.md) call *Affinity* under Pillar 1.
 
-> **Related files:** [The Nexus](Nexus.md) · [Chain Attack](Chain-Attack.md) · [Beast Summon](Beast-Summon.md) · [Magic System → Die 9 Elemente](Magic-System.md#die-9-elemente) · [Balancing Guide → Affinity](../Balancing-Guide.md#affinity) · [Balancing Guide → The Nexus](../Balancing-Guide.md#nexus) · [Progression System](../Progression-System.md) · [Design Pillars](../Design-Pillars.md) · [Levels → Ch 06](../levels/README.md#part-01-path-of-liberation) · [Ch 06](../../story/chapters/Part-01-Path-Of-Liberation/Chapter-06-Heroes-Are-Made-By-The-Path-They-Choose.md) · [Ch 08](../../story/chapters/Part-01-Path-Of-Liberation/Chapter-08-The-Vigilant-Knights.md)
+> **Related files:** [The Nexus](Nexus.md) · [Chain Attack](Chain-Attack.md) · [Beast Summon](Beast-Summon.md) · [Magic System → The nine elements](Magic-System.md#2--the-nine-elements) · [The Nexus → Balancing](Nexus.md#balancing) · [Balancing Guide → Passive bonus budget](../Balancing-Guide.md#passive-bonus-budget) · [Progression System](../Progression-System.md) · [Design Pillars](../Design-Pillars.md) · [Levels → Ch 06](../levels/README.md#part-01-path-of-liberation) · [Ch 06](../../story/chapters/Part-01-Path-Of-Liberation/Chapter-06-Heroes-Are-Made-By-The-Path-They-Choose.md) · [Ch 08](../../story/chapters/Part-01-Path-Of-Liberation/Chapter-08-The-Vigilant-Knights.md)
 
 ---
 
@@ -30,8 +30,8 @@ Two references, taken deliberately and only in part. **Xenoblade Chronicles 1** 
 | Condition | Rule |
 | --------- | ---- |
 | Units | **Playable units only.** Affinity exists between two units of the player's roster. Enemy units have none, Other-faction units have none, a summoned Solmare beast has none ([Beast Summon](Beast-Summon.md#core-rules)). The rule that every player system must be usable against the player is set aside with a written reason in *Core Rules → 7* |
-| Element | Every playable unit carries **one elemental affinity** from the nine elements of the [Magic System](Magic-System.md#die-9-elemente). It is set on the unit's sheet (*Core Rules → 7*) |
-| Combat bonus | Both units of a pair are on the map, alive, and within the bonus range of each other ([Balancing Guide](../Balancing-Guide.md#affinity)); the pair holds at least rank D. A pair without a rank gives nothing |
+| Element | Every playable unit carries **one elemental affinity** from the nine elements of the [Magic System](Magic-System.md#2--the-nine-elements). It is set on the unit's sheet (*Core Rules → 7*) |
+| Combat bonus | Both units of a pair are on the map, alive, and within the bonus range of each other ([Balancing → Bonus range](#bonus-range)); the pair holds at least rank D. A pair without a rank gives nothing |
 | Rank-up | The pair's points have reached the next threshold, and neither unit has already risen with another partner this chapter (*Core Rules → 3*) |
 | Map talk | Both units adjacent, the level document lists the pair for this chapter, the pair has not talked this chapter, the initiating unit has not yet acted (*Core Rules → 5*) |
 | Heart-to-Heart | The pair holds the rank the conversation is bound to; if it is story-gated, the gating chapter has been played; both units alive (*Core Rules → 6*) |
@@ -56,7 +56,7 @@ Two references, taken deliberately and only in part. **Xenoblade Chronicles 1** 
 
 **One value per pair.** Affinity is symmetric: Dardan–Leona and Leona–Dardan are the same pair with the same points and the same rank. A unit therefore has one affinity value with every other playable unit, and the sum of those is its half of the Affinity Chart.
 
-**Points and ranks.** A pair accumulates **affinity points**. Points **never decrease** – no action, choice or story event takes them away. The **rank** is read from the points against the thresholds in the [Balancing Guide → Rank thresholds](../Balancing-Guide.md#rank-thresholds), on the scale:
+**Points and ranks.** A pair accumulates **affinity points**. Points **never decrease** – no action, choice or story event takes them away. The **rank** is read from the points against the thresholds in [Balancing → Rank thresholds](#rank-thresholds), on the scale:
 
 | Rank | Colour | Meaning |
 | ---- | ------ | ------- |
@@ -73,7 +73,7 @@ The colours are XC1's and are used for the rank everywhere it is shown (*UI & Di
 
 ### 2 – Earning points: deeds, never proximity
 
-Points are earned by the actions below and by nothing else. Ending a turn adjacent, being deployed together, standing in a formation, surviving a map together – none of it counts. Every value is in the [Balancing Guide → Points per source](../Balancing-Guide.md#points-per-source).
+Points are earned by the actions below and by nothing else. Ending a turn adjacent, being deployed together, standing in a formation, surviving a map together – none of it counts. Every value is in [Balancing → Points per source](#points-per-source).
 
 | Source | Who gains | Condition |
 | ------ | --------- | --------- |
@@ -112,13 +112,13 @@ Ranks rise at the end of a chapter, in the between-chapter selection, under one 
 
 **Why the player chooses** (and not, say, the pair with the most surplus): the choice is the system's decision. Dardan raising Tifa instead of Leona is a decision about Exchange range in the next map and about which Heart-to-Heart opens tonight; an automatic rule would make it a spreadsheet outcome. A simpler alternative is listed under *Open decisions → 1*.
 
-**Starting ranks.** A pair starts at *no rank* unless the [Balancing Guide → Starting ranks](../Balancing-Guide.md#starting-ranks) says otherwise. Decided by Dardan: the **eight Vigilant Knights start at C with Dardan and at C among each other** – the orphanage and Ch 01–05 are priced into that rank – and **Elena holds B with Dardan in Ch 08**, the one map on which she is a player-faction unit before her recruitment ([The Nexus → Introduction](Nexus.md#introduction)); the rank and any points earned on that map are kept and are hers when she joins the roster in Ch 25. A starting rank sets the pair's points to that rank's threshold exactly.
+**Starting ranks.** A pair starts at *no rank* unless [Balancing → Starting ranks](#starting-ranks) says otherwise. Decided by Dardan: the **eight Vigilant Knights start at C with Dardan and at C among each other** – the orphanage and Ch 01–05 are priced into that rank – and **Elena holds B with Dardan in Ch 08**, the one map on which she is a player-faction unit before her recruitment ([The Nexus → Introduction](Nexus.md#introduction)); the rank and any points earned on that map are kept and are hers when she joins the roster in Ch 25. A starting rank sets the pair's points to that rank's threshold exactly.
 
 ### 4 – The combat bonus
 
-When a unit fights – attacks or is attacked, on either phase – it gets a bonus from **the strongest affinity partner within the bonus range** ([Balancing Guide → Affinity](../Balancing-Guide.md#affinity); Dardan set it at three tiles). Distance is counted in tiles at the moment the combat begins; nothing in between matters. The partner must be a playable unit on the map, alive; it does not need to be able to act.
+When a unit fights – attacks or is attacked, on either phase – it gets a bonus from **the strongest affinity partner within the bonus range** ([Balancing → Bonus range](#bonus-range); decided by Dardan). Distance is counted in tiles at the moment the combat begins; nothing in between matters. The partner must be a playable unit on the map, alive; it does not need to be able to act.
 
-**Kind from the elements, size from the rank.** Each of the nine elements stands for **two of six bonus types** – Attack, Defense, Hit, Avoid, Critical, Dodge (critical avoid). A pair's bonus is the **sum of both units' element mixes**, and each type's value is read from the pair's **rank**. The mix per element and the value per rank are in the [Balancing Guide → Element mixes](../Balancing-Guide.md#element-mixes) and [→ Combat bonus by rank](../Balancing-Guide.md#combat-bonus-by-rank). A same-element pair doubles one mix; a cross-element pair spreads across up to four types. Both units of the pair receive the same bonus when the partner is in range – it is one bond, felt from both ends.
+**Kind from the elements, size from the rank.** Each of the nine elements stands for **two of six bonus types** – Attack, Defense, Hit, Avoid, Critical, Dodge (critical avoid). A pair's bonus is the **sum of both units' element mixes**, and each type's value is read from the pair's **rank**. The mix per element and the value per rank are in [Balancing → Element mixes](#element-mixes) and [→ Combat bonus by rank](#combat-bonus-by-rank). A same-element pair doubles one mix; a cross-element pair spreads across up to four types. Both units of the pair receive the same bonus when the partner is in range – it is one bond, felt from both ends.
 
 **Only the strongest partner counts.** If several partners are within range, the unit takes the bonus of the pair with the **highest rank**; on a tie, the pair with more points; on a full tie, the pair listed first on the unit's affinity list (*UI & Display* – the order is visible, so the outcome is predictable). Bonuses from several partners **do not stack**. *Why:* stacking pays the player for clumping – four units in a square, each drawing three bonuses – and clumping is exactly what area magic, reactions and Burning Fields are built to punish; a system that rewards it would fight the rest of the game. One partner also keeps the forecast readable: one line, one name, one set of numbers.
 
@@ -151,13 +151,13 @@ The long conversations of a pair, and the only source that lives outside a battl
 
 ### 7 – Elemental affinity, and who has none
 
-**One element per playable unit**, from the nine of the [Magic System](Magic-System.md#die-9-elemente) – Pyro, Cryo, Hydro, Electro, Aero, Geo, Dendro, Lux, Umbra. The element is a **trait of the person**, in the FE7 sense: it says what the unit brings to a bond, not what magic it wields. A Pyro affinity on an archer is normal. It is set on the **story half** of the character sheet and never changes; Rulewright checks only that the element exists. Every playable unit has its element on its sheet (decided by Dardan, 2026-09-20 – see *Open decisions → 6*); the list is the sheets, not this document. It is one of the two properties that can be **lent**. Dardan's [Wavelength](Nexus.md#8--wavelength) carries a living ally's element on his blade for a counted number of attacks, together with the other one, that ally's [biorhythm](Biorythm.md#8--wavelength-carries-the-rhythm). That is why the element is worth reading as *what the unit brings* rather than as a stat.
+**One element per playable unit**, from the nine of the [Magic System](Magic-System.md#2--the-nine-elements) – Pyro, Cryo, Hydro, Electro, Aero, Geo, Dendro, Lux, Umbra. The element is a **trait of the person**, in the FE7 sense: it says what the unit brings to a bond, not what magic it wields. A Pyro affinity on an archer is normal. It is set on the **story half** of the character sheet and never changes; Rulewright checks only that the element exists. Every playable unit has its element on its sheet (decided by Dardan, 2026-09-20 – see *Open decisions → 6*); the list is the sheets, not this document. It is one of the two properties that can be **lent**. Dardan's [Wavelength](Nexus.md#8--wavelength) carries a living ally's element on his blade for a counted number of attacks, together with the other one, that ally's [biorhythm](Biorythm.md#8--wavelength-carries-the-rhythm). That is why the element is worth reading as *what the unit brings* rather than as a stat.
 
 **Enemies have no affinity**, and neither do Other-faction units or summoned beasts. The rule that a player system must also be usable against the player is set aside here, with the reason: affinity is what the player *built*, over fifty chapters of deeds, and the enemy cannot have built it. The enemy's version of a bond exists and it is the Dajjal's chain – a bond turned into a leash, which is a boss mechanic of Level 52 and not a stat bonus ([The Nexus → 6](Nexus.md#6--earthbound-and-the-dajjal)). Whether a level may give a named enemy pair a fixed bonus of the same shape is a level-design question and is listed under *Open decisions → 7*.
 
 ### 8 – What the Nexus reads
 
-Exchange range, Lifeline range, Heartpulse strength and – with [Wavelength](Nexus.md#8--wavelength) – both **who may lend Dardan an element** and **for how many attacks** – and, with [Bloodoath](Nexus.md#9--bloodoath), **whom he can bind from where** – are read from the **affinity rank between Dardan and the unit** at the moment of use; the per-rank tables are in the [Balancing Guide → The Nexus](../Balancing-Guide.md#nexus). Bloodoath is also the one Nexus ability that reads a pair **without Dardan in it**: the two allies it binds must hold a rank with each other, and that rank sets how far apart they may stand and still strike together. [Dawnbreak](Nexus.md#10--dawnbreak) reads the rank without its depth: it counts how many units within this system's **bonus range** of Dardan hold **any** rank with him – D counts as S – and that count sets the length of his line; it is the one Nexus ability that also reads a value of this system's own, the bonus range. Three consequences, fixed here so that both documents agree:
+Exchange range, Lifeline range, Heartpulse strength and – with [Wavelength](Nexus.md#8--wavelength) – both **who may lend Dardan an element** and **for how many attacks** – and, with [Bloodoath](Nexus.md#9--bloodoath), **whom he can bind from where** – are read from the **affinity rank between Dardan and the unit** at the moment of use; the per-rank tables are in [The Nexus → Balancing](Nexus.md#balancing). Bloodoath is also the one Nexus ability that reads a pair **without Dardan in it**: the two allies it binds must hold a rank with each other, and that rank sets how far apart they may stand and still strike together. [Dawnbreak](Nexus.md#10--dawnbreak) reads the rank without its depth: it counts how many units within this system's **bonus range** of Dardan hold **any** rank with him – D counts as S – and that count sets the length of his line; it is the one Nexus ability that also reads a value of this system's own, the bonus range. Three consequences, fixed here so that both documents agree:
 
 - **Any rank from D reaches.** A unit with no rank cannot be exchanged, linked, pulsed, asked for its element, bound by an oath or counted by Dawnbreak – and two allies with no rank between them cannot be bound to each other. The first deed opens the band.
 - **Heartpulse heals nothing it does not reach.** A unit with no rank recovers zero from the pulse and earns no affinity from it – the open decision in [The Nexus](Nexus.md#open-decisions) is answered this way because the alternative (a lowest-row heal for strangers) would make Heartpulse the one Nexus ability that ignores the bond it is named for.
@@ -184,7 +184,7 @@ So the boundary has moved from "the element only" to "traits of the person only"
 | Source | Description | Availability |
 | ------ | ----------- | ------------ |
 | Universal – Ch 06 | Affinity is switched on for the whole roster in **Ch 06**: points are earned from that map on, the Affinity Chart opens, the first map talks are listed, the first Heart-to-Hearts follow the map. Nothing before it – Ch 01–05 carry no affinity, and the Knights' starting rank is what those chapters were | From Level 06 |
-| Starting ranks | Vigilant Knights at C with Dardan and among each other; Elena at B with Dardan from Ch 08 ([Balancing Guide → Starting ranks](../Balancing-Guide.md#starting-ranks)). Everyone else joins with no rank and earns every bond | Ch 06 / Ch 08 |
+| Starting ranks | Vigilant Knights at C with Dardan and among each other; Elena at B with Dardan from Ch 08 ([Balancing → Starting ranks](#starting-ranks)). Everyone else joins with no rank and earns every bond | Ch 06 / Ch 08 |
 | New recruits | A unit joining later starts at no rank with everyone (unless the starting-rank table says otherwise) and is subject to the same throttle: a Part 07 recruit has twelve chapters of rank-ups, and that is the intended shape of a late bond | On joining |
 | Elemental affinity | On the sheet, set by Lorekeeper; assignment for the existing roster is a follow-up task, not part of this specification | With the sheet |
 | Not available | No item, seal, class, gold or difficulty setting changes affinity. No enemy has it | – |
@@ -234,23 +234,107 @@ So the boundary has moved from "the element only" to "traits of the person only"
 
 ## Catalog
 
-Affinity leads no catalog entries of its own. The element pool is the Magic System's – all nine: [Magic System → Die 9 Elemente](Magic-System.md#die-9-elemente). A unit's elemental affinity and its Heart-to-Hearts live on its character sheet; a chapter's map talks live in its level document.
+Affinity leads no catalog entries of its own. The element pool is the Magic System's – all nine: [Magic System → The nine elements](Magic-System.md#2--the-nine-elements). A unit's elemental affinity and its Heart-to-Hearts live on its character sheet; a chapter's map talks live in its level document.
 
 ---
 
-## Balancing Guidelines
+## Balancing
 
-Every value lives in the [Balancing Guide → Affinity](../Balancing-Guide.md#affinity) and, for the Nexus tables, in [→ The Nexus](../Balancing-Guide.md#nexus). All of them are proposals until Dardan confirms them:
+This section holds Affinity's values. *Proposal: every value in this section is a first draft for tuning unless it is marked decided.* The Nexus tables that read the rank are in [The Nexus → Balancing](Nexus.md#balancing). How much Affinity may add to a combat term, together with every other passive system, is the [budget rule](../Balancing-Guide.md#passive-bonus-budget) in the Balancing Guide.
+
+The reference shape is Xenoblade Chronicles 1's affinity scale: 0 / 1000 / 2000 / 3000 / 5000, with +10 per chain attack, +20 per help and +300 per Heart-to-Heart. It is rescaled to a tactics game, in which a pair has a handful of shared actions per map instead of hundreds per hour. The magnitude is ours; the shape (widening gaps, S far above A) is XC1's.
+
+### Rank thresholds
+
+| Rank | Points needed | Gap from previous | Colour |
+|------|---------------|-------------------|--------|
+| *(no rank)* | 0–19 | – | – |
+| **D** | 20 | 20 | Yellow |
+| **C** | 120 | 100 | Green |
+| **B** | 300 | 180 | Blue |
+| **A** | 600 | 300 | Lavender |
+| **S** | 1,000 | 400 | Pink – the cap; points stop counting here |
+
+**Derivation:** D costs one deed (one shared kill, one heal), so a single act of trust opens the band – which is what a Part 04 recruit needs before Dardan can exchange with it. Each later gap is roughly 1.5× the one before, so that a pair which only occasionally acts together stalls at B or A, while a pair the player builds deliberately – two or three deeds a map, a talk every few chapters, three Heart-to-Hearts – clears the S threshold with points to spare and is paced by the throttle, not by the numbers. Three Heart-to-Hearts contribute 300 of the 1,000, so conversations carry a third of a bond and deeds the rest; XC1's +300 per conversation against a 5,000 cap would have let the conversations carry most of it. The thresholds are also tuned to what Dardan decided about S: reachable in Part 07–08 for pairs the player invested in, so the S rows of the Nexus tables are live in the Tower, and landing in the epilogue for the rest ([Core Rules → 3](#3--rising-the-throttle)).
+
+### Points per source
+
+| Source | Points | To whom |
+|--------|--------|---------|
+| Chain Attack | **30** | Each of the three pairs among the attackers |
+| Shared kill | **20** | Each damager with the killer |
+| Help – heal | **20** | Healer ↔ healed, per unit healed |
+| Help – cure | **20** | Curer ↔ cured |
+| Help – out of danger | **20** | Mover ↔ moved |
+| Nexus – Exchange | **20** | Dardan ↔ the swapped ally |
+| Nexus – Lifeline | **30** | Dardan ↔ the linked ally, once per round in which a share was carried |
+| Nexus – Heartpulse | **10** | Dardan ↔ each unit the pulse healed |
+| Map talk | **40** | The two talkers, once per pair per chapter |
+| Heart-to-Heart | **100** | The two, on viewing |
+
+**Why these weights:** a deed in battle is worth 20 – the unit of the scale, so that five deeds make a C and fifteen make a B on top of it. A chain attack is worth more because it is rare (Special enemies only, after a shield break) and costs three units their action; Lifeline more because Dardan paid in HP; Heartpulse less per unit because it touches the whole roster at once and would otherwise let Dardan out-bond everyone with one action per chapter. A map talk is two deeds for one action on a map where the action had a use – and it is capped at one per pair per chapter by rule. A Heart-to-Heart is five deeds: the biggest single step, but a pair's three together are less than a third of S.
+
+### Bonus range
+
+| Parameter | Value |
+|-----------|-------|
+| Bonus range (tiles between the two units for the combat bonus to apply) | **3** *(decided by Dardan)* |
+
+### Combat bonus by rank
+
+The value each bonus type takes, **per element that carries it**. A pair sums both units' mixes ([Element mixes](#element-mixes)); a same-element pair therefore doubles its two types. Fractions are summed first and rounded down at the end.
+
+| Rank | Attack / Defense (per element carrying it) | Hit / Avoid / Critical / Dodge (per element carrying it) |
+|------|--------------------------------------------|----------------------------------------------------------|
+| **D** | +0.5 | +2 |
+| **C** | +1 | +4 |
+| **B** | +1.5 | +6 |
+| **A** | +2 | +8 |
+| **S** | +2.5 | +10 |
+
+**Worked examples:** Pyro (Attack, Critical) with Aero (Hit, Avoid) at B → Attack +1, Critical +6, Hit +6, Avoid +6. Pyro with Pyro at S → Attack +5, Critical +20. Geo (Defense, Dodge) with Hydro (Defense, Avoid) at A → Defense +4, Dodge +8, Avoid +8.
+
+**Derivation:** the ceiling is the same-element S pair – +5 to Attack or Defense, which equals the Str/Mag a Master promotion grants and must not exceed it, or the bond would outweigh the last promotion of the game; +20 to a rate stat, which is the size of a Killer weapon's Critical (30) minus a margin, on a pair that had to share one element and reach S. FE7 reaches Attack +3 / Critical +15 at its A cap with three steps; five ranks here need a finer step, hence the halves. A cross-element pair – the common case, with nine elements – spreads the same budget over four types, none of them above +10 at S. Dodge exists so that a defensive pair can answer a Killer weapon without the game needing crit immunity anywhere else.
+
+### Element mixes
+
+Each element carries two of the six bonus types; every type is carried by exactly three elements, so no type is rare and no element is a trap. The mixes are read from the elements' roles in the [Magic System](Magic-System.md#2--the-nine-elements) and the [tome profiles](../catalog/Magic-Tomes.md#element-profiles).
+
+| Element | Carries | Why |
+|---------|---------|-----|
+| **Pyro** | Attack, Critical | Fire hits harder and burns through |
+| **Cryo** | Critical, Dodge | Ice is the still moment – the shattering blow, the guard that does not flinch |
+| **Hydro** | Defense, Avoid | Water yields and flows around the blow |
+| **Electro** | Hit, Critical | Lightning lands where it aims and strikes hard |
+| **Aero** | Hit, Avoid | Wind is accurate and never where the blow falls |
+| **Geo** | Defense, Dodge | Stone is the wall |
+| **Dendro** | Attack, Defense | Growth – roots hold, thorns bite |
+| **Lux** | Hit, Dodge | Light sees clearly and cannot be surprised |
+| **Umbra** | Attack, Avoid | Shadow strikes from where it is not seen |
+
+The affinity is a trait of the person and says nothing about the magic the unit wields ([Core Rules → 7](#7--elemental-affinity-and-who-has-none)). Which unit carries which element is set on its character sheet by Lorekeeper and is not assigned in this document.
+
+### Starting ranks
+
+Every pair not listed starts at *no rank*. A starting rank sets the pair's points to that rank's threshold exactly.
+
+| Pair | Starting rank | Status |
+|------|---------------|--------|
+| Each of the eight Vigilant Knights ↔ Dardan | **C** | *decided by Dardan* – the orphanage and Ch 01–05, priced in |
+| Elena ↔ Dardan (from Ch 08, kept until she joins in Ch 25) | **B** | *decided by Dardan* – "wie eine Mutter"; makes the Ch 08 hostage reachable by Exchange |
+| The eight Vigilant Knights among each other (every pair) | **C** | *decided by Dardan* – raised together, for the same reason as the Dardan rows |
+
+### What each value tunes
 
 | Parameter | What it tunes |
 | --------- | ------------- |
-| Rank thresholds (D, C, B, A, S) | How many deeds a rank costs; how far apart the ranks sit. XC1's 0 / 1000 / 2000 / 3000 / 5000 is the reference shape |
+| Rank thresholds (D, C, B, A, S) | How many deeds a rank costs; how far apart the ranks sit. XC1's scale is the reference shape |
 | Points per source | The weight of each deed – a chain attack against a shared kill against a heal against a talk against a Heart-to-Heart |
-| Bonus range | How near the partner must stand – set by Dardan at three tiles. Also the radius in which [Dawnbreak](Nexus.md#10--dawnbreak) counts Dardan's ranked allies (under Nexus Mastery, this range plus the Mastery range bonus), so tuning it tunes that line |
+| Bonus range | How near the partner must stand. It is also the radius in which [Dawnbreak](Nexus.md#10--dawnbreak) counts Dardan's ranked allies (under Nexus Mastery, this range plus the Mastery range bonus), so tuning it tunes that line |
 | Combat bonus by rank | How much a rank is worth in each of the six bonus types |
 | Element mixes | Which two of the six types each of the nine elements carries |
 | Starting ranks | Which pairs begin above *no rank* |
-| Exchange range, Lifeline range, Heartpulse heal by rank | What the bond is worth to the Nexus ([The Nexus → Balancing Guidelines](Nexus.md#balancing-guidelines)) |
+| Exchange range, Lifeline range, Heartpulse heal by rank | What the bond is worth to the Nexus ([The Nexus → Balancing](Nexus.md#balancing)) |
 
 **Rules, not tuning values**, and therefore here: five ranks; points never fall; one rank-up per unit per chapter, chosen by the player; only the strongest partner in range counts; each element carries two of six types and a pair sums both; three Heart-to-Hearts per pair at pair-specific ranks, never missable; map talks once per pair per chapter, listed by the level; no source for proximity; enemies and beasts have none; any rank from D is reachable by the Nexus and no rank is reached by nothing.
 
@@ -270,9 +354,9 @@ Every value lives in the [Balancing Guide → Affinity](../Balancing-Guide.md#af
 | **XP – "Supporting: 5 XP per turn adjacent to fighting ally"** ([Balancing Guide → XP](../Balancing-Guide.md#xp-gain-formula)) | Not affinity. That entry is XP for adjacency and belongs to the Experience & Leveling system (backlog); it grants no affinity points. It is the one place in `design/` that still rewards proximity, which sits oddly beside this system – flagged, not changed here (*Open decisions → 8*). |
 | **Deployment** (backlog) | Only deployed units earn; every unit may rise and may view Heart-to-Hearts. The deployment screen should show, per unit, the eligible pairs and the partners on the map, so that a deployment can be built for a bond. |
 | **Base Management** (backlog) | Affinity hands it its first requirement: the between-chapter selection with rank-ups and Heart-to-Hearts (*Core Rules → 6*). The *place* where a Heart-to-Heart is held is the chapter's. |
-| **Level design** (`levelcraft`) | Each level document lists its map talks – the pairs, not the lines. Level 08 must place the hostage Elena within Dardan's Exchange range at rank B ([Balancing Guide → The Nexus](../Balancing-Guide.md#nexus)). Level 06 lists the first talks. |
+| **Level design** (`levelcraft`) | Each level document lists its map talks – the pairs, not the lines. Level 08 must place the hostage Elena within Dardan's Exchange range at rank B ([The Nexus → Balancing → Exchange](Nexus.md#exchange)). Level 06 lists the first talks. |
 | **Part 05 / Part 06** | No cross-strand source exists in Ch 33–40 (*Core Rules → 2*). Both strands earn within themselves; the chart shows the other strand's units unchanged. No catch-up rule is needed: the throttle is per chapter, and both strands are eight chapters. |
-| **Permadeath / Casual** (backlog) | In Classic a fallen unit's bonds are frozen: no points, no rank-ups, no Heart-to-Hearts, no bonus from the unit itself – and the chart keeps its links greyed at their last rank (*decided*, Dardan 2026-09-21; *Open decisions → 5*). **The frozen pair with Dardan is read by [Soulcairn](Nexus.md#7--soulcairn)**, which sums the frozen points of every fallen unit's pair with him into one partner on his affinity list and pays the ordinary combat bonus for that pool's rank – only when no living ranked partner is within the [bonus range](../Balancing-Guide.md#bonus-range), never stacked, and in Classic only. Affinity's own rules are unchanged by it: the pool earns no points, takes no rank-up, holds no Heart-to-Hearts and is on no rank-up screen. In Casual a retreated unit is back next chapter, nothing is lost, and Soulcairn does not exist. |
+| **Permadeath / Casual** (backlog) | In Classic a fallen unit's bonds are frozen: no points, no rank-ups, no Heart-to-Hearts, no bonus from the unit itself – and the chart keeps its links greyed at their last rank (*decided*, Dardan 2026-09-21; *Open decisions → 5*). **The frozen pair with Dardan is read by [Soulcairn](Nexus.md#7--soulcairn)**, which sums the frozen points of every fallen unit's pair with him into one partner on his affinity list and pays the ordinary combat bonus for that pool's rank – only when no living ranked partner is within the [bonus range](#bonus-range), never stacked, and in Classic only. Affinity's own rules are unchanged by it: the pool earns no points, takes no rank-up, holds no Heart-to-Hearts and is on no rank-up screen. In Casual a retreated unit is back next chapter, nothing is lost, and Soulcairn does not exist. |
 | **Difficulty modes** (backlog) | No affinity value is scaled by difficulty. If a mode ever changes thresholds or the bonus, the column belongs in the Balancing Guide's difficulty table, not here. |
 | **[Biorhythm](Biorythm.md)** | **Resonance earns no affinity points.** Being in rhythm is not a deed, and a bond is made of what two people do for each other (*→ 2*). **The two combat effects stack as separate terms:** the *Affinity Bonus* and the *Biorhythm* term both enter the [formulas](../Balancing-Guide.md#-damage-calculation-formula). The stack **pays nothing for clumping**: this system counts only the strongest partner in range (*→ 4*), and Biorhythm reads no position at all, so a formation is worth exactly what it was. **Where the two meet:** through [Wavelength](Nexus.md#8--wavelength). The rank decides who may lend Dardan an element and for how long, and the donor's biorhythm crosses with the element for that time (*What Affinity is not*). Affinity reads no rhythm and Biorhythm reads no rank. |
 | **Growth Modifiers, class tree, Capacity, Combat Arts** | Untouched – the reason Skill Links were rejected (*Core Rules → What Affinity is not*). Affinity changes no growth, no class, no slot. |
@@ -302,12 +386,12 @@ Every value lives in the [Balancing Guide → Affinity](../Balancing-Guide.md#af
 
 ## Open Decisions
 
-Everything below is written into the rules above in its **conservative form** so that the document is playable as it stands. Each is Dardan's to confirm or widen; none was decided by him unless marked *decided*. **Decided by Dardan and not listed:** the name; the XC1 leading idea and the PoR throttle; five ranks D–S with XC1's colours; S as maximum without exclusivity; the six point sources and the exclusion of tainting, gifts, dialogue choices and formation; the bonus range of three tiles; kind-by-element and size-by-rank; three Heart-to-Hearts per pair at pair-specific ranks, some story-gated, never missable, viewed between chapters; the Knights at C with Dardan **and with each other**, and Elena at B with Dardan; any rank from D as the Exchange threshold; the Affinity Chart with story characters by subtitle and without rank; Skill Links rejected; enemies and beasts without affinity; Ch 06 as the introduction. **Proposed here and confirmed by Dardan (2026-09-20):** S is reachable in Part 07–08 for pairs the player invested in, and the epilogue finishes the rest – not a hard gate at Ch 53, which would leave the S combat bonus and the S row of every Nexus table dead in every fight, the Dajjal's included; Affinity switches on in Ch 06 and Ch 01–05 accumulate nothing – the Knights' starting C *is* those chapters; story links on the Affinity Chart carry a subtitle and no mood colour, because the chart's colour channel is the rank scale; the eight Vigilant Knights start at C among each other, for the same reason as their C with Dardan.
+Everything below is written into the rules above in its **conservative form** so that the document is playable as it stands. Each is Dardan's to confirm or widen; none was decided by him unless marked *decided*. **Decided by Dardan and not listed:** the name; the XC1 leading idea and the PoR throttle; five ranks D–S with XC1's colours; S as maximum without exclusivity; the six point sources and the exclusion of tainting, gifts, dialogue choices and formation; the bonus range (its value in [Balancing → Bonus range](#bonus-range)); kind-by-element and size-by-rank; three Heart-to-Hearts per pair at pair-specific ranks, some story-gated, never missable, viewed between chapters; the Knights at C with Dardan **and with each other**, and Elena at B with Dardan; any rank from D as the Exchange threshold; the Affinity Chart with story characters by subtitle and without rank; Skill Links rejected; enemies and beasts without affinity; Ch 06 as the introduction. **Proposed here and confirmed by Dardan (2026-09-20):** S is reachable in Part 07–08 for pairs the player invested in, and the epilogue finishes the rest – not a hard gate at Ch 53, which would leave the S combat bonus and the S row of every Nexus table dead in every fight, the Dajjal's included; Affinity switches on in Ch 06 and Ch 01–05 accumulate nothing – the Knights' starting C *is* those chapters; story links on the Affinity Chart carry a subtitle and no mood colour, because the chart's colour channel is the rank scale; the eight Vigilant Knights start at C among each other, for the same reason as their C with Dardan.
 
 1. **The player chooses the rank-up** at chapter end, pair by pair. The simpler alternative is automatic: the eligible pair with the most surplus rises. Rejected here because the choice is where the system's weight lives (Dardan's Nexus reach depends on it); Dardan may prefer the automatic rule if the screen proves tedious with thirty units.
 2. **The throttle holds in the epilogue.** Four chapters, four rank-ups per unit. The alternative is to lift it in Ch 53–56 so that every eligible pair caps – more bonds finished, fewer decisions.
 3. **The step from *no rank* to D is throttled like every other.** Consequence: a late recruit bonds slowly, with one unit per chapter. The alternative exempts the first step so that a recruit opens a band with everyone it acts with in its first map – faster for the Nexus, weaker as a statement about strangers.
-4. **No per-chapter cap on battle points.** The throttle bounds what farming can buy; each source costs an action. If stalling a map to heal for points turns out to be worth it, a cap per pair per chapter is a tuning value for the Balancing Guide, not a rule change.
+4. **No per-chapter cap on battle points.** The throttle bounds what farming can buy; each source costs an action. If stalling a map to heal for points turns out to be worth it, a cap per pair per chapter is a tuning value for this document's *Balancing* section, not a rule change.
 5. **A fallen unit's links stay on the chart, greyed, at their last rank** – *decided* (Dardan, 2026-09-21), and now **load-bearing**. In Classic the pair's points are frozen at the moment of the unit's death and the link is greyed rather than removed. This is no longer only a display choice: [Soulcairn](Nexus.md#7--soulcairn), the fifth Nexus ability, sums exactly those frozen points into one partner on Dardan's list. Removing the links would remove the ability. Kept because the chart is the band, and the band remembers.
 6. **Which unit carries which element** – *decided* (Dardan, 2026-09-20). All 28 playable sheets carry their element; the combat bonus is computable for every pair. Person first, element second, per `charactercraft`. The one deliberate mechanical anchor: Dardan is **Dendro** (Attack, Defense), one of only two elements that doubles a type with Hasan's Pyro *and* with Tifa's Hydro – with Hasan he hits, with Tifa he holds – and the other, Umbra, is not who he is. Distribution: Pyro 4, Geo 4, Cryo 4, Electro 3, Aero 3, Dendro 3, Umbra 3, Hydro 2, Lux 2 – uneven by choice; the sheets fall where they fall. No story pairing reaches doubled Avoid; that role is left for the player to build (Kassandra–Shira, Tifa–Maksimo).
 7. **A named enemy pair with a fixed bonus.** Not in the rules. If a level wants two bosses to fight better together (the seven sisters, Gentian and Kresnik), the level may give them an aura of the same shape; that is `levelcraft`'s and would be written as a boss ability, not as affinity.
@@ -319,5 +403,5 @@ Everything below is written into the rules above in its **conservative form** so
 
 **Version:** 1.4
 **Created:** 2026-09-20
-**Last updated:** 2026-09-27. [Wavelength](Nexus.md#8--wavelength) now also lends the donor's [biorhythm](Biorythm.md), so the Skill Links boundary is restated as "person, not build". The Biorhythm interaction is written out: no points for resonance, and the two terms stack without paying for clumping. The claim of a one-mechanic-per-level rule is removed, because the rule was abolished. Earlier: 2026-09-23 – [Dawnbreak](Nexus.md#10--dawnbreak) added as a reader of the rank's existence rather than its depth, counting ranked allies within the bonus range, and as no source of its own. The same day, [Bloodoath](Nexus.md#9--bloodoath) added as a reader of the rank, including the first rank between two allies the Nexus reads, and as no source of its own. 2026-09-22 – *Open decisions → 5* decided (Dardan, 2026-09-21): a fallen unit's links stay greyed and frozen, which [Soulcairn](Nexus.md#7--soulcairn) now rests on; [Wavelength](Nexus.md#8--wavelength) added as a second reader of the rank and as the boundary that keeps Skill Links rejected
+**Last updated:** 2026-09-28. The Affinity values moved from the Balancing Guide into this document's own *Balancing* section (decided by Dardan). 2026-09-27. [Wavelength](Nexus.md#8--wavelength) now also lends the donor's [biorhythm](Biorythm.md), so the Skill Links boundary is restated as "person, not build". The Biorhythm interaction is written out: no points for resonance, and the two terms stack without paying for clumping. The claim of a one-mechanic-per-level rule is removed, because the rule was abolished. Earlier: 2026-09-23 – [Dawnbreak](Nexus.md#10--dawnbreak) added as a reader of the rank's existence rather than its depth, counting ranked allies within the bonus range, and as no source of its own. The same day, [Bloodoath](Nexus.md#9--bloodoath) added as a reader of the rank, including the first rank between two allies the Nexus reads, and as no source of its own. 2026-09-22 – *Open decisions → 5* decided (Dardan, 2026-09-21): a fallen unit's links stay greyed and frozen, which [Soulcairn](Nexus.md#7--soulcairn) now rests on; [Wavelength](Nexus.md#8--wavelength) added as a second reader of the rank and as the boundary that keeps Skill Links rejected
 **Cross-references:** [The Nexus](Nexus.md) · [Chain Attack](Chain-Attack.md) · [Beast Summon](Beast-Summon.md) · [Magic System](Magic-System.md) · [Balancing Guide](../Balancing-Guide.md) · [Progression System](../Progression-System.md) · [Design Pillars](../Design-Pillars.md) · [Abilities](../catalog/Abilities.md) · [Levels](../levels/README.md)

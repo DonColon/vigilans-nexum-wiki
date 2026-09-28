@@ -1,211 +1,248 @@
 <!--
 ================================================================================
-  VIGILANS NEXUM – MECHANIC-TEMPLATE
+  VIGILANS NEXUM – MECHANIC TEMPLATE
 ================================================================================
-  Wie dieses Template benutzen:
-  1. Kopiere diese Datei und benenne sie nach der Mechanik (z.B. "Stealth.md")
-  2. Ersetze alle Platzhalter in [ECKIGEN KLAMMERN] mit echten Inhalten
-  3. Pflichtabschnitte (<!-- Pflicht -->) müssen ausgefüllt werden
-  4. Optionale Abschnitte (<!-- Optional -->) können gelöscht werden,
-     wenn sie für die Mechanik nicht relevant sind
-  5. Behalte die Kommentare NICHT in der fertigen Datei —
-     lösche alle HTML-Kommentare vor dem Commit
-  6. Sprache: Deutsch (Prosa und Abschnittsnamen)
+  How to use this template:
+  1. Copy this file and name it after the mechanic (e.g. "Stealth.md")
+  2. Replace every placeholder in [SQUARE BRACKETS] or {{BRACES}} with real content
+  3. Required sections (<!-- Required -->) must be filled in
+  4. Optional sections (<!-- Optional -->) may be deleted if they do not
+     apply to the mechanic
+  5. Do NOT keep the comments in the finished file –
+     delete every HTML comment before committing
+  6. Language: English (prose and section names)
 ================================================================================
 -->
 
-# [Mechanic-Name] <!-- Pflicht -->
+# [Mechanic Name] <!-- Required -->
 
-<!-- Pflicht: Querverweise zu verwandten Mechanic-Dateien und Katalog-Einträgen -->
-> **Verwandte Dateien:** [Datei A](../pfad/Datei-A.md) · [Datei B](../pfad/Datei-B.md)
+<!-- Required: one or two sentences directly under the heading that say what this
+     document is and what it holds – the rules here, the values in its own
+     Balancing section, the entries in the catalog. A document that opens with a
+     table is read wrongly. -->
 
----
+*[What this document covers, and where its values and entries live.]*
 
-## Übersicht <!-- Pflicht -->
-
-<!-- Pflicht: 2–4 Sätze, die die Mechanik und ihre Rolle im Spielsystem erklären.
-     Was ist sie? Wann kommt sie zum Einsatz? Was unterscheidet sie von ähnlichen Mechaniken? -->
-
-*[Kurze Beschreibung der Mechanik und ihrer Funktion im Kampfsystem.]*
-
-<!-- Optional: Übersichtstafel mit den wichtigsten Kennzahlen der Mechanik.
-     Passend für Mechaniken mit klar definierten Parametern (Phase, Ressource, usw.) -->
-
-|              | [Mechanic-Name]        |
-| ------------ | ---------------------- |
-| Phase        | *[Player/Enemy Phase]* |
-| Auslösung    | *[Wie wird sie aktiv]* |
-| Ressource    | *[MP / Keine / usw.]*  |
-| Besonderheit | *[Kernmerkmal]*        |
+<!-- Required: cross-references to related mechanic files and catalog entries -->
+> **Related files:** [File A](../path/File-A.md) · [File B](../path/File-B.md)
 
 ---
 
-## Voraussetzungen <!-- Pflicht -->
+## Overview <!-- Required -->
 
-<!-- Pflicht: Welche Bedingungen müssen erfüllt sein, damit die Mechanik angewendet werden kann?
-     Falls keine Voraussetzungen existieren, schreibe: "Keine besonderen Voraussetzungen." -->
+<!-- Required: 2–4 sentences that explain the mechanic and its role in the game.
+     What is it? When does it come into play? What sets it apart from similar mechanics?
+     Close with the purpose in one sentence: which decision does the player make
+     that he could not make without this system? -->
 
-| Bedingung | Regel |
+*[Short description of the mechanic and its function in combat.]*
+
+<!-- Optional: summary table of the mechanic's key parameters.
+     Suits mechanics with clearly defined parameters (phase, resource, etc.) -->
+
+|              | [Mechanic Name]          |
+| ------------ | ------------------------ |
+| Phase        | *[Player / Enemy Phase]* |
+| Trigger      | *[How it becomes active]* |
+| Resource     | *[MP / none / etc.]*     |
+| Core feature | *[Defining trait]*       |
+
+---
+
+## Prerequisites <!-- Required -->
+
+<!-- Required: which conditions must be met for the mechanic to apply?
+     If there are none, write: "No special prerequisites." -->
+
+| Condition | Rule |
+| --------- | ---- |
+| *[e.g. unit type]* | *[Rule]* |
+| *[e.g. position / formation]* | *[Rule]* |
+
+---
+
+## Cost <!-- Required -->
+
+<!-- Required: what does the player pay to use it?
+     A resource (MP, durability), an action, a position, a risk –
+     or a combination. A system without a cost is not a decision
+     but a reward with rules around it.
+     Second required statement: is the cost visible BEFORE use?
+     If not, the system violates Pillar 5 – the player should be able to plan,
+     not only understand after the mistake.
+     Concrete numbers belong in this mechanic's ## Balancing section
+     (cross-system ones in the Balancing Guide) and are linked here. -->
+
+| What | Value |
+| ---- | ----- |
+| Resource | *[MP / durability / none]* |
+| Action | *[uses the turn? / free action]* |
+| Further cost | *[position, risk, what is given up]* |
+| Visible before use | *[how the player sees the cost]* |
+
+---
+
+## Core Rules <!-- Required -->
+
+<!-- Required: the central rules of the mechanic, as precisely as possible.
+     Tables, lists and formulas are all welcome.
+     This section is the heart of the document.
+     A number that changes only the strength of the system, not the system,
+     is a tuning value: it belongs in ## Balancing and is linked from here. -->
+
+*[Description of the core rules, formulas and sequences.]*
+
+---
+
+## Acquisition / Access <!-- Required -->
+
+<!-- Required: how does the player / a unit get access to this mechanic?
+     If the mechanic is universal (applies to every unit), say so explicitly. -->
+
+| Source | Description | Availability |
+| ------ | ----------- | ------------ |
+| *[Promotion / item / story / universal]* | *[Description]* | *[Availability]* |
+
+---
+
+## Strategic Depth <!-- Required -->
+
+<!-- Required: which tactical decisions does this mechanic open up for the player?
+     At least 3–5 sentences or bullet points. Examples are welcome. -->
+
+*[Description of the tactical options and the strategic value.]*
+
+---
+
+## Design Pillars <!-- Required -->
+
+<!-- Required: why does this system belong in the game?
+     Answer all five questions from design/Design-Pillars.md in full,
+     do not tick them off. A "no" is a valid answer if it is argued –
+     more than two mean redesign, not patching.
+     Without this section, someone asks in six months
+     why the system exists and finds no answer. -->
+
+| Pillar | Question | Answer |
+| ------ | -------- | ------ |
+| **Bonds** | Does it strengthen the connections between units? | |
+| **Depth** | Easy to learn, hard to master? | |
+| **Weight** | Do the decisions have long-term consequences? | |
+| **Integration** | Does the mechanic tell a story? | |
+| **Fairness** | Is the challenge respectful of the player's time? | |
+
+**Anti-pillar check:** {{ANTI-PILLAR}}
+<!-- No forced grinding, no power without a price, nothing that works only
+     with over-trained units, nothing generic and interchangeable. -->
+
+---
+
+## Introduction <!-- Required -->
+
+<!-- Required: where in the campaign does the player learn this system?
+     Vigilans Nexum introduces mechanics through situations, not tutorials.
+     A map on which the new ability is the obvious way out
+     teaches it better than a text box.
+     Must agree with the "New Mechanics" column in design/levels/README.md.
+     There is no cap on new mechanics per level –
+     but the map must carry each new one (levelcraft). -->
+
+**First chapter:** {{CHAPTER}}
+
+**How it is introduced:** {{IN-WORLD-INTRODUCTION}}
+<!-- The situation that teaches it – not the text that explains it. -->
+
+**What the player must already know:** {{PRIOR-KNOWLEDGE}}
+
+---
+
+## Catalog <!-- Required -->
+
+<!-- Required: ONE LINK, no table.
+     The entries of this system – abilities, combat arts, tomes, weapons –
+     live exclusively in design/catalog/. This document describes
+     WHAT they are; the catalog lists WHICH ones exist.
+     The character sheet (Personal Abilities) and the class in
+     Unit-Classes.md point to the same catalog entry.
+     A table of entries here creates a second truth.
+     If the mechanic has no entries: delete the section. -->
+
+All entries: [{{CATALOG-NAME}}](../catalog/{{CATALOG-FILE}}.md)
+
+---
+
+## Balancing <!-- Optional -->
+
+<!-- Optional: this is where the values of THIS mechanic live – every tuning value
+     that belongs to it alone, with its derivation and the note proposal / decided.
+     After them: what each value tunes, and which numbers are rules rather than
+     tuning values.
+     Values that span several systems (combat formulas, stat and growth frameworks,
+     tier modifiers, XP, economy, difficulty, the passive bonus budget)
+     live in the Balancing Guide and are only linked here.
+     Every number exists exactly once. -->
+
+### Values
+
+| Parameter | Value |
 | --------- | ----- |
-| *[z.B. Einheitentyp]* | *[Regel]* |
-| *[z.B. Position / Formation]* | *[Regel]* |
+| *[e.g. base damage]* | *[Value]* |
+| *[e.g. scaling]* | *[Formula]* |
 
----
+### What each value tunes
 
-## Kosten <!-- Pflicht -->
-
-<!-- Pflicht: Was zahlt der Spieler für den Einsatz?
-     Eine Ressource (MP, Haltbarkeit), eine Aktion, eine Position, ein Risiko –
-     oder eine Kombination. Ein System ohne Kosten ist keine Entscheidung,
-     sondern eine Belohnung mit Regeln drumherum.
-     Zweite Pflichtangabe: Sind die Kosten VOR dem Einsatz sichtbar?
-     Wenn nein, verletzt das System Pillar 5 – der Spieler soll planen können,
-     nicht erst nach dem Fehler verstehen.
-     Konkrete Zahlen gehören in den Balancing-Guide und werden hier verlinkt. -->
-
-| Was | Wert |
-| --- | ---- |
-| Ressource | *[MP / Haltbarkeit / keine]* |
-| Aktion | *[verbraucht den Zug? / freie Aktion]* |
-| Weitere Kosten | *[Position, Risiko, Verzicht]* |
-| Vor Einsatz sichtbar | *[wie der Spieler die Kosten erkennt]* |
-
----
-
-## Kernregeln <!-- Pflicht -->
-
-<!-- Pflicht: Die zentralen Regeln der Mechanik, so präzise wie möglich.
-     Tabellen, Aufzählungen und Formeln sind alle willkommen.
-     Dieser Abschnitt ist das Herzstück des Dokuments. -->
-
-*[Beschreibung der Kernregeln, Formeln und Abläufe.]*
-
----
-
-## Erwerb / Zugang <!-- Pflicht -->
-
-<!-- Pflicht: Wie kommt der Spieler / eine Einheit an diese Mechanik?
-     Falls die Mechanik universal ist (gilt für alle Einheiten), schreibe das explizit. -->
-
-| Quelle | Beschreibung | Verfügbarkeit |
-| ------ | ------------ | ------------- |
-| *[Klassenaufstieg / Item / Story / universal]* | *[Beschreibung]* | *[Verfügbarkeit]* |
-
----
-
-## Strategische Tiefe <!-- Pflicht -->
-
-<!-- Pflicht: Welche taktischen Entscheidungen eröffnet diese Mechanik dem Spieler?
-     Mindestens 3–5 Sätze oder Aufzählungspunkte. Darf auch Beispiele enthalten. -->
-
-*[Beschreibung der taktischen Möglichkeiten und des strategischen Wertes.]*
-
----
-
-## Design Pillars <!-- Pflicht -->
-
-<!-- Pflicht: Warum gehört dieses System ins Spiel?
-     Alle fünf Fragen aus design/Design-Pillars.md ausgeschrieben beantworten,
-     nicht abhaken. Ein "Nein" ist eine gültige Antwort, wenn sie begründet ist –
-     mehr als zwei bedeuten Redesign, nicht Nachbessern.
-     Ohne diesen Abschnitt fragt in einem halben Jahr jemand,
-     warum es das System gibt, und findet keine Antwort. -->
-
-| Pillar | Frage | Antwort |
-| ------ | ----- | ------- |
-| **Bonds** | Verstärkt es die Verbindungen zwischen Einheiten? | |
-| **Depth** | Einfach zu lernen, schwer zu meistern? | |
-| **Weight** | Haben die Entscheidungen langfristige Folgen? | |
-| **Integration** | Erzählt die Mechanik eine Geschichte? | |
-| **Fairness** | Ist die Herausforderung respektvoll gegenüber der Zeit des Spielers? | |
-
-**Anti-Pillar-Gegenprobe:** {{ANTI-PILLAR}}
-<!-- Kein Grinding-Zwang, keine Macht ohne Preis, nichts, das nur mit
-     übertrainierten Einheiten funktioniert, nichts generisch Austauschbares. -->
-
----
-
-## Einführung <!-- Pflicht -->
-
-<!-- Pflicht: Wo im Spielverlauf lernt der Spieler dieses System?
-     Vigilans Nexum führt Mechaniken über Situationen ein, nicht über Tutorials.
-     Eine Karte, auf der die neue Fähigkeit der offensichtliche Ausweg ist,
-     lehrt sie besser als ein Textkasten.
-     Muss mit der Spalte "New Mechanics" in design/levels/README.md
-     übereinstimmen. Eine Obergrenze neuer Mechaniken pro Level gibt es nicht –
-     aber die Karte muss jede neue tragen (levelcraft). -->
-
-**Erstes Kapitel:** {{KAPITEL}}
-
-**Wie es eingeführt wird:** {{IN-WORLD-EINFUEHRUNG}}
-<!-- Die Situation, die es lehrt – nicht der Text, der es erklärt. -->
-
-**Was der Spieler vorher können muss:** {{VORWISSEN}}
-
----
-
-## Katalog <!-- Pflicht -->
-
-<!-- Pflicht: EIN LINK, keine Tabelle.
-     Die Einträge dieses Systems – Fähigkeiten, Kampfkünste, Zauber, Waffen –
-     leben ausschließlich in design/catalog/. Dieses Dokument beschreibt,
-     WAS sie sind; der Katalog listet, WELCHE es gibt.
-     Auf denselben Katalogeintrag verweisen auch der Charakterbogen
-     (Personal Abilities) und die Klasse in Unit-Classes.md.
-     Eine Tabelle mit Einträgen an dieser Stelle erzeugt eine zweite Wahrheit.
-     Führt die Mechanik keine Einträge: Abschnitt löschen. -->
-
-Alle Einträge: [{{KATALOG-NAME}}](../catalog/{{KATALOG-DATEI}}.md)
-
----
-
-## Balancing-Richtlinien <!-- Optional -->
-
-<!-- Optional: Numerische Richtwerte, Skalierungsformeln, oder Designgrenzen.
-     Wichtig bei Mechaniken mit konkreten Zahlenwerten (Schaden, Prozentwerte, usw.) -->
-
-| Parameter | Wert / Formel |
+| Parameter | What it tunes |
 | --------- | ------------- |
-| *[z.B. Basisschaden]* | *[Wert]* |
-| *[z.B. Skalierung]* | *[Formel]* |
+| *[Parameter]* | *[Effect]* |
 
 ---
 
-## Interaktion mit anderen Mechaniken <!-- Optional -->
+## Interaction with Other Mechanics <!-- Optional -->
 
-<!-- Optional: Wie verhält sich diese Mechanik in Kombination mit anderen Systemen?
-     Synergie-Hinweise, bekannte Kombinationen, oder Einschränkungen. -->
+<!-- Optional: how does this mechanic behave in combination with other systems?
+     Synergies, known combinations, or restrictions. -->
 
-| Mechanik | Interaktion |
+| Mechanic | Interaction |
 | -------- | ----------- |
-| *[Andere Mechanik]* | *[Beschreibung der Interaktion]* |
+| *[Other mechanic]* | *[Description of the interaction]* |
 
 ---
 
-## UI & Anzeige <!-- Optional -->
+## UI & Display <!-- Optional -->
 
-<!-- Optional: Wie wird die Mechanik im Spiel dem Spieler kommuniziert?
-     Symbole, Farben, Menüpositionen, HUD-Elemente. -->
+<!-- Optional: how is the mechanic communicated to the player in the game?
+     Symbols, colours, menu positions, HUD elements. -->
 
-*[Beschreibung der UI-Darstellung.]*
-
----
-
-## Charakter-Zuweisungen <!-- Optional -->
-
-<!-- Optional: Falls die Mechanik charakterspezifische Varianten hat,
-     hier eine Übersichtstabelle. -->
-
-| Charakter | [Parameter] | Typ |
-| --------- | ----------- | --- |
-| *[Name]* | *[Wert]* | *[Kategorie]* |
+*[Description of the UI presentation.]*
 
 ---
 
-<!-- Pflicht: Footer mit Metadaten und Querverweisen -->
+## Character Assignments <!-- Optional -->
+
+<!-- Optional: if the mechanic has character-specific variants,
+     an overview table here. -->
+
+| Character | [Parameter] | Type |
+| --------- | ----------- | ---- |
+| *[Name]* | *[Value]* | *[Category]* |
+
 ---
+
+## Open Decisions <!-- Optional -->
+
+<!-- Optional: everything the specification could not settle. Each item is written
+     into the rules above in its cautious (conservative) form, so the document is
+     playable as it stands, and listed here with the alternative. Decisions already
+     made by Dardan are named as such and not listed as open.
+     Delete the section if nothing is open. -->
+
+1. **[Question].** Conservative: [the form written above]. The alternative: [...].
+
+---
+
+<!-- Required: footer with metadata and cross-references -->
 
 **Version:** 1.0
-**Erstellt:** [DATUM]
-**Zuletzt aktualisiert:** [DATUM]
-**Querverweise:** [Datei A](../pfad/Datei-A.md) · [Datei B](../pfad/Datei-B.md)
+**Created:** [DATE]
+**Last updated:** [DATE]
+**Cross-references:** [File A](../path/File-A.md) · [File B](../path/File-B.md)

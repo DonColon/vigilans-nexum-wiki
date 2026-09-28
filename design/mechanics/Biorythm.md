@@ -1,8 +1,8 @@
 # Biorhythm
 
-The rhythm every unit carries into battle. This document covers what a biorhythm is, how the round number puts a unit into Resonance, Neutral or Dissonance, the one type that follows no fixed sequence (*Chaos*), Dardan's own type (*Animado*), and what happens to his rhythm when *Wavelength* carries a friend's. It holds the rules only. Every value lives in the [Balancing Guide → Biorhythm](../Balancing-Guide.md#biorhythm), every type in the [catalog → Biorhythms](../catalog/Biorhythms.md), and which unit carries which type is on its character sheet, or, for an enemy, on its class row.
+The rhythm every unit carries into battle. This document covers what a biorhythm is, how the round number puts a unit into Resonance, Neutral or Dissonance, the one type that follows no fixed sequence (*Chaos*), Dardan's own type (*Animado*), and what happens to his rhythm when *Wavelength* carries a friend's. It holds the rules, and its values are in its own [Balancing](#balancing) section. Every type lives in the [catalog → Biorhythms](../catalog/Biorhythms.md), and which unit carries which type is on its character sheet, or, for an enemy, on its class row.
 
-> **Related files:** [Biorhythms (catalog)](../catalog/Biorhythms.md) · [Balancing Guide → Biorhythm](../Balancing-Guide.md#biorhythm) · [The Nexus → Wavelength](Nexus.md#8--wavelength) · [Affinity](Affinity.md) · [Unit Classes](../catalog/Unit-Classes.md) · [Progression System](../Progression-System.md) · [Design Pillars](../Design-Pillars.md) · [Levels → Ch 02](../levels/README.md#part-01-path-of-liberation) · [Ch 02](../../story/chapters/Part-01-Path-Of-Liberation/Chapter-02-Is-A-New-Beginning.md)
+> **Related files:** [Biorhythms (catalog)](../catalog/Biorhythms.md) · [Balancing](#balancing) · [The Nexus → Wavelength](Nexus.md#8--wavelength) · [Affinity](Affinity.md) · [Unit Classes](../catalog/Unit-Classes.md) · [Progression System](../Progression-System.md) · [Design Pillars](../Design-Pillars.md) · [Levels → Ch 02](../levels/README.md#part-01-path-of-liberation) · [Ch 02](../../story/chapters/Part-01-Path-Of-Liberation/Chapter-02-Is-A-New-Beginning.md)
 
 ---
 
@@ -40,7 +40,7 @@ The purpose in one sentence: **the player decides who fights in which round – 
 | Units | **Every playable unit and every enemy unit.** Several kinds of unit have **no type** and are Neutral in every round. This is the conservative reading of "everyone" (*Open decisions → 11*). They are: summoned Solmare beasts ([Beast Summon](Beast-Summon.md)), Other-faction units, and enemies whose class row carries no type. That last group includes wild beasts, which have no class row |
 | Where the type comes from | **Playable unit:** the `**Biorhythm:**` field on its character sheet, directly below `**Elemental Affinity:**`. The type is fixed and can never be changed. **Enemy unit:** the *Biorhythm* column of its class row in [Unit Classes](../catalog/Unit-Classes.md). An enemy's type follows its class, and a promoted enemy takes the type of its new class. **Unique types never go to a class.** They are reserved for main characters |
 | System active | From **Ch 02**, for both sides. In **Ch 01** no unit has a biorhythm. Nothing is shown and nothing applies (*Introduction*) |
-| Mode | Every mode. Only the strength of Dissonance changes by difficulty ([Balancing Guide → Biorhythm](../Balancing-Guide.md#biorhythm)) |
+| Mode | Every mode. Only the strength of Dissonance changes by difficulty ([Balancing](#balancing)) |
 | Band | Biorhythm is not a Nexus ability, and a black band does not touch it. Only *Wavelength*, and with it the rhythm copy, is locked with the rest of the kit |
 
 ---
@@ -98,9 +98,9 @@ That is the intended texture: frequent but weak against rare but strong. Whether
 
 ### 4 – The fixed-sequence Unique types
 
-*Crescendo*, *Mersenne*, *Perfectus* and *Animado* resonate in every round that belongs to their sequence, at **their own value**. A Unique type has **no single or double**: its row in the Balancing Guide is one value. A Unique type is **never in Dissonance** (conservative; *Open decisions → 3*). Each Unique type is a tier of one, so no "other types of its tier" exist to drown it out. Every other round is Neutral.
+*Crescendo*, *Mersenne*, *Perfectus* and *Animado* resonate in every round that belongs to their sequence, at **their own value**. A Unique type has **no single or double**: its row in [Balancing](#resonance--unique) is one value. A Unique type is **never in Dissonance** (conservative; *Open decisions → 3*). Each Unique type is a tier of one, so no "other types of its tier" exist to drown it out. Every other round is Neutral.
 
-For the first three, the price is scarcity: their sequences are the sparsest in the game. **Animado is not sparse.** It resonates on 8 rounds up to round 30, where the others manage 2 to 4. Its price is where those beats fall: four of them in the first seven rounds, and then ever further apart. Its value is tuned against that frequency, not against its tier-mates' ([Balancing Guide → Biorhythm](../Balancing-Guide.md#biorhythm); *Open decisions → 7*).
+For the first three, the price is scarcity: their sequences are the sparsest in the game. **Animado is not sparse.** It resonates on 8 rounds up to round 30, where the others manage 2 to 4. Its price is where those beats fall: four of them in the first seven rounds, and then ever further apart. Its value is tuned against that frequency, not against its tier-mates' ([Balancing](#balancing); *Open decisions → 7*).
 
 ### 5 – Chaos
 
@@ -108,7 +108,7 @@ Chaos stays **random per battle**.
 
 1. **When the battle begins**, before the first Player Phase, Chaos rolls **one Standard or Rare type**, each equally likely (conservative; *Open decisions → 8*). The rolled type is Chaos's sequence **for this battle**.
 2. **It is shown from turn 1.** The rolled type sits on the unit like any other type, and the coming rounds are previewed as they are for everyone ([Pillar 5](../Design-Pillars.md)). From that moment Chaos is exactly as legible as any fixed type. The randomness lies in which map the player gets, not in which round.
-3. **States.** Resonance and Dissonance follow the rolled type's rounds, read inside the rolled type's tier by *→ 3*. The **strengths are Chaos's own**. Resonance takes the Chaos row of the Unique tier, with no single or double. Dissonance takes the **Chaos Dissonance** row, which is stronger than ordinary Dissonance on every difficulty that has Dissonance at all ([Balancing Guide → Biorhythm](../Balancing-Guide.md#biorhythm)). This is the gamble: a unique-strength resonance, paid for with a heavier Dissonance.
+3. **States.** Resonance and Dissonance follow the rolled type's rounds, read inside the rolled type's tier by *→ 3*. The **strengths are Chaos's own**. Resonance takes the Chaos row of the Unique tier, with no single or double. Dissonance takes the **Chaos Dissonance** row, which is stronger than ordinary Dissonance on every difficulty that has Dissonance at all ([Balancing](#balancing)). This is the gamble: a unique-strength resonance, paid for with a heavier Dissonance.
 4. The roll is not a type for anyone else. It never counts toward another unit's single, double or Dissonance.
 
 ### 6 – Animado
@@ -122,7 +122,7 @@ Animado is Dardan's type, as his sheet records. It is a round-number sequence li
 
 ### 7 – What the states do
 
-Resonance and Dissonance change four things in combat: **Attack, Hit, Avoid and Critical**. Which terms each tier touches, and by how much, is in the [Balancing Guide → Biorhythm](../Balancing-Guide.md#biorhythm).
+Resonance and Dissonance change four things in combat: **Attack, Hit, Avoid and Critical**. Which terms each tier touches, and by how much, is in [Balancing](#balancing).
 
 - The change enters the [combat formulas](../Balancing-Guide.md#-damage-calculation-formula) as its own term, **Biorhythm**, next to the *Affinity Bonus* term. The two are **separate terms and stack** (*Interaction → Affinity*).
 - It changes nothing else. It does not touch Def, Res, Dodge, movement, the amount a heal restores, or MP.
@@ -207,7 +207,7 @@ When Dardan borrows an element through [Wavelength](Nexus.md#8--wavelength), he 
 
 *Is there a combination that trivialises a fight?* The candidates, and why they stop:
 
-- **Animado's own frequency.** Eight resonance rounds up to 30 with no Dissonance is the strongest rhythm a single unit carries. It is bounded by its value, which is proposed **below** the Unique tier's common row and flagged ([Balancing Guide → Biorhythm](../Balancing-Guide.md#biorhythm)).
+- **Animado's own frequency.** Eight resonance rounds up to 30 with no Dissonance is the strongest rhythm a single unit carries. It is bounded by its value, which is proposed **below** the Unique tier's common row and flagged ([Balancing](#balancing)).
 - **Borrowing a Unique rhythm on its round.** Bounded by the Wavelength cooldown, the count and the donor's range, and by Animado being suspended for the loan.
 - **Biorhythm on top of the Affinity bonus.** Two separate terms. Biorhythm reads no position, so the stack pays nothing for clumping (*Interaction → Affinity*).
 
@@ -215,7 +215,7 @@ When Dardan borrows an element through [Wavelength](Nexus.md#8--wavelength), he 
 
 ## Introduction
 
-**First chapter:** **Ch 02**, *…Is A New Beginning*, alongside the weapon triangle. No rule caps how many mechanics a level introduces, but the map must carry each one (`levelcraft`). Biorhythm does nothing before Ch 02, for either side: **Ch 01 has none**.
+**First chapter:** **Ch 02**, *…Is A New Beginning*, as the chapter's one new system: the weapon triangle and terrain are introduced in Ch 01. No rule caps how many mechanics a level introduces, but the map must carry each one (`levelcraft`). Biorhythm does nothing before Ch 02, for either side: **Ch 01 has none**.
 
 **How it is introduced:** in the chapter's beats, before any screen names the system. Lorekeeper is revising the chapter text accordingly. The beats below are Dardan's decision, and this document does not write the prose.
 
@@ -232,9 +232,9 @@ When Dardan borrows an element through [Wavelength](Nexus.md#8--wavelength), he 
 
 Hasan's Chaos is on the map from the same moment, rolled at the start of the battle. The chapter does not need to explain it. The marker on him is different on the next map, and the player finds out why.
 
-**What the player must already know:** movement, attack and the battle forecast (Ch 01), and that turns are counted, since the round counter becomes information here.
+**What the player must already know:** movement, attack, the weapon triangle and the battle forecast (Ch 01), and that turns are counted, since the round counter becomes information here.
 
-**Level index.** Ch 02 carries *Weapon Triangle* and *Biorhythm* in the *New Mechanics* column of `design/levels/README.md`, and the [Progression System](../Progression-System.md#part-01-path-of-liberation-chapters-1-8) carries both at Ch 02.
+**Level index.** Ch 02 carries *Biorhythm* alone in the *New Mechanics* column of `design/levels/README.md`, and the [Progression System](../Progression-System.md#part-01-path-of-liberation-chapters-1-8) carries it alone at Ch 02.
 
 ---
 
@@ -244,9 +244,96 @@ All types: [Biorhythms](../catalog/Biorhythms.md). Which type a playable unit ca
 
 ---
 
-## Balancing Guidelines
+## Balancing
 
-Every value lives in the [Balancing Guide → Biorhythm](../Balancing-Guide.md#biorhythm):
+This section holds Biorhythm's values. **Every value below is a proposal (2026-09-27) that replaces the values of the earlier version (v1.1, 2026-06-09).** Dardan decided the rhythm was worth too much, and the old rows are no longer valid. The new rows are derived below against two anchors: the [Affinity combat bonus](Affinity.md#combat-bonus-by-rank) and the [weapon triangle](../Balancing-Guide.md#weapon-triangle-bonuses). Together with every other passive system, Biorhythm has to fit inside the [passive bonus budget](../Balancing-Guide.md#passive-bonus-budget).
+
+The Biorhythm term enters the [combat formulas](../Balancing-Guide.md#-damage-calculation-formula) on **Attack, Hit, Avoid and Critical** only, as its own term beside the *Affinity Bonus*, and the two stack. "Attack" is the value the earlier version called "damage", read as a change to Attack before Defense ([Open decisions → 13](#open-decisions)).
+
+### Resonance – Standard and Rare
+
+Single and double are read inside the unit's own tier ([Core Rules → 3](#3--the-three-states-standard-and-rare-types)).
+
+| Tier | Resonance | Hit / Avoid | Attack |
+|------|-----------|-------------|--------|
+| **Standard** | Single | +3 | – |
+| **Standard** | Double | +5 | – |
+| **Rare** | Single | +5 | +1 |
+| **Rare** | Double | +7 | +1 |
+
+### Resonance – Unique
+
+One value per type. There is no single or double.
+
+| Type | Hit / Avoid | Attack | Critical | Status |
+|------|-------------|--------|----------|--------|
+| **Crescendo** | +8 | +1 | – | proposal. The Unique common value |
+| **Mersenne** | +8 | +1 | – | proposal. The Unique common value |
+| **Perfectus** | +10 | +1 | +5 | proposal. It is the strongest fixed Resonance in the game, paid for with the sparsest sequence (rounds 6 and 28) |
+| **Chaos** | +8 | +1 | – | proposal. The Unique common value. It uses the Chaos Dissonance row below |
+| **Animado** | +7 | +1 | – | proposal. Set **below** the Unique common value, at the Rare-double level, because Animado resonates far more often than any other Unique type. Not decided by Dardan ([Open decisions → 7](#open-decisions)) |
+
+**Animado: why it sits below its tier.** The other fixed Unique types resonate on 2–4 rounds up to round 30:
+
+- Crescendo on 1, 2, 6, 24.
+- Mersenne on 3, 7, 15.
+- Perfectus on 6 and 28.
+
+Animado resonates on **8**: 1, 2, 4, 7, 11, 16, 22, 29. Like the other Unique types, it never falls into Dissonance. That frequency is close to a Standard type's. Trinus, for comparison, resonates double on 10 rounds up to 30, but also meets Dissonance on 4. Paying Animado the Unique common value on 8 rounds, with no Dissonance, would make it the strongest rhythm in the game by a wide margin. The proposal therefore sets it one step below that value, at the Rare-double level (+7 / +1):
+
+- It keeps the ordering: Rare double ≤ Animado < Unique common.
+- It trades strength for the lack of Dissonance.
+- It keeps the tier's special feature, one value and no bad rounds.
+
+**Over a map, compared with a Standard type** (rounds 1–30, Hit/Avoid only):
+
+- Animado: 8 beats × 7, with no Dissonance, is 56.
+- Solus: 8 single rounds × 3 plus 7 double rounds × 5 is 59, before its Dissonance rounds are taken off.
+
+The two carry about the same total. Animado's is simply concentrated early, which is its intended shape.
+
+**The shape the value must keep:** Animado's beats are densest early (1, 2, 4, 7) and thin out later, with the gaps growing by one each time. A map's opening is where Dardan's own rhythm carries him, and the late rounds are where he has to lean on a friend's through Wavelength. A value high enough to make the early cluster decisive would make borrowing early a trap. Tune it against that.
+
+### Dissonance by difficulty
+
+Applies to every unit, player and enemy alike, in its Dissonance rounds. The literal reading is that the enemy side takes the same row ([Open decisions → 12](#open-decisions)). **Standard Dissonance** covers every type that has Dissonance except Chaos. The fixed-sequence Unique types, Animado among them, have none.
+
+| Mode | Standard Dissonance | Chaos Dissonance |
+|------|---------------------|------------------|
+| **Casual** | none | none |
+| **Normal** | −1 Hit / Avoid | −6 Hit / Avoid, −1 Attack |
+| **Hard** | −2 Hit / Avoid | −6 Hit / Avoid, −1 Attack |
+| **Maddening** | −2 Hit / Avoid | −6 Hit / Avoid, −1 Attack |
+
+**Why Standard Dissonance never touches Attack:** at every difficulty it has to stay smaller than the smallest Resonance it can meet. That is the Standard single, which has no Attack term, so Dissonance never takes Attack away. Hard and Maddening therefore share a row. Maddening's extra difficulty comes from its enemy stat and number scaling, not from a harsher rhythm.
+
+**Why Chaos's Dissonance is heavier and flat:** it is the price of a Unique-strength Resonance on whatever type the battle rolls. A roll onto a parity type puts that Resonance on every other round. It is scaled down in proportion to the old row. The old row was 75 % of Chaos's Resonance in Hit / Avoid, and −6 is 75 % of +8. The Attack loss is capped at −1, like every Attack term here. It stays three times the Standard row and still smaller than Chaos's own Resonance. A Wavelength copy of Chaos carries this row with it.
+
+### Derivation: two ceilings
+
+Biorhythm is free, passive and universal. Affinity is earned by deeds, paid for in formation, and throttled to one rank-up per chapter. So the rhythm is set clearly under the bond, and under the weapon triangle, which is the planning factor the player already reads on every attack.
+
+- **Against Affinity** ([Combat bonus by rank](Affinity.md#combat-bonus-by-rank); per element carrying a type: D +2, C +4, A +8, S +10 in a rate stat, and +0.5 to +2.5 Attack):
+  - A Standard single (+3) sits between a D and a C pair.
+  - A Rare double and Animado (+7) sit just under an A pair.
+  - The Unique common value (+8) equals a single element at A.
+  - Perfectus (+10) equals a single element at S, once or twice a map.
+  - Nothing reaches a **same-element S pair** (+20 rate, +5 Attack). The strongest rhythm is half of it in Hit and a fifth of it in Attack.
+- **Against the weapon triangle** (+15 Hit, +1 Damage):
+  - No row gives more Hit than two-thirds of a triangle advantage.
+  - **No row gives more than +1 Attack.** A good round is never worth more damage than choosing the right weapon.
+
+The round counter is a reason to wait one turn, not a reason a fight is won.
+
+**The stack with Affinity** is checked against the [passive bonus budget](../Balancing-Guide.md#passive-bonus-budget) in the Balancing Guide, which was derived from this check:
+
+- **Worst Hit / Critical case:** Perfectus on round 6 for a unit in a same-element Electro S pair with triangle advantage. That comes to Hit +45 (triangle 15, Affinity 20, rhythm 10) and Critical +25 (Affinity 20, rhythm 5). The old values gave Hit +60. Critical +25 stays under a Killer weapon's 30.
+- **Worst Attack case:** a same-element Pyro or Dendro S pair on a Unique round. That comes to Attack +6 (Affinity 5, rhythm 1), one point over the Master promotion's +5 that bounds the Affinity ceiling. It is reachable on a handful of rounds per map, only for a unit that reached S with a partner of its own element and stands within range. That is accepted. The old values gave +8.
+- **Avoid:** the rhythm raises Avoid as much as Hit, so two resonating units facing each other largely cancel out.
+
+Because Biorhythm reads no position, the stack pays nothing for clumping.
+
+### What each value tunes
 
 | Parameter | What it tunes |
 | --------- | ------------- |
@@ -283,7 +370,7 @@ Every value lives in the [Balancing Guide → Biorhythm](../Balancing-Guide.md#b
 | **[Chain Attack](Chain-Attack.md)** | Each attacker in a chain reads its own rhythm on its own strike. Biorhythm does not touch the shield |
 | **[Combat Arts](Combat-Arts.md), [Magic System](Magic-System.md)** | An art's or a spell's attack reads the Biorhythm term like any attack, including magical Attack. Elements, reactions and weaknesses are untouched. The rhythm Wavelength carries is not an element, applies nothing and triggers nothing |
 | **Battle forecast and formulas** | A **Biorhythm** term on Attack, Hit, Avoid and Critical ([Balancing Guide → Damage Calculation](../Balancing-Guide.md#-damage-calculation-formula)), shown per side in every forecast |
-| **Difficulty modes** (backlog) | Dissonance and Chaos Dissonance scale by mode. The rows are in the Balancing Guide's Biorhythm section, and the difficulty table points there |
+| **Difficulty modes** (backlog) | Dissonance and Chaos Dissonance scale by mode. The rows are in this document's [Balancing → Dissonance by difficulty](#dissonance-by-difficulty), and the Balancing Guide's difficulty table points there |
 | **Level design** (`levelcraft`) | A level's enemy roster is also a set of rhythms: its classes decide which rounds the enemy is strong. Levels whose objective turns on a round count (survive N rounds, reinforcements on round R) should be read against the rhythms of the classes involved, and against Animado's early cluster and later gaps. Level 02 must meet the requirement in *Introduction* |
 | **Part 05 / Part 06** | Nothing changes between the strands. On Hasan's strand Dardan is absent, so neither Animado nor Wavelength exists there. Chaos works as everywhere |
 | **Abilities – *Resonance* (Elementalist)** | Unrelated, but the same word. See *Open decisions → 14* |
@@ -308,7 +395,7 @@ Everything below is written into the rules above in its **conservative form**, s
 
 **Decided by Dardan (2026-09-27) and therefore not listed:**
 
-- **Scope and principle.** Everyone has a biorhythm, every playable unit and every enemy, like a heartbeat. The round number decides Resonance, Neutral or Dissonance, and the Standard, Rare and fixed Unique types keep their sequences, with only their numbers moved to the Balancing Guide.
+- **Scope and principle.** Everyone has a biorhythm, every playable unit and every enemy, like a heartbeat. The round number decides Resonance, Neutral or Dissonance, and the Standard, Rare and fixed Unique types keep their sequences, with only their numbers moved out of the rules and into *Balancing*.
 - **The old *Nexus* type is removed.** **Dardan's type is Animado**, a round-number sequence like every other type, resonating on n·(n+1)/2 + 1, Unique tier, reserved for him. The name is coined from *animus*. It is the Niveli family's inheritance, and nothing player-facing may say so before the Part 04 reveal.
 - **Wavelength copies the donor's whole biorhythm.** That means type, Resonance, Dissonance and tier strength, read against the current round, for exactly as long as the element. Animado is suspended while it runs.
 - **Chaos stays random per battle.** It is rolled at the start and visible from turn 1, and copying it copies its stronger Dissonance.
@@ -330,7 +417,7 @@ Everything below is written into the rules above in its **conservative form**, s
 4. **Animado stays out of the Rare tier's overlaps.** Its sequence sits one round after *Triangulus* and could be read as a Rare-like neighbour, but as a Unique type it is a tier of one. It never makes a Rare round double, never contributes to a Rare unit's Dissonance, and is never drowned out itself. The alternative, counting it alongside the Rare tier, would put Animado into the Rare overlaps and give it Dissonance rounds.
 5. *Decided – closed.* When a loan ends, Animado is reactivated immediately (Dardan, 2026-09-28; see the decided list above). The number is kept so that the items after it keep theirs.
 6. *Decided – closed.* Animado rounds covered by a loan are lost (Dardan, 2026-09-28; see the decided list above). The number is kept so that the items after it keep theirs.
-7. **Animado's value.** Unique tier, one value. The Balancing Guide's row is a **proposal**, set **below** the tier's common value at the Rare-double level, because Animado resonates on 8 rounds up to 30 where the other Unique types have 2–4, and it has no Dissonance. Dardan has not decided the numbers. Every Biorhythm value was lowered on 2026-09-27 to sit clearly below Affinity and the weapon triangle. All of them are proposals.
+7. **Animado's value.** Unique tier, one value. Its row in [Balancing](#resonance--unique) is a **proposal**, set **below** the tier's common value at the Rare-double level, because Animado resonates on 8 rounds up to 30 where the other Unique types have 2–4, and it has no Dissonance. Dardan has not decided the numbers. Every Biorhythm value was lowered on 2026-09-27 to sit clearly below Affinity and the weapon triangle. All of them are proposals.
 8. **What Chaos rolls.** One Standard or Rare type, each **equally likely**, rolled once when the battle begins. Unique types cannot be rolled. The alternatives are weighted odds, or a roll per round, which would break "visible from turn 1". **A related edge:** a map restarted from its beginning is a new battle and rolls again. Whether a Classic reset after a defeat re-rolls belongs with Permadeath & Retreat (backlog).
 9. **The enemy column is empty except for Thief.** Until a class's cell is filled, units of that class have **no type** and are Neutral in every round. The column is a backlog item. **Thief is filled: Quintus** (decided by Dardan, 2026-09-28, so that the Ch 02 thieves are weak early; see *Introduction*). The earlier note here, which asked for a type that resonates in round 1, had the requirement backwards and is withdrawn.
 10. **Named bosses: no type of their own.** They take their class's type like every enemy. The alternative is a boss-specific type written in the level document. Unique types would still stay reserved for main characters.
@@ -345,10 +432,10 @@ Everything below is written into the rules above in its **conservative form**, s
 
 **Version:** 2.0
 **Created:** 2026-06-08
-**Last updated:** 2026-09-27.
+**Last updated:** 2026-09-28. The values moved from the Balancing Guide into this document's own [Balancing](#balancing) section, where every mechanic now keeps its numbers (decided by Dardan). Earlier, 2026-09-27:
 - Rewritten in English on the mechanic template.
-- All numbers moved to the [Balancing Guide](../Balancing-Guide.md#biorhythm), the type list to the [catalog](../catalog/Biorhythms.md) and the character assignments to the sheets.
+- All numbers moved out of the rules, the type list to the [catalog](../catalog/Biorhythms.md) and the character assignments to the sheets.
 - The *Nexus* type was replaced by *Animado*, a round-number sequence like every other type, and Wavelength now copies the donor's rhythm (decided by Dardan).
 - Dissonance and double resonance were given a precise definition.
 
-**Cross-references:** [Biorhythms](../catalog/Biorhythms.md) · [Balancing Guide](../Balancing-Guide.md#biorhythm) · [The Nexus](Nexus.md) · [Affinity](Affinity.md) · [Unit Classes](../catalog/Unit-Classes.md) · [Progression System](../Progression-System.md) · [Levels](../levels/README.md) · [Design Pillars](../Design-Pillars.md)
+**Cross-references:** [Biorhythms](../catalog/Biorhythms.md) · [Balancing](#balancing) · [The Nexus](Nexus.md) · [Affinity](Affinity.md) · [Unit Classes](../catalog/Unit-Classes.md) · [Progression System](../Progression-System.md) · [Levels](../levels/README.md) · [Design Pillars](../Design-Pillars.md)

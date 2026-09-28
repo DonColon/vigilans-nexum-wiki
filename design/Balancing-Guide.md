@@ -1,8 +1,20 @@
 # Balancing Guide
 
-Numerical design principles and formulas for maintaining game balance across all 64 chapters of Vigilans Nexum.
+The cross-system numbers of Vigilans Nexum: the combat formulas, the passive bonus budget, the stat, growth and max-stat frameworks, class tier modifiers, weapon balancing, XP and the level curve, economy and difficulty scaling.
 
-This document is the **single source of truth for numbers**. Never copy values into other documents – link here instead.
+**Every number exists in exactly one place.** A number that spans systems lives here. A number that belongs to one mechanic lives in that mechanic's own `## Balancing` section, next to its rule (decided by Dardan, 2026-09-28). Never copy a value into a second document; link to where it lives.
+
+**Mechanic-specific values live in each spec's `## Balancing` section:**
+
+- [Abilities → Balancing](mechanics/Abilities.md#balancing) – Capacity per tier, Capacity cost, trigger chances (the Luck formula; base chances not yet set)
+- [Affinity → Balancing](mechanics/Affinity.md#balancing) – rank thresholds, points per source, bonus range, combat bonus by rank, element mixes, starting ranks
+- [Beast Summon → Balancing](mechanics/Beast-Summon.md#balancing) – Beast Call cost, beast factors, natural weapon, beast movement
+- [Biorhythm → Balancing](mechanics/Biorythm.md#balancing) – Resonance by tier, Unique values, Dissonance by difficulty
+- [Chain Attack → Balancing](mechanics/Chain-Attack.md#balancing) – shield phases per boss, shield bar and reduction per source (not yet set)
+- [Combat Arts → Balancing](mechanics/Combat-Arts.md#balancing) – a non-mage's MP gain per ordinary attack
+- [Growth Modifiers → Balancing](mechanics/Growth-Modifiers.md#balancing) – class growth modifiers, Aptitude
+- [Magic System → Balancing](mechanics/Magic-System.md#balancing) – mages' MP regeneration, reaction damage bonus, reaction effect values, terrain and field values, terrain duration bands, spell MP cost bands, magic effect values (rank bonus, healing, shields, buffs, debuffs, poison, regeneration, drain), Natura profile compensation
+- [The Nexus → Balancing](mechanics/Nexus.md#balancing) – Exchange, Nexus Mastery, Lifeline, Heartpulse, Wavelength, Bloodoath, Dawnbreak, Earthbound
 
 ---
 
@@ -121,108 +133,6 @@ Attacks from range 2+: no effect
 
 **Why -10:** Below the triangle swing of 15, so Guard on its own never flips a triangle matchup – a Knife, which beats the Battle Staff, still attacks it at a net +5 Hit. The rule is in [Weapons → Battle Staves](catalog/Weapons.md#battle-staves).
 
-### Magic Effect Values
-
-*Proposal – every value here is a first draft for tuning.*
-
-Everything a staff or a tome does **other than damage** takes its value from this section: healing, shields, buffs, debuffs, poison, regeneration and drain. Damage itself follows the [damage formula](#-damage-calculation-formula); the entries that carry these effects are listed in [Weapons → Staves](catalog/Weapons.md#staves) and [Magic Tomes](catalog/Magic-Tomes.md), and the rules behind them belong to [Magic System](mechanics/Magic-System.md) and the still-unwritten *Status Effects* mechanic.
-
-#### Rank Bonus
-
-The scale all rank-gated effects read from. A weapon's rank, not its tier, sets the size of its effect.
-
-| Rank | F | E | D | C | B | A | S |
-|------|---|---|---|---|---|---|---|
-| **Rank Bonus** | +3 | +6 | +9 | +12 | +15 | +18 | +21 |
-
-Rank F is one step of the same +3 progression below E. It is held only in the Citizen class, with the F-rank staff from Ch 01 and the F-rank tomes from Ch 05 – a Citizen with a staff heals `Mag + 3`, which at a Citizen's Mag is a scratch closed, not a wound.
-
-#### 1 – Healing
-
-```
-Heal (single target, adjacent)        = Mag + Rank Bonus
-Heal (ranged or multi-target)         = Mag + (Rank Bonus ÷ 2, rounded down)
-```
-
-Healing cannot exceed the target's missing HP; overheal is lost.
-
-**Why rank and not the individual staff:** a staff has no Might, so the Rank column is the only thing that separates an Acolyte's Heal from an Arch Bishop's. Making the rank carry the number means every promotion a healer takes is visible the next time it heals, without a second table of per-entry values.
-
-**Why +3 per rank:** the scale is set so that one heal stays worth roughly half a unit's maximum HP for the whole campaign. A Lv 15 Cleric (Mag ≈ 12) restores 21 with a D staff against ≈ 26 max HP; a Lv 45 Bishop (Mag ≈ 25) restores 43 with an A staff against ≈ 50. That ratio is the balance point: one heal undoes one bad exchange, never two. A flat number would make healers irrelevant by Part 04; scaling on Mag alone would make them irrelevant in Part 01, when Mag is 3.
-
-**Why ranged and multi-target heal for half the bonus:** the healer's real cost is standing next to the wounded unit, inside the enemy's reach. A staff that removes that cost pays for it in restored HP.
-
-#### 2 – Shields
-
-```
-Shield (tome or staff)   = (Mag + Rank Bonus) ÷ 2, rounded down
-Shield (magic reaction)  = Mag of the unit that completed the reaction
-Duration                 = 2 rounds, or until the shield is depleted
-```
-
-A shield absorbs incoming damage before Defense or Resistance is applied and does not stack – a second shield replaces the first.
-
-**Why half a heal:** prevented damage is worth more than restored damage, because it can stop a blow that would have killed. Pricing the shield at half the heal of the same rank keeps the two tools trading evenly. The reaction shield reads off Mag alone because a magic reaction has no rank – its cost is the two-element setup, paid in actions rather than in weapon rank.
-
-#### 3 – Buffs
-
-```
-Buff     = +2 to one stat (rank C and below) · +4 (rank B and above)
-Stats    = Str, Mag, Def
-Duration = 3 rounds
-```
-
-**Why at most +4:** one point below the +5 Str/Mag a Master class grants. A buff may be strong; it may never be worth more than the last promotion of the game. Three rounds is long enough to build an assault around and short enough that it has to be recast, which keeps the caster spending actions rather than front-loading a battle.
-
-#### 4 – Debuffs
-
-```
-Debuff   = -2 to one stat (rank C and below) · -4 (rank B and above)
-Stats    = Def, Res
-Duration = 3 rounds
-```
-
-Symmetric to buffs on purpose: the enemy uses the same tools, and a player who sees -4 Def on a unit can read exactly what it costs him.
-
-#### 5 – Poison
-
-```
-Poison tick  = 10% of the target's maximum HP per round, minimum 3
-Duration     = 3 rounds
-Floor        = cannot reduce a unit below 1 HP
-```
-
-**Why a percentage:** a flat tick either does nothing at Lv 60 or kills at Lv 5. **Why the 1 HP floor:** under permadeath, a unit lost to a tick that happened on the enemy phase, three turns after the decision that caused it, is a death the player could not see coming – Pillar 5 forbids it. Poison softens; the killing blow stays an attack.
-
-#### 6 – Regeneration
-
-```
-Regeneration tick = +5 HP per round
-Field duration    = 3 rounds
-```
-
-Applies while the unit stands in the effect. The Dendro flower field in [Magic System](mechanics/Magic-System.md) links to this value rather than repeating it.
-
-#### 7 – Drain
-
-```
-Drain share = 50% of the damage actually dealt, returned to the caster as HP
-Cap         = the caster's missing HP
-```
-
-**Why half:** a full return makes an Umbra caster unkillable in an even trade – it wins every attrition fight it survives the first round of. At half, drain only wins the attrition fight the caster was already winning on damage, and it stays a reason to pick Umbra without being a reason to pick nothing else.
-
-### Natura Profile Compensation
-
-*Proposal.*
-
-```
-Aero, Hydro and Dendro tomes (1 win / 2 losses): +5 Hit over the tier baseline
-Pyro, Electro, Cryo, Geo tomes: tier baseline
-```
-
-**Why +5 Hit:** The Natura cycle is deliberately asymmetric (see [Magic Tomes](catalog/Magic-Tomes.md#element-profiles)); Aero, Hydro and Dendro meet one more disadvantaged matchup (-15 Hit, -1 Damage) than they win. A flat +5 Hit on every tome recovers a third of that on every attack without turning a support element into a better duelist – the point of the compensation is that none of the three is a trap pick at the Base fork, not that the matchup table stops mattering.
-
 ---
 
 ## 📊 Unit Stat Balancing
@@ -259,21 +169,7 @@ Pyro, Electro, Cryo, Geo tomes: tier baseline
 
 **MP is budgeted separately** and does not count toward the 300-400%. It is a resource stat, not a combat stat – a unit with high MP growth is not thereby weaker elsewhere. Casters and Combat-Art-heavy classes sit at 45-60%, pure physical units at 15-30%.
 
-**The budget above is the *personal* growth only.** A unit's effective growth on any level-up is personal growth + the [class growth modifier](#class-growth-modifiers) of its current class (+ Aptitude for the Vigilant Knights) – the rule is in [Growth Modifiers](mechanics/Growth-Modifiers.md). Sheets budget the personal part; the rest comes from the class and is the same for every unit in it.
-
-### Aptitude
-
-*Proposal.*
-
-```
-Aptitude = +10 % to every growth rate, including MP
-```
-
-Held by the Citizen class ability of that name ([Abilities](catalog/Abilities.md#citizen)) and kept for the whole campaign, so only the eight Vigilant Knights ever have it.
-
-**Effect on the Knights' budget:** the eight combat stats gain 8 × 10 = **+80 %**, so a Knight's effective personal budget reads **380–480 %** (a Lord's 460–500 %), MP separate. Over 59 level-ups that is ≈ 0.10 × 59 ≈ **6 points per stat** – about what one Master promotion grants in Str/Mag, or a little more than it grants in Spd and Def/Res. That is the intended size of "the Bellum orphans overtake the veterans": a Knight ends the campaign roughly one promotion ahead of a same-class veteran who joined in Part 02, visibly and not overwhelmingly.
-
-**Why 10 and not the Fire Emblem 20:** *Awakening* and *Three Houses* set Aptitude at +20 %, but there it is the only bonus on top of personal growth, and it lands on lower caps with reclassing to spend the surplus. Here it stacks on a class growth modifier that already lifts the class's main stat, under a hard cap of 50 with no reclassing. At +20 % a Knight with *High* personal growth in his line's main stat would cap that stat around Lv 40 – in Part 05/06, where a capped stat reads as wasted level-ups rather than as the Part 08 reward the *Max Stats* note aims for. At +10 % the same Knight caps around the Part 07 reunion (Lv 45), and a *Medium* one around Lv 55.
+**The budget above is the *personal* growth only.** A unit's effective growth on any level-up is personal growth + the [class growth modifier](mechanics/Growth-Modifiers.md#class-growth-modifiers) of its current class (+ Aptitude for the Vigilant Knights) – the rule is in [Growth Modifiers](mechanics/Growth-Modifiers.md). Sheets budget the personal part; the rest comes from the class and is the same for every unit in it.
 
 ### Max Stats (Level 60, Master Class)
 
@@ -287,7 +183,7 @@ Held by the Citizen class ability of that name ([Abilities](catalog/Abilities.md
 
 **Why these numbers:** Over 59 level-ups a balanced unit (~44% average growth) gains ~26 points per stat, landing near 32 before class bonuses and ~37 after – enough headroom that caps stay meaningful. Elite growth rates (80-85%) reach the cap around Lv 50, i.e. in Part 08, where capping reads as a reward rather than wasted level-ups.
 
-That paragraph reads personal growth alone. With the [class growth modifier](#class-growth-modifiers) and [Aptitude](#aptitude) on top, the reference case becomes the **line's main stat**: a Knight with *Medium* personal growth there reaches the cap around Lv 55, one with *High* growth around Lv 45 – the Part 07 reunion. Off-line stats behave as the paragraph above says. A sheet that puts *Elite* personal growth into its class's own main stat is therefore over-investing – the reachability check in `statcraft`, which now runs along the canon class path (see [Growth Modifiers](mechanics/Growth-Modifiers.md#interaction-with-other-mechanics)), is where that shows.
+That paragraph reads personal growth alone. With the [class growth modifier](mechanics/Growth-Modifiers.md#class-growth-modifiers) and [Aptitude](mechanics/Growth-Modifiers.md#aptitude) on top, the reference case becomes the **line's main stat**: a Knight with *Medium* personal growth there reaches the cap around Lv 55, one with *High* growth around Lv 45 – the Part 07 reunion. Off-line stats behave as the paragraph above says. A sheet that puts *Elite* personal growth into its class's own main stat is therefore over-investing – the reachability check in `statcraft`, which now runs along the canon class path (see [Growth Modifiers](mechanics/Growth-Modifiers.md#interaction-with-other-mechanics)), is where that shows.
 
 ---
 
@@ -305,81 +201,7 @@ That paragraph reads personal growth alone. With the [class growth modifier](#cl
 
 **Master is the terminal tier for every unit, Dardan and Hasan included.** A Lord Kit adds abilities on top of the Master class, never stats – see [catalog/Unit-Classes.md](catalog/Unit-Classes.md). The Lords' advantage is the kit, not a hidden stat lead.
 
-> **Open – per tier or per class?** This table is per tier: every Base class grants the same +2 HP / +1 Str-Mag. The [class growth modifiers](#class-growth-modifiers) below are per class line. Whether the *stat* modifiers should follow and become per class as well is not decided; until it is, the table above stands as written.
-
-### Class Growth Modifiers
-
-*Proposal – every value here is a first draft for tuning.*
-
-The rule is in [Growth Modifiers](mechanics/Growth-Modifiers.md): on every level-up a unit rolls its personal growth **plus the modifier of the class it is in**, plus Aptitude if it has it. This section holds the modifiers. A class line has a **main attack stat** and **two support stats**; every other stat carries 0. Modifiers are never negative – a penalty on an off-stat would recreate the trap the system exists to remove (Mag feeds MP income for every unit, Spd decides doubling), so a line's profile is expressed by where it puts its points, not by where it takes them away.
-
-#### Magnitude by tier
-
-**Tier scaling rule:** every entry of a line's profile rises by **+5 per tier** above Base, the grain of the growth table. Citizen is 0 in every stat.
-
-| Tier | Main stat | Each support stat | Sum |
-|------|-----------|-------------------|-----|
-| **Citizen** | 0 | 0 | 0 |
-| **Base** | +20 | +10 | +40 |
-| **Intermediate** | +25 | +15 | +55 |
-| **Advanced** | +30 | +20 | +70 |
-| **Master** | +35 | +25 | +85 |
-
-**Derivation of the Base main stat – the anti-trap guard, once:** the [Growth Rates](#growth-rates--chance-per-level) table puts Str/Mag at *Low* 20 % and *Medium* 40 %. The guard demands that a Knight with *Low* personal growth in a line's main stat still reaches *Medium* in that line's Base class: `20 % (Low) + Base main modifier ≥ 40 % (Medium)`, so the Base main modifier is **at least +20**. It is set at exactly +20 so that the guard holds with nothing to spare – a stronger modifier would lift every Knight's main stat toward the cap too early (see the note under [Max Stats](#max-stats-level-60-master-class)). Supports are half the main; +5 per tier is the smallest step the growth table uses.
-
-**Why the modifier scales with tier at all:** a flat modifier would make the Ch 06 choice the only one that mattered for growth. Rising with tier, each of the three later promotions is worth more to *take* than the one before – and each is a fork, so the choice of branch stays live to the end of the game.
-
-#### Profiles by class line
-
-The line is read from the [class tree](catalog/Unit-Classes.md); the tier from the class. A branch override replaces the line's supports from the tier where that branch begins and stays for the rest of the path.
-
-| Line | Classes on the line | Main | Supports | Why |
-|------|---------------------|------|----------|-----|
-| **Sword** | Swordsman → Myrmidon, Sword Cavalier → Sword Master, Duelist, Griffon Knight\*, Sword Paladin → Sword Saint, Blade Dancer, Griffon Lord\*, Astra Knight | Str | Spd, Dex | The light, accurate type wins by doubling and hitting, not by Might |
-| **Lance** | Lancer → Soldier, Lance Cavalier → Halberdier, Armored Knight\*, Pegasus Knight\*, Lance Paladin → Sentinel, Armored General\*, Pegasus Lord\*, Aegis Knight | Str | Def, Dex | The line that holds the front: balanced, accurate, durable |
-| **Axe** | Axe Fighter → Warrior, Axe Cavalier → Berserker, Gladiator, Wyvern Knight\*, Axe Paladin → Warmonger, Spartan, Wyvern Lord\*, Colossus Knight | Str | HP, Def | The heavy type; it takes the hit it could not dodge |
-| **Bow** | Archer → Sniper, Bow Cavalier → Marksman, Ranger, Kinshi Knight\*, Bow Paladin → Deadeye, Hunterblade, Kinshi Lord\*, Pavise Warden | Str | Dex, Spd | Never reached, always landing |
-| **Knife** | Thief → Rogue, Trickster → Assassin, Saboteur → Nightveil, Puppeteer | Str | Spd, Lck | Damage by volume and crit; Lck is the Thief's trade |
-| **Gauntlet** | Martial Artist → Brawler, Martial Monk\* → Bruiser, Martial Saint\* → Enforcer, Divine Monk\* | Str | Spd, HP | Two strikes a turn on a unit that has to stand in reach |
-| **Artillery** | Artillerist → Gunner, Bombardier → Cannoneer, Grenadier → Warfire Vanguard, Siege Breaker | Str | Dex, Def | Blind up close, so it must hit from afar and survive being reached |
-| **Chain** | Tamer → Dompteur, Harpooner → Bestiarius, Retiarius → Behemoth, Leviathan | Str | Dex, Spd | A thrown weapon whose Hit line sits below every close-combat type but the Axe and whose Weight sits above the Sword's: Dex to land it at range 2, Spd to keep doubling under the chain's weight, Str for the heavy hit and for the Strength gate on Ensnare and Hurl. Both branches share the profile – the Harpooner's Lance reads Str too |
-| **Staff (healer)** | Acolyte → Cleric\*, Priest → Valkyrie\*, Bishop → Celestial Valkyrie\*, Arch Bishop | Mag | Res, Def | A healer's cost is standing next to the wounded, inside the enemy's reach |
-| **Natura mage** | the nine mancers → the nine Sages → Elementalist → Arcanist | Mag | MP, Res | The tome is fired every round; MP is the running cost |
-| **Lux** | Luxmancer → Lux Sage → Luminary → Radiant Monarch | Mag | Res, HP | The support caster that ends up carrying a Staff and standing in the line |
-| **Umbra** | Umbramancer → Umbra Sage → Tenebrae → Shadow Monarch | Mag | Str, HP | Drain is sustain; the Sword arrives at Advanced and the Str is already there. Also the mage line for a Knight with a physical profile |
-
-**Branch overrides** – the classes marked \* above. They keep their line's main stat and swap the supports:
-
-| Branch | From | Replaces the line's supports with | Why |
-|--------|------|-----------------------------------|-----|
-| **Flying** – Griffon Knight, Pegasus Knight, Wyvern Knight, Kinshi Knight and their Lords | Advanced | Spd, Res | Fast, resistant to magic, and the type every bow is effective against – it must not also be slow |
-| **Armored** – Armored Knight, Armored General | Advanced | Def, HP | The wall. It gives up the Lance line's Dex for the second defensive stat |
-| **Cleric** – Cleric → Valkyrie → Celestial Valkyrie | Intermediate | Str, Res | The healer who also swings a Sword; Str is the hybrid's second attack stat |
-| **Martial Monk** – Martial Monk → Martial Saint → Divine Monk | Intermediate | Mag, Spd | Ki Gauntlet and Staff both read Mag; the monk keeps the gauntlet's speed |
-
-Cavalry branches (the four Cavaliers and their Paladins) keep their line's profile – Canto is what they add, not a different body. Physical hybrids (Duelist, Ranger, Gladiator, Trickster, Brawler, Harpooner and their promotions) keep the line's profile too: both their weapon types read Str.
-
-**Worked example – Sword line, effective growth in Str for a Knight with *Medium* personal Str (40 %) and Aptitude:** Citizen 40 + 0 + 10 = 50 % · Swordsman 40 + 20 + 10 = 70 % · Myrmidon 75 % · Sword Master 80 % · Sword Saint 85 %. The same Knight with *Low* personal Str (20 %): 30 / 50 / 55 / 60 / 65 % – a competent swordsman, not the best one, which is the guard doing exactly what it is for.
-
-### Beast Summon
-
-*Not yet set – every value in this table is open.* The rules are in [Beast Summon](mechanics/Beast-Summon.md); this table holds the tuning values that document links to. The design intent the values must express is written next to the derivation rule there: the beast is a body – HP and Str at or above the summoner's, Def near it, Spd and Dex below, Res and Lck well below.
-
-| Parameter | Value |
-|-----------|-------|
-| Beast Call – MP cost per summon | *not yet set* |
-| Beast factor – HP (× summoner's max HP) | *not yet set* |
-| Beast factor – Str | *not yet set* |
-| Beast factor – Spd | *not yet set* |
-| Beast factor – Dex | *not yet set* |
-| Beast factor – Lck | *not yet set* |
-| Beast factor – Def | *not yet set* |
-| Beast factor – Res | *not yet set* |
-| Natural weapon – Might | *not yet set* |
-| Natural weapon – Hit | *not yet set* |
-| Beast Movement | *not yet set* |
-
-Fixed by rule, not tuned here: three summons per Bestiarius per map, order reach range 1–2, Mag and MP none, natural weapon Range 1 / Critical 0 / no Uses. Wild-beast stats for Ch 22 and Ch 23 belong in those level documents, like every generic enemy's.
+> **Open – per tier or per class?** This table is per tier: every Base class grants the same +2 HP / +1 Str-Mag. The [class growth modifiers](mechanics/Growth-Modifiers.md#class-growth-modifiers) are per class line. Whether the *stat* modifiers should follow and become per class as well is not decided; until it is, the table above stands as written.
 
 ### Puppeteer Wires
 
@@ -388,336 +210,6 @@ Fixed by rule, not tuned here: three summons per Bestiarius per map, order reach
 | Parameter | Value |
 |-----------|-------|
 | Wires on the map at once with *Pull the Strings* | *not yet set* |
-
-### Affinity
-
-*Proposal – every value in this section is a first draft for tuning unless marked decided.* The rules are in [Affinity](mechanics/Affinity.md); this section holds the tuning values that document links to. The reference shape is Xenoblade Chronicles 1's affinity scale – 0 / 1000 / 2000 / 3000 / 5000 with +10 per chain attack, +20 per help and +300 per Heart-to-Heart – rescaled to a tactics game in which a pair has a handful of shared actions per map instead of hundreds per hour. The magnitude is ours; the shape (widening gaps, S far above A) is XC1's.
-
-Fixed by rule, not tuned here: five ranks D–S; points never fall; **one rank-up per unit per chapter**, chosen by the player; only the strongest partner in range counts; each element carries two of six bonus types and a pair sums both; three Heart-to-Hearts per pair; map talks once per pair per chapter; no points for proximity; enemies and beasts have none.
-
-#### Rank thresholds
-
-| Rank | Points needed | Gap from previous | Colour |
-|------|---------------|-------------------|--------|
-| *(no rank)* | 0–19 | – | – |
-| **D** | 20 | 20 | Yellow |
-| **C** | 120 | 100 | Green |
-| **B** | 300 | 180 | Blue |
-| **A** | 600 | 300 | Lavender |
-| **S** | 1,000 | 400 | Pink – the cap; points stop counting here |
-
-**Derivation:** D costs one deed (one shared kill, one heal), so a single act of trust opens the band – which is what a Part 04 recruit needs before Dardan can exchange with it. Each later gap is roughly 1.5× the one before, so that a pair which only occasionally acts together stalls at B or A, while a pair the player builds deliberately – two or three deeds a map, a talk every few chapters, three Heart-to-Hearts – clears the S threshold with points to spare and is paced by the throttle, not by the numbers. Three Heart-to-Hearts contribute 300 of the 1,000, so conversations carry a third of a bond and deeds the rest; XC1's +300 per conversation against a 5,000 cap would have let the conversations carry most of it. The thresholds are also tuned to what Dardan decided about S: reachable in Part 07–08 for pairs the player invested in, so the S rows of the Nexus tables are live in the Tower, and landing in the epilogue for the rest ([Affinity → Core Rules → 3](mechanics/Affinity.md#3--rising-the-throttle)).
-
-#### Points per source
-
-| Source | Points | To whom |
-|--------|--------|---------|
-| Chain Attack | **30** | Each of the three pairs among the attackers |
-| Shared kill | **20** | Each damager with the killer |
-| Help – heal | **20** | Healer ↔ healed, per unit healed |
-| Help – cure | **20** | Curer ↔ cured |
-| Help – out of danger | **20** | Mover ↔ moved |
-| Nexus – Exchange | **20** | Dardan ↔ the swapped ally |
-| Nexus – Lifeline | **30** | Dardan ↔ the linked ally, once per round in which a share was carried |
-| Nexus – Heartpulse | **10** | Dardan ↔ each unit the pulse healed |
-| Map talk | **40** | The two talkers, once per pair per chapter |
-| Heart-to-Heart | **100** | The two, on viewing |
-
-**Why these weights:** a deed in battle is worth 20 – the unit of the scale, so that five deeds make a C and fifteen make a B on top of it. A chain attack is worth more because it is rare (Special enemies only, after a shield break) and costs three units their action; Lifeline more because Dardan paid in HP; Heartpulse less per unit because it touches the whole roster at once and would otherwise let Dardan out-bond everyone with one action per chapter. A map talk is two deeds for one action on a map where the action had a use – and it is capped at one per pair per chapter by rule. A Heart-to-Heart is five deeds: the biggest single step, but a pair's three together are less than a third of S.
-
-#### Bonus range
-
-| Parameter | Value |
-|-----------|-------|
-| Bonus range (tiles between the two units for the combat bonus to apply) | **3** *(decided by Dardan)* |
-
-#### Combat bonus by rank
-
-The value each bonus type takes, **per element that carries it**. A pair sums both units' mixes ([Element mixes](#element-mixes)); a same-element pair therefore doubles its two types. Fractions are summed first and rounded down at the end.
-
-| Rank | Attack / Defense (per element carrying it) | Hit / Avoid / Critical / Dodge (per element carrying it) |
-|------|--------------------------------------------|----------------------------------------------------------|
-| **D** | +0.5 | +2 |
-| **C** | +1 | +4 |
-| **B** | +1.5 | +6 |
-| **A** | +2 | +8 |
-| **S** | +2.5 | +10 |
-
-**Worked examples:** Pyro (Attack, Critical) with Aero (Hit, Avoid) at B → Attack +1, Critical +6, Hit +6, Avoid +6. Pyro with Pyro at S → Attack +5, Critical +20. Geo (Defense, Dodge) with Hydro (Defense, Avoid) at A → Defense +4, Dodge +8, Avoid +8.
-
-**Derivation:** the ceiling is the same-element S pair – +5 to Attack or Defense, which equals the Str/Mag a Master promotion grants and must not exceed it, or the bond would outweigh the last promotion of the game; +20 to a rate stat, which is the size of a Killer weapon's Critical (30) minus a margin, on a pair that had to share one element and reach S. FE7 reaches Attack +3 / Critical +15 at its A cap with three steps; five ranks here need a finer step, hence the halves. A cross-element pair – the common case, with nine elements – spreads the same budget over four types, none of them above +10 at S. Dodge exists so that a defensive pair can answer a Killer weapon without the game needing crit immunity anywhere else.
-
-#### Element mixes
-
-Each element carries two of the six bonus types; every type is carried by exactly three elements, so no type is rare and no element is a trap. The mixes are read from the elements' roles in the [Magic System](mechanics/Magic-System.md#die-9-elemente) and the [tome profiles](catalog/Magic-Tomes.md#element-profiles).
-
-| Element | Carries | Why |
-|---------|---------|-----|
-| **Pyro** | Attack, Critical | Fire hits harder and burns through |
-| **Cryo** | Critical, Dodge | Ice is the still moment – the shattering blow, the guard that does not flinch |
-| **Hydro** | Defense, Avoid | Water yields and flows around the blow |
-| **Electro** | Hit, Critical | Lightning lands where it aims and strikes hard |
-| **Aero** | Hit, Avoid | Wind is accurate and never where the blow falls |
-| **Geo** | Defense, Dodge | Stone is the wall |
-| **Dendro** | Attack, Defense | Growth – roots hold, thorns bite |
-| **Lux** | Hit, Dodge | Light sees clearly and cannot be surprised |
-| **Umbra** | Attack, Avoid | Shadow strikes from where it is not seen |
-
-The affinity is a trait of the person and says nothing about the magic the unit wields ([Affinity → Core Rules → 7](mechanics/Affinity.md#7--elemental-affinity-and-who-has-none)). Which unit carries which element is set on its character sheet by Lorekeeper and is not assigned in this document.
-
-#### Starting ranks
-
-Every pair not listed starts at *no rank*. A starting rank sets the pair's points to that rank's threshold exactly.
-
-| Pair | Starting rank | Status |
-|------|---------------|--------|
-| Each of the eight Vigilant Knights ↔ Dardan | **C** | *decided by Dardan* – the orphanage and Ch 01–05, priced in |
-| Elena ↔ Dardan (from Ch 08, kept until she joins in Ch 25) | **B** | *decided by Dardan* – "wie eine Mutter"; makes the Ch 08 hostage reachable by Exchange |
-| The eight Vigilant Knights among each other (every pair) | **C** | *decided by Dardan* – raised together, for the same reason as the Dardan rows |
-
-### The Nexus
-
-*Proposal – every value in this section is a first draft for tuning unless marked otherwise, and several are still not set.* The rules are in [The Nexus](mechanics/Nexus.md); this section holds the tuning values that document links to. Three of the tables read the **affinity rank** between Dardan and a unit, on the scale of [Affinity](mechanics/Affinity.md) above. Two requirements decided by Dardan and honoured by the [starting ranks](#starting-ranks): **the eight Vigilant Knights start at C with Dardan**, and **Elena holds B with Dardan in Ch 08** – the Ch 08 tutorial depends on it.
-
-#### Exchange
-
-| Parameter | Value |
-|-----------|-------|
-| Exchange cooldown (turns, global, flat) | *not yet set* |
-
-| Affinity rank | Exchange range (tiles, through everything) |
-|---------------|--------------------------------------------|
-| *(no rank)* | *not reachable – rule* |
-| **D** | 2 |
-| **C** | 3 |
-| **B** | 4 |
-| **A** | 5 |
-| **S** | 6 |
-
-**Design intent the values must express:** the cooldown is the *cadence* of the signature move, not a stock – on a map of ordinary length Dardan should swap several times, never every turn – and that holds in the Tower too, since *Nexus Mastery* keeps the cooldown (2026-09-24). The range table opens at a distance that makes the Ch 08 hostage reachable and grows with rank to a distance no positional command in the catalog reaches (Ensnare, Hurl, Mystic Pull all stop at range 2), so that at high rank the Exchange is the only thing on the roster that crosses a room.
-
-**Derivation of the range rows:** D equals the reach of the catalog's positional commands (2) – the first deed buys a swap that is already unique for going through walls, nothing more. Each rank adds one tile, so the table is learnable without looking it up. B = 4 is the Ch 08 row: Level 08 must place the hostage Elena within four tiles of a tile Dardan can reach, and the cultists between them do not matter. S = 6 is the width of an ordinary room, and with Nexus Mastery becomes 8 in the Tower.
-
-#### Nexus Mastery
-
-Unlocked in Part 08 (trigger open – see [The Nexus → Open decisions](mechanics/Nexus.md#open-decisions)). Mastery upgrades each of the eight Nexus abilities individually; the upgrades are rules and stay in the mechanic document ([Nexus → Core Rules → 11](mechanics/Nexus.md#11--nexus-mastery)). **No cooldown is removed** (decided by Dardan, 2026-09-24). The values here are the levers those upgrades read.
-
-| Parameter | Value |
-|-----------|-------|
-| Nexus Mastery range bonus – added at every affinity rank to: the **Exchange** range (the command and its Enemy-Phase trigger), the **Lifeline** range, **Wavelength**'s donor range, both **Bloodoath** ranges (Dardan to each bound ally, and the pair's Echo range), and **Dawnbreak**'s counting radius ([bonus range](#bonus-range) + this bonus) | **+2** |
-| Soulcairn call duration (turns, from the calling Player Phase to the start of Dardan's Player Phase that many turns later, Enemy Phases included) | **3** *(decided by Dardan – rule)* – the call ends at the start of his fourth Player Phase, counting the calling one as the first |
-| Dawnbreak Mastery multiplier (flat, applied to each strike on the line; does not grow with the count) | *not yet set* – until set, no multiplier ([Nexus → Open decisions → 58](mechanics/Nexus.md#open-decisions)) |
-
-**Design intent:** with cooldowns kept, range is still the thing the bond gates most visibly, so the bonus should be small enough that rank still orders the roster – the Knight Dardan grew up with must still reach further than the Part 07 recruit – and large enough that the Tower's larger maps (16 deployed, [Deployment Limits](Progression-System.md#deployment-limits-by-chapter)) are crossed at high rank. **Why +2:** a Part 07 recruit at D reaches 4 – a corridor; a Knight at S reaches 8 – a Tower map's half-width. The order of the roster is untouched and the top row crosses the room the Dajjal stands in. **One lever, reused:** every Mastery range upgrade adds this same value rather than owning its own, so that "Mastery reaches two further" is one sentence for the whole kit. Added to the Dawnbreak counting radius it widens the circle in which ranked allies are counted, without touching the cap. **Dawnbreak multiplier – intent for the open value:** it is flat so that the formation is still worth exactly what the cap allows; it should be read against a line at the cap through a column of enemies, the same ceiling the strike-strength row in [Dawnbreak](#dawnbreak) below is tuned against.
-
-#### Lifeline
-
-| Parameter | Value |
-|-----------|-------|
-| Lifeline share (fraction of each attack's damage to the linked ally, carried by Dardan) | *not yet set* |
-
-| Affinity rank | Lifeline range (tiles, through everything) |
-|---------------|--------------------------------------------|
-| *(no rank)* | *not reachable – rule* |
-| **D** | 2 |
-| **C** | 3 |
-| **B** | 4 |
-| **A** | 5 |
-| **S** | 6 |
-
-**Design intent:** the share must be large enough that a linked front-liner survives one hit it would not have survived alone, and large enough that three enemy attacks on that front-liner in one Enemy Phase put Dardan in real danger – Lifeline is only a decision because it can kill him. There is no floor and no separate difficulty scaling here; if a mode ever changes the share, the column goes in the [difficulty table](#-difficulty-mode-scaling). **Why the range equals the Exchange range:** the band reaches as far as the bond, whatever runs along it – one table to learn, and a player who knows whom Dardan can swap with knows whom he can link. The line is checked only when placed and holds at any distance afterwards (rule, [The Nexus → 3](mechanics/Nexus.md#3--lifeline)).
-
-#### Heartpulse
-
-Once per chapter is a rule and stays in the mechanic document. The value here is only how much each unit recovers.
-
-| Affinity rank | Heartpulse heal (per unit, by that unit's rank with Dardan) |
-|---------------|-------------------------------------------------------------|
-| *(no rank)* | **0** – not reached (rule, [Affinity → Core Rules → 8](mechanics/Affinity.md#8--what-nexus-reads)) |
-| **D** | 10 % of the unit's maximum HP |
-| **C** | 15 % |
-| **B** | 20 % |
-| **A** | 30 % |
-| **S** | 40 % |
-| Dardan himself | 10 % – the D row: the pulse goes outward |
-
-Rounded down, minimum 1 HP where the row is above zero; overheal is lost. Under Nexus Mastery each unit reads the row **one above** its rank – an S unit stays on S, Dardan keeps his own row (rule and its conservative reading: [Nexus → Core Rules → 11.3](mechanics/Nexus.md#113--heartpulse)).
-
-**Why a percentage of maximum HP:** Heartpulse is usable from Ch 21 to Ch 52 and cannot read Mag (Dardan's sword line does not grow it – the same reason the kit has no MP cost); a flat heal would be a full heal in Part 03 and a scratch in Part 08, and the poison tick above already uses the percentage form for the same reason. **Why the S row is 40 %:** it stays **below a single-target staff heal of the same chapter** (`Mag + Rank Bonus`, [Healing](#1--healing)) on any one unit – at Lv 26 a staff heal restores roughly two thirds of a unit's HP, at Lv 60 roughly three quarters – and it sits at the level of *Fortify* (a multi-target heal for half the amount). Heartpulse is wide, a staff is deep, and the once-per-chapter limit only keeps healers in the game if the pulse does not out-heal them per target. **Why Dardan takes the D row:** the band carries strength outward; the unit at its centre is the last one it heals.
-
-#### Wavelength
-
-The rules are in [Nexus → Core Rules → 8](mechanics/Nexus.md#8--wavelength). Two levers, **both still open** – neither can be derived from an existing table, and neither is invented here.
-
-| Parameter | Value |
-|-----------|-------|
-| Wavelength cooldown (turns, global, flat) | *not yet set* |
-
-| Affinity rank | Wavelength attacks (how long the borrowed element lasts) |
-|---------------|-----------------------------------------------------------|
-| *(no rank)* | *not reachable – rule: no rank, no loan* |
-| **D** | *not yet set* |
-| **C** | *not yet set* |
-| **B** | *not yet set* |
-| **A** | *not yet set* |
-| **S** | *not yet set* |
-
-**The one rule the row must obey:** the number **rises monotonically with the rank** – that is fixed in the mechanic and is not a tuning decision. Everything else is open.
-
-**Design intent the values will have to express**, written so that the row can be filled later without re-deriving it: the cooldown is the *cadence of the setter* – Dardan should be able to change the element he carries several times on a map of ordinary length, but not every turn, or the choice of donor stops being a choice. The attack count decides whether a loan survives an Enemy Phase: at the low ranks it should be spent on the Player Phase Dardan set it on, at the high ranks it should still be on his blade when the enemy comes to him – that is what makes the rank worth having, and it is the same shape as the Exchange range table (a small number that grows one step at a time and is learnable without looking it up).
-
-**Range:** Wavelength reads the band's rank-range and, in the conservative reading, **shares the Exchange and Lifeline table above** rather than owning a third one ([Nexus → Open decisions → 28](mechanics/Nexus.md#open-decisions)). No separate range row is created here; if Dardan wants one, it belongs beside the other two.
-
-#### Bloodoath
-
-The rules are in [Nexus → Core Rules → 9](mechanics/Nexus.md#9--bloodoath). Every lever below is **still open** – none can be derived from an existing table without a decision Dardan has not made, and none is invented here.
-
-| Parameter | Value |
-|-----------|-------|
-| Bloodoath cooldown (turns, global, flat) | *not yet set* |
-| Bloodoath echo strike strength (relative to the partner's ordinary strike) | *not yet set* – conservative rule until then: a full ordinary strike of the partner's equipped weapon ([Nexus → Open decisions → 34](mechanics/Nexus.md#open-decisions)) |
-
-**Range from Dardan to each of the two:** in the conservative reading, Bloodoath **shares the Exchange and Lifeline table above**, as Wavelength does ([Nexus → Open decisions → 32](mechanics/Nexus.md#open-decisions)). No separate row is created here; if Dardan wants one, it belongs beside the other two.
-
-| Pair's affinity rank (the two bound allies with each other) | Echo range (tiles between the two, through everything) |
-|-------------------------------------------------------------|--------------------------------------------------------|
-| *(no rank)* | *cannot be bound – rule* |
-| **D** | *not yet set* |
-| **C** | *not yet set* |
-| **B** | *not yet set* |
-| **A** | *not yet set* |
-| **S** | *not yet set* |
-
-**Design intent the values will have to express**, written so that the rows can be filled later without re-deriving them: the **cooldown** is the cadence of the oath, and because each oath puts one Enemy Phase under a defeat condition the player chose, it also sets how many such phases a map of ordinary length can hold – several, never every turn. The **Echo range** decides whether a pair can hold a wall and a firing line at once: at D the two should have to stand close, so a new bond binds two units already fighting side by side; at S they should be able to split a front line from the rank behind it. The same shape as the Exchange table – a small number that grows one step per rank and is learnable without looking it up – is the natural candidate, but whether the Echo range should be shorter than the band's reach (the partner strikes, it does not only swap) is the question the row has to answer. The **echo strike strength** decides whether the Echo is a second attacker or a chip: at full strength a bound wall on the Enemy Phase doubles its damage output, which is the ceiling the other two levers have to be tuned against.
-
-#### Dawnbreak
-
-The rules are in [Nexus → Core Rules → 10](mechanics/Nexus.md#10--dawnbreak). Three of its values are **rules set by Dardan**, not levers – they are recorded here because every number lives here, and they are marked so that nobody tunes them. One lever is **still open**.
-
-| Parameter | Value |
-|-----------|-------|
-| Dawnbreak base length (tiles – the line when nobody is counted) | **2** *(decided by Dardan – rule)* |
-| Dawnbreak step (tiles added per counted ally, the same for every rank) | **+1** *(decided by Dardan – rule)* |
-| Dawnbreak cap (tiles) | **8** *(decided by Dardan – rule)* |
-| Dawnbreak strike strength (relative to Dardan's ordinary strike with his equipped weapon, per target) | *not yet set* – conservative rule until then: one ordinary strike ([Nexus → Open decisions → 41](mechanics/Nexus.md#open-decisions)) |
-
-**What the rules add up to:** six counted allies reach the cap; a seventh adds nothing. The cap is the game's own number – eight Knights, eight Parts of eight chapters, eight Nexus abilities. The base is what Dardan strikes with when nobody stands with him.
-
-**Count radius:** Dawnbreak has **no radius of its own**. It counts the allies within the Affinity [bonus range](#bonus-range) above; that value is Affinity's lever, and tuning it tunes Dawnbreak with it. Under Nexus Mastery the radius is that bonus range plus the [Nexus Mastery range bonus](#nexus-mastery).
-
-**Design intent the open lever will have to express:** the line is a once-per-chapter strike that can reach several enemies without a roll, so its strength is multiplied by the number of enemies on it. At the ordinary strike it is Dardan's normal damage spread over a row – strong because of the width and the certainty, not the size of any single hit. Anything above the ordinary strike should be read against the cap first: a line at the cap through a column of enemies is the ceiling this row has to be tuned against.
-
-#### Earthbound
-
-| Parameter | Value |
-|-----------|-------|
-| Earthbound range | **1–2** *(proposal)* |
-| Earthbound duration (rounds; set on round R, expires at the start of round R + N) | *not yet set* |
-| Earthbound cooldown (turns, global, flat) | *not yet set* |
-
-**Why 1–2:** the seal is a full action on the Lord, so it should not cost him his position on top – range 1 alone would mean walking Dardan into the press to seal the healer behind it. Range 2 matches the reach of every other targeted command in the catalog (Disarray, Ensnare, Mystic Pull) and keeps him out of the front line's counter. Longer would make it artillery. **Duration and cooldown:** the duration is the window in which the Dajjal is vulnerable (Level 52) and, on every map from Ch 44, the number of Enemy Phases a healer stays silent. Design intent proposed: **cooldown at or above the duration**, so at most one enemy is sealed at a time and the seal is a choice of target rather than a rolling blanket – Dardan's to confirm (see the mechanic's *Open decisions*).
-
-**Soulcairn has no values of its own, by decision** – it reads the [rank thresholds](#rank-thresholds), the [combat bonus by rank](#combat-bonus-by-rank), the [element mixes](#element-mixes) and the [bonus range](#bonus-range) of the Affinity section above, unchanged. Tuning those tunes it with them; there is no separate lever and no table for it here ([Nexus → Core Rules → 7](mechanics/Nexus.md#7--soulcairn)).
-
-Fixed by rule, not tuned here: Wavelength is a command on a cooldown and not a use per chapter, borrows the element and the donor's whole biorhythm and nothing else – the rhythm for exactly as long as the element, with Dardan's own Animado suspended meanwhile ([Biorhythm → Core Rules → 8](mechanics/Biorythm.md#8--wavelength-carries-the-rhythm)) – fixes the element at the moment of the command, applies without a Combat Art (the Magic System's one exception) and never triggers a reaction, and its attack count rises monotonically with the rank; Bloodoath is an action on a cooldown, lasts until Dardan's next Player Phase and cannot be lifted, its Echo fires without a roll when the partner is within the pair's range at that moment, the echo strike cannot be countered, wears no shield and triggers no further Echo, its act-again fires once per oath, and either bound unit's fall loses the map; Dawnbreak is an action once per chapter, its base, step and cap are the rule values above, rank does not matter to its count, beasts, Other-faction units and Soulcairn are never counted, walls stop it, it strikes every enemy on the line and no ally, draws no counter and applies no element, and – in the conservative reading – rolls nothing; no rank scaling and no hit roll on Earthbound; the cooldowns do not scale with rank; one Lifeline at a time (two under Nexus Mastery); Lifeline shares attack damage and moves status effects whole onto Dardan; Nexus Mastery upgrades each ability individually and removes no cooldown and no use per chapter – its range bonus applies only where an upgrade names it, its Enemy-Phase Exchange is once per unit per map and its Soulcairn call once per map; Nexus abilities take no Capacity; a unit with no affinity rank is reached by no Nexus ability. Everything about the Dajjal's chain – how many units, how much healing, how often reinforcements come – belongs to the Level 52 document.
-
-### Biorhythm
-
-The rules are in [Biorhythm](mechanics/Biorythm.md). The types are in the [catalog → Biorhythms](catalog/Biorhythms.md). This section holds the values those documents link to. **Every value below is a proposal (2026-09-27) that replaces the values of the earlier version (v1.1, 2026-06-09).** Dardan decided the rhythm was worth too much, and the old rows are no longer valid. The new rows are derived below against two anchors already in this guide: the [Affinity combat bonus](#combat-bonus-by-rank) and the [weapon triangle](#weapon-triangle-bonuses).
-
-The Biorhythm term enters the [combat formulas](#-damage-calculation-formula) on **Attack, Hit, Avoid and Critical** only, as its own term beside the *Affinity Bonus*, and the two stack. "Attack" is the value the earlier version called "damage", read as a change to Attack before Defense ([Biorhythm → Open decisions → 13](mechanics/Biorythm.md#open-decisions)).
-
-#### Resonance – Standard and Rare
-
-Single and double are read inside the unit's own tier ([Biorhythm → Core Rules → 3](mechanics/Biorythm.md#3--the-three-states-standard-and-rare-types)).
-
-| Tier | Resonance | Hit / Avoid | Attack |
-|------|-----------|-------------|--------|
-| **Standard** | Single | +3 | – |
-| **Standard** | Double | +5 | – |
-| **Rare** | Single | +5 | +1 |
-| **Rare** | Double | +7 | +1 |
-
-#### Resonance – Unique
-
-One value per type. There is no single or double.
-
-| Type | Hit / Avoid | Attack | Critical | Status |
-|------|-------------|--------|----------|--------|
-| **Crescendo** | +8 | +1 | – | proposal. The Unique common value |
-| **Mersenne** | +8 | +1 | – | proposal. The Unique common value |
-| **Perfectus** | +10 | +1 | +5 | proposal. It is the strongest fixed Resonance in the game, paid for with the sparsest sequence (rounds 6 and 28) |
-| **Chaos** | +8 | +1 | – | proposal. The Unique common value. It uses the Chaos Dissonance row below |
-| **Animado** | +7 | +1 | – | proposal. Set **below** the Unique common value, at the Rare-double level, because Animado resonates far more often than any other Unique type. Not decided by Dardan ([Biorhythm → Open decisions → 7](mechanics/Biorythm.md#open-decisions)) |
-
-**Animado: why it sits below its tier.** The other fixed Unique types resonate on 2–4 rounds up to round 30:
-
-- Crescendo on 1, 2, 6, 24.
-- Mersenne on 3, 7, 15.
-- Perfectus on 6 and 28.
-
-Animado resonates on **8**: 1, 2, 4, 7, 11, 16, 22, 29. Like the other Unique types, it never falls into Dissonance. That frequency is close to a Standard type's. Trinus, for comparison, resonates double on 10 rounds up to 30, but also meets Dissonance on 4. Paying Animado the Unique common value on 8 rounds, with no Dissonance, would make it the strongest rhythm in the game by a wide margin. The proposal therefore sets it one step below that value, at the Rare-double level (+7 / +1):
-
-- It keeps the ordering: Rare double ≤ Animado < Unique common.
-- It trades strength for the lack of Dissonance.
-- It keeps the tier's special feature, one value and no bad rounds.
-
-**Over a map, compared with a Standard type** (rounds 1–30, Hit/Avoid only):
-
-- Animado: 8 beats × 7, with no Dissonance, is 56.
-- Solus: 8 single rounds × 3 plus 7 double rounds × 5 is 59, before its Dissonance rounds are taken off.
-
-The two carry about the same total. Animado's is simply concentrated early, which is its intended shape.
-
-**The shape the value must keep:** Animado's beats are densest early (1, 2, 4, 7) and thin out later, with the gaps growing by one each time. A map's opening is where Dardan's own rhythm carries him, and the late rounds are where he has to lean on a friend's through Wavelength. A value high enough to make the early cluster decisive would make borrowing early a trap. Tune it against that.
-
-#### Dissonance by difficulty
-
-Applies to every unit, player and enemy alike, in its Dissonance rounds. The literal reading is that the enemy side takes the same row ([Biorhythm → Open decisions → 12](mechanics/Biorythm.md#open-decisions)). **Standard Dissonance** covers every type that has Dissonance except Chaos. The fixed-sequence Unique types, Animado among them, have none.
-
-| Mode | Standard Dissonance | Chaos Dissonance |
-|------|---------------------|------------------|
-| **Casual** | none | none |
-| **Normal** | −1 Hit / Avoid | −6 Hit / Avoid, −1 Attack |
-| **Hard** | −2 Hit / Avoid | −6 Hit / Avoid, −1 Attack |
-| **Maddening** | −2 Hit / Avoid | −6 Hit / Avoid, −1 Attack |
-
-**Why Standard Dissonance never touches Attack:** at every difficulty it has to stay smaller than the smallest Resonance it can meet. That is the Standard single, which has no Attack term, so Dissonance never takes Attack away. Hard and Maddening therefore share a row. Maddening's extra difficulty comes from its enemy stat and number scaling, not from a harsher rhythm.
-
-**Why Chaos's Dissonance is heavier and flat:** it is the price of a Unique-strength Resonance on whatever type the battle rolls. A roll onto a parity type puts that Resonance on every other round. It is scaled down in proportion to the old row. The old row was 75 % of Chaos's Resonance in Hit / Avoid, and −6 is 75 % of +8. The Attack loss is capped at −1, like every Attack term here. It stays three times the Standard row and still smaller than Chaos's own Resonance. A Wavelength copy of Chaos carries this row with it.
-
-**Derivation: two ceilings.** Biorhythm is free, passive and universal. Affinity is earned by deeds, paid for in formation, and throttled to one rank-up per chapter. So the rhythm is set clearly under the bond, and under the weapon triangle, which is the planning factor the player already reads on every attack.
-
-- **Against Affinity** ([Combat bonus by rank](#combat-bonus-by-rank); per element carrying a type: D +2, C +4, A +8, S +10 in a rate stat, and +0.5 to +2.5 Attack):
-  - A Standard single (+3) sits between a D and a C pair.
-  - A Rare double and Animado (+7) sit just under an A pair.
-  - The Unique common value (+8) equals a single element at A.
-  - Perfectus (+10) equals a single element at S, once or twice a map.
-  - Nothing reaches a **same-element S pair** (+20 rate, +5 Attack). The strongest rhythm is half of it in Hit and a fifth of it in Attack.
-- **Against the weapon triangle** (+15 Hit, +1 Damage):
-  - No row gives more Hit than two-thirds of a triangle advantage.
-  - **No row gives more than +1 Attack.** A good round is never worth more damage than choosing the right weapon.
-
-The round counter is a reason to wait one turn, not a reason a fight is won.
-
-**The stack with Affinity, checked.** The two terms add up, but neither breaks a curve:
-
-- **Worst Hit / Critical case:** Perfectus on round 6 for a unit in a same-element Electro S pair with triangle advantage. That comes to Hit +45 (triangle 15, Affinity 20, rhythm 10) and Critical +25 (Affinity 20, rhythm 5). The old values gave Hit +60. Critical +25 stays under a Killer weapon's 30.
-- **Worst Attack case:** a same-element Pyro or Dendro S pair on a Unique round. That comes to Attack +6 (Affinity 5, rhythm 1), one point over the Master promotion's +5 that bounds the Affinity ceiling. It is reachable on a handful of rounds per map, only for a unit that reached S with a partner of its own element and stands within range. That is accepted. The old values gave +8.
-- **Avoid:** the rhythm raises Avoid as much as Hit, so two resonating units facing each other largely cancel out.
-
-Because Biorhythm reads no position, the stack pays nothing for clumping. This replaces the earlier flag that the values might be too strong against Affinity: they have been lowered, and that flag is resolved.
-
-Fixed by rule, not tuned here:
-
-- The type never changes. Enemies take theirs from their class, and Unique types never go to a class.
-- Single, double and Dissonance are read inside the own tier.
-- Unique types have no single or double. Crescendo, Mersenne, Perfectus and Animado have no Dissonance.
-- Chaos rolls one Standard or Rare type per battle and shows it from turn 1.
-- Every type reads the round number except Chaos, which reads its roll. Animado resonates on the rounds n·(n+1)/2 + 1.
-- Wavelength copies the donor's whole rhythm for exactly as long as the element.
-- Resonance earns no affinity.
-- Nothing applies before Ch 02.
 
 ### Class Type Templates
 
@@ -739,9 +231,9 @@ Damage = Attack - Defense
 Minimum Damage = 0
 ```
 
-**Affinity Bonus:** the Attack, Defense, Hit, Avoid, Critical or Dodge value the unit draws from its strongest affinity partner within the bonus range. The values are in [Affinity](#affinity) and the rule in [Affinity → Core Rules → 4](mechanics/Affinity.md#4--the-combat-bonus). It is zero when no ranked partner is in range.
+**Affinity Bonus:** the Attack, Defense, Hit, Avoid, Critical or Dodge value the unit draws from its strongest affinity partner within the bonus range. The values are in [Affinity → Balancing](mechanics/Affinity.md#balancing) and the rule in [Affinity → Core Rules → 4](mechanics/Affinity.md#4--the-combat-bonus). It is zero when no ranked partner is in range.
 
-**Biorhythm:** the Attack, Hit, Avoid or Critical change from the unit's biorhythm state this round: positive in Resonance, negative in Dissonance, zero when Neutral. The values are in [Biorhythm](#biorhythm) and the rule in [Biorhythm → Core Rules → 7](mechanics/Biorythm.md#7--what-the-states-do). It is a separate term and stacks with the Affinity Bonus.
+**Biorhythm:** the Attack, Hit, Avoid or Critical change from the unit's biorhythm state this round: positive in Resonance, negative in Dissonance, zero when Neutral. The values are in [Biorhythm → Balancing](mechanics/Biorythm.md#balancing) and the rule in [Biorhythm → Core Rules → 7](mechanics/Biorythm.md#7--what-the-states-do). It is a separate term and stacks with the Affinity Bonus.
 
 ### Attack Speed (AS) Calculation
 
@@ -774,6 +266,45 @@ Crit% = Crit - Dodge (minimum 0%)
 
 Critical Damage = Damage × 3
 ```
+
+### Passive Bonus Budget
+
+*Proposal: every cap below is a first draft for tuning. That a budget exists, and that it lives here, is Dardan's decision (2026-09-28).*
+
+A **passive system** is one that adds to a formula term without the unit spending an action on it in that combat. Three exist today, each entering the formulas above as its own term:
+
+- the **weapon triangle** (*Triangle Bonus*);
+- **Affinity** (*Affinity Bonus*, values in [Affinity → Balancing](mechanics/Affinity.md#balancing));
+- **Biorhythm** (*Biorhythm*, values in [Biorhythm → Balancing](mechanics/Biorythm.md#balancing)).
+
+**The rule.** On one side of one combat, the sum of all passive-system terms may not exceed the cap for that term. Every passive system is counted at the highest value it can reach at the same time as the others. A new passive system, or a retuning of an existing one, has to fit under these caps. Otherwise it comes with a deliberate change to this table, made here and nowhere else. That is what keeps any single system, and all of them together, from deciding a fight before the player has positioned anyone.
+
+| Term | Worst case today | Cap (proposal) | Why this number |
+|------|------------------|----------------|-----------------|
+| **Attack** | +7 | **+8** | One passive system alone may add no more than a Master promotion's Str/Mag ([Class Tier Stat Modifiers](#class-tier-stat-modifiers)). Affinity's derivation sets that ceiling. On top of it, the triangle adds its damage step and Biorhythm its single Attack point. Together they are one promotion plus two points, reachable only by a same-element S pair on a Unique rhythm round with triangle advantage. The cap adds one point of buffer |
+| **Hit** | +45 | **+50** | The worst case the Biorhythm stack check found: triangle advantage, a same-element S pair and the strongest rhythm together, plus five points of buffer. Displayed Hit is capped at 100 anyway, so the cap is about how quickly a Hit gap closes, not about exceeding 100 % |
+| **Avoid** | +30 | **+35** | Affinity's and Biorhythm's Avoid at their highest, plus five points of buffer. The triangle gives no Avoid |
+| **Critical** | +25 | **+29** | Below a Killer weapon's fixed Critical ([Variant Rules](#variant-rules)). A passive stack must never be worth more crit than the weapon built for crit. The buffer stops one point short of the Killer's 30 instead of taking the full five |
+| **Defense** | +5 | **+6** | Affinity alone, which equals a Master promotion's Def/Res step plus one. Biorhythm adds no Defense. The cap adds one point of buffer |
+| **Dodge** | +20 | **+25** | Affinity alone, plus five points of buffer. Biorhythm adds no Dodge |
+
+**Derivation.** The worst cases are the stack check written for Biorhythm ([Biorhythm → Balancing → The stack with Affinity](mechanics/Biorythm.md#derivation-two-ceilings)): every passive system at the highest value it can reach at the same time as the others. Until 2026-09-29 the caps equalled those worst cases exactly, so there was no headroom and even the smallest new passive needed a change to this table.
+
+**The buffer** *(proposal, 2026-09-29; that caps carry a buffer was decided by Dardan, the size is Rulewright's)*. Each cap sits **one grain** above today's worst case, where the grain is the smallest step the term already moves in:
+
+- **+5 on the rate terms – Hit, Avoid, Dodge.** Five is the step every accuracy value in the game is built on: weapon tiers change Hit in fives, Bronze adds +5, the Natura profile compensation is +5, a triangle swing is three fives. A buffer of five holds exactly one such step.
+- **+1 on the flat terms – Attack, Defense.** One point is the smallest whole step a flat term takes after rounding; Affinity's half-points are summed and rounded down before they count.
+- **Critical is the exception:** +4, to +29. Five would reach the Killer weapon's 30 and break the rule the cap exists for.
+
+**What the buffer is for, and what it is not.** It lets a **small** future passive – one step on one term, a situational +5 Hit or a +1 Attack – fit without touching this table. It is deliberately smaller than any existing system's own contribution: the smallest real source in the stack (a Standard single resonance, +3 Hit) already uses most of a rate buffer. **A big new passive still needs a deliberate change to this table**, made here and nowhere else. And the buffer is not a reserve for the bonuses listed below as *not counted yet*: several of them would exceed it on their own (the Crystal Field's +10 Defence, a flat *Hit Rate +10*), so counting them remains Dardan's decision, not something the buffer settles.
+
+**Not counted yet – open:** several other bonuses would count under the rule's own definition, and whether they belong in the budget is Dardan's call:
+
+- class abilities that add a flat value always (*Hit Rate +10*, *Avoid +10* and the like in [Abilities](catalog/Abilities.md));
+- terrain;
+- the [Battle Staff Guard](#battle-staff-guard);
+- [Natura profile compensation](mechanics/Magic-System.md#natura-profile-compensation);
+- staff buffs and debuffs (these cost an action when cast, but then last several rounds).
 
 ---
 
@@ -849,7 +380,7 @@ Stat Boosters: 5,000-8,000 Gold
 | **Hard** | +15% | +30% | On | 5 per battle |
 | **Maddening** | +30% | +50% | On | 3 per battle |
 
-Biorhythm Dissonance also scales by mode. Its rows are in [Biorhythm → Dissonance by difficulty](#dissonance-by-difficulty) and are not repeated here.
+Biorhythm Dissonance also scales by mode. Its rows are in [Biorhythm → Dissonance by difficulty](mechanics/Biorythm.md#dissonance-by-difficulty) and are not repeated here.
 
 ---
 
@@ -875,5 +406,5 @@ When creating new content, verify:
 - Fire Emblem: Engage weapon balancing  
 - Advance Wars damage calculator logic  
 
-**Version:** 2.3  
-**Last Updated:** 2026-09-20
+**Version:** 3.1  
+**Last Updated:** 2026-09-29. The Passive Bonus Budget caps now carry a buffer above today's worst case (proposal); the index lists the new Balancing sections of Combat Arts and Chain Attack. Earlier, 2026-09-28: Mechanic-specific values moved into each mechanic's own `## Balancing` section (Affinity, The Nexus, Biorhythm, Beast Summon, Growth Modifiers, Magic System). This guide keeps the cross-system numbers and the new Passive Bonus Budget.
