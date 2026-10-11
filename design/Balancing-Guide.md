@@ -50,6 +50,8 @@ Advantage: +15 Hit, +1 Damage
 Disadvantage: -15 Hit, -1 Damage
 ```
 
+One value set for all four orderings – the Close Combat wheel, the outer Weapon Triangle, the Natura cycle and the Magic Triangle. What stands inside and outside them, how a matchup is read and how an effect ignores or reverses it is in [Weapon Triangles](mechanics/Weapon-Triangles.md).
+
 ### Weapon Tier Progression
 
 | Tier | Might Multiplier | Hit Modifier | Weight Modifier | Uses | Cost Multiplier | Example |
@@ -80,7 +82,7 @@ Might is multiplied off the type's Iron line and rounded to the nearest whole nu
 
 **Killer Weapons:** -5 Might, +30 Critical  
 **Brave Weapons:** Standard Might, -10 Hit, 2× attacks  
-**Effective Weapons:** +9 Might vs. specific enemy types (cavalry, armor, fliers)  
+**Effective Weapons:** Might multiplied against specific enemy types (cavalry, armor, fliers) – the multiplier is in [Variant Rules](#variant-rules)  
 **Magic Weapons:** Use Magic stat instead of Strength
 
 #### Variant Rules
@@ -91,7 +93,7 @@ Might is multiplied off the type's Iron line and rounded to the nearest whole nu
 |---------|----------|-----------|
 | **Killer** | Silver line | -5 Might, **Critical 30** |
 | **Brave** | Iron line (1.0× = "standard") | -10 Hit, +4 Weight, 2× attacks |
-| **Effective** | Steel line | +9 Might vs. one Move Type, +2 Weight |
+| **Effective** | Steel line | **Might × 2** against one Move Type, +2 Weight |
 | **Reach** | Iron, Steel or Silver line | -3 Might, -10 Hit, range band extended by 1 (1 → 1–2, 2–3 → 2–4) |
 | **Magic** | any line | Uses Mag instead of Str, and is answered by Res rather than Def, per the [damage formula](#-damage-calculation-formula) |
 | **Crushing** | Silver line | Gives up a native 2× attack: Might ×2, +10 Hit (the Brave penalty refunded), +4 Weight, one strike |
@@ -101,6 +103,10 @@ Might is multiplied off the type's Iron line and rounded to the nearest whole nu
 **Why Killer is a fixed 30, not "+30":** the 30 replaces a type's native Critical instead of stacking with it, which matters only for the Knife (native 10). `Crit% = Weapon Crit + Dex÷2`, so a Lv 30 Assassin with Dex 25 already crits at 42% on a 30-base weapon. At 40 it crosses 50% and the weapon, not the player's positioning, decides the battle.
 
 **Why Brave is built on the Iron line:** "standard Might" is the 1.0× line. Two Iron-strength hits beat one Silver hit against low Defense and lose to it against high Defense, because Defense is subtracted from each hit – that is the choice the variant exists to offer. The +4 Weight means a Brave user rarely doubles on top of it, so the effect never compounds with itself.
+
+**Effectiveness multiplies Might** (decided by Dardan, 2026-09-29, following the Tellius base; the value **×2 is a proposal**). The rule: against a unit of the listed Move Type, the weapon's Might is multiplied before anything else is added – `Attack = Might × multiplier + Str or Mag + …`, as in the [damage formula](#-damage-calculation-formula). The same multiplier applies wherever an ability or a combat art makes an attack "effective" against a type. It replaced a flat +9 Might.
+
+**Why ×2:** the multiplier is set so that the Steel-line effective weapons keep the effective Might the flat +9 gave them. Their Might runs from 8 to 14; the multiplier that turns Might *M* into *M* + 9 is 1 + 9/*M*, which is 2.1 at 8, 2.0 at 9, 1.8 at 11 and 1.6 at 14. Over the eight entries (average Might ≈ 9.9) it averages 1.9, and the nearest whole multiplier is 2. At ×2 the 9-Might entries are unchanged (18), the 8-Might ones lose one point (17 → 16), the 11-Might ones gain two (20 → 22) and the Hammer, at 14, gains five (23 → 28). **The difference from a flat bonus is intended:** effectiveness now scales with the weapon, so it keeps its meaning as Might rises, where a flat +9 shrank against late-game stats. **Its cost:** where "effective" comes from an ability or an art on a unit's ordinary weapon, a heavy weapon doubles a heavy Might – a Silver Axe (18) against its type is 36 instead of 27.
 
 **Why Reach costs Might and Hit:** a 1–2 weapon is the only answer a melee unit has to a 2-range attacker. It must exist for every melee type that can carry it, and it must be the worse weapon in a straight fight, or nobody would ever equip the plain one.
 
@@ -145,7 +151,7 @@ Attacks from range 2+: no effect
 | **MP** | 6 | 10 | 16 | Fuel for Combat Arts and magic; casters start higher |
 | **Strength** | 3 | 5 | 8 | Physical attackers |
 | **Magic** | 0 | 3 | 7 | Mages start higher |
-| **Dexterity** | 3 | 5 | 8 | Affects Hit & Avoid |
+| **Dexterity** | 3 | 5 | 8 | Affects Hit & Crit |
 | **Speed** | 3 | 5 | 9 | Fast units: 7-9 |
 | **Luck** | 2 | 4 | 6 | Minor stat |
 | **Defense** | 2 | 4 | 7 | Armored units: +3 |
@@ -223,38 +229,48 @@ That paragraph reads personal growth alone. With the [class growth modifier](mec
 
 ## 🎲 Damage Calculation Formula
 
+**Base: Fire Emblem Path of Radiance and Radiant Dawn (Tellius)** (decided by Dardan, 2026-09-29). Where the formulas below once differed from Tellius, Tellius replaced them; where Path of Radiance and Radiant Dawn disagree, Radiant Dawn wins, because this game has no Constitution stat. Dexterity plays the role Tellius gives Skill. Only this game's own terms sit on top – Triangle Bonus, Affinity Bonus, Biorhythm, Terrain Bonus and the element. The change was to the formulas' shapes only; every value was kept. A division rounds down. How a combat uses these formulas – strike order, counters, doubling, Brave, the hit roll, the forecast – is in [Combat Fundamentals](mechanics/Combat-Fundamentals.md).
+
 ```
-Attack = (Weapon Might) + (Str or Mag) + (Triangle Bonus) + (Affinity Bonus) + (Biorhythm)
+Attack = (Weapon Might × Effectiveness) + (Str or Mag) + (Triangle Bonus) + (Affinity Bonus) + (Biorhythm)
 Defense = (Enemy Def or Res) + (Terrain Bonus) + (Affinity Bonus)
 
 Damage = Attack - Defense
 Minimum Damage = 0
 ```
 
+**Effectiveness:** 1, or the effective multiplier in [Variant Rules](#variant-rules) when the weapon, an ability or an art is effective against the target's Move Type. It multiplies Might alone, before the other terms are added.
+
 **Affinity Bonus:** the Attack, Defense, Hit, Avoid, Critical or Dodge value the unit draws from its strongest affinity partner within the bonus range. The values are in [Affinity → Balancing](mechanics/Affinity.md#balancing) and the rule in [Affinity → Core Rules → 4](mechanics/Affinity.md#4--the-combat-bonus). It is zero when no ranked partner is in range.
 
 **Biorhythm:** the Attack, Hit, Avoid or Critical change from the unit's biorhythm state this round: positive in Resonance, negative in Dissonance, zero when Neutral. The values are in [Biorhythm → Balancing](mechanics/Biorythm.md#balancing) and the rule in [Biorhythm → Core Rules → 7](mechanics/Biorythm.md#7--what-the-states-do). It is a separate term and stacks with the Affinity Bonus.
 
+**Element:** a strike that triggers an elemental reaction deals its damage raised by the reaction damage bonus in [Magic System → Balancing](mechanics/Magic-System.md#reaction-damage-bonus). How it combines with the critical multiplier is open ([Combat Fundamentals → Open Decisions → 4](mechanics/Combat-Fundamentals.md#open-decisions)).
+
 ### Attack Speed (AS) Calculation
 
 ```
-AS = Speed - (Weapon Weight - Str/5)
+AS = Speed - max(0, Weapon Weight - Str)
 
-If Attacker AS ≥ Enemy AS + 4:
-  → Double Attack (2× damage)
+If a unit's AS ≥ its opponent's AS + 4:
+  → Follow-up: the unit strikes a second time in the combat –
+    a separate strike with its own Hit roll, Critical roll and damage
 ```
+
+**Radiant Dawn's form.** A weapon's Weight is offset point for point by Strength, tomes included; a unit whose Strength reaches the Weight carries the weapon for free. Path of Radiance offsets Weight by Constitution, which this game does not have. It replaces `Speed - (Weapon Weight - Str/5)`. **A follow-up is not double damage:** Defense is subtracted again, and the second strike can miss or crit on its own ([Combat Fundamentals → Doubling](mechanics/Combat-Fundamentals.md#5--doubling)).
 
 ### Hit Rate Calculation
 
 ```
 Hit = (Weapon Hit) + (Dex × 2) + (Luck ÷ 2) + (Affinity Bonus) + (Triangle Bonus) + (Biorhythm)
-Avoid = (Speed × 2) + (Luck) + (Terrain Bonus) + (Affinity Bonus) + (Biorhythm)
+Avoid = (AS × 2) + (Luck) + (Terrain Bonus) + (Affinity Bonus) + (Biorhythm)
 
-True Hit% = Hit - Avoid
-Display Hit% = True Hit% (capped at 0-100%)
+Displayed Hit = Hit - Avoid (clamped to 0-100)
 ```
 
-**Note:** Consider implementing Fire Emblem's "True Hit" system (2RN) where displayed hit rates are more reliable.
+Avoid reads **Attack Speed**, not Speed, as in Tellius: a heavy weapon costs its wielder evasion as well as the follow-up. It replaces `(Speed × 2)`.
+
+**The hit roll is 2RN** (decided by Dardan, 2026-09-29): the average of two random numbers is rolled against the displayed Hit. The battle forecast shows the displayed Hit only. The rule, what it does to high and low values, and its accepted tension with Pillar 5 are in [Combat Fundamentals → The hit roll: 2RN](mechanics/Combat-Fundamentals.md#7--the-hit-roll-2rn).
 
 ### Critical Hit Calculation
 
@@ -262,10 +278,12 @@ Display Hit% = True Hit% (capped at 0-100%)
 Crit = (Weapon Crit) + (Dex ÷ 2) + (Affinity Bonus) + (Biorhythm)
 Dodge = (Luck) + (Affinity Bonus)
 
-Crit% = Crit - Dodge (minimum 0%)
+Displayed Crit = Crit - Dodge (clamped to 0-100)
 
 Critical Damage = Damage × 3
 ```
+
+A critical is checked only on a strike that hits, with **a single roll**, as in Tellius ([Combat Fundamentals → Criticals](mechanics/Combat-Fundamentals.md#8--criticals)).
 
 ### Passive Bonus Budget
 
@@ -406,5 +424,5 @@ When creating new content, verify:
 - Fire Emblem: Engage weapon balancing  
 - Advance Wars damage calculator logic  
 
-**Version:** 3.1  
-**Last Updated:** 2026-09-29. The Passive Bonus Budget caps now carry a buffer above today's worst case (proposal); the index lists the new Balancing sections of Combat Arts and Chain Attack. Earlier, 2026-09-28: Mechanic-specific values moved into each mechanic's own `## Balancing` section (Affinity, The Nexus, Biorhythm, Beast Summon, Growth Modifiers, Magic System). This guide keeps the cross-system numbers and the new Passive Bonus Budget.
+**Version:** 3.2  
+**Last Updated:** 2026-09-29. The combat formulas take the Tellius shapes (decided by Dardan): AS offsets Weight by Strength point for point, Avoid reads AS, a follow-up is a separate strike rather than double damage, the hit roll is 2RN behind a displayed Hit, the critical roll is single; every value kept. Effectiveness multiplies Might (×2, proposal) instead of adding +9. The rules of the exchange are in the new [Combat Fundamentals](mechanics/Combat-Fundamentals.md), the triangle rules in the new [Weapon Triangles](mechanics/Weapon-Triangles.md). Earlier the same day: the Passive Bonus Budget caps now carry a buffer above today's worst case (proposal); the index lists the new Balancing sections of Combat Arts and Chain Attack. Earlier, 2026-09-28: Mechanic-specific values moved into each mechanic's own `## Balancing` section (Affinity, The Nexus, Biorhythm, Beast Summon, Growth Modifiers, Magic System). This guide keeps the cross-system numbers and the new Passive Bonus Budget.

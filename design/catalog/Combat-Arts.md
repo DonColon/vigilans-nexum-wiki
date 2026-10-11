@@ -61,7 +61,7 @@ Taught by the class, kept forever, and – unlike abilities – never obtainable
 
 | Name | Element | MP Cost | Effect | Class |
 | ---- | ------- | ------- | ------ | ----- |
-| Heaven's Edge | Lux | 10 | A single strike that cannot miss, cannot be countered and ignores the weapon triangle. | Sword Saint |
+| Heaven's Edge | Lux | 10 | A single strike that cannot miss, cannot be countered and [ignores the weapon triangle](../mechanics/Weapon-Triangles.md#5--effects-that-ignore-or-reverse-the-triangle). | Sword Saint |
 | Mirror Step | Umbra | 10 | After the attack, this unit and the target trade places. | Blade Dancer |
 | Starfall | Lux | 11 | An attack at the end of a full move that cannot be countered; Lux is applied to the target and to every enemy adjacent to it. | Astra Knight |
 | Skyrend | Aero | 10 | The target is lifted and set down on any empty tile within one tile of where it stood. | Griffon Lord |

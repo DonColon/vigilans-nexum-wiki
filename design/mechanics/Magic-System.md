@@ -2,7 +2,7 @@
 
 How elements enter combat in Vigilans Nexum: the two MP regimes of mages and non-mages, the nine elements, how an element is applied and how a reaction is triggered, the elemental weaknesses, the reactions themselves and what elements do to the terrain. This document holds the rules, and its values are in its own [Balancing](#balancing) section. The tomes are in the [catalog → Magic Tomes](../catalog/Magic-Tomes.md), the combat arts that let a non-mage reach the system in the [catalog → Combat Arts](../catalog/Combat-Arts.md).
 
-> **Related files:** [Magic Tomes](../catalog/Magic-Tomes.md) · [Combat Arts](Combat-Arts.md) · [Abilities](Abilities.md) · [Chain Attack](Chain-Attack.md) · [Unit Classes](../catalog/Unit-Classes.md) · [Growth Modifiers](Growth-Modifiers.md) · [The Nexus](Nexus.md) *(Wavelength – the one exception to how a non-mage applies an element)* · [Balancing](#balancing) · [Levels → Ch 05](../levels/README.md#part-01-path-of-liberation)
+> **Related files:** [Magic Tomes](../catalog/Magic-Tomes.md) · [Weapon Triangles](Weapon-Triangles.md) · [Combat Arts](Combat-Arts.md) · [Abilities](Abilities.md) · [Chain Attack](Chain-Attack.md) · [Unit Classes](../catalog/Unit-Classes.md) · [Growth Modifiers](Growth-Modifiers.md) · [The Nexus](Nexus.md) *(Wavelength – the one exception to how a non-mage applies an element)* · [Balancing](#balancing) · [Levels → Ch 05](../levels/README.md#part-01-path-of-liberation)
 
 ---
 
@@ -147,66 +147,7 @@ Everything in this document works **the same for enemies**. An enemy mage applie
 
 ## Elemental Weaknesses
 
-The seven Natura elements beat one another in a cycle – **the mages' weapon triangle** ([Magic Tomes](../catalog/Magic-Tomes.md#natura-magic)). Above it sits the **Magic Triangle** of Natura, Lux and Umbra. An advantage or disadvantage in either works like the weapon triangle: the *Triangle Bonus* term of the [combat formulas](../Balancing-Guide.md#weapon-triangle-bonuses). What the matchup is read between – the two units' equipped tomes, or also an applied element or a unit's affinity – is *Open Decisions → 7*.
-
-### Natura cycle
-
-```mermaid
-flowchart LR
-    pyro(Pyro)
-    aero(Aero)
-    electro(Electro)
-    hydro(Hydro)
-    cryo(Cryo)
-    geo(Geo)
-    dendro(Dendro)
-
-    pyro--beats-->cryo
-    pyro--beats-->dendro
-    electro--beats-->hydro
-    hydro--beats-->pyro
-    cryo--beats-->hydro
-    geo--beats-->electro
-    geo--beats-->aero
-    dendro--beats-->geo
-    aero--beats-->dendro
-    geo--beats-->pyro
-    cryo--beats-->geo
-    electro--beats-->aero
-```
-
-### Magic Triangle
-
-```mermaid
-flowchart LR
-    natura(Natura)
-    lux(Lux)
-    umbra(Umbra)
-
-    lux--beats-->umbra
-    umbra--beats-->natura
-```
-
-Umbra beats Natura, Lux beats Umbra, **Lux and Natura are neutral**. Lux is the counter to Umbra and would carry too many weaknesses if it also lost to all seven Natura elements.
-
-### Weakness table
-
-| Element | Beats | Reason |
-| ------- | ----- | ------ |
-| **Pyro** | Cryo, Dendro | Fire melts ice and burns plants |
-| **Cryo** | Hydro | Ice freezes water |
-| **Cryo** | Geo | Frost wedging – ice in the cracks breaks the rock |
-| **Hydro** | Pyro | Water puts out fire |
-| **Electro** | Hydro | Electricity conducts through water |
-| **Electro** | Aero | The lightning rules the storm |
-| **Aero** | Dendro | Storms uproot trees and scatter plants |
-| **Geo** | Electro, Aero | Earth grounds the lightning and blocks the wind |
-| **Geo** | Pyro | Earth and sand smother the fire |
-| **Dendro** | Geo | Roots break rock |
-| **Lux** | Umbra | Light drives out shadow |
-| **Umbra** | Natura | Darkness corrupts nature |
-
-Lux and Natura have no weakness against each other. The Natura cycle is deliberately asymmetric (Geo 3/2, Pyro 2/2, Electro and Cryo 2/1, Aero, Hydro and Dendro 1/2). The reasoning and the compensation are in [Magic Tomes → Element profiles](../catalog/Magic-Tomes.md#element-profiles) and [Balancing → Natura Profile Compensation](#natura-profile-compensation).
+The seven Natura elements beat one another in a cycle – **the mages' weapon triangle** ([Magic Tomes](../catalog/Magic-Tomes.md#natura-magic)). Above it sits the **Magic Triangle** of Natura, Lux and Umbra. An advantage or disadvantage in either works like the weapon triangle: the *Triangle Bonus* term of the [combat formulas](../Balancing-Guide.md#weapon-triangle-bonuses). **An elemental matchup reads only the two equipped tomes** – an applied element or a unit's elemental affinity does not count, and a tome against a physical weapon is neutral (decided by Dardan, 2026-09-29). The rules of both orderings – what they obey, how a matchup is read, what an advantage does – are in [Weapon Triangles](Weapon-Triangles.md#2--the-four-orderings-as-rules). The edges themselves, drawn as graphs with the reason for each, are registered in the catalog: the [Natura cycle](../catalog/Magic-Tomes.md#natura-magic) and the [Magic Triangle](../catalog/Magic-Tomes.md#magic-triangle). The Natura cycle is deliberately asymmetric; what that does to each element's profile is in [Magic Tomes → Element profiles](../catalog/Magic-Tomes.md#element-profiles), the compensation in [Balancing → Natura Profile Compensation](#natura-profile-compensation). This section held a second copy of both graphs and a weakness table until 2026-09-29 (decided by Dardan); the two reasons only it carried – for Lux > Umbra and Umbra > Natura – moved to the catalog beside their edges.
 
 ---
 
@@ -583,7 +524,7 @@ Pyro, Electro, Cryo, Geo tomes: tier baseline
 - Mages pay MP per attack and regenerate passively; non-mages pay Uses and build MP by attacking.
 - A mage applies with every attack that lands; a non-mage only through an art; Dardan's *Wavelength* and Mastery *Soulcairn* call apply and never trigger.
 - A reaction needs a second element on an enemy that already carries one, delivered by an attack that may trigger.
-- The nine elements, the Natura cycle and the Magic Triangle.
+- The nine elements. The Natura cycle and the Magic Triangle are rules too; they live in [Weapon Triangles](Weapon-Triangles.md).
 - *Half* and *double* in the terrain and reaction effects.
 - Geo's barriers are permanent, Aero's spread is instant.
 - The system works the same for enemies.
@@ -605,7 +546,7 @@ Pyro, Electro, Cryo, Geo tomes: tier baseline
 | **[Abilities](Abilities.md)** | Several class abilities fire *on triggering a reaction* or change terrain and fields (Resonance, Undertow, Crystallize, Cascade, Trinity, Stonewright …); they read this system's reactions and fields and are listed in the [catalog](../catalog/Abilities.md). *Resonance* shares its name with the Biorhythm state ([Biorhythm → Open decisions → 14](Biorythm.md#open-decisions)) |
 | **Passive bonus budget** | The special fields and the Natura compensation add to formula terms without an action in the combat itself. They are not yet counted in the [passive bonus budget](../Balancing-Guide.md#passive-bonus-budget) – the guide lists both as open. The Crystal Field's +10 Defence alone exceeds the budget's Defence cap |
 | **Status Effects** (backlog) | Freeze, stun, paralysis, panic, fear, blindness, curses and the terrain holds are named by the reactions and defined there. Cleansing Palm and Cleansing Light remove applied elements and statuses and keep the two apart |
-| **Weapon Triangles** (backlog) | The Natura cycle and the Magic Triangle are the mages' weapon triangle and use its bonus; the backlog specification owns all three triangles |
+| **[Weapon Triangles](Weapon-Triangles.md)** | The Natura cycle and the Magic Triangle are the mages' weapon triangle and use its bonus. That specification owns all four triangles as rules: tome against tome only, only the two equipped tomes, magic outside the physical triangles |
 
 ---
 
@@ -622,15 +563,15 @@ Pyro, Electro, Cryo, Geo tomes: tier baseline
 
 Everything below is written into the rules above in its **cautious form**, so that the document is playable where it can be. Each is Dardan's to confirm or change.
 
-**Decided by Dardan and therefore not listed:** the two MP regimes; the nine elements, the Natura cycle and the Magic Triangle (Umbra > Natura, Lux > Umbra, Lux and Natura neutral); *Wavelength* as the one exception, which applies and never triggers (2026-09-22), and its Mastery widening; the Citizen's regime by equipped weapon; magic introduced in Ch 05; the catalog's reaction and terrain values moved into this section (2026-09-29).
+**Decided by Dardan and therefore not listed:** the two MP regimes; the nine elements, the Natura cycle and the Magic Triangle (Umbra > Natura, Lux > Umbra, Lux and Natura neutral); *Wavelength* as the one exception, which applies and never triggers (2026-09-22), and its Mastery widening; the Citizen's regime by equipped weapon; magic introduced in Ch 05; the catalog's reaction and terrain values moved into this section (2026-09-29); **an elemental matchup reads only the two equipped tomes** – an applied element and a unit's elemental affinity do not count, a physical unit is always neutral, and magic stands outside the physical triangles (2026-09-29, closing former item 7; the rules are in [Weapon Triangles](Weapon-Triangles.md#3--reading-the-matchup)).
 
 1. **Elements before Ch 05.** Conservative: **no attack applies an element and no reaction triggers before Ch 05.** The Ch 01 prologue arts carry no element at all ([catalog → Prologue Combat Arts](../catalog/Combat-Arts.md#prologue-combat-arts-ch-01-only)), so the question is only live for Ch 02–04, if a unit gains an elemental art there. The alternative is that such an art applies its element and the element simply has nothing to react with until magic arrives.
 2. **Hybrid classes that hold a tome and a physical weapon.** Which regime a Priest, Tenebrae, Luminary or Shadow Monarch follows is not written. The only written precedent is the Citizen's: by equipped weapon. The alternative is that the class decides once, whatever it holds.
 3. **What a reaction leaves behind.** Conservative: a two-element reaction **uses up** both elements; the three-element build-up is written only for the [Chain Attack](Chain-Attack.md#5--elemental-build-up). The alternatives: the triggering element stays (so a third can follow on the next turn), or both stay. How many elements an enemy can carry at once follows from the answer.
 4. **The same element twice.** Conservative: a second attack with the element already on the enemy triggers nothing and does not stack. Nothing written says otherwise.
-5. **What a weakness reaction is.** The +100 % row has no definition. The likeliest reading is a reaction whose triggering element beats the element already applied in the cycle or the triangle; it is not written in, because it would make the weakness table part of the reaction rule, which is Dardan's call.
+5. **What a weakness reaction is.** The +100 % row has no definition. The likeliest reading is a reaction whose triggering element beats the element already applied in the cycle or the triangle; it is not written in, because it would make the triangle edges ([Weapon Triangles](Weapon-Triangles.md)) part of the reaction rule, which is Dardan's call.
 6. **Status effects named by reactions** – freeze, stun, paralysis, panic, fear, blindness, curses, immobilisation – are defined nowhere yet. The *Status Effects* mechanic (backlog) owns them.
-7. **What an elemental matchup reads.** Conservative: the two units' **equipped tomes**, as the tome catalog calls the cycle "the mages' weapon triangle". The alternatives read an applied element or a unit's elemental affinity as well. The catalog page [Elemental Reactions](../catalog/Elemental-Reactions.md) still says "a Cryo mage takes +50 % damage from Pyro", which matches neither this reading nor the triangle bonus.
+7. *Closed on 2026-09-29 and moved to the decided list above* – the number is kept so that the items after it keep theirs. **Still standing:** the catalog page [Elemental Reactions](../catalog/Elemental-Reactions.md) says "a Cryo mage takes +50 % damage from Pyro" and that units have weaknesses by their elements, which contradicts the decided reading and the triangle bonus.
 8. **Reaction names.** They are German proper names used across the catalog (*Schockladung*, *Kristallisieren*, *Seelenfresser* …). Whether they get English names is Dardan's; renaming them touches the Combat Arts and Abilities catalogs.
 9. **Three pairs have two reactions.** Electro + Cryo (*Schockfrost* / *Leitfrost*), Aero + Cryo (*Verwirbelung* / *Schneeschub*), Geo + Hydro (*Kristallisieren* / *Schlammfeld*). Neither reading is written in: favouring the classic row would switch off three tactical reactions the catalog already relies on (the Gladiator's Geo + Hydro is named *Schlammfeld* in [Weapon Combat Arts](../catalog/Combat-Arts.md#weapon-combat-arts)); favouring the tactical row would switch off three classic ones. **Also diverging:** the catalog page [Elemental Reactions](../catalog/Elemental-Reactions.md) names Lux + Aero *Lichtsturm* and Umbra + Dendro *Verdorbene Wurzeln*, where this document has *Blendwirbel* and *Seelenfresser*. The catalog of Combat Arts uses this document's names.
 10. **How long a special field lasts** – Shadow, Light, Storm, Crystal and Bloom – is not set (only the Bloom Field's regeneration has a field duration, in [Regeneration](#6--regeneration)). Also open: what *Dendro + water* means for the Bloom Field – a Dendro element on a water tile, or the Hydro + Dendro reaction, which is *Rankennetz*.
@@ -640,5 +581,5 @@ Everything below is written into the rules above in its **cautious form**, so th
 
 **Version:** 2.0
 **Created:** 2026-06-09
-**Last updated:** 2026-09-29 – converted to English on the mechanic template. Cost, Design Pillars (proposal), Introduction and Open Decisions added; the MP regeneration, reaction effect values and terrain durations moved from the rules into [Balancing](#balancing); the catalog's *Balancing-Richtlinien* (terrain duration bands, spell MP cost bands; the reaction bonus was already here) moved in from [Elemental Reactions](../catalog/Elemental-Reactions.md) (decided by Dardan). Earlier: 2026-09-28, the magic effect values and Natura compensation moved here from the Balancing Guide; 2026-09-22, *Wavelength* written in as the one exception.
+**Last updated:** 2026-09-29 – *Elemental Weaknesses* no longer copies the tome orderings; it links to Weapon Triangles and the catalog (decided by Dardan). Open Decision 7 closed by Dardan (an elemental matchup reads only the two equipped tomes); the triangles' rules now live in [Weapon Triangles](Weapon-Triangles.md). Earlier the same day: converted to English on the mechanic template. Cost, Design Pillars (proposal), Introduction and Open Decisions added; the MP regeneration, reaction effect values and terrain durations moved from the rules into [Balancing](#balancing); the catalog's *Balancing-Richtlinien* (terrain duration bands, spell MP cost bands; the reaction bonus was already here) moved in from [Elemental Reactions](../catalog/Elemental-Reactions.md) (decided by Dardan). Earlier: 2026-09-28, the magic effect values and Natura compensation moved here from the Balancing Guide; 2026-09-22, *Wavelength* written in as the one exception.
 **Cross-references:** [Magic Tomes](../catalog/Magic-Tomes.md) · [Combat Arts](Combat-Arts.md) · [Abilities](Abilities.md) · [Chain Attack](Chain-Attack.md) · [Growth Modifiers](Growth-Modifiers.md) · [The Nexus](Nexus.md) · [Affinity](Affinity.md) · [Balancing Guide](../Balancing-Guide.md)

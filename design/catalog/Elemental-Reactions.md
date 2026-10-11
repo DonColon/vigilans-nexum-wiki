@@ -144,10 +144,11 @@ Elementarmagie verändert nicht nur Gegner, sondern auch das Schlachtfeld selbst
 - Magier können Bereiche blockieren, kontrollieren oder zu gefährlichen Zonen machen
 - Beispiel: Pyro-Magier zündet Wald an → zwingt Gegner zu Umwegen
 
-**Elementare Affinitäten:**
+**Elementare Vorteile:**
 
-- Einheiten haben Schwächen und Resistenzen basierend auf ihren Elementen
-- Beispiel: Cryo-Magier nehmen +50% Schaden von Pyro-Angriffen
+- Ein Elementvorteil hängt nur an den **zwei ausgerüsteten Tomes** – nicht am Element, das auf einer Einheit liegt, und nicht an ihrer elementaren Affinität. Eine physische Waffe ist gegen einen Tome immer neutral
+- Der Vorteil wirkt als Triangle Bonus wie im Waffendreieck, nicht als Prozentschaden. Regel: [Weapon Triangles](../mechanics/Weapon-Triangles.md#3--reading-the-matchup); Werte: [Balancing Guide](../Balancing-Guide.md#weapon-triangle-bonuses)
+- Beispiel: Ein Pyro-Tome gegen einen Cryo-Tome hat den Vorteil, weil Pyro Cryo schlägt
 
 ### Rollen der Elemente
 

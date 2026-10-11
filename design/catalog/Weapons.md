@@ -60,7 +60,7 @@ flowchart LR
     chain--beats--->sword
 ```
 
-Fourteen edges, seven types – each beats two and loses to two. The advantage and disadvantage values are in the [Balancing Guide](../Balancing-Guide.md#weapon-triangle-bonuses).
+Fourteen edges, seven types – each beats two and loses to two. This catalog registers the edges and the reason for each; how a matchup is read, and what stands outside the triangles, is in [Weapon Triangles](../mechanics/Weapon-Triangles.md). The advantage and disadvantage values are in the [Balancing Guide](../Balancing-Guide.md#weapon-triangle-bonuses).
 
 | Weapon | beats | loses to | Begründung |
 | ------------ | -------------------- | -------------------- | ---------- |

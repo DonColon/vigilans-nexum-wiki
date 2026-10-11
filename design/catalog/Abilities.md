@@ -209,7 +209,7 @@ The Base tier's masteries are all movement tools. They are what a fresh army lea
 | Axefaire | 2 | Passive | As Swordfaire, for Axes. | Berserker |
 | Bowfaire | 2 | Passive | As Swordfaire, for Bows. | Marksman |
 | Riposte | 2 | Enemy Phase | When an attack against this unit misses, this unit immediately strikes the attacker. | Duelist |
-| Lancebreaker | 2 | Passive | This unit suffers no [weapon triangle](../Balancing-Guide.md#weapon-triangle-bonuses) disadvantage against Lances. A rider's answer to the wall of spears built to stop him. | Sword Paladin |
+| Lancebreaker | 2 | Passive | This unit [ignores the weapon triangle disadvantage](../mechanics/Weapon-Triangles.md#5--effects-that-ignore-or-reverse-the-triangle) against Lances. A rider's answer to the wall of spears built to stop him. | Sword Paladin |
 | Talons | 2 | Passive | This unit's attacks are effective against Flying targets. The griffon hunts what else is in the sky. | Griffon Knight |
 | Ward | 2 | Dex-based | Halves the damage of a magical or ranged attack against this unit. The companion to Ironhide. | Armored Knight |
 | Interpose | 3 | Enemy Phase | When an adjacent ally is attacked at range 1, this unit may trade places with it before the attack resolves. Once per Enemy Phase. | Lance Paladin |

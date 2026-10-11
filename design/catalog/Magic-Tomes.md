@@ -6,7 +6,7 @@ The **Rank** column uses the same F–S scale as physical weapons; rank rules ar
 
 Every element carries **one Bronze-tier tome at rank F** – the Citizen's tome, found in Ch 05 –, a **damage line** of three escalating tomes across the tier range, **one or two utility tomes** that express the role the [Magic System](../mechanics/Magic-System.md#2--the-nine-elements) assigns that element, and **exactly one siege tome**. The names escalate in intensity rather than by suffix – Kindling, Ember, Flame, Inferno, not Pyro, Pyro+, Pyro++.
 
-The seven Natura elements beat one another in the cycle below – that is the mages' weapon triangle. Above it sits the Magic Triangle of Natura, Lux and Umbra. Rules for both in [Magic System](../mechanics/Magic-System.md).
+The seven Natura elements beat one another in the cycle below – that is the mages' weapon triangle. Above it sits the Magic Triangle of Natura, Lux and Umbra. This catalog registers the edges and the reason for each; the rules of both – tome against tome only, read from the two equipped tomes – are in [Weapon Triangles](../mechanics/Weapon-Triangles.md), the elements themselves in the [Magic System](../mechanics/Magic-System.md).
 
 ## Reading the tables
 
@@ -19,6 +19,8 @@ The seven Natura elements beat one another in the cycle below – that is the ma
 **The +5 Hit on every Aero, Hydro and Dendro tome** is the profile compensation from the [Magic System → Balancing](../mechanics/Magic-System.md#natura-profile-compensation), already applied in the tables below – it is not restated per entry. **Electro carries +5 Critical across its damage line**: it is the burst element, and burst in numbers means crit.
 
 **The rank-F tome** is the E tome put through the Bronze rules of the [tier table](../Balancing-Guide.md#weapon-tier-progression), exactly as a Bronze Sword is derived from an Iron Sword: 0.6× Might (3), +5 Hit, Critical 0 – on Electro too, the one tome of that element that cannot crit –, Weight one lower. A tome has no Uses, so the Bronze 15 does not apply; the running cost is MP, and since the tables set no MP rule for a tier below E, the F tome takes the E tome's MP cost and says so here. Tomes are priced off the gold band rather than the Might formula, so the Bronze 0.4× is applied to the E tome's price (0.4 × 600 = 240). Only a Citizen ever holds rank F ([Progression System → Weapon Rank](../Progression-System.md#weapon-rank)), and a Citizen holding one follows the mage MP rules while it is equipped ([Growth Modifiers](../mechanics/Growth-Modifiers.md#core-rules)).
+
+**Standard range is 1–2** for every tome that deals damage and for the single-ally support tomes, so a mage answers an adjacent attacker as well as one at range 2 (decided by Dardan, 2026-09-29). Two profiles are deliberately different: the **siege tomes** (`3–10`) and the five **no-damage field tomes** – Wildfire, Floodwater, Icebridge, Bulwark and Bloom – which stay at `2`. They cannot attack, so they never counter, and their range places a field on the map rather than reaching a foe.
 
 **Siege tomes** are Rank A, one per element, and buy their range with Weight, Hit, MP and the inability to answer anything standing next to them. They are the late-game piece, not an upgrade to the damage line.
 
@@ -75,85 +77,85 @@ The wheel is not symmetric, and that is the design: **Geo is the duelist element
 
 | Name | Rank | Might | Hit  | Critical | Range | Weight | MP Cost | Cost | Description |
 | ---- | ---- | ----- | ---- | -------- | ----- | ------ | ------- | ---- | ----------- |
-| **Kindling**   | F | 3  | 95 | 0 | 2    | 2  | 3  | 240   | The Citizen's tome, found in Ch 05. Barely a flame – but it applies Pyro, and that is what it is for. |
-| **Ember**      | E | 5  | 90 | 0 | 2    | 3  | 3  | 600   | The every-round attack: light, cheap, and the mage still gains MP on the turn he uses it. |
-| **Cinder Burst** | D | 5  | 85 | 0 | 2    | 4  | 4  | 1,500 | Strikes the target tile and the four tiles around it; pays for the area in Might. |
-| **Flame**      | C | 8  | 85 | 0 | 2    | 5  | 5  | 1,700 | The mid-game workhorse – full damage at standard magic range. |
+| **Kindling**   | F | 3  | 95 | 0 | 1–2  | 2  | 3  | 240   | The Citizen's tome, found in Ch 05. Barely a flame – but it applies Pyro, and that is what it is for. |
+| **Ember**      | E | 5  | 90 | 0 | 1–2  | 3  | 3  | 600   | The every-round attack: light, cheap, and the mage still gains MP on the turn he uses it. |
+| **Cinder Burst** | D | 5  | 85 | 0 | 1–2  | 4  | 4  | 1,500 | Strikes the target tile and the four tiles around it; pays for the area in Might. |
+| **Flame**      | C | 8  | 85 | 0 | 1–2  | 5  | 5  | 1,700 | The mid-game workhorse – full damage at standard magic range. |
 | **Wildfire**   | B | –  | –  | – | 2    | 4  | 6  | 1,800 | Deals no damage; sets the target tile and its neighbours burning as area denial, per the terrain rules in [Magic System](../mechanics/Magic-System.md#terrain-effects). |
-| **Inferno**    | A | 10 | 80 | 5 | 2    | 7  | 7  | 5,500 | Heavy single-target damage; affordable every round only at high Mag. |
+| **Inferno**    | A | 10 | 80 | 5 | 1–2  | 7  | 7  | 5,500 | Heavy single-target damage; affordable every round only at high Mag. |
 | **Firestorm**  | A | 12 | 70 | 0 | 3–10 | 14 | 14 | 6,000 | Siege. Reaches across the map and can never be counterattacked, but cannot fire at anything within two tiles. |
 
 ### Aero
 
 | Name | Rank | Might | Hit  | Critical | Range | Weight | MP Cost | Cost | Description |
 | ---- | ---- | ----- | ---- | -------- | ----- | ------ | ------- | ---- | ----------- |
-| **Breeze**   | F | 3  | 100 | 0 | 2    | 2  | 3  | 240   | The Citizen's tome, found in Ch 05. Cannot miss and cannot kill; it teaches what Aero does to an element already on the target. |
-| **Gust**     | E | 5  | 95 | 0 | 2    | 3  | 3  | 600   | The every-round attack; the most accurate Iron-tier tome in the game. |
+| **Breeze**   | F | 3  | 100 | 0 | 1–2  | 2  | 3  | 240   | The Citizen's tome, found in Ch 05. Cannot miss and cannot kill; it teaches what Aero does to an element already on the target. |
+| **Gust**     | E | 5  | 95 | 0 | 1–2  | 3  | 3  | 600   | The every-round attack; the most accurate Iron-tier tome in the game. |
 | **Updraft**  | D | –  | –  | – | 1–2  | 2  | 4  | 1,500 | Deals no damage; lifts one ally and sets him down on any free tile within range, ignoring terrain cost. |
-| **Gale**     | C | 8  | 90 | 0 | 2    | 5  | 5  | 1,700 | The mid-game workhorse – full damage at standard magic range. |
-| **Vortex**   | B | 5  | 90 | 0 | 2    | 5  | 6  | 1,800 | Drags every enemy adjacent to the target one tile toward it, breaking a formation before the melee reaches it. |
-| **Tempest**  | A | 10 | 85 | 5 | 2    | 7  | 7  | 5,500 | Heavy single-target damage; affordable every round only at high Mag. |
+| **Gale**     | C | 8  | 90 | 0 | 1–2  | 5  | 5  | 1,700 | The mid-game workhorse – full damage at standard magic range. |
+| **Vortex**   | B | 5  | 90 | 0 | 1–2  | 5  | 6  | 1,800 | Drags every enemy adjacent to the target one tile toward it, breaking a formation before the melee reaches it. |
+| **Tempest**  | A | 10 | 85 | 5 | 1–2  | 7  | 7  | 5,500 | Heavy single-target damage; affordable every round only at high Mag. |
 | **Cyclone**  | A | 12 | 75 | 0 | 3–10 | 14 | 14 | 6,000 | Siege. Reaches across the map and can never be counterattacked, but cannot fire at anything within two tiles. |
 
 ### Electro
 
 | Name | Rank | Might | Hit  | Critical | Range | Weight | MP Cost | Cost | Description |
 | ---- | ---- | ----- | ---- | -------- | ----- | ------ | ------- | ---- | ----------- |
-| **Static**       | F | 3  | 95 | 0  | 2    | 2  | 3  | 240   | The Citizen's tome, found in Ch 05. The one Electro tome without Critical – Bronze carries none, so a Citizen learns the element before the burst. |
-| **Spark**        | E | 5  | 90 | 5  | 2    | 3  | 3  | 600   | The every-round attack, and the only Iron-tier tome that can crit. |
-| **Jolt**         | D | 5  | 85 | 5  | 2    | 3  | 4  | 1,500 | The struck enemy cannot counterattack this round – safe chip damage against something that hits back harder than it takes. |
-| **Bolt**         | C | 8  | 85 | 5  | 2    | 5  | 5  | 1,700 | The mid-game workhorse – full damage at standard magic range. |
-| **Arc**          | B | 7  | 85 | 5  | 2    | 6  | 7  | 1,800 | The strike leaps from the target to a second enemy within two tiles of it and hits that one for the same Might. |
-| **Thunder**      | A | 10 | 80 | 10 | 2    | 7  | 7  | 5,500 | Heavy single-target damage with the highest Critical of any tome. |
+| **Static**       | F | 3  | 95 | 0  | 1–2  | 2  | 3  | 240   | The Citizen's tome, found in Ch 05. The one Electro tome without Critical – Bronze carries none, so a Citizen learns the element before the burst. |
+| **Spark**        | E | 5  | 90 | 5  | 1–2  | 3  | 3  | 600   | The every-round attack, and the only Iron-tier tome that can crit. |
+| **Jolt**         | D | 5  | 85 | 5  | 1–2  | 3  | 4  | 1,500 | The struck enemy cannot counterattack this round – safe chip damage against something that hits back harder than it takes. |
+| **Bolt**         | C | 8  | 85 | 5  | 1–2  | 5  | 5  | 1,700 | The mid-game workhorse – full damage at standard magic range. |
+| **Arc**          | B | 7  | 85 | 5  | 1–2  | 6  | 7  | 1,800 | The strike leaps from the target to a second enemy within two tiles of it and hits that one for the same Might. |
+| **Thunder**      | A | 10 | 80 | 10 | 1–2  | 7  | 7  | 5,500 | Heavy single-target damage with the highest Critical of any tome. |
 | **Thunderstorm** | A | 12 | 70 | 0  | 3–10 | 14 | 14 | 6,000 | Siege. Reaches across the map and can never be counterattacked, but cannot fire at anything within two tiles. |
 
 ### Hydro
 
 | Name | Rank | Might | Hit  | Critical | Range | Weight | MP Cost | Cost | Description |
 | ---- | ---- | ----- | ---- | -------- | ----- | ------ | ------- | ---- | ----------- |
-| **Drizzle**    | F | 3  | 100 | 0 | 2    | 2  | 3  | 240   | The Citizen's tome, found in Ch 05. Wets the target more than it hurts it – which is the setup every Hydro reaction begins with. |
-| **Ripple**     | E | 5  | 95 | 0 | 2    | 3  | 3  | 600   | The every-round attack: light, cheap and highly accurate. |
+| **Drizzle**    | F | 3  | 100 | 0 | 1–2  | 2  | 3  | 240   | The Citizen's tome, found in Ch 05. Wets the target more than it hurts it – which is the setup every Hydro reaction begins with. |
+| **Ripple**     | E | 5  | 95 | 0 | 1–2  | 3  | 3  | 600   | The every-round attack: light, cheap and highly accurate. |
 | **Wellspring** | D | –  | –  | – | 1–2  | 2  | 5  | 1,500 | Deals no damage; restores HP to one ally in range. Value per [Magic Effect Values](../mechanics/Magic-System.md#magic-effect-values). |
-| **Torrent**    | C | 8  | 90 | 0 | 2    | 5  | 5  | 1,700 | The mid-game workhorse – full damage at standard magic range. |
+| **Torrent**    | C | 8  | 90 | 0 | 1–2  | 5  | 5  | 1,700 | The mid-game workhorse – full damage at standard magic range. |
 | **Floodwater** | B | –  | –  | – | 2    | 4  | 6  | 1,800 | Deals no damage; floods the target tile and its neighbours so that crossing them costs double, per the terrain rules in [Magic System](../mechanics/Magic-System.md#terrain-effects). |
-| **Deluge**     | A | 10 | 85 | 5 | 2    | 7  | 7  | 5,500 | Heavy single-target damage; affordable every round only at high Mag. |
+| **Deluge**     | A | 10 | 85 | 5 | 1–2  | 7  | 7  | 5,500 | Heavy single-target damage; affordable every round only at high Mag. |
 | **Maelstrom**  | A | 12 | 75 | 0 | 3–10 | 14 | 14 | 6,000 | Siege. Reaches across the map and can never be counterattacked, but cannot fire at anything within two tiles. |
 
 ### Cryo
 
 | Name | Rank | Might | Hit  | Critical | Range | Weight | MP Cost | Cost | Description |
 | ---- | ---- | ----- | ---- | -------- | ----- | ------ | ------- | ---- | ----------- |
-| **Chill**        | F | 3  | 95 | 0 | 2    | 2  | 3  | 240   | The Citizen's tome, found in Ch 05. A cold breath, no more – enough to put Cryo on a target for someone else to finish. |
-| **Frost**        | E | 5  | 90 | 0 | 2    | 3  | 3  | 600   | The every-round attack: light, cheap, sustainable from the first promotion. |
-| **Numbing Cold** | D | 5  | 85 | 0 | 2    | 3  | 5  | 1,500 | The struck enemy's Movement is halved on its next turn – the cheap way to keep a charge from arriving on schedule. |
-| **Icefall**      | C | 8  | 85 | 0 | 2    | 5  | 5  | 1,700 | The mid-game workhorse – full damage at standard magic range. |
+| **Chill**        | F | 3  | 95 | 0 | 1–2  | 2  | 3  | 240   | The Citizen's tome, found in Ch 05. A cold breath, no more – enough to put Cryo on a target for someone else to finish. |
+| **Frost**        | E | 5  | 90 | 0 | 1–2  | 3  | 3  | 600   | The every-round attack: light, cheap, sustainable from the first promotion. |
+| **Numbing Cold** | D | 5  | 85 | 0 | 1–2  | 3  | 5  | 1,500 | The struck enemy's Movement is halved on its next turn – the cheap way to keep a charge from arriving on schedule. |
+| **Icefall**      | C | 8  | 85 | 0 | 1–2  | 5  | 5  | 1,700 | The mid-game workhorse – full damage at standard magic range. |
 | **Icebridge**    | B | –  | –  | – | 2    | 3  | 5  | 1,800 | Deals no damage; freezes water tiles in range into ground that units can cross, per the terrain rules in [Magic System](../mechanics/Magic-System.md#terrain-effects). |
-| **Glacier**      | A | 10 | 80 | 5 | 2    | 7  | 7  | 5,500 | Heavy single-target damage; affordable every round only at high Mag. |
+| **Glacier**      | A | 10 | 80 | 5 | 1–2  | 7  | 7  | 5,500 | Heavy single-target damage; affordable every round only at high Mag. |
 | **Blizzard**     | A | 12 | 70 | 0 | 3–10 | 14 | 14 | 6,000 | Siege. Reaches across the map and can never be counterattacked, but cannot fire at anything within two tiles. |
 
 ### Geo
 
 | Name | Rank | Might | Hit  | Critical | Range | Weight | MP Cost | Cost | Description |
 | ---- | ---- | ----- | ---- | -------- | ----- | ------ | ------- | ---- | ----------- |
-| **Pebble**     | F | 3  | 95 | 0 | 2    | 2  | 3  | 240   | The Citizen's tome, found in Ch 05. A thrown stone by any other name; it applies Geo and nothing else. |
-| **Stone**      | E | 5  | 90 | 0 | 2    | 3  | 3  | 600   | The every-round attack: light, cheap, sustainable from the first promotion. |
+| **Pebble**     | F | 3  | 95 | 0 | 1–2  | 2  | 3  | 240   | The Citizen's tome, found in Ch 05. A thrown stone by any other name; it applies Geo and nothing else. |
+| **Stone**      | E | 5  | 90 | 0 | 1–2  | 3  | 3  | 600   | The every-round attack: light, cheap, sustainable from the first promotion. |
 | **Stoneskin**  | D | –  | –  | – | 1–2  | 2  | 5  | 1,500 | Deals no damage; grants one ally a shield that absorbs damage until it is spent. Value per [Magic Effect Values](../mechanics/Magic-System.md#magic-effect-values). |
-| **Boulder**    | C | 8  | 85 | 0 | 2    | 5  | 5  | 1,700 | The mid-game workhorse – full damage at standard magic range. |
+| **Boulder**    | C | 8  | 85 | 0 | 1–2  | 5  | 5  | 1,700 | The mid-game workhorse – full damage at standard magic range. |
 | **Bulwark**    | B | –  | –  | – | 2    | 5  | 7  | 1,800 | Deals no damage; raises an impassable rock pillar on a free tile in range as permanent cover, per the terrain rules in [Magic System](../mechanics/Magic-System.md#terrain-effects). |
-| **Landslide**  | A | 10 | 80 | 5 | 2    | 7  | 7  | 5,500 | Heavy single-target damage; affordable every round only at high Mag. |
+| **Landslide**  | A | 10 | 80 | 5 | 1–2  | 7  | 7  | 5,500 | Heavy single-target damage; affordable every round only at high Mag. |
 | **Earthquake** | A | 12 | 70 | 0 | 3–10 | 14 | 14 | 6,000 | Siege. Reaches across the map and can never be counterattacked, but cannot fire at anything within two tiles. |
 
 ### Dendro
 
 | Name | Rank | Might | Hit  | Critical | Range | Weight | MP Cost | Cost | Description |
 | ---- | ---- | ----- | ---- | -------- | ----- | ------ | ------- | ---- | ----------- |
-| **Sprout**       | F | 3  | 100 | 0 | 2    | 2  | 3  | 240   | The Citizen's tome, found in Ch 05. Too soft to be a thorn yet; it lands every time and leaves Dendro behind. |
-| **Thorn**        | E | 5  | 95 | 0 | 2    | 3  | 3  | 600   | The every-round attack: light, cheap and highly accurate. |
-| **Rootsnare**    | D | 5  | 90 | 0 | 2    | 3  | 5  | 1,500 | The struck enemy cannot move on its next turn; it may still attack from where it stands. |
-| **Bramble**      | C | 8  | 90 | 0 | 2    | 5  | 5  | 1,700 | The mid-game workhorse – full damage at standard magic range. |
-| **Creeping Rot** | B | 5  | 90 | 0 | 2    | 4  | 6  | 1,800 | Poisons the target: it loses HP at the start of each of its own turns. Value per [Magic Effect Values](../mechanics/Magic-System.md#magic-effect-values). |
+| **Sprout**       | F | 3  | 100 | 0 | 1–2  | 2  | 3  | 240   | The Citizen's tome, found in Ch 05. Too soft to be a thorn yet; it lands every time and leaves Dendro behind. |
+| **Thorn**        | E | 5  | 95 | 0 | 1–2  | 3  | 3  | 600   | The every-round attack: light, cheap and highly accurate. |
+| **Rootsnare**    | D | 5  | 90 | 0 | 1–2  | 3  | 5  | 1,500 | The struck enemy cannot move on its next turn; it may still attack from where it stands. |
+| **Bramble**      | C | 8  | 90 | 0 | 1–2  | 5  | 5  | 1,700 | The mid-game workhorse – full damage at standard magic range. |
+| **Creeping Rot** | B | 5  | 90 | 0 | 1–2  | 4  | 6  | 1,800 | Poisons the target: it loses HP at the start of each of its own turns. Value per [Magic Effect Values](../mechanics/Magic-System.md#magic-effect-values). |
 | **Bloom**        | B | –  | –  | – | 2    | 3  | 7  | 1,800 | Deals no damage; allies in range recover HP at the start of each round. Value per [Magic Effect Values](../mechanics/Magic-System.md#magic-effect-values). |
-| **Overgrowth**   | A | 10 | 85 | 5 | 2    | 7  | 7  | 5,500 | Heavy single-target damage; affordable every round only at high Mag. |
+| **Overgrowth**   | A | 10 | 85 | 5 | 1–2  | 7  | 7  | 5,500 | Heavy single-target damage; affordable every round only at high Mag. |
 | **Blight**       | A | 12 | 75 | 0 | 3–10 | 14 | 14 | 6,000 | Siege. Reaches across the map and can never be counterattacked, but cannot fire at anything within two tiles. |
 
 ## Magic Triangle
@@ -170,17 +172,23 @@ flowchart LR
 
 Umbra beats Natura, Lux beats Umbra, and **Lux and Natura are neutral** to each other. Lux is the counter to Umbra and would carry too many weaknesses if it also lost to all seven Natura elements.
 
+| Element | beats | loses to | Begründung |
+| ------- | ----- | -------- | ---------- |
+| **Lux**    | Umbra  | –    | Lux > Umbra: light drives out shadow. |
+| **Umbra**  | Natura | Lux  | Umbra > Natura: darkness corrupts nature. |
+| **Natura** | –      | Umbra | – |
+
 ### Lux
 
 | Name | Rank | Might | Hit  | Critical | Range | Weight | MP Cost | Cost | Description |
 | ---- | ---- | ----- | ---- | -------- | ----- | ------ | ------- | ---- | ----------- |
-| **Glimmer**         | F | 3  | 95 | 0 | 2    | 2  | 3  | 240   | The Citizen's tome, found in Ch 05. The first light the Knights ever hold; it applies Lux and shows what Lux does to Umbra. |
-| **Gleam**           | E | 5  | 90 | 0 | 2    | 3  | 3  | 600   | The every-round attack: light, cheap, sustainable from the first promotion. |
+| **Glimmer**         | F | 3  | 95 | 0 | 1–2  | 2  | 3  | 240   | The Citizen's tome, found in Ch 05. The first light the Knights ever hold; it applies Lux and shows what Lux does to Umbra. |
+| **Gleam**           | E | 5  | 90 | 0 | 1–2  | 3  | 3  | 600   | The every-round attack: light, cheap, sustainable from the first promotion. |
 | **Healing Light**   | D | –  | –  | – | 1–2  | 2  | 5  | 1,500 | Deals no damage; restores HP to one ally in range. Value per [Magic Effect Values](../mechanics/Magic-System.md#magic-effect-values). |
-| **Radiance**        | C | 8  | 85 | 0 | 2    | 5  | 5  | 1,700 | The mid-game workhorse – full damage at standard magic range. |
+| **Radiance**        | C | 8  | 85 | 0 | 1–2  | 5  | 5  | 1,700 | The mid-game workhorse – full damage at standard magic range. |
 | **Cleansing Light** | B | –  | –  | – | 1–2  | 3  | 6  | 1,800 | Deals no damage; removes curses and debuffs from allies in range – the answer to an Umbra caster. |
 | **Blessing**        | B | –  | –  | – | 1–2  | 3  | 7  | 1,800 | Deals no damage; raises one ally's Strength, Magic and Defense until the end of the next round. Value per [Magic Effect Values](../mechanics/Magic-System.md#magic-effect-values). |
-| **Brilliance**      | A | 10 | 80 | 5 | 2    | 7  | 7  | 5,500 | Heavy single-target damage; affordable every round only at high Mag. |
+| **Brilliance**      | A | 10 | 80 | 5 | 1–2  | 7  | 7  | 5,500 | Heavy single-target damage; affordable every round only at high Mag. |
 | **Sunfall**         | A | 12 | 70 | 0 | 3–10 | 14 | 14 | 6,000 | Siege. Reaches across the map and can never be counterattacked, but cannot fire at anything within two tiles. |
 
 Umbra alone gives HP back. **Siphon** and **Devour** return part of the damage they deal to the caster, and that is the element's signature: an Umbra mage sustains himself by attacking, where every other element has to be healed by someone else. The price is paid in Might – both drain tomes hit softer than the damage line at their rank.
@@ -189,11 +197,11 @@ Umbra alone gives HP back. **Siphon** and **Devour** return part of the damage t
 
 | Name | Rank | Might | Hit  | Critical | Range | Weight | MP Cost | Cost | Description |
 | ---- | ---- | ----- | ---- | -------- | ----- | ------ | ------- | ---- | ----------- |
-| **Dusk**      | F | 3  | 95 | 0 | 2    | 2  | 3  | 240   | The Citizen's tome, found in Ch 05. Applies Umbra and drains nothing – the drain is bought with rank, not handed to a Citizen. |
-| **Shade**     | E | 5  | 90 | 0 | 2    | 3  | 3  | 600   | The every-round attack: light, cheap, sustainable from the first promotion. |
-| **Siphon**    | D | 5  | 85 | 0 | 2    | 3  | 5  | 1,500 | Restores HP to the caster equal to a share of the damage dealt. Value per [Magic Effect Values](../mechanics/Magic-System.md#magic-effect-values). |
-| **Gloom**     | C | 8  | 85 | 0 | 2    | 5  | 5  | 1,700 | The mid-game workhorse – full damage at standard magic range. |
-| **Hex**       | B | 5  | 85 | 0 | 2    | 4  | 6  | 1,800 | Lowers the target's Defense and Resistance until the end of the next round, opening it for the rest of the team. Value per [Magic Effect Values](../mechanics/Magic-System.md#magic-effect-values). |
-| **Abyss**     | A | 10 | 80 | 5 | 2    | 7  | 7  | 5,500 | Heavy single-target damage; affordable every round only at high Mag. |
-| **Devour**    | A | 8  | 80 | 0 | 2    | 8  | 10 | 5,500 | The greater drain: less damage than Abyss and far more MP, and the caster keeps a share of what it deals. Value per [Magic Effect Values](../mechanics/Magic-System.md#magic-effect-values). |
+| **Dusk**      | F | 3  | 95 | 0 | 1–2  | 2  | 3  | 240   | The Citizen's tome, found in Ch 05. Applies Umbra and drains nothing – the drain is bought with rank, not handed to a Citizen. |
+| **Shade**     | E | 5  | 90 | 0 | 1–2  | 3  | 3  | 600   | The every-round attack: light, cheap, sustainable from the first promotion. |
+| **Siphon**    | D | 5  | 85 | 0 | 1–2  | 3  | 5  | 1,500 | Restores HP to the caster equal to a share of the damage dealt. Value per [Magic Effect Values](../mechanics/Magic-System.md#magic-effect-values). |
+| **Gloom**     | C | 8  | 85 | 0 | 1–2  | 5  | 5  | 1,700 | The mid-game workhorse – full damage at standard magic range. |
+| **Hex**       | B | 5  | 85 | 0 | 1–2  | 4  | 6  | 1,800 | Lowers the target's Defense and Resistance until the end of the next round, opening it for the rest of the team. Value per [Magic Effect Values](../mechanics/Magic-System.md#magic-effect-values). |
+| **Abyss**     | A | 10 | 80 | 5 | 1–2  | 7  | 7  | 5,500 | Heavy single-target damage; affordable every round only at high Mag. |
+| **Devour**    | A | 8  | 80 | 0 | 1–2  | 8  | 10 | 5,500 | The greater drain: less damage than Abyss and far more MP, and the caster keeps a share of what it deals. Value per [Magic Effect Values](../mechanics/Magic-System.md#magic-effect-values). |
 | **Nightfall** | A | 12 | 70 | 0 | 3–10 | 14 | 14 | 6,000 | Siege. Reaches across the map and can never be counterattacked, but cannot fire at anything within two tiles. |
