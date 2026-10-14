@@ -312,9 +312,9 @@ Sie sah ihn an. Lang. Mit dem Blick von jemandem der eine Frage die sich seit Ja
 
 „Ja", sagte sie.
 
-Der Guru sah sie an. Dann auf Dardan. „Solénekennt den Weg besser als jede Karte." Er machte eine Pause. „Und sie ist eine der stärksten Kriegerinnen die dieser Tempel je gekannt hat. Auch wenn sie das vergessen lassen hat."
+Der Guru sah sie an. Dann auf Dardan. „Soléne kennt den Weg besser als jede Karte." Er machte eine Pause. „Und sie ist eine der stärksten Kriegerinnen die dieser Tempel je gekannt hat. Auch wenn sie das vergessen lassen hat."
 
-Solénesah ihn an. Kurz, mit dem Ausdruck von jemandem der einen alten Scherz kannte und ihn nicht bestätigte.
+Soléne sah ihn an. Kurz, mit dem Ausdruck von jemandem der einen alten Scherz kannte und ihn nicht bestätigte.
 
 Dann wandte sie sich an die Gruppe.
 

@@ -144,7 +144,7 @@ Das Ritual pulsierte. Das Licht — wenn man es Licht nennen konnte — warf kei
 
 Cassius sah auf den Boden. Auf das Muster das sich dort abzeichnete — alt, in Stein geritzt, mit der Präzision von Menschen die gewusst hatten dass dieser Moment kommen würde lange bevor irgendjemand der jetzt lebte geboren worden war.
 
-„Suphra ist in Adolla", sagte er. „Wenn das Ritual vollendet ist—"
+„Suphra ist noch auf dem Weg aus Adolla", sagte er. „Wenn das Ritual vollendet ist—"
 
 „Dann ist es egal wo sie ist." Mordain sah wieder auf das Ritual. „Dann ist es egal wo irgendjemand ist."
 
@@ -190,7 +190,7 @@ Schwarze Rüstung ohne Verzierungen, ohne Embleme. Breit, schwer, mit der Stille
 
 Hasan kannte diese Energie.
 
-Er hatte sie in Part 04 gespürt — auf dem Schlachtfeld, in dem Moment wo er und Dardan zusammen gestanden hatten und es nicht gereicht hatte. Dieser Mann. Dieser Ritter.
+Er hatte sie in Vaestrall gespürt — auf dem Schlachtfeld, in dem Moment wo er und Dardan zusammen gestanden hatten und es nicht gereicht hatte. Dieser Mann. Dieser Ritter.
 
 „Du", sagte Hasan.
 
@@ -285,7 +285,7 @@ Hasan stand auf.
 > - **Sieg:** Besiege Kresnik Niveli
 > - **Niederlage:** Hasan fällt — oder das Ritual vollendet sich bevor Mordain besiegt wird
 > - **Mechanik:** Kresnik wird jede fünfte Runde stärker — Defense und Strength +2, kumulativ. Je länger der Kampf dauert desto gefährlicher wird er
-> - **Sekundär:** Alle Vigilant Knights überleben — Belohnung: Seltene Reliquie, Kresnik tritt nicht feindlich auf in Part 07
+> - **Sekundär:** Alle Vigilant Knights überleben — Belohnung: Seltene Reliquie
 >
 > **Aufstellung:**
 >
@@ -600,7 +600,7 @@ Kresnik sah nicht zurück.
 
 Das Licht wurde größer.
 
-Nicht schnell — langsam, unaufhaltsam, mit der Geduld von etwas das tausend Jahre gewartet hatte und jetzt keine Eile mehr kannte.
+Nicht schnell — langsam, unaufhaltsam, mit der Geduld von etwas das achthundert Jahre gewartet hatte und jetzt keine Eile mehr kannte.
 
 Hasan zog Aylins Hand näher.
 

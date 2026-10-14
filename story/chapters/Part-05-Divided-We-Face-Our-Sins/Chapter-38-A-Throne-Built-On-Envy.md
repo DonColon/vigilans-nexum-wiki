@@ -12,7 +12,7 @@ Dardan ging und sah auf die Bäume.
 
 Niemand antwortete sofort. Sie kannten diesen Ton.
 
-„Ich weiß dass die Nivelис seit Jahrhunderten aus Velinor kommen. Dass das Herzogtum seit Generationen ihrer Familie gehört." Er machte eine kurze Pause. „Und trotzdem – es ist fremd. Vollkommen fremd. Als würde ich in eine Geschichte reisen die ich auswendig kenne aber in der ich nie war."
+„Ich weiß dass die Niveli seit Jahrhunderten aus Velinor kommen. Dass das Herzogtum seit Generationen ihrer Familie gehört." Er machte eine kurze Pause. „Und trotzdem – es ist fremd. Vollkommen fremd. Als würde ich in eine Geschichte reisen die ich auswendig kenne aber in der ich nie war."
 
 Tifa ging neben ihm. Eine Weile schwieg sie – nicht weil sie keine Antwort hatte, sondern weil sie die richtige suchte.
 
@@ -134,7 +134,7 @@ Dardan sagte nichts.
 
 Tifa trat einen Schritt vor. Dardan hielt sie zurück.
 
-„Euer Vater", sagte Invha, „war ein guter Mann. Das war das Problem." Sie sah nicht auf Dardan – sie sah auf das Herrenhaus hinter sich, auf die Fassade die Generationen von Nivelис getragen hatte. „Er wurde krank. Sehr krank. Und Bashkim—" ein kurzes, bitteres Lächeln „—Bashkim der geliebte Sohn, machte sich auf den Weg. Reiste weit. Fand Medizin die unserem Vater helfen sollte." Sie hielt inne. „Das war typisch Bashkim. Der Held. Immer der Held."
+„Euer Vater", sagte Invha, „war ein guter Mann. Das war das Problem." Sie sah nicht auf Dardan – sie sah auf das Herrenhaus hinter sich, auf die Fassade die Generationen von Niveli getragen hatte. „Er wurde krank. Sehr krank. Und Bashkim—" ein kurzes, bitteres Lächeln „—Bashkim der geliebte Sohn, machte sich auf den Weg. Reiste weit. Fand Medizin die unserem Vater helfen sollte." Sie hielt inne. „Das war typisch Bashkim. Der Held. Immer der Held."
 
 Dardan sah sie an.
 

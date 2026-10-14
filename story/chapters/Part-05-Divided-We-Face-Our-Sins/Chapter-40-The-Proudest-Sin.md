@@ -86,9 +86,9 @@ Nicht verlassen – leer auf die Art von Orten die auf etwas warten. Die Kultanh
 
 Und davor – Suphra.
 
-Dardan kannte sie aus Part 02. Die Herzogin von Velinor die am Rande eines Empfangs gestanden hatte – elegant, kalt, mit dem Lächeln einer Frau die weiß dass sie der klügste Mensch im Raum ist und es nie ausspricht weil es nicht nötig ist.
+Elegant, kalt, mit dem Lächeln einer Frau die weiß dass sie der klügste Mensch im Raum ist und es nie ausspricht weil es nicht nötig ist.
 
-Jetzt trug sie keine höfischen Gewänder.
+Sie trug keine höfischen Gewänder.
 
 Schwarze Robe. Das Emblem von Varnel. Die Haltung von jemandem dem dieser Moment gehörte – nicht weil er ihn sich genommen hatte, sondern weil er ihm immer gehört hatte und der Rest der Welt es nur noch nicht wusste.
 

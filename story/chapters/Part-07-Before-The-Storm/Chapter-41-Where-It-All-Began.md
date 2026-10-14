@@ -614,7 +614,7 @@ Er hielt inne.
 
 Hasan sah ihn an.
 
-„Gentian." Dardan sagte den Namen ohne Vorbereitung. „Suphras Sohn. Den sie versteckt hat. Den ich nie kannte. Den der Kult aufgezogen hat." Eine Pause. „Der Champion von Varnel."
+„Gentian." Dardan sagte den Namen ohne Vorbereitung. „Der Sohn meiner Eltern. Den Luria genommen hat. Den ich nie kannte. Den sie aufgezogen hat." Eine Pause. „Der Champion von Varnel."
 
 Stille.
 
@@ -622,7 +622,7 @@ Stille.
 
 Dardan dachte nach. Nicht lang — er hatte diese Frage schon hundert Mal an sich selbst gestellt auf der Reise zurück.
 
-„Ich weiß es noch nicht", sagte er ehrlich. „Es ist seltsam. Ich hätte einen Bruder haben können. Ich hätte jemanden haben können—" er brach ab. Formulierte neu. „Wenn die Dinge anders gelaufen wären. Wenn Suphra anders gewesen wäre. Wenn der Kult ihn nicht gehabt hätte." Er sah auf die Wand. „Aber so wie es ist — er steht auf der anderen Seite. Und ich weiß nicht ob das noch zu ändern ist."
+„Ich weiß es noch nicht", sagte er ehrlich. „Es ist seltsam. Ich hätte einen Bruder haben können. Ich hätte jemanden haben können—" er brach ab. Formulierte neu. „Wenn die Dinge anders gelaufen wären. Wenn Luria anders gewesen wäre. Wenn der Kult ihn nicht gehabt hätte." Er sah auf die Wand. „Aber so wie es ist — er steht auf der anderen Seite. Und ich weiß nicht ob das noch zu ändern ist."
 
 „Glaubst du es?"
 

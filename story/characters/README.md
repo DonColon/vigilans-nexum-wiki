@@ -47,6 +47,7 @@ All playable and story characters, grouped by the Part in which they join. Joini
 
 - [Kallias Maren](story/Kallias-Maren.md)
 - [Laurent Miraval](story/Laurent-Miraval.md)
+- [Leander Vanthor](story/Leander-Vanthor.md)
 
 ## Part 04: The Name You Were Given
 
@@ -63,6 +64,8 @@ All playable and story characters, grouped by the Part in which they join. Joini
 - [Soran Vaestrall](story/Soran-Vaestrall.md)
 - [Bashkim Niveli](story/Bashkim-Niveli.md)
 - [Luljeta Niveli](story/Luljeta-Niveli.md)
+- [Cassius Vael](story/Cassius-Vael.md)
+- [Mordain](story/Mordain.md)
 
 ## Part 05: Divided We Face Our Sins
 
@@ -73,6 +76,17 @@ All playable and story characters, grouped by the Part in which they join. Joini
 - [Edric Thalven](playable/Edric-Thalven.md)
 - [Maluna Eloise](playable/Maluna-Eloise.md)
 
+### Story Characters
+
+- [Gentian](story/Gentian.md)
+- [Aceda](story/Aceda.md)
+- [Luga](story/Luga.md)
+- [Avara](story/Avara.md)
+- [Ira](story/Ira.md)
+- [Invha](story/Invha.md)
+- [Luria](story/Luria.md)
+- [Suphra](story/Suphra.md)
+
 ## Part 06: Divided We Find Our Virtue
 
 ### Playable Characters
@@ -82,6 +96,16 @@ All playable and story characters, grouped by the Part in which they join. Joini
 - [Corvan Gault](playable/Corvan-Gault.md)
 - [Maike Collis](playable/Maike-Collis.md)
 
+### Story Characters
+
+- [Kresnik Niveli](story/Kresnik-Niveli.md)
+
+## Part 07: Before The Storm
+
+### Story Characters
+
+- [Aldos](story/Aldos.md)
+- [Der Dajjal](story/Dajjal.md)
 
 ## Unassigned
 

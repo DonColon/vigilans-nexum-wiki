@@ -390,7 +390,7 @@ Sie kamen aus dem Nichts.
 
 Aus den Kreisen stiegen drei Gestalten.
 
-Cassius Vael in der Mitte. Verath zu seiner Linken. Leander zu seiner Rechten.
+Cassius Vael in der Mitte. Mordain zu seiner Linken. Leander zu seiner Rechten.
 
 Hinter ihnen – Kultanhänger die aus den Schatten traten bis die Gruppe eingekreist war.
 
@@ -410,7 +410,7 @@ Cassius sah ihn an. „Was wir immer wollten." Er machte eine Geste die den gesa
 
 Er sah Dardan direkt an.
 
-Verath sprach – mit der sachlichen Kälte die Dardan von der Grenze Adollas kannte.
+Mordain sprach – mit der sachlichen Kälte die Dardan von der Grenze Adollas kannte.
 
 „Die Angriffe auf Bellum. Die Festung Eravan. Der Hafen von Luenava. Das Handelsschiff in Thysia." Er nickte kurz in Richtung Soran. „Der Kaiser hat davon nichts gewusst. Die Dokumente mit dem Kaisersiegel – ich habe sie erstellt." Keine Reue in seiner Stimme. Nur Feststellung. „Jeden Boten, jeden Bericht – wir haben den Informationsfluss kontrolliert."
 
@@ -428,9 +428,9 @@ Cassius wandte sich wieder an Dardan.
 
 > **Level 32 – Phase 2 beginnt:**
 >
-> **Hauptziel:** Besiege Cassius Vael, Verath und Leander.
+> **Hauptziel:** Besiege Cassius Vael, Mordain und Leander.
 >
-> **Mechanik:** Alle drei sind Bosskämpfer. Leander fällt zuerst, dann Verath, dann Cassius. Rael wird als spielbare Einheit freigeschaltet. Kultanhänger rücken in Wellen nach.
+> **Mechanik:** Alle drei sind Bosskämpfer. Leander fällt zuerst, dann Mordain, dann Cassius. Rael wird als spielbare Einheit freigeschaltet. Kultanhänger rücken in Wellen nach.
 
 ------
 
@@ -444,7 +444,7 @@ Er trat neben Dardan.
 
 Dardan sah ihn kurz an.
 
-Rael sah nicht zurück – er sah geradeaus, auf Cassius, auf Verath, auf Leander. Sein Gesicht war still auf eine Art die nichts Gutes verhieß. Aber die Entscheidung war gefallen.
+Rael sah nicht zurück – er sah geradeaus, auf Cassius, auf Mordain, auf Leander. Sein Gesicht war still auf eine Art die nichts Gutes verhieß. Aber die Entscheidung war gefallen.
 
 „Ich kämpfe mit euch", sagte er.
 
@@ -452,7 +452,7 @@ Der Kampf explodierte in alle Richtungen gleichzeitig.
 
 Leander fiel zuerst – mit dem Lächeln das nie verschwunden war bis zum letzten Moment, als ob er selbst beim Fallen noch eine Vorstellung gab. Er sagte nichts. Das war vielleicht das Ehrlichste an ihm.
 
-Verath kämpfte länger. Präzise, kalt, ohne einen Schritt zu verschwenden. Er war der gefährlichste von ihnen dreien – nicht weil er der stärkste war, sondern weil er dachte. Jeder Angriff war ein Zug in einer Partie die er schon vorausgeplant hatte.
+Mordain kämpfte länger. Präzise, kalt, ohne einen Schritt zu verschwenden. Er war der gefährlichste von ihnen dreien – nicht weil er der stärkste war, sondern weil er dachte. Jeder Angriff war ein Zug in einer Partie die er schon vorausgeplant hatte.
 
 Aber Kassandra hatte ihn in der Flanke.
 
@@ -460,7 +460,7 @@ Und Mikael über ihm.
 
 Und Rohan der seit Minuten auf diesen einen Moment gewartet hatte.
 
-Als Verath fiel sagte er nichts.
+Als Mordain fiel sagte er nichts.
 
 Cassius stand allein.
 

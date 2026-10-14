@@ -702,14 +702,6 @@ Die Gruppe erstarrte.
 
 „Der Champion von Aurevia." Ein Lachen — nicht laut, fast beiläufig, das Lachen von jemandem dem der Witz auf Kosten anderer ging. „Der Setzling der Göttin. Der Mann der das Siegel setzen will." Eine Pause. „Wie weit du gereist bist. Wie viel du getragen hast." Wieder das Lachen. „Und du dachtest du könntest es aufhalten."
 
-Die Lichter um die Gräber pulsierten.
-
-„Dardan Niveli."
-
-Die Gruppe erstarrte.
-
-„Der Champion von Aurevia." Ein Lachen — nicht laut, fast beiläufig, das Lachen von jemandem dem der Witz auf Kosten anderer ging. „Der Setzling der Göttin. Der Mann der das Siegel setzen will." Eine Pause. „Wie weit du gereist bist. Wie viel du getragen hast." Wieder das Lachen. „Und du dachtest du könntest es aufhalten."
-
 Dardan sah in die Halle. Die Lichter um die Gräber pulsierten.
 
 „Ich war immer einen Schritt vor dir", sagte die Stimme. „Ich habe dich beobachtet — wie du gekämpft hast, wie du gelitten hast, wie du aufgestanden bist immer wieder. Rührend." Eine kurze Pause. „Aber es ändert nichts."

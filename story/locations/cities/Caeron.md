@@ -102,7 +102,7 @@ Caeron wurde als kaiserliche Verwaltungs- und Garnisonsstadt gegründet, um das 
 - Drei-Tor-Angriff: Hasan (Nord), Tifa/Claude (Süd), Rebellen (Ost)
 - Cassius Vael aktiviert Sabotage-Protokolle: Brücken, Straßensperren, bewaffnete Zivilisten
 - Rael überzeugt die aufgewiegelten Bürger, die Waffen niederzulegen
-- Cassius Vael wird gefasst; seine Dokumente enthüllen das volle Ausmaß des Kult-Netzwerks
+- Cassius Vael entkommt durch das schwarze Siegel; die zurückgelassenen Dokumente enthüllen das volle Ausmaß des Kult-Netzwerks
 
 ### Important NPCs
 

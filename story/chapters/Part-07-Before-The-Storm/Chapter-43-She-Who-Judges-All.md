@@ -513,7 +513,7 @@ Dardan spürte ihr Gewicht.
 
 „Und du hast mich gewählt."
 
-„Nicht sofort." Varnel stand auf. Begann langsam durch den Nexus zu gehen — durch die goldenen Fäden die um ihn herum flossen. „Ich habe Jahrzehnte gesucht. Dein Großvater — ein ehrenhafter Mann, in Bellum geboren, mit einem Herzen das den goldenen Pfad kannte ohne ihn je so zu nennen. Ich habe ihn beobachtet. Jahrelang." Er machte eine Pause. „Dann seinen Sohn. Deinen Vater. Auch er — würdig in vielem, mit Fehlern die er trug ohne sie zu verstecken."
+„Nicht sofort." Varnel stand auf. Begann langsam durch den Nexus zu gehen — durch die goldenen Fäden die um ihn herum flossen. „Ich habe Jahrzehnte gesucht. Dein Großvater — ein ehrenhafter Mann, in Velinor geboren, mit einem Herzen das den goldenen Pfad kannte ohne ihn je so zu nennen. Ich habe ihn beobachtet. Jahrelang." Er machte eine Pause. „Dann seinen Sohn. Deinen Vater. Auch er — würdig in vielem, mit Fehlern die er trug ohne sie zu verstecken."
 
 Dardan sagte nichts.
 
