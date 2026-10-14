@@ -200,7 +200,7 @@ Elementarmagie verändert nicht nur Gegner, sondern auch das Schlachtfeld selbst
 ### Für Level-Design
 
 1. **Geländevielfalt:** Maps sollten verschiedene Geländetypen bieten (Wasser, Wald, Fels)
-2. **Elementare Gegner:** Feinde mit spezifischen Elementschwächen
+2. **Elementare Gegner:** Feindliche Magier, deren ausgerüstete Tomes der Spieler mit dem passenden Element im Zyklus oder im Magie-Dreieck schlagen kann – der Vorteil hängt am Tome, nie an der Einheit
 3. **Umwelt-Hazards:** Vorhandene Elementarfelder als Teil des Map-Designs
 4. **Bonus-Ziele:** Sekundäre Objectives, die clevere Elementnutzung belohnen
 

@@ -74,7 +74,7 @@ Fourteen edges, seven types – each beats two and loses to two. This catalog re
 
 ### Swords
 
-The light, accurate, low-Might type. A sword rarely wins on damage; it wins because its wielder still doubles, still dodges and still hits at 85 when the axe next to him is at 65. Swords have no throwing variant – their answer to a 2-range attacker is the magic **Rune Sword**, which pays for the reach in Might and only earns its keep on a unit with Magic.
+The light, accurate, low-Might type. A sword rarely wins on damage; it wins because it is light enough that even a frail wielder carries it free – he keeps his whole Speed, so he still doubles, still dodges and still hits at 85 when the axe next to him is at 65. Swords have no throwing variant – their answer to a 2-range attacker is the magic **Rune Sword**, which pays for the reach in Might and only earns its keep on a unit with Magic.
 
 | Name | Rank | Might | Hit  | Critical | Range | Weight | Uses | Cost | Description |
 | ---- | ---- | ----- | ---- | -------- | ----- | ------ | ---- | ---- | ----------- |
@@ -96,7 +96,7 @@ The balanced type: more Might than a sword, more accuracy than an axe, and the o
 | Bronze Lance | F | 4  | 90 | 0  | 1   | 7  | 15 | 28  | The militia spear – long enough to hold a line, cheap enough to lose. |
 | Iron Lance   | E | 7  | 85 | 0  | 1   | 8  | 25 | 70  | The workhorse of the front rank. |
 | Javelin      | D | 4  | 75 | 0  | 1–2 | 8  | 20 | 210 | The base-tier answer to bows and magic: weak, inaccurate, and the only thing that lets a Lancer strike back at 2 range. |
-| Steel Lance  | D | 11 | 80 | 0  | 1   | 10 | 35 | 210 | Mid-game standard; heavy enough that a slow unit stops doubling with it. |
+| Steel Lance  | D | 11 | 80 | 0  | 1   | 10 | 35 | 210 | Mid-game standard; it costs Attack Speed until the wielder's Strength reaches its Weight – a strong Lancer carries it free, a frail one gives up his follow-up for the Might. |
 | Horseslayer  | C | 11 | 80 | 0  | 1   | 12 | 25 | 350 | **Effective vs Cavalry.** Kept in the convoy until a Paladin wing shows up, then it decides the map. |
 | Steel Javelin| B | 8  | 70 | 0  | 1–2 | 10 | 25 | 490 | A thrown weapon that still hurts – the price is an accuracy that misses one throw in three. |
 | Killer Lance | B | 9  | 75 | 30 | 1   | 11 | 35 | 490 | For the unit whose Dexterity is high enough to turn 30 Critical into a reliable opening. |
@@ -112,7 +112,7 @@ The heavy type: the highest Might on the wheel and the worst accuracy anywhere e
 | Bronze Axe    | F | 5  | 80 | 0  | 1   | 10 | 15 | 36  | A woodcutter's axe – hits harder than any other Bronze weapon and misses more often than all of them. |
 | Iron Axe      | E | 9  | 75 | 0  | 1   | 11 | 25 | 90  | The early-game answer to anything the sword line cannot cut through. |
 | Hand Axe      | D | 6  | 65 | 0  | 1–2 | 11 | 20 | 270 | Thrown, and about as accurate as that sounds; it exists so an Axe Fighter can answer at 2 range at all. |
-| Steel Axe     | D | 14 | 70 | 0  | 1   | 13 | 35 | 270 | Mid-game standard, and heavy enough that almost nobody doubles with it. |
+| Steel Axe     | D | 14 | 70 | 0  | 1   | 13 | 35 | 270 | Mid-game standard, and the first axe only a strong arm carries free; anyone whose Strength falls short of its Weight pays for every missing point in Attack Speed. |
 | Hammer        | C | 14 | 70 | 0  | 1   | 15 | 25 | 450 | **Effective vs Armored.** The siege tool of the infantry line – one swing through a general's plate. |
 | Steel Hand Axe| B | 11 | 60 | 0  | 1–2 | 13 | 25 | 630 | Real damage at 2 range, bought with the worst accuracy of any close-combat weapon. |
 | Killer Axe    | B | 13 | 65 | 30 | 1   | 14 | 35 | 630 | High Might and 30 Critical on a weapon that hits two swings in three – the gamble the Berserker is built for. |
@@ -126,7 +126,7 @@ The lightest type and the only one with native Critical. A knife almost never be
 | Name | Rank | Might | Hit  | Critical | Range | Weight | Uses | Cost | Description |
 | ---- | ---- | ----- | ---- | -------- | ----- | ------ | ---- | ---- | ----------- |
 | Bronze Knife         | F | 2 | 100 | 0  | 1   | 1 | 15 | 16  | A belt knife. It will not kill anything on its own, and it will never miss. |
-| Iron Knife           | E | 4 | 95  | 10 | 1   | 2 | 25 | 40  | Weightless enough that its wielder doubles almost everything on the field. |
+| Iron Knife           | E | 4 | 95  | 10 | 1   | 2 | 25 | 40  | So light that every wielder carries it free – a Thief's whole Speed goes into doubling almost everything on the field. |
 | Steel Knife          | D | 6 | 90  | 10 | 1   | 4 | 35 | 120 | The Thief's upgrade – still light, finally able to hurt an armed opponent. |
 | Throwing Knife       | D | 3 | 80  | 10 | 1–2 | 4 | 25 | 120 | Chip damage at 2 range, and a way to finish a wounded enemy without stepping into his reach. |
 | Killer Knife         | B | 3 | 85  | 30 | 1   | 5 | 35 | 280 | The Assassin's weapon: two strikes, each at 30 Critical before Dexterity is counted. |
@@ -146,7 +146,7 @@ The type also has no ranged option at all. That is deliberate: the Martial Artis
 | Steel Gauntlet    | D | 5  | 80 | 0 | 1 | 5  | 35 | 90  | Ten Might a turn against a soft target; five against a good one. |
 | Ki Gauntlet       | C | 5  | 80 | 0 | 1 | 5  | 25 | 150 | **Magic.** The monk's weapon – strikes twice off Magic and is answered by Resistance, which most armour does not have. |
 | Crushing Gauntlet | B | 12 | 85 | 0 | 1 | 10 | 35 | 210 | **Single strike.** Gives up Flurry and puts both blows into one: the same damage against no Defense, far more against a wall. |
-| Silver Gauntlet   | A | 6  | 75 | 0 | 1 | 6  | 50 | 300 | Twelve Might a turn on a weapon light enough that the wielder still doubles on top of it. |
+| Silver Gauntlet   | A | 6  | 75 | 0 | 1 | 6  | 50 | 300 | Twelve Might a turn on a weapon most wielders carry free – a fast Brawler still doubles with it, and then strikes four times. |
 
 ### Battle Staves
 
@@ -199,7 +199,7 @@ Range 2–3, and **no counterattack at range 1**: a bow unit that is reached has
 | ---- | ---- | ----- | ---- | -------- | ----- | ------ | ---- | ---- | ----------- |
 | Bronze Bow    | F | 4  | 90 | 0  | 2–3 | 5  | 15 | 24  | A hunting bow – safe chip damage while a new player learns what range means. |
 | Iron Bow      | E | 6  | 85 | 0  | 2–3 | 6  | 25 | 60  | The Archer's baseline; kills wounded enemies without ever being hit back. |
-| Steel Bow     | D | 9  | 80 | 0  | 2–3 | 8  | 35 | 180 | Mid-game standard, heavy enough that the archer stops outrunning his own escort. |
+| Steel Bow     | D | 9  | 80 | 0  | 2–3 | 8  | 35 | 180 | Mid-game standard; it costs an archer Attack Speed until his Strength reaches its Weight. |
 | Skypiercer Bow| C | 9  | 80 | 0  | 2–3 | 10 | 25 | 300 | **Effective vs Flying.** The reason a Wyvern wing never crosses open ground in front of a Sniper. |
 | Killer Bow    | B | 7  | 75 | 30 | 2–3 | 9  | 35 | 420 | Turns an archer from an attrition tool into a threat that can remove a target outright. |
 | Longbow       | B | 6  | 70 | 0  | 2–4 | 8  | 25 | 420 | **Reach.** One tile further than anything can answer from – the price is accuracy and damage. |
